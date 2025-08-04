@@ -1,0 +1,66 @@
+{
+  "long_description": {
+    "0": {
+      "name": "airplane",
+      "description": "Fixed-wing aircraft shown in various configurations. Includes commercial jets (tube-shaped bodies with swept wings), propeller planes (visible radial engines), military aircraft (fighters/bombers), and seaplanes. Typically displayed in blue skies with cloud wisps, occasionally on runways. Key features: wingspan dominance, tail fins, nose shape. Variations: side profiles (most common), angled fly-bys, and rare top-down views. Colors: white, gray, silver, with occasional airline liveries.",
+      "background": "Sky (85%), runways (10%), ambiguous (5%)"
+    },
+    "1": {
+      "name": "automobile",
+      "description": "Passenger vehicles with enclosed cabins. Dominated by sedans (boxy 1980s-90s models), hatchbacks, and occasional convertibles. Distinguishing features: windshield curvature, wheel arches, hood-trunk proportions. Variations: side views (60%), front/rear quarter angles (30%), direct front/rear (10%). Colors: red (25%), blue (20%), white (15%), green/gray/silver (40%). Backgrounds: roads (40%), urban settings (30%), nature (20%), showrooms (10%).",
+      "key_details": "Consistent 4-wheel visibility, chrome accents, window reflections"
+    },
+    "2": {
+      "name": "bird",
+      "description": "Perching birds and waterfowl. Species variations: songbirds (robins/sparrows - 50%), waterbirds (ducks/herons - 30%), raptors (eagles/hawks - 10%), exotic (parrots - 10%). Poses: perched (60%), flying (25%), standing (15%). Features: beak shape/size, leg thickness, wing posture. Plumage: patterned browns (60%), white waterbirds (25%), bright colors (15%). Backgrounds: skies (40%), branches (30%), water/grass (30%).",
+      "challenges": "Small size (avg 18x22px), frequent occlusion by foliage"
+    },
+    "3": {
+      "name": "cat",
+      "description": "Domestic cats in diverse breeds. Body types: fluffy Persians (25%), shorthairs (60%), Siamese (15%). Poses: sitting upright (40%), curled (25%), walking (20%), playing (15%). Facial features: upright ears (90%), eye shine, whisker patterns. Colors: tabby (40%), black/white (30%), ginger (20%), calico (10%). Settings: indoors (60%) - sofas/carpets, outdoors (40%) - gardens. Key identifiers: triangular ears, vertical pupils, tail curvature.",
+      "artifacts": "Common collar tags (15%), motion blur in action shots"
+    },
+    "4": {
+      "name": "deer",
+      "description": "Hoofed ruminants in woodland habitats. Species: white-tailed deer (80%), elk/mule deer (20%). Features: antlers (males - 60%), slender legs, alert ears. Poses: grazing (40%), standing alert (30%), running (20%), lying (10%). Colors: brown coats (90%) with white underbellies. Backgrounds: forests (70%), meadows (20%), snowy scenes (10%). Scale clues: trees/grass provide size context. Distinguishers: branched antlers, elongated snouts.",
+      "seasonal": "Snow patches in 15% of images"
+    },
+    "5": {
+      "name": "dog",
+      "description": "Diverse dog breeds spanning terriers (20%), retrievers (15%), shepherds (15%), hounds (10%), toy breeds (10%), and mutts (30%). Poses: sitting (40%), standing (30%), active (20%), lying (10%). Breed markers: ear floppiness, snout length, fur texture. Colors: golden (20%), brown/black (40%), white (15%), spotted (25%). Settings: yards (50%), indoors (30%), parks (20%). Behavioral cues: leashes (15%), collars (60%), toys (5%).",
+      "key_traits": "Blunt muzzles vs cat sharpness, pack-oriented postures"
+    },
+    "6": {
+      "name": "frog",
+      "description": "Amphibians near water bodies. Types: tree frogs (60%) - angular bodies, pond frogs (40%) - rounded. Poses: crouching (70%), jumping (15%), swimming (10%), on lily pads (5%). Features: bulbous eyes (top-mounted), webbed feet, vocal sacs. Colors: vibrant greens (70%), browns (25%), exotic patterns (5%). Textures: moist skin with reflective highlights. Backgrounds: ponds (60%), rainforest (30%), grass (10%). Lighting: frequent water reflections.",
+      "scale_indicators": "Often shown with visible water droplets/ripples"
+    },
+    "7": {
+      "name": "horse",
+      "description": "Equines in motion/static poses. Breeds: riding horses (75%), draft horses (20%), ponies (5%). Actions: trotting (40%), standing (30%), jumping (15%), grazing (10%). Features: flowing manes, muscular necks, hooves. Colors: bay (40%), chestnut (25%), black (15%), white/gray (20%). Settings: pastures (60%), stables (20%), racetracks (15%). Gear: saddles (50%), bridles (70%), horseshoes (visible in 25%). Anatomy: emphasized leg joints, tail swish.",
+      "compositions": "Often profile views (80%), herd shots (10%)"
+    },
+    "8": {
+      "name": "ship",
+      "description": "Water vessels in oceanic contexts. Types: sailboats (40%), cargo ships (30%), cruise liners (15%), tugboats (10%), warships (5%). Angles: broadside (50%), bow/stern (30%), aerial (20%). Features: masts/sails, smokestacks, container stacks, wake patterns. Colors: white hulls (60%), red/blue accents (30%), military gray (10%). Backgrounds: open sea (70%), harbors (25%), ice (5%). Weather: clear (60%), cloudy (30%), stormy (10%).",
+      "water_textures": "Wave crests (80%), wake turbulence (60%)"
+    },
+    "9": {
+      "name": "truck",
+      "description": "Commercial hauling vehicles. Subtypes: semi-trailers (40%), pickup trucks (30%), box trucks (20%), fire engines (10%). Distinguishers: cabin-roiler separation, load bays, multiple axles. Angles: side views (50%), front quarter (30%), rear (20%). Colors: red (30%), white (25%), blue (15%), multi-color (30%). Settings: highways (50%), urban (30%), construction sites (20%). Branding: company logos (50%), license plates (80%). Details: exhaust stacks, chrome bumpers, tire treads.",
+      "size_cues": "Often shown with smaller vehicles/road markings for scale"
+    }
+  },
+  "short_description": {
+    "0": "Commercial/military airplanes in flight against sky backgrounds with visible wings, engines, and tail structures.",
+    "1": "Passenger vehicles (sedans/hatchbacks) showing full body, wheels, and windshields in urban/road settings.",
+    "2": "Small perching birds and waterfowl with visible beaks, wings, and legs against natural backgrounds.",
+    "3": "Domestic cats in various poses with triangular ears, whiskers, and fur patterns, often indoors.",
+    "4": "Deer in woodland settings with slender legs, antlers (males), and alert posture near trees/meadows.",
+    "5": "Diverse dog breeds showing snouts, floppy ears, and fur textures in yards/parks with collars.",
+    "6": "Frogs near water with bulbous eyes, crouching poses, and moist green/brown skin on lily pads.",
+    "7": "Horses with muscular builds, flowing manes, and tack (saddles/bridles) in pastures or motion.",
+    "8": "Water vessels (sailboats/cargo ships) on open sea with hulls, masts, and wake patterns.",
+    "9": "Commercial trucks with separate cabs/trailers, multiple axles, and logos on highways/construction sites."
+  }
+}
