@@ -1,0 +1,586 @@
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct
+Number of rows in the dataframe: 8000
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, temperature: 0 with 3000 rows
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, temperature: 0.7 with 3000 rows
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, memory: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.123
+Mean accuracy of model without tree:  0.49400000000000005
+----------------------
+Class 5 without tree outperform with tree model by 54.0%
+Class 7 without tree outperform with tree model by 49.0%
+Class 1 without tree outperform with tree model by 44.0%
+Class 3 without tree outperform with tree model by 41.0%
+Number of samples where both models are correct:  92
+Number of samples where both models are incorrect:  475
+Number of samples where tree model is correct and the other is incorrect:  31
+Number of samples where without tree model is correct and the other is incorrect:  402
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, memory: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.14100000000000001
+Mean accuracy of model without tree:  0.39399999999999996
+----------------------
+Class 5 without tree outperform with tree model by 54.99999999999999%
+Number of samples where both models are correct:  66
+Number of samples where both models are incorrect:  531
+Number of samples where tree model is correct and the other is incorrect:  75
+Number of samples where without tree model is correct and the other is incorrect:  328
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, memory: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.17099999999999999
+Mean accuracy of model without tree:  0.437
+----------------------
+Class 5 without tree outperform with tree model by 51.0%
+Class 7 without tree outperform with tree model by 47.0%
+Number of samples where both models are correct:  101
+Number of samples where both models are incorrect:  493
+Number of samples where tree model is correct and the other is incorrect:  70
+Number of samples where without tree model is correct and the other is incorrect:  336
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, memory: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.16399999999999998
+Mean accuracy of model without tree:  0.36699999999999994
+----------------------
+Class 7 without tree outperform with tree model by 47.0%
+Class 5 without tree outperform with tree model by 46.0%
+Number of samples where both models are correct:  85
+Number of samples where both models are incorrect:  554
+Number of samples where tree model is correct and the other is incorrect:  79
+Number of samples where without tree model is correct and the other is incorrect:  282
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, description: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.048
+Mean accuracy of model without tree:  0.475
+----------------------
+Class 1 without tree outperform with tree model by 61.999999999999986%
+Class 7 without tree outperform with tree model by 60.0%
+Class 9 without tree outperform with tree model by 58.00000000000001%
+Class 5 without tree outperform with tree model by 53.0%
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, description: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.06
+Mean accuracy of model without tree:  0.40599999999999997
+----------------------
+Class 1 without tree outperform with tree model by 59.00000000000001%
+Class 7 without tree outperform with tree model by 53.0%
+Class 5 without tree outperform with tree model by 52.0%
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, description: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.17099999999999999
+Mean accuracy of model without tree:  0.437
+----------------------
+Class 5 without tree outperform with tree model by 51.0%
+Class 7 without tree outperform with tree model by 47.0%
+Processing dataset: CIFAR10, model: Llama 3.2 11B Vision Instruct, description: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.16399999999999998
+Mean accuracy of model without tree:  0.36699999999999994
+----------------------
+Class 7 without tree outperform with tree model by 47.0%
+Class 5 without tree outperform with tree model by 46.0%
+Processing dataset: CIFAR10, model: Qwen VL Max
+Number of rows in the dataframe: 8000
+Processing dataset: CIFAR10, model: Qwen VL Max, temperature: 0 with 3000 rows
+Processing dataset: CIFAR10, model: Qwen VL Max, temperature: 0.7 with 3000 rows
+Processing dataset: CIFAR10, model: Qwen VL Max, memory: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.33
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 7 without tree outperform with tree model by 87.0%
+Class 0 without tree outperform with tree model by 77.0%
+Class 4 without tree outperform with tree model by 76.0%
+Class 8 without tree outperform with tree model by 54.0%
+Class 5 without tree outperform with tree model by 44.99999999999999%
+Class 6 without tree outperform with tree model by 41.0%
+Number of samples where both models are correct:  304
+Number of samples where both models are incorrect:  198
+Number of samples where tree model is correct and the other is incorrect:  26
+Number of samples where without tree model is correct and the other is incorrect:  472
+Processing dataset: CIFAR10, model: Qwen VL Max, memory: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.33
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 7 without tree outperform with tree model by 87.0%
+Class 0 without tree outperform with tree model by 77.0%
+Class 4 without tree outperform with tree model by 76.0%
+Class 8 without tree outperform with tree model by 54.0%
+Class 5 without tree outperform with tree model by 44.99999999999999%
+Class 6 without tree outperform with tree model by 41.0%
+Number of samples where both models are correct:  304
+Number of samples where both models are incorrect:  198
+Number of samples where tree model is correct and the other is incorrect:  26
+Number of samples where without tree model is correct and the other is incorrect:  472
+Processing dataset: CIFAR10, model: Qwen VL Max, memory: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.5660000000000001
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 4 without tree outperform with tree model by 60.0%
+Class 5 without tree outperform with tree model by 56.99999999999999%
+Number of samples where both models are correct:  522
+Number of samples where both models are incorrect:  180
+Number of samples where tree model is correct and the other is incorrect:  44
+Number of samples where without tree model is correct and the other is incorrect:  254
+Processing dataset: CIFAR10, model: Qwen VL Max, memory: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.5660000000000001
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 4 without tree outperform with tree model by 60.0%
+Class 5 without tree outperform with tree model by 56.99999999999999%
+Number of samples where both models are correct:  522
+Number of samples where both models are incorrect:  180
+Number of samples where tree model is correct and the other is incorrect:  44
+Number of samples where without tree model is correct and the other is incorrect:  254
+Processing dataset: CIFAR10, model: Qwen VL Max, description: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.6649999999999998
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 5 without tree outperform with tree model by 54.99999999999999%
+Processing dataset: CIFAR10, model: Qwen VL Max, description: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.6629999999999999
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 5 without tree outperform with tree model by 55.99999999999999%
+Processing dataset: CIFAR10, model: Qwen VL Max, description: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.5660000000000001
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 4 without tree outperform with tree model by 60.0%
+Class 5 without tree outperform with tree model by 56.99999999999999%
+Processing dataset: CIFAR10, model: Qwen VL Max, description: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.5660000000000001
+Mean accuracy of model without tree:  0.776
+----------------------
+Class 4 without tree outperform with tree model by 60.0%
+Class 5 without tree outperform with tree model by 56.99999999999999%
+Processing dataset: CIFAR10, model: GPT-4o
+Number of rows in the dataframe: 8000
+Processing dataset: CIFAR10, model: GPT-4o, temperature: 0 with 3000 rows
+Processing dataset: CIFAR10, model: GPT-4o, temperature: 0.7 with 3000 rows
+Processing dataset: CIFAR10, model: GPT-4o, memory: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.731
+Mean accuracy of model without tree:  0.898
+----------------------
+Number of samples where both models are correct:  716
+Number of samples where both models are incorrect:  87
+Number of samples where tree model is correct and the other is incorrect:  15
+Number of samples where without tree model is correct and the other is incorrect:  182
+Processing dataset: CIFAR10, model: GPT-4o, memory: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.728
+Mean accuracy of model without tree:  0.877
+----------------------
+Class 5 without tree outperform with tree model by 42.00000000000001%
+Number of samples where both models are correct:  705
+Number of samples where both models are incorrect:  100
+Number of samples where tree model is correct and the other is incorrect:  23
+Number of samples where without tree model is correct and the other is incorrect:  172
+Processing dataset: CIFAR10, model: GPT-4o, memory: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.7540000000000001
+Mean accuracy of model without tree:  0.8960000000000001
+----------------------
+Class 3 without tree outperform with tree model by 43.99999999999999%
+Number of samples where both models are correct:  734
+Number of samples where both models are incorrect:  84
+Number of samples where tree model is correct and the other is incorrect:  20
+Number of samples where without tree model is correct and the other is incorrect:  162
+Processing dataset: CIFAR10, model: GPT-4o, memory: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.76
+Mean accuracy of model without tree:  0.8789999999999999
+----------------------
+Class 3 without tree outperform with tree model by 42.0%
+Number of samples where both models are correct:  726
+Number of samples where both models are incorrect:  87
+Number of samples where tree model is correct and the other is incorrect:  34
+Number of samples where without tree model is correct and the other is incorrect:  153
+Processing dataset: CIFAR10, model: GPT-4o, description: True, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.827
+Mean accuracy of model without tree:  0.8959999999999999
+----------------------
+Class 5 without tree outperform with tree model by 51.0%
+Processing dataset: CIFAR10, model: GPT-4o, description: True, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.806
+Mean accuracy of model without tree:  0.881
+----------------------
+Class 5 without tree outperform with tree model by 59.0%
+Processing dataset: CIFAR10, model: GPT-4o, description: False, temperature: 0 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.7540000000000001
+Mean accuracy of model without tree:  0.8960000000000001
+----------------------
+Class 3 without tree outperform with tree model by 43.99999999999999%
+Processing dataset: CIFAR10, model: GPT-4o, description: False, temperature: 0.7 with 1000 rows
+----------------------
+Mean accuracy of model with tree:  0.76
+Mean accuracy of model without tree:  0.8789999999999999
+----------------------
+Class 3 without tree outperform with tree model by 42.0%
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct
+Number of rows in the dataframe: 7210
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, temperature: 0 with 2703 rows
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, temperature: 0.7 with 2703 rows
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, memory: True, temperature: 0 with 901 rows
+Class 12 with tree outperform without tree by 87.2340425531915%
+----------------------
+Mean accuracy of model with tree:  0.11204858098908076
+Mean accuracy of model without tree:  0.18291010801783714
+----------------------
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 3 without tree outperform with tree model by 50.0%
+Class 9 without tree outperform with tree model by 48.484848484848484%
+Class 5 without tree outperform with tree model by 45.23809523809524%
+Class 4 without tree outperform with tree model by 43.18181818181819%
+Number of samples where both models are correct:  79
+Number of samples where both models are incorrect:  594
+Number of samples where tree model is correct and the other is incorrect:  66
+Number of samples where without tree model is correct and the other is incorrect:  162
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, memory: True, temperature: 0.7 with 901 rows
+Class 12 with tree outperform without tree by 65.95744680851064%
+Class 19 with tree outperform without tree by 40.0%
+----------------------
+Mean accuracy of model with tree:  0.08899941786193212
+Mean accuracy of model without tree:  0.14210469691624408
+----------------------
+Number of samples where both models are correct:  42
+Number of samples where both models are incorrect:  668
+Number of samples where tree model is correct and the other is incorrect:  70
+Number of samples where without tree model is correct and the other is incorrect:  121
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, memory: False, temperature: 0 with 901 rows
+----------------------
+Mean accuracy of model with tree:  0.03710359408033827
+Mean accuracy of model without tree:  0.1919793284943764
+----------------------
+Class 14 without tree outperform with tree model by 94.44444444444444%
+Class 5 without tree outperform with tree model by 57.14285714285714%
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 4 without tree outperform with tree model by 45.45454545454545%
+Class 9 without tree outperform with tree model by 45.45454545454545%
+Class 35 without tree outperform with tree model by 40.74074074074074%
+Number of samples where both models are correct:  37
+Number of samples where both models are incorrect:  666
+Number of samples where tree model is correct and the other is incorrect:  20
+Number of samples where without tree model is correct and the other is incorrect:  178
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, memory: False, temperature: 0.7 with 901 rows
+Class 0 with tree outperform without tree by 80.0%
+Class 12 with tree outperform without tree by 78.72340425531915%
+----------------------
+Mean accuracy of model with tree:  0.28060735307903156
+Mean accuracy of model without tree:  0.2997960164453528
+----------------------
+Class 19 without tree outperform with tree model by 40.0%
+Number of samples where both models are correct:  192
+Number of samples where both models are incorrect:  461
+Number of samples where tree model is correct and the other is incorrect:  107
+Number of samples where without tree model is correct and the other is incorrect:  141
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, description: True, temperature: 0 with 901 rows
+Class 12 with tree outperform without tree by 74.46808510638297%
+----------------------
+Mean accuracy of model with tree:  0.13227653320985827
+Mean accuracy of model without tree:  0.2154050594867968
+----------------------
+Class 15 without tree outperform with tree model by 64.28571428571429%
+Class 5 without tree outperform with tree model by 52.38095238095239%
+Class 1 without tree outperform with tree model by 52.0%
+Class 20 without tree outperform with tree model by 50.0%
+Class 18 without tree outperform with tree model by 44.44444444444444%
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, description: True, temperature: 0.7 with 901 rows
+Class 12 with tree outperform without tree by 44.680851063829785%
+Class 33 with tree outperform without tree by 43.75%
+----------------------
+Mean accuracy of model with tree:  0.12021456792424137
+Mean accuracy of model without tree:  0.20582306340307838
+----------------------
+Class 1 without tree outperform with tree model by 54.0%
+Class 27 without tree outperform with tree model by 50.0%
+Class 2 without tree outperform with tree model by 41.99999999999999%
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, description: False, temperature: 0 with 901 rows
+----------------------
+Mean accuracy of model with tree:  0.03710359408033827
+Mean accuracy of model without tree:  0.1919793284943764
+----------------------
+Class 14 without tree outperform with tree model by 94.44444444444444%
+Class 5 without tree outperform with tree model by 57.14285714285714%
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 4 without tree outperform with tree model by 45.45454545454545%
+Class 9 without tree outperform with tree model by 45.45454545454545%
+Class 35 without tree outperform with tree model by 40.74074074074074%
+Processing dataset: GTSRB, model: Llama 3.2 11B Vision Instruct, description: False, temperature: 0.7 with 901 rows
+Class 0 with tree outperform without tree by 80.0%
+Class 12 with tree outperform without tree by 78.72340425531915%
+----------------------
+Mean accuracy of model with tree:  0.28060735307903156
+Mean accuracy of model without tree:  0.2997960164453528
+----------------------
+Class 19 without tree outperform with tree model by 40.0%
+Processing dataset: GTSRB, model: Qwen VL Max
+Number of rows in the dataframe: 7208
+Processing dataset: GTSRB, model: Qwen VL Max, temperature: 0 with 2703 rows
+Processing dataset: GTSRB, model: Qwen VL Max, temperature: 0.7 with 2703 rows
+Processing dataset: GTSRB, model: Qwen VL Max, memory: True, temperature: 0 with 901 rows
+Class 12 with tree outperform without tree by 82.97872340425532%
+Class 40 with tree outperform without tree by 50.0%
+Class 6 with tree outperform without tree by 40.0%
+----------------------
+Mean accuracy of model with tree:  0.2685098083385914
+Mean accuracy of model without tree:  0.40178682291415
+----------------------
+Class 17 without tree outperform with tree model by 88.0%
+Class 16 without tree outperform with tree model by 70.0%
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 35 without tree outperform with tree model by 66.66666666666667%
+Class 13 without tree outperform with tree model by 54.16666666666667%
+Class 15 without tree outperform with tree model by 50.0%
+Class 21 without tree outperform with tree model by 50.0%
+Class 29 without tree outperform with tree model by 50.0%
+Class 31 without tree outperform with tree model by 50.0%
+Number of samples where both models are correct:  273
+Number of samples where both models are incorrect:  409
+Number of samples where tree model is correct and the other is incorrect:  60
+Number of samples where without tree model is correct and the other is incorrect:  159
+Processing dataset: GTSRB, model: Qwen VL Max, memory: True, temperature: 0.7 with 901 rows
+Class 12 with tree outperform without tree by 82.97872340425532%
+Class 40 with tree outperform without tree by 50.0%
+Class 6 with tree outperform without tree by 40.0%
+----------------------
+Mean accuracy of model with tree:  0.2685098083385914
+Mean accuracy of model without tree:  0.3996411972220127
+----------------------
+Class 17 without tree outperform with tree model by 88.0%
+Class 16 without tree outperform with tree model by 70.0%
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 35 without tree outperform with tree model by 66.66666666666667%
+Class 13 without tree outperform with tree model by 52.083333333333336%
+Class 21 without tree outperform with tree model by 50.0%
+Class 29 without tree outperform with tree model by 50.0%
+Class 31 without tree outperform with tree model by 50.0%
+Class 15 without tree outperform with tree model by 42.857142857142854%
+Number of samples where both models are correct:  273
+Number of samples where both models are incorrect:  411
+Number of samples where tree model is correct and the other is incorrect:  60
+Number of samples where without tree model is correct and the other is incorrect:  157
+Processing dataset: GTSRB, model: Qwen VL Max, memory: False, temperature: 0 with 901 rows
+Class 12 with tree outperform without tree by 74.46808510638297%
+----------------------
+Mean accuracy of model with tree:  0.32805751886861706
+Mean accuracy of model without tree:  0.40178682291415
+----------------------
+Class 17 without tree outperform with tree model by 72.0%
+Class 13 without tree outperform with tree model by 70.83333333333334%
+Class 16 without tree outperform with tree model by 60.0%
+Class 27 without tree outperform with tree model by 50.0%
+Class 36 without tree outperform with tree model by 44.44444444444444%
+Number of samples where both models are correct:  302
+Number of samples where both models are incorrect:  407
+Number of samples where tree model is correct and the other is incorrect:  62
+Number of samples where without tree model is correct and the other is incorrect:  130
+Processing dataset: GTSRB, model: Qwen VL Max, memory: False, temperature: 0.7 with 901 rows
+Class 32 with tree outperform without tree by 50.0%
+----------------------
+Mean accuracy of model with tree:  0.22892618521669814
+Mean accuracy of model without tree:  0.39506741332043527
+----------------------
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 0 without tree outperform with tree model by 60.0%
+Class 1 without tree outperform with tree model by 60.0%
+Class 2 without tree outperform with tree model by 56.00000000000001%
+Class 22 without tree outperform with tree model by 55.55555555555556%
+Class 7 without tree outperform with tree model by 50.0%
+Class 29 without tree outperform with tree model by 50.0%
+Class 4 without tree outperform with tree model by 47.72727272727273%
+Class 3 without tree outperform with tree model by 46.875%
+Class 35 without tree outperform with tree model by 44.44444444444444%
+Class 17 without tree outperform with tree model by 44.0%
+Class 5 without tree outperform with tree model by 42.85714285714286%
+Number of samples where both models are correct:  188
+Number of samples where both models are incorrect:  442
+Number of samples where tree model is correct and the other is incorrect:  34
+Number of samples where without tree model is correct and the other is incorrect:  237
+Processing dataset: GTSRB, model: Qwen VL Max, description: True, temperature: 0 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666666%
+Class 12 with tree outperform without tree by 48.93617021276596%
+----------------------
+Mean accuracy of model with tree:  0.42236188261096
+Mean accuracy of model without tree:  0.40178682291415
+----------------------
+Class 17 without tree outperform with tree model by 60.0%
+Class 15 without tree outperform with tree model by 50.0%
+Processing dataset: GTSRB, model: Qwen VL Max, description: True, temperature: 0.7 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666666%
+Class 12 with tree outperform without tree by 46.808510638297875%
+----------------------
+Mean accuracy of model with tree:  0.4357124325133138
+Mean accuracy of model without tree:  0.40178682291415
+----------------------
+Class 17 without tree outperform with tree model by 60.0%
+Class 15 without tree outperform with tree model by 50.0%
+Processing dataset: GTSRB, model: Qwen VL Max, description: False, temperature: 0 with 901 rows
+Class 12 with tree outperform without tree by 74.46808510638297%
+----------------------
+Mean accuracy of model with tree:  0.32805751886861706
+Mean accuracy of model without tree:  0.40178682291415
+----------------------
+Class 17 without tree outperform with tree model by 72.0%
+Class 13 without tree outperform with tree model by 70.83333333333334%
+Class 16 without tree outperform with tree model by 60.0%
+Class 27 without tree outperform with tree model by 50.0%
+Class 36 without tree outperform with tree model by 44.44444444444444%
+Processing dataset: GTSRB, model: Qwen VL Max, description: False, temperature: 0.7 with 901 rows
+Class 32 with tree outperform without tree by 50.0%
+----------------------
+Mean accuracy of model with tree:  0.22892618521669814
+Mean accuracy of model without tree:  0.39506741332043527
+----------------------
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 0 without tree outperform with tree model by 60.0%
+Class 1 without tree outperform with tree model by 60.0%
+Class 2 without tree outperform with tree model by 56.00000000000001%
+Class 22 without tree outperform with tree model by 55.55555555555556%
+Class 7 without tree outperform with tree model by 50.0%
+Class 29 without tree outperform with tree model by 50.0%
+Class 4 without tree outperform with tree model by 47.72727272727273%
+Class 3 without tree outperform with tree model by 46.875%
+Class 35 without tree outperform with tree model by 44.44444444444444%
+Class 17 without tree outperform with tree model by 44.0%
+Class 5 without tree outperform with tree model by 42.85714285714286%
+Processing dataset: GTSRB, model: GPT-4o
+Number of rows in the dataframe: 7208
+Processing dataset: GTSRB, model: GPT-4o, temperature: 0 with 2703 rows
+Processing dataset: GTSRB, model: GPT-4o, temperature: 0.7 with 2703 rows
+Processing dataset: GTSRB, model: GPT-4o, memory: True, temperature: 0 with 901 rows
+Class 32 with tree outperform without tree by 83.33333333333334%
+Class 37 with tree outperform without tree by 80.0%
+----------------------
+Mean accuracy of model with tree:  0.49170122790156395
+Mean accuracy of model without tree:  0.6548398063703517
+----------------------
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 6 without tree outperform with tree model by 60.0%
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 39 without tree outperform with tree model by 57.14285714285714%
+Class 11 without tree outperform with tree model by 50.0%
+Class 31 without tree outperform with tree model by 50.0%
+Class 38 without tree outperform with tree model by 49.99999999999999%
+Class 25 without tree outperform with tree model by 44.117647058823536%
+Class 28 without tree outperform with tree model by 41.66666666666667%
+Class 30 without tree outperform with tree model by 40.0%
+Number of samples where both models are correct:  471
+Number of samples where both models are incorrect:  231
+Number of samples where tree model is correct and the other is incorrect:  31
+Number of samples where without tree model is correct and the other is incorrect:  168
+Processing dataset: GTSRB, model: GPT-4o, memory: True, temperature: 0.7 with 901 rows
+Class 32 with tree outperform without tree by 83.33333333333334%
+Class 37 with tree outperform without tree by 80.0%
+----------------------
+Mean accuracy of model with tree:  0.49919757033248086
+Mean accuracy of model without tree:  0.6274395510489652
+----------------------
+Class 27 without tree outperform with tree model by 66.66666666666667%
+Class 11 without tree outperform with tree model by 66.66666666666666%
+Class 15 without tree outperform with tree model by 50.0%
+Class 21 without tree outperform with tree model by 50.0%
+Class 30 without tree outperform with tree model by 50.0%
+Class 34 without tree outperform with tree model by 50.0%
+Class 38 without tree outperform with tree model by 43.47826086956522%
+Class 6 without tree outperform with tree model by 40.0%
+Number of samples where both models are correct:  473
+Number of samples where both models are incorrect:  242
+Number of samples where tree model is correct and the other is incorrect:  38
+Number of samples where without tree model is correct and the other is incorrect:  148
+Processing dataset: GTSRB, model: GPT-4o, memory: False, temperature: 0 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666667%
+Class 37 with tree outperform without tree by 60.00000000000001%
+----------------------
+Mean accuracy of model with tree:  0.5204517711834966
+Mean accuracy of model without tree:  0.6585091960020634
+----------------------
+Class 15 without tree outperform with tree model by 71.42857142857143%
+Class 6 without tree outperform with tree model by 60.0%
+Class 38 without tree outperform with tree model by 58.69565217391304%
+Class 11 without tree outperform with tree model by 50.0%
+Class 24 without tree outperform with tree model by 50.0%
+Class 39 without tree outperform with tree model by 42.857142857142854%
+Number of samples where both models are correct:  489
+Number of samples where both models are incorrect:  227
+Number of samples where tree model is correct and the other is incorrect:  34
+Number of samples where without tree model is correct and the other is incorrect:  151
+Processing dataset: GTSRB, model: GPT-4o, memory: False, temperature: 0.7 with 901 rows
+----------------------
+Mean accuracy of model with tree:  0.5010307735456428
+Mean accuracy of model without tree:  0.7001112605239904
+----------------------
+Class 27 without tree outperform with tree model by 83.33333333333334%
+Class 6 without tree outperform with tree model by 60.0%
+Class 34 without tree outperform with tree model by 60.0%
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 10 without tree outperform with tree model by 55.55555555555556%
+Class 11 without tree outperform with tree model by 50.0%
+Class 24 without tree outperform with tree model by 50.0%
+Class 25 without tree outperform with tree model by 50.0%
+Class 22 without tree outperform with tree model by 44.44444444444444%
+Class 17 without tree outperform with tree model by 40.0%
+Number of samples where both models are correct:  487
+Number of samples where both models are incorrect:  201
+Number of samples where tree model is correct and the other is incorrect:  33
+Number of samples where without tree model is correct and the other is incorrect:  180
+Processing dataset: GTSRB, model: GPT-4o, description: True, temperature: 0 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666667%
+----------------------
+Mean accuracy of model with tree:  0.6269115238194225
+Mean accuracy of model without tree:  0.659968408931401
+----------------------
+Class 6 without tree outperform with tree model by 60.0%
+Class 33 without tree outperform with tree model by 56.25%
+Class 38 without tree outperform with tree model by 45.652173913043484%
+Class 39 without tree outperform with tree model by 42.857142857142854%
+Processing dataset: GTSRB, model: GPT-4o, description: True, temperature: 0.7 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666667%
+Class 23 with tree outperform without tree by 41.666666666666664%
+----------------------
+Mean accuracy of model with tree:  0.6107327364513025
+Mean accuracy of model without tree:  0.6515401380458798
+----------------------
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 33 without tree outperform with tree model by 50.0%
+Class 38 without tree outperform with tree model by 50.0%
+Class 11 without tree outperform with tree model by 43.333333333333336%
+Processing dataset: GTSRB, model: GPT-4o, description: False, temperature: 0 with 901 rows
+Class 32 with tree outperform without tree by 66.66666666666667%
+Class 37 with tree outperform without tree by 60.00000000000001%
+----------------------
+Mean accuracy of model with tree:  0.5204517711834966
+Mean accuracy of model without tree:  0.6585091960020634
+----------------------
+Class 15 without tree outperform with tree model by 71.42857142857143%
+Class 6 without tree outperform with tree model by 60.0%
+Class 38 without tree outperform with tree model by 58.69565217391304%
+Class 11 without tree outperform with tree model by 50.0%
+Class 24 without tree outperform with tree model by 50.0%
+Class 39 without tree outperform with tree model by 42.857142857142854%
+Processing dataset: GTSRB, model: GPT-4o, description: False, temperature: 0.7 with 901 rows
+----------------------
+Mean accuracy of model with tree:  0.5010307735456428
+Mean accuracy of model without tree:  0.7001112605239904
+----------------------
+Class 27 without tree outperform with tree model by 83.33333333333334%
+Class 6 without tree outperform with tree model by 60.0%
+Class 34 without tree outperform with tree model by 60.0%
+Class 15 without tree outperform with tree model by 57.14285714285714%
+Class 10 without tree outperform with tree model by 55.55555555555556%
+Class 11 without tree outperform with tree model by 50.0%
+Class 24 without tree outperform with tree model by 50.0%
+Class 25 without tree outperform with tree model by 50.0%
+Class 22 without tree outperform with tree model by 44.44444444444444%
+Class 17 without tree outperform with tree model by 40.0%
+Done

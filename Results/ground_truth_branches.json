@@ -1,0 +1,86 @@
+{
+    "0": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?":"red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "20"}],
+    
+    "1":[{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?":"red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "30"}],
+    "2": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "50"}],
+
+    "3": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "60"}],
+
+    "4": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "70"}],
+
+    "5": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "80"}],
+
+    "6": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "yes"}],
+
+    "7": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "100"}],
+
+    "8": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "yes"}, {"[L3] Q: What is the number?": "120"}],
+
+    "9": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "no"}, {"[L4] Q: What is inside the circle?": "red car and black car"}],
+
+    "10": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "no"}, {"[L4] Q: What is inside the circle?": "red truck and black car"}],
+
+    "11": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "no"}, {"[L11] Q: Does it depict pedestrian?": "no"}, {"[L12] Q: Does it depict bicycle?": "no"}, {"[L13] Q: Does it depict ice/snow?": "no"}, {"[L14] Q: Does it depict deer?": "no"}],
+
+    "12": [{"[L0] Q: What's the sign's primary shape?": "diamond"}],
+
+    "13": [{"[L0] Q: What's the sign's primary shape?": "inverted-triangle"}],
+
+    "14": [{"[L0] Q: What's the sign's primary shape?": "octagon"}],
+
+    "15": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "no"}, {"[L4] Q: What is inside the circle?": "empty circle"}],
+
+    "16": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "no"}, {"[L4] Q: What is inside the circle?": "truck"}],
+
+    "17": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "red-white"}, {"[L2] Q: Does it contain numbers?": "no"}, {"[L3] Q: Does it have a diagonal strike bar?": "no"}, {"[L4] Q: What is inside the circle?": "horizontal white bar"}],
+
+    "18": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "yes"}],
+
+    "19": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "yes"}],
+
+    "20": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "yes"}],
+
+    "21": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "yes"}],
+
+    "22": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "yes"}],
+
+    "23": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "yes"}],
+
+    "24": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "yes"}],
+
+    "25": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "yes"}],
+
+    "26": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "yes"}],
+
+    "27": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "no"}, {"[L11] Q: Does it depict pedestrian?": "yes"}],
+
+    "28": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "yes"}],
+
+    "29": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "no"}, {"[L11] Q: Does it depict pedestrian?": "no"}, {"[L12] Q: Does it depict bicycle?": "yes"}],
+
+    "30": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "no"}, {"[L11] Q: Does it depict pedestrian?": "no"}, {"[L12] Q: Does it depict bicycle?": "no"}, {"[L13] Q: Does it depict ice/snow?": "yes"}],
+
+    "31": [{"[L0] Q: What's the sign's primary shape?": "triangle"}, {"[L1] Q: Does the triangle have an exclamation mark?": "no"}, {"[L2] Q: Does it depict a left curve?": "no"}, {"[L3] Q: Does it depict right curve?": "no"}, {"[L4] Q: Does it depict double curve?": "no"}, {"[L5] Q: Does it depict rough/bumpy road?": "no"}, {"[L6] Q: Does it depict slippery road?": "no"}, {"[L7] Q: Does it depict merging/narrow lanes?": "no"}, {"[L8] Q: Does it depict construction/road work?": "no"}, {"[L9] Q: Does it depict traffic light?": "no"}, {"[L10] Q: Does it depict both child and pedestrian?": "no"}, {"[L11] Q: Does it depict pedestrian?": "no"}, {"[L12] Q: Does it depict bicycle?": "no"}, {"[L13] Q: Does it depict ice/snow?": "no"}, {"[L14] Q: Does it depict deer?": "yes"}],
+
+    "32": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "white-gray"}, {"[L2] Q: What restriction ends?": "speed limit"}],
+
+    "33": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "right"}],
+
+    "34": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "left"}],
+
+    "35": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "forward"}],
+
+    "36": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "forward-right"}],
+
+    "37": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "forward-left"}],
+
+    "38": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "keep-right"}],
+
+    "39": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "keep-left"}],
+
+    "40": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "blue"}, {"[L2] Q: What arrow is shown?": "circular"}],
+
+    "41": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "white-gray"}, {"[L2] Q: What restriction ends?": "car passing"}],
+
+    "42": [{"[L0] Q: What's the sign's primary shape?": "circle"}, {"[L1] Q: What's the circle color?": "white-gray"}, {"[L2] Q: What restriction ends?": "truck passing"}]
+}

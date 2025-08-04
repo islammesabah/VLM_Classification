@@ -1,0 +1,19 @@
+#Core ML and Data Handling
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+scipy
+
+#API and Web
+requests
+openai
+
+#Plotting and Visualization
+matplotlib
+seaborn
+
+#Utilities
+tqdm
+Pillow

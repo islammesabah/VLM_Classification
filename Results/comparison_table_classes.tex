@@ -1,0 +1,64 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparison of Tree-based Methods vs Baseline (Without Tree)}
+\label{tab:tree_comparison}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Dataset} & \textbf{Model} & \textbf{Method} & \textbf{Temperature} & \textbf{Performance Comparison} \\
+\hline
+CIFAR10 & Llama 3.2 11B Vision Instruct & Tree+History & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-8/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-8/10) \\
+ &  & Tree+Description & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree+Description & 0.7 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-8/10) \\
+\hline
+ & Qwen VL Max & Tree+History & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-8/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-8/10) \\
+ &  & Tree+Description & 0 & Tree < Baseline (-4/10) \\
+ &  & Tree+Description & 0.7 & Tree < Baseline (-4/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-8/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-8/10) \\
+\hline
+ & GPT-4o & Tree+History & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-6/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-9/10) \\
+ &  & Tree+Description & 0 & Tree = Baseline (0/10 ties) \\
+ &  & Tree+Description & 0.7 & Tree < Baseline (-3/10) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-10/10) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-9/10) \\
+\hline
+GTSRB & Llama 3.2 11B Vision Instruct & Tree+History & 0 & Tree < Baseline (-8/43) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-11/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-24/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-5/43) \\
+ &  & Tree+Description & 0 & Tree < Baseline (-9/9) \\
+ &  & Tree+Description & 0.7 & Tree < Baseline (-18/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-24/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-5/43) \\
+\hline
+ & Qwen VL Max & Tree+History & 0 & Tree < Baseline (-19/43) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-19/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-11/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-18/43) \\
+ &  & Tree+Description & 0 & Tree > Baseline (+3/43) \\
+ &  & Tree+Description & 0.7 & Tree > Baseline (+6/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-11/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-18/43) \\
+\hline
+ & GPT-4o & Tree+History & 0 & Tree < Baseline (-25/43) \\
+ &  & Tree+History & 0.7 & Tree < Baseline (-19/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-15/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-23/43) \\
+ &  & Tree+Description & 0 & Tree < Baseline (-3/43) \\
+ &  & Tree+Description & 0.7 & Tree < Baseline (-6/43) \\
+ &  & Tree-Based & 0 & Tree < Baseline (-15/43) \\
+ &  & Tree-Based & 0.7 & Tree < Baseline (-23/43) \\
+\hline
+\end{tabular}
+\end{table}

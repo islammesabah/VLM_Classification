@@ -1,0 +1,23 @@
+\begin{table*}[ht]
+\centering
+\caption{Performance Comparison: Tree-based Methods vs Baseline (Temperature = 0.7)}
+\begin{tabular}{ll|cc|cc|cc}
+\hline
+\multirow{2}{*}{\textbf{Dataset}} & \multirow{2}{*}{\textbf{Model}}
+& \multicolumn{2}{c|}{\textbf{Tree-based}}
+& \multicolumn{2}{c|}{\textbf{Tree + History}}
+& \multicolumn{2}{c}{\textbf{Tree + Description}} \\
+\cline{3-8}
+& & \textbf{Win/Loss} & \textbf{Ties} & \textbf{Win/Loss} & \textbf{Ties} & \textbf{Win/Loss} & \textbf{Ties} \\
+\hline
+\multirow{3}{*}{CIFAR10} & LLAMA & 1/\textbf{9} & 0 & 1/\textbf{9} & 0 & 0/\textbf{10} & 0 \\
+ & Qwen-VL & 1/\textbf{9} & 0 & 0/\textbf{10} & 0 & 3/\textbf{7} & 0 \\
+ & GPT-4o & 0/\textbf{9} & 1 & 2/\textbf{8} & 0 & 3/\textbf{6} & 1 \\
+\hline
+\multirow{3}{*}{GTSRB} & LLAMA & 15/\textbf{20} & 8 & 9/\textbf{20} & 14 & 8/\textbf{26} & 9 \\
+ & Qwen-VL & 7/\textbf{25} & 11 & 6/\textbf{25} & 12 & \textbf{18}/12 & 13 \\
+ & GPT-4o & 6/\textbf{29} & 8 & 8/\textbf{27} & 8 & 14/\textbf{20} & 9 \\
+\hline
+\end{tabular}
+\label{tab:performance_comparison}
+\end{table*}

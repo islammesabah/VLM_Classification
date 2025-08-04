@@ -1,0 +1,22 @@
+{
+    "CIFAR-10": {
+        "num_classes": 10,
+        "Dataset_path": "Data/cifar-10-python",
+        "images_dir": "cifar-10-batches-py",
+        
+        "database_name": "cifar10_answers.db",
+        "samples_per_class": 1,
+        "random_seed": 42,
+        "samples_path": "Results/db/cifar10_1000_samples.txt",
+        "description_path": "Data/cifar-10-python/classes_description.json",
+        "temperature": 0.7
+        },
+    "GTSRB": {
+        "num_classes": 43,
+        "Dataset_path": "Data/GTSRB",
+        "images_dir": "all_sequences_training",
+        "database_name": "answers.db",
+        "description_path": "Data/GTSRB/classes_description.json",
+        "temperature": 0.7
+    }
+}
