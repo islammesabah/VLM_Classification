@@ -1,9 +1,10 @@
 
 import os
 import json
-from datasets import load_dataset
-from tqdm import tqdm
-
+import requests
+import zipfile
+import glob
+from PIL import Image
 
 dataset_name = "tanganke/gtsrb"
 dataset_local_path = "GTSRB"
@@ -12,44 +13,77 @@ dataset_local_path = "GTSRB"
 dataset_local_path = "datasets/" + dataset_local_path
 os.makedirs(f"{dataset_local_path}/", exist_ok=True)
 
-# Load dataset splits
-dataset_splits = ["train", "test"]
-
-# https://huggingface.co/datasets/tanganke/gtsrb
-dataset = {split: load_dataset(dataset_name, split=split) for split in dataset_splits}
-
-# Extract class names
-labels = dataset[dataset_splits[0]].features["label"]
-class_names = {i: label for i, label in enumerate(labels.names)}
+# get class names
+class_names = {
+  "0": "20 Kph Limit",
+  "1": "30 Kph Limit",
+  "2": "50 Kph Limit",
+  "3": "60 Kph Limit",
+  "4": "70 Kph Limit",
+  "5": "80 Kph Limit",
+  "6": "End Of Restriction",
+  "7": "100 Kph Limit",
+  "8": "120 Kph Limit",
+  "9": "No Cars Passing",
+  "10": "No Trucks Passing",
+  "11": "Right-Of-Way At Intersection",
+  "12": "Priority Road",
+  "13": "Yield",
+  "14": "Stop",
+  "15": "Empty Circle",
+  "16": "No Truck Entry",
+  "17": "No Entry",
+  "18": "Exclamation Mark Warning",
+  "19": "Left Curve Warning",
+  "20": "Right Curve Warning",
+  "21": "Double Curve Warning",
+  "22": "Rough/Bumpy Road Warning",
+  "23": "Slippery Road Warning",
+  "24": "Merging/Narrow Lanes Warning",
+  "25": "Construction/Road Work Warning",
+  "26": "Traffic Light Warning",
+  "27": "Pedestrian Warning",
+  "28": "Child And Pedestrian Warning",
+  "29": "Bicycle Warning",
+  "30": "Ice/Snow Warning",
+  "31": "Deer Warning",
+  "32": "No Speed Limit",
+  "33": "Right Arrow",
+  "34": "Left Arrow",
+  "35": "Forward Arrow",
+  "36": "Forward-Right Arrow",
+  "37": "Forward-Left Arrow",
+  "38": "Keep-Right Arrow",
+  "39": "Keep-Left Arrow",
+  "40": "Circle Arrow",
+  "41": "End Car Passing Ban",
+  "42": "End Truck Passing Ban"
+}
 
 
 # Save class names
 with open(f"{dataset_local_path}/class_names.json", "w") as f:
     json.dump(class_names, f, indent=4)
-
-# Save images and metadata
-for split, data in dataset.items():
-    metadata = []
     
-    # Create output directories
-    os.makedirs(f"{dataset_local_path}/{split}/images", exist_ok=True)
+    
+# download the dataset
+path = "datasets/"
+response = requests.get("https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB-Training_fixed.zip")
+with open(path+'GTSRB-Training_fixed.zip', "wb") as f:
+    f.write(response.content)
 
-    for i, item in tqdm(enumerate(data), desc=f"Saving {split} split", total=len(data)):
-        image = item["image"]  # Adjust this key based on your dataset structure
-        label = item["label"]  # Adjust this key as needed
+with zipfile.ZipFile(path+'GTSRB-Training_fixed.zip', 'r') as zip_ref:
+    zip_ref.extractall(path)
+    
+if os.path.exists(path+'GTSRB-Training_fixed.zip'):
+    os.remove(path+'GTSRB-Training_fixed.zip')
 
-        # Define image filename
-        img_filename = f"images/{i}.png"
-        img_path = os.path.join(f"{dataset_local_path}/{split}", img_filename)
-
-        # Save image
-        image.save(img_path)
-
-        # Store metadata
-        metadata.append({"image": img_filename, "label": label})
-
-        # Save metadata as JSON
-        with open(f"{dataset_local_path}/{split}/metadata.json", "w") as f:
-            json.dump(metadata, f, indent=4)
-
-print(f"Images and metadata of GTSRB dataset saved successfully!")
+# change to png
+files = glob.glob("datasets/GTSRB/**/*.ppm", recursive=True)
+for img_path in files:
+    img = Image.open(img_path)
+    img.save(img_path.split(".")[0]+".png", "PNG")
+    if os.path.exists(img_path):
+        os.remove(img_path)
+        
+print(f"\nImages and metadata of GTSRB dataset saved successfully!")

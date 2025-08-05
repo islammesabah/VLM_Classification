@@ -1,3 +1,7 @@
+results/logs
 .venv
 *.png
 .env
+__pycache__
+paper.pdf
+GT-*.csv

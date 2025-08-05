@@ -42,10 +42,7 @@ class CIFARLoader(DatasetLoader):
         return CIFAR_load_images(
             config.dataset_path, 
             config.images_dir, 
-            config.samples_path,
-            config.samples_per_class, 
-            config.random_seed
-            
+            config.samples_path
         )
     
     def get_class_names(self) -> Dict[str, str]:
@@ -71,7 +68,8 @@ class GTSRBLoader(DatasetLoader):
     def load_images(self, config) -> Tuple[List, List[int], Dict[str, str], Any]:
         return GTSRB_load_images(
             config.dataset_path, 
-            config.images_dir,)
+            config.images_dir,
+            config.samples_path)
     
     def get_class_names(self) -> Dict[str, str]:
         # This should be returned from load_images, but keeping for interface consistency

@@ -1,0 +1,263 @@
+{"long_description": {
+  "0": {
+    "label": "20 Kph Limit",
+    "visual_description": "Circular sign with thick red border and white interior. Large black '20' at center. Variations include faded red pigment, reflective material glare, rain streaks, or partial occlusion by vegetation.",
+    "details": "Indicates maximum permitted speed is 20 km/h. Commonly seen near schools, residential zones, or accident-prone areas."
+  },
+  "1": {
+    "label": "30 Kph Limit",
+    "visual_description": "Identical circular design to 20 Kph sign but with '30' in black. May show dirt accumulation along edges or shadows obscuring parts of the number.",
+    "details": "Enforces 30 km/h maximum speed. Typically implemented in urban areas with high pedestrian activity."
+  },
+  "2": {
+    "label": "50 Kph Limit",
+    "visual_description": "Red-bordered circle with '50' in bold black. Variations include nighttime illumination, snow partial coverage, or perspective distortion when photographed at angles.",
+    "details": "Standard urban speed limit in many German areas. Often paired with zone entry signs."
+  },
+  "3": {
+    "label": "60 Kph Limit",
+    "visual_description": "Circular white sign with red border and prominent '60'. May exhibit sun bleaching (pinkish border) or raindrop distortions.",
+    "details": "Transitional speed limit between urban and rural zones. Common on urban outskirts."
+  },
+  "4": {
+    "label": "70 Kph Limit",
+    "visual_description": "Red circular band surrounding white center with black '70'. Variations include pole shadows cast across sign surface or lens flare effects.",
+    "details": "Frequent on non-highway rural roads. Indicates higher speed allowance outside dense populations."
+  },
+  "5": {
+    "label": "80 Kph Limit",
+    "visual_description": "Standard circular speed sign with '80'. Often appears smaller in images due to distance. May show minor damage (dents/scratches) or adhesive residues.",
+    "details": "Common for rural highways and certain urban expressways. Marks safe maximum for non-divided roads."
+  },
+  "6": {
+    "label": "End Of Restriction",
+    "visual_description": "Circular sign with white background, black diagonal stripe left-top to right-bottom, and gray border. Variations include mud splatters or tilted mounting.",
+    "details": "Terminates previous speed limits or overtaking bans. Driver must obey general speed rules thereafter."
+  },
+  "7": {
+    "label": "100 Kph Limit",
+    "visual_description": "Large '100' centered in red-bordered circle. High-contrast design but may appear blurred in motion-blurred captures.",
+    "details": "Standard limit for rural highways (Bundesstraßen). Often combined with advisory curve signs."
+  },
+  "8": {
+    "label": "120 Kph Limit",
+    "visual_description": "Prominent '120' in black within red-bordered circle. Reflective materials may cause bright spots in flash photography.",
+    "details": "Common on German autobahns where no unlimited sections exist. Indicates recommended maximum."
+  },
+  "9": {
+    "label": "No Cars Passing",
+    "visual_description": "Round red-bordered sign with two cars: left red car, right black car. Iconography may show paint fading or condensation streaks.",
+    "details": "Prohibits overtaking for all vehicles. Valid until next intersection or cancellation sign."
+  },
+  "10": {
+    "label": "No Trucks Passing",
+    "visual_description": "Similar to Class 9 but with truck icons instead of cars. Red truck on left, black truck on right. Variations include dirt obscuring details.",
+    "details": "Specifically prohibits trucks from overtaking other vehicles. Applies to vehicles >3.5t."
+  },
+  "11": {
+    "label": "Right-Of-Way At Intersection",
+    "visual_description": "Upside-down white triangle with thick red border. Variations: Moss growth on corners or bird droppings.",
+    "details": "Indicates priority at next intersection. Drivers have right-of-way over entering traffic."
+  },
+  "12": {
+    "label": "Priority Road",
+    "visual_description": "Yellow diamond with white border. May show weathering (yellow fading to pale) or sticker vandalism.",
+    "details": "Marks roads where traffic has permanent right-of-way. Ends at crossing with similar sign or cancellation."
+  },
+  "13": {
+    "label": "Yield",
+    "visual_description": "Inverted white triangle with red border. Often captured at angles showing slight trapezoidal distortion.",
+    "details": "Requires drivers to give way to intersecting traffic. Mandatory stop if necessary."
+  },
+  "14": {
+    "label": "Stop",
+    "visual_description": "Red octagon with white 'STOP' letters. Highly recognizable but may have faded lettering or rust along edges.",
+    "details": "Mandatory complete stop before proceeding. Always positioned at intersection approaches."
+  },
+  "15": {
+    "label": "Empty Circle",
+    "visual_description": "Plain white circular sign with thick black border. Minimalist design may show heavy weathering, graffiti, or shadows emphasizing the empty center.",
+    "details": "Unknown function in GTSRB context. May represent placeholder or deactivated sign. Historically used for 'no restriction' in some systems."
+  },
+  "16": {
+    "label": "No Truck Entry",
+    "visual_description": "Red-bordered circle with black truck silhouette centered on white background. Truck icon faces downward. Variations include faded red pigment or dirt on lower half.",
+    "details": "Prohibits entry to all freight vehicles over 3.5 tons. Common at city boundaries or sensitive infrastructure entrances."
+  },
+  "17": {
+    "label": "No Entry",
+    "visual_description": "Solid red circle with thick white horizontal rectangle in center. High-visibility design. May exhibit peeling edges or rain reflections.",
+    "details": "Universal prohibition sign. Forbids all vehicle entry into restricted zones (e.g., one-way streets)."
+  },
+  "18": {
+    "label": "Exclamation Mark Warning",
+    "visual_description": "Red-bordered equilateral triangle pointing upward. Black exclamation mark (!) centered on white background. May show dirt accumulation in corners.",
+    "details": "General hazard warning for undefined dangers. Requires reduced speed and increased attention."
+  },
+  "19": {
+    "label": "Left Curve Warning",
+    "visual_description": "Upward-pointing red-bordered triangle. Black curved arrow bending left on white background. Variations include skewed perspectives in photographs.",
+    "details": "Warns of left-hand curve ahead. Arrow indicates direction and severity of bend (sharper curve = shorter arrow)."
+  },
+  "20": {
+    "label": "Right Curve Warning",
+    "visual_description": "Mirror image of Class 19. Black right-curving arrow in triangular sign. Often shows glare on arrow surface.",
+    "details": "Indicates upcoming right-hand curve. Typically placed 150-250m before bend depending on road speed."
+  },
+  "21": {
+    "label": "Double Curve Warning",
+    "visual_description": "Red-bordered triangle with S-shaped double arrow (left-then-right or vice-versa). Arrow may appear broken in damaged signs.",
+    "details": "Warns of consecutive opposing curves. First bend direction indicated by initial arrow segment."
+  },
+  "22": {
+    "label": "Rough/Bumpy Road Warning",
+    "visual_description": "Triangular sign with stylized uneven road surface: zigzag line above curved baseline. May show mud splatters obscuring symbols.",
+    "details": "Alerts to irregular road surface ahead (potholes, gravel, etc.). Common near construction or rural areas."
+  },
+  "23": {
+    "label": "Slippery Road Warning",
+    "visual_description": "Triangle depicting black skidding car on white background with red border. Car icon may appear tilted in real-world captures.",
+    "details": "Warns of reduced traction (rain, oil, leaves). Requires immediate speed reduction and avoidance of sudden maneuvers."
+  },
+  "24": {
+    "label": "Merging/Narrow Lanes Warning",
+    "visual_description": "Two converging black arrows in red-bordered triangle. Variations include perspective distortion making arrows asymmetrical.",
+    "details": "Indicates lane reduction or road narrowing. Signals drivers to prepare for merging traffic."
+  },
+  "25": {
+    "label": "Construction/Road Work Warning",
+    "visual_description": "Red-bordered triangle with black worker icon shoveling. Often has temporary mounting, showing uneven alignment.",
+    "details": "Warns of active construction zones. Mandates reduced speed and watchfulness for workers/equipment."
+  },
+  "26": {
+    "label": "Traffic Light Warning",
+    "visual_description": "Triangle featuring three black circles (red/amber/green) stacked vertically. Colors may appear faded.",
+    "details": "Alerts to upcoming traffic signals, especially when visibility is limited or signals are unexpected."
+  },
+  "27": {
+    "label": "Pedestrian Warning",
+    "visual_description": "Triangle with black walking person silhouette. Leg stride detail may be obscured by rain streaks.",
+    "details": "Warns of high pedestrian activity areas (crosswalks, urban zones). Requires heightened awareness."
+  },
+  "28": {
+    "label": "Child And Pedestrian Warning",
+    "visual_description": "Two silhouettes: adult walking left + child running right. May show partial occlusion by tree branches.",
+    "details": "Specific warning near schools, playgrounds, or residential areas. Indicates unpredictable pedestrian behavior."
+  },
+  "29": {
+    "label": "Bicycle Warning",
+    "visual_description": "Triangle with black bicycle icon. Bicycle design varies - some show classic frame, others modern MTB.",
+    "details": "Alerts to bicycle crossings or frequent cyclist presence. Common on rural paths crossing roads."
+  },
+  "30": {
+    "label": "Ice/Snow Warning",
+    "visual_description": "Triangle with black snowflake symbol over tilted car. Snowflake may appear blurred in motion shots.",
+    "details": "Warns of icy/slippery conditions. Often seasonal or altitude-dependent signage."
+  },
+  "31": {
+    "label": "Deer Warning",
+    "visual_description": "Leaping deer silhouette in triangle. Antler details may be indistinct in low-resolution images.",
+    "details": "Indicates wildlife crossing zones. Critical in forested areas during dawn/dusk migrations."
+  },
+  "32": {
+    "label": "No Speed Limit",
+    "visual_description": "Circular white sign with five diagonal black stripes. Variations include heavy grime accumulation or partial snow cover.",
+    "details": "Indicates end of all speed restrictions (only on autobahns). Drivers must still exercise caution."
+  },
+  "33": {
+    "label": "Right Arrow",
+    "visual_description": "Blue rectangular sign with white right-pointing arrow. Sharp 90° bend. Variations include faded blue background.",
+    "details": "Mandatory direction indicator. Requires drivers to turn right at next junction."
+  },
+  "34": {
+    "label": "Left Arrow",
+    "visual_description": "Blue rectangle with white left-pointing arrow. May show reflections on arrow surface.",
+    "details": "Compulsory left turn instruction. Positioned immediately before turn points."
+  },
+  "35": {
+    "label": "Forward Arrow",
+    "visual_description": "Blue sign with straight vertical white arrow. Often captured with lens distortion causing bending.",
+    "details": "Mandates straight-ahead movement. Prevents turns at intersections."
+  },
+  "36": {
+    "label": "Forward-Right Arrow",
+    "visual_description": "Blue rectangle with combined straight+right arrow (Y-shape). Junction angle may vary between 45-60°.",
+    "details": "Requires drivers to proceed straight or turn right. Prohibits left turns."
+  },
+  "37": {
+    "label": "Forward-Left Arrow",
+    "visual_description": "Mirror of Class 36. Straight+left arrow combination. May have dirt accumulation in arrow crook.",
+    "details": "Mandates straight or left turn movement. Forbids right turns."
+  },
+  "38": {
+    "label": "Keep-Right Arrow",
+    "visual_description": "Blue sign with white arrow curving around right-side obstacle. Arrowhead points diagonally right.",
+    "details": "Directs traffic flow around dividers/obstacles. Maintains right-side passage."
+  },
+  "39": {
+    "label": "Keep-Left Arrow",
+    "visual_description": "Symmetric to Class 38 with left-curving arrow. Often smaller in size than directional signs.",
+    "details": "Requires passing obstacles on left. Common in roundabout approaches."
+  },
+  "40": {
+    "label": "Circle Arrow",
+    "visual_description": "Blue rectangle with circular white arrow (U-turn symbol). Arrow rotation direction varies internationally.",
+    "details": "Indicates roundabout ahead. Prepares drivers for circular traffic flow (Germany: counterclockwise)."
+  },
+  "41": {
+    "label": "End Car Passing Ban",
+    "visual_description": "Circular sign with gray background, black diagonal stripe, and black car icons. May show glare from headlights.",
+    "details": "Cancels previous overtaking prohibition for cars. Often paired with new speed limit signs."
+  },
+  "42": {
+    "label": "End Truck Passing Ban",
+    "visual_description": "Gray circle with diagonal black stripe and black truck graphics. Variations include rain droplets distorting icons.",
+    "details": "Terminates truck-specific overtaking ban. Trucks may resume normal passing rules."
+  }
+},
+"short_description":
+{
+  "0": "Red-bordered circle with '20': Enforces 20 km/h speed limit in sensitive areas",
+  "1": "Circular '30' sign: Urban 30 km/h speed restriction near pedestrians",
+  "2": "Red-circle '50': Standard 50 km/h limit in German city zones",
+  "3": "White circle '60': 60 km/h transitional limit on urban outskirts",
+  "4": "Bold '70' sign: 70 km/h rural road speed allowance",
+  "5": "Black '80' in circle: 80 km/h maximum on non-divided highways",
+  "6": "White circle with diagonal stripe: Ends all previous speed/overtaking restrictions",
+  "7": "Prominent '100' circle: 100 km/h limit on Bundesstraßen highways",
+  "8": "Large '120' sign: Autobahn recommended maximum speed",
+  "9": "Two-car icon: Prohibits all vehicle overtaking",
+  "10": "Truck symbols: Bans trucks (>3.5t) from passing other vehicles",
+  "11": "Upside-down red triangle: Grants right-of-way at next intersection",
+  "12": "Yellow diamond: Marks permanent priority road status",
+  "13": "Red-bordered ▽: Mandatory yield to crossing traffic",
+  "14": "Red octagon 'STOP': Requires full stop before proceeding",
+  "15": "Empty black-bordered circle: Placeholder/deactivated sign function",
+  "16": "Truck in red circle: Prohibits truck entry (>3.5t)",
+  "17": "Solid red circle: Universal no-entry for all vehicles",
+  "18": "❗ in triangle: General hazard warning",
+  "19": "Left-curve arrow: Warns of left-hand bend ahead",
+  "20": "Right-curve arrow: Alerts to upcoming right-hand curve",
+  "21": "S-shaped arrows: Double curve (left-right/right-left) warning",
+  "22": "Zigzag road line: Rough/bumpy surface hazard",
+  "23": "Skidding car icon: Slippery road conditions ahead",
+  "24": "Converging arrows: Lane narrowing/merging zone",
+  "25": "Worker shoveling: Road construction area warning",
+  "26": "Traffic light symbol: Unexpected or low-visibility signals ahead",
+  "27": "Walking figure: Pedestrian crossing/congestion area",
+  "28": "Adult+child silhouettes: School/playground zone warning",
+  "29": "Bicycle icon: Cyclist crossing/high-activity area",
+  "30": "Snowflake over car: Icy/snowy road conditions",
+  "31": "Leaping deer: Wildlife crossing zone (especially deer)",
+  "32": "5-diagonal stripes: Autobahn no-speed-limit section",
+  "33": "Blue ▷: Mandatory right turn",
+  "34": "Blue ◁: Compulsory left turn",
+  "35": "Blue ↑: Straight-ahead only movement",
+  "36": "Y-shaped arrow ↗: Straight or right turn requirement",
+  "37": "Y-shaped arrow ↖: Straight or left turn obligation",
+  "38": "Curving right arrow: Keep right of obstacle/divider",
+  "39": "Curving left arrow: Keep left of obstruction",
+  "40": "Circular arrow: Roundabout approach warning",
+  "41": "Car icon with diagonal: Ends car overtaking ban",
+  "42": "Truck icon with stripe: Terminates truck passing restriction"
+}}

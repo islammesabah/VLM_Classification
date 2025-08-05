@@ -1,0 +1,294 @@
+{
+    "CIFAR10": {
+        "LLAMA": {
+            "temperature_0": 0.46866666666666673,
+            "temperature_0.7": 0.389,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.123,
+                    "without_tree": 0.49400000000000005
+                },
+                "temperature_0.7": {
+                    "tree": 0.14100000000000001,
+                    "without_tree": 0.39399999999999996
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.17099999999999999,
+                    "without_tree": 0.437
+                },
+                "temperature_0.7": {
+                    "tree": 0.16399999999999998,
+                    "without_tree": 0.36699999999999994
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.048,
+                    "without_tree": 0.475
+                },
+                "temperature_0.7": {
+                    "tree": 0.06,
+                    "without_tree": 0.40599999999999997
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.17099999999999999,
+                    "without_tree": 0.437
+                },
+                "temperature_0.7": {
+                    "tree": 0.16399999999999998,
+                    "without_tree": 0.36699999999999994
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.5085,
+                "temperature_0.7": 0.42675
+            }
+        },
+        "Qwen VL Max": {
+            "temperature_0": 0.776,
+            "temperature_0.7": 0.776,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.33,
+                    "without_tree": 0.776
+                },
+                "temperature_0.7": {
+                    "tree": 0.33,
+                    "without_tree": 0.776
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.5660000000000001,
+                    "without_tree": 0.776
+                },
+                "temperature_0.7": {
+                    "tree": 0.5660000000000001,
+                    "without_tree": 0.776
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.6649999999999998,
+                    "without_tree": 0.776
+                },
+                "temperature_0.7": {
+                    "tree": 0.6629999999999999,
+                    "without_tree": 0.776
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.5660000000000001,
+                    "without_tree": 0.776
+                },
+                "temperature_0.7": {
+                    "tree": 0.5660000000000001,
+                    "without_tree": 0.776
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.76,
+                "temperature_0.7": 0.75925
+            }
+        },
+        "GPT-4o": {
+            "temperature_0": 0.8966666666666667,
+            "temperature_0.7": 0.8789999999999999,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.731,
+                    "without_tree": 0.898
+                },
+                "temperature_0.7": {
+                    "tree": 0.728,
+                    "without_tree": 0.877
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.7540000000000001,
+                    "without_tree": 0.8960000000000001
+                },
+                "temperature_0.7": {
+                    "tree": 0.76,
+                    "without_tree": 0.8789999999999999
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.827,
+                    "without_tree": 0.8959999999999999
+                },
+                "temperature_0.7": {
+                    "tree": 0.806,
+                    "without_tree": 0.881
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.7540000000000001,
+                    "without_tree": 0.8960000000000001
+                },
+                "temperature_0.7": {
+                    "tree": 0.76,
+                    "without_tree": 0.8789999999999999
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.8975,
+                "temperature_0.7": 0.8815
+            }
+        }
+    },
+    "GTSRB": {
+        "LLAMA": {
+            "temperature_0": 0.1967648319996701,
+            "temperature_0.7": 0.2159079255882251,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.11204858098908076,
+                    "without_tree": 0.18291010801783714
+                },
+                "temperature_0.7": {
+                    "tree": 0.08899941786193212,
+                    "without_tree": 0.14210469691624408
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.03710359408033827,
+                    "without_tree": 0.1919793284943764
+                },
+                "temperature_0.7": {
+                    "tree": 0.28060735307903156,
+                    "without_tree": 0.2997960164453528
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.13227653320985827,
+                    "without_tree": 0.2154050594867968
+                },
+                "temperature_0.7": {
+                    "tree": 0.12021456792424137,
+                    "without_tree": 0.20582306340307838
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.03710359408033827,
+                    "without_tree": 0.1919793284943764
+                },
+                "temperature_0.7": {
+                    "tree": 0.28060735307903156,
+                    "without_tree": 0.2997960164453528
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.19161063478577922,
+                "temperature_0.7": 0.2123970678148095
+            }
+        },
+        "Qwen VL Max": {
+            "temperature_0": 0.40178682291415,
+            "temperature_0.7": 0.3988318111521993,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.2685098083385914,
+                    "without_tree": 0.40178682291415
+                },
+                "temperature_0.7": {
+                    "tree": 0.2685098083385914,
+                    "without_tree": 0.3996411972220127
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.32805751886861706,
+                    "without_tree": 0.40178682291415
+                },
+                "temperature_0.7": {
+                    "tree": 0.22892618521669814,
+                    "without_tree": 0.39506741332043527
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.42236188261096,
+                    "without_tree": 0.40178682291415
+                },
+                "temperature_0.7": {
+                    "tree": 0.4357124325133138,
+                    "without_tree": 0.40178682291415
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.32805751886861706,
+                    "without_tree": 0.40178682291415
+                },
+                "temperature_0.7": {
+                    "tree": 0.22892618521669814,
+                    "without_tree": 0.39506741332043527
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.4046374584905543,
+                "temperature_0.7": 0.4014590109836221
+            }
+        },
+        "GPT-4o": {
+            "temperature_0": 0.6577724704346054,
+            "temperature_0.7": 0.6596969832062786,
+            "memory_True": {
+                "temperature_0": {
+                    "tree": 0.49170122790156395,
+                    "without_tree": 0.6548398063703517
+                },
+                "temperature_0.7": {
+                    "tree": 0.49919757033248086,
+                    "without_tree": 0.6274395510489652
+                }
+            },
+            "memory_False": {
+                "temperature_0": {
+                    "tree": 0.5204517711834966,
+                    "without_tree": 0.6585091960020634
+                },
+                "temperature_0.7": {
+                    "tree": 0.5010307735456428,
+                    "without_tree": 0.7001112605239904
+                }
+            },
+            "description_True": {
+                "temperature_0": {
+                    "tree": 0.6269115238194225,
+                    "without_tree": 0.659968408931401
+                },
+                "temperature_0.7": {
+                    "tree": 0.6107327364513025,
+                    "without_tree": 0.6515401380458798
+                }
+            },
+            "description_False": {
+                "temperature_0": {
+                    "tree": 0.5204517711834966,
+                    "without_tree": 0.6585091960020634
+                },
+                "temperature_0.7": {
+                    "tree": 0.5010307735456428,
+                    "without_tree": 0.7001112605239904
+                }
+            },
+            "description_zero_shot": {
+                "temperature_0": 0.6493198317947902,
+                "temperature_0.7": 0.6506447378247153
+            }
+        }
+    }
+}

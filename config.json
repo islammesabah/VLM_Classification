@@ -4,8 +4,6 @@
         "Dataset_path": "datasets/CIFAR-10",
         "images_dir": "images",
         "database_name": "results/cifar10.db",
-        "samples_per_class": 1,
-        "random_seed": 42,
         "samples_path": "datasets/CIFAR-10/1000_samples.txt",
         "description_path": "prompts/CIFAR-10/classes_description.json",
         "temperature": 0.7
@@ -13,9 +11,10 @@
     "GTSRB": {
         "num_classes": 43,
         "Dataset_path": "datasets/GTSRB",
-        "images_dir": "selected_samples",
+        "images_dir": "Training",
         "database_name": "results/gtsrb.db",
-        "description_path": "datasets/GTSRB/classes_description.json",
+        "samples_path": "datasets/GTSRB/901_samples.txt",
+        "description_path": "prompts/GTSRB/classes_description.json",
         "temperature": 0.7
     }
 }

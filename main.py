@@ -569,7 +569,7 @@ class VLMInference:
             long_description, short_description = "", ""
         
         # Process each image
-        for image_idx in tqdm(range(len(images)), desc="\nProcessing images"):
+        for image_idx in tqdm(range(len(images[:1])), desc="\nProcessing images"):
             # Extract image information
             image_path, sequence = self.dataset_loader.extract_image_info(image_idx, additional_info)
             
