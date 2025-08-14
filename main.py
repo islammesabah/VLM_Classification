@@ -18,6 +18,7 @@ from io import BytesIO
 from tqdm import tqdm
 from dotenv import load_dotenv
 from pprint import pprint
+from results.initiate_db import create_table
 
 
 # Import your existing modules
@@ -88,6 +89,13 @@ def create_argument_parser() -> argparse.ArgumentParser:
         help='Run ID to choose between prompts for zero-shot inference'
     )
 
+    parser.add_argument(
+        '--temperature',
+        type=float,
+        default=0.7,
+        help='Temperature for sampling'
+    )
+
     return parser
 
  
@@ -109,7 +117,7 @@ class InferenceConfig:
     temperature: float = 0.7
     
     @classmethod
-    def from_file(cls, config_path: str, dataset_name: str, model: str) -> 'InferenceConfig':
+    def from_file(cls, config_path: str, dataset_name: str, model: str, temperature: float = 0.7) -> 'InferenceConfig':
         """Load configuration from JSON file."""
         try:
             with open(config_path, 'r') as f:
@@ -134,8 +142,8 @@ class InferenceConfig:
                 sleep_time=dataset_config.get('sleep_time', 4.0),
                 samples_path=dataset_config.get('samples_path', None),
                 description_path=dataset_config.get('description_path', None),
-                temperature=dataset_config.get('temperature', 0.7)
-            )
+                temperature=temperature
+                )
         except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
             raise RuntimeError(f"Error loading configuration: {str(e)}")
 
@@ -200,7 +208,6 @@ class DatabaseManager:
                            Include_memory, Include_description, Include_zero_shot_label, temperature, RunId)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         '''
-        print(f"Insert values: {class_label}, {sequence}, {image_path}, {model_name}, {tree_result}, {zero_shot_result}, {tree_class}, {zero_shot_class}, {include_memory}, {include_description}, {include_zero_shot_label}, {temperature}, {RunId}")
         self.cursor.execute(sql, (
             class_label, sequence, image_path, model_name,
             tree_result, zero_shot_result, tree_class, zero_shot_class,
@@ -299,7 +306,7 @@ class VLMInference:
         ]
         
         if include_description == 2:
-            with open("prompts/include_description.txt", "r") as file:
+            with open("prompts/describe_image.txt", "r") as file:
                 prompt_description = file.read()
 
             messages_descr = [
@@ -395,7 +402,7 @@ class VLMInference:
 
         # If include description for the tree of the classes and the image.
         if include_description == 1:
-            with open("example.txt", "r") as file:
+            with open("prompts/describe_image.txt", "r") as file:
                 prompt = file.read()
             
             messages = [
@@ -548,8 +555,6 @@ class VLMInference:
                 descriptions = json.load(f)
             str_descriptions = json.dumps(descriptions.get('long_description', ""))
             str_short_descriptions = json.dumps(descriptions.get('short_description', ""))
-            # print(f"Loaded long descriptions: {str_descriptions}")
-            # print(f"Loaded short descriptions: {str_short_descriptions}")
             return str_descriptions, str_short_descriptions
         else:
             print("No description path provided in configuration.")
@@ -631,8 +636,15 @@ def main():
     
     try:
         # Load configuration
-        config = InferenceConfig.from_file(args.config, args.dataset_name, args.model)
+        config = InferenceConfig.from_file(args.config, args.dataset_name, args.model, args.temperature)
         
+        # Create database if it doesn't exist
+        if not os.path.exists(config.database_name):
+            create_table(config.database_name)
+            print(f"Database '{config.database_name}' created successfully.")
+        else:
+            print(f"Database '{config.database_name}' already exists. Skipping creation.")
+
         # Create inference engine
         inference_engine = VLMInference(config)
         

@@ -5,6 +5,7 @@ from tqdm import tqdm
 import requests
 import tarfile
 import numpy as np
+import argparse
 from PIL import Image
 import shutil
 
@@ -98,38 +99,49 @@ def save_images(images, labels, class_names, output_dir, batch_id, save_format='
     
     print(f"All {len(images)} images from batch {batch_id} saved to {output_dir}")
 
-# download the dataset
-path = "datasets/"
-response = requests.get("http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz")
-with open(path+'cifar-10-python.tar.gz', "wb") as f:
-    f.write(response.content)
-        
-with tarfile.open(path+'cifar-10-python.tar.gz', 'r:gz') as tar:
-    tar.extractall(path='./'+path)
-        
-if os.path.exists(path+'cifar-10-python.tar.gz'):
-    os.remove(path+'cifar-10-python.tar.gz')
-    
+def main():
 
-# Set your paths
-downloaded_cifar10_path = path+"cifar-10-batches-py"  # Update this path
-output_directory = path+"CIFAR-10/"  # Output directory
-    
-for batch_id in range(1, 6):
-        
-    # Read images from batch 1
-    images, labels, class_names = read_images(downloaded_cifar10_path, batch_id)
-        
-    print(f"Loaded {len(images)} images from batch {batch_id}")
-    print(f"Image shape: {images[0].shape}")
-    print(f"labels example: {labels[:10]}")
-    print(f"Classes: {class_names}")
-        
-    # Save images organized by class in subdirectories
-    save_images(images, labels, class_names, output_directory, batch_id, 'PNG')
-        
-# remove generated files
-if os.path.exists(downloaded_cifar10_path):
-    shutil.rmtree(downloaded_cifar10_path)
+    # add argument to save images or not
+    parser = argparse.ArgumentParser(description="Download and process CIFAR-10 dataset.")
+    parser.add_argument('--save_images', action='store_true', help="Save images to disk")
+    args = parser.parse_args()
 
-print(f"Images and metadata of CIFAR-10 dataset saved successfully!")
+    # download the dataset
+    path = "datasets/CIFAR-10/"
+    response = requests.get("http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz")
+
+    with open(path+'cifar-10-python.tar.gz', "wb") as f:
+        f.write(response.content)
+            
+    with tarfile.open(path+'cifar-10-python.tar.gz', 'r:gz') as tar:
+        tar.extractall(path='./'+path)
+            
+    if os.path.exists(path+'cifar-10-python.tar.gz'):
+        os.rename(path+'cifar-10-batches-py', path+'images')
+        os.remove(path+'cifar-10-python.tar.gz')
+
+        
+
+    if args.save_images:
+        print("Saving images...")
+        # Set your paths
+        downloaded_cifar10_path = path+"images"
+        output_directory = path
+            
+        for batch_id in range(1, 6):
+                
+            # Read images from batch id
+            images, labels, class_names = read_images(downloaded_cifar10_path, batch_id)
+                
+            print(f"Loaded {len(images)} images from batch {batch_id}")
+            print(f"Image shape: {images[0].shape}")
+            print(f"labels example: {labels[:10]}")
+            print(f"Classes: {class_names}")
+                
+            # Save images organized by class in subdirectories
+            save_images(images, labels, class_names, output_directory, batch_id, 'PNG')
+                
+        print(f"Images and metadata of CIFAR-10 dataset saved successfully!")
+
+if __name__ == "__main__":
+    main() 
