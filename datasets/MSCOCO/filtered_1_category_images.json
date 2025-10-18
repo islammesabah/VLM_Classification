@@ -1,0 +1,8513 @@
+{
+  "filter_criteria": {
+    "num_categories": 1,
+    "total_matched": 16813,
+    "sampled": 850
+  },
+  "dataset_stats": {
+    "total_images": 82783,
+    "total_annotations": 604907
+  },
+  "images": [
+    {
+      "image_id": 388754,
+      "file_name": "COCO_train2014_000000388754.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 221380,
+      "file_name": "COCO_train2014_000000221380.jpg",
+      "width": 333,
+      "height": 500,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 51278,
+      "file_name": "COCO_train2014_000000051278.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 134327,
+      "file_name": "COCO_train2014_000000134327.jpg",
+      "width": 640,
+      "height": 502,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 241809,
+      "file_name": "COCO_train2014_000000241809.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 232123,
+      "file_name": "COCO_train2014_000000232123.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 443869,
+      "file_name": "COCO_train2014_000000443869.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 533784,
+      "file_name": "COCO_train2014_000000533784.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 147914,
+      "file_name": "COCO_train2014_000000147914.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 338989,
+      "file_name": "COCO_train2014_000000338989.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 126323,
+      "file_name": "COCO_train2014_000000126323.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 401821,
+      "file_name": "COCO_train2014_000000401821.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 105522,
+      "file_name": "COCO_train2014_000000105522.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 418181,
+      "file_name": "COCO_train2014_000000418181.jpg",
+      "width": 335,
+      "height": 500,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 472058,
+      "file_name": "COCO_train2014_000000472058.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 132262,
+      "file_name": "COCO_train2014_000000132262.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 147108,
+      "file_name": "COCO_train2014_000000147108.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 83328,
+      "file_name": "COCO_train2014_000000083328.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 565117,
+      "file_name": "COCO_train2014_000000565117.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 293975,
+      "file_name": "COCO_train2014_000000293975.jpg",
+      "width": 500,
+      "height": 335,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 145083,
+      "file_name": "COCO_train2014_000000145083.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 531759,
+      "file_name": "COCO_train2014_000000531759.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 340238,
+      "file_name": "COCO_train2014_000000340238.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 300584,
+      "file_name": "COCO_train2014_000000300584.jpg",
+      "width": 500,
+      "height": 322,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 554642,
+      "file_name": "COCO_train2014_000000554642.jpg",
+      "width": 333,
+      "height": 500,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 352236,
+      "file_name": "COCO_train2014_000000352236.jpg",
+      "width": 429,
+      "height": 640,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 144176,
+      "file_name": "COCO_train2014_000000144176.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 62427,
+      "file_name": "COCO_train2014_000000062427.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 310108,
+      "file_name": "COCO_train2014_000000310108.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 143557,
+      "file_name": "COCO_train2014_000000143557.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 525815,
+      "file_name": "COCO_train2014_000000525815.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        43
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 431492,
+      "file_name": "COCO_train2014_000000431492.jpg",
+      "width": 640,
+      "height": 420,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 287039,
+      "file_name": "COCO_train2014_000000287039.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 423052,
+      "file_name": "COCO_train2014_000000423052.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 238196,
+      "file_name": "COCO_train2014_000000238196.jpg",
+      "width": 640,
+      "height": 594,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 224083,
+      "file_name": "COCO_train2014_000000224083.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 44704,
+      "file_name": "COCO_train2014_000000044704.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 562620,
+      "file_name": "COCO_train2014_000000562620.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 366085,
+      "file_name": "COCO_train2014_000000366085.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 538814,
+      "file_name": "COCO_train2014_000000538814.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 119608,
+      "file_name": "COCO_train2014_000000119608.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 172248,
+      "file_name": "COCO_train2014_000000172248.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 185079,
+      "file_name": "COCO_train2014_000000185079.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 438315,
+      "file_name": "COCO_train2014_000000438315.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 473182,
+      "file_name": "COCO_train2014_000000473182.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 452213,
+      "file_name": "COCO_train2014_000000452213.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 64497,
+      "file_name": "COCO_train2014_000000064497.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 504338,
+      "file_name": "COCO_train2014_000000504338.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 183201,
+      "file_name": "COCO_train2014_000000183201.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 207030,
+      "file_name": "COCO_train2014_000000207030.jpg",
+      "width": 640,
+      "height": 466,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 184443,
+      "file_name": "COCO_train2014_000000184443.jpg",
+      "width": 360,
+      "height": 640,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 574324,
+      "file_name": "COCO_train2014_000000574324.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 491259,
+      "file_name": "COCO_train2014_000000491259.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 121328,
+      "file_name": "COCO_train2014_000000121328.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 349234,
+      "file_name": "COCO_train2014_000000349234.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        74
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 69309,
+      "file_name": "COCO_train2014_000000069309.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 127726,
+      "file_name": "COCO_train2014_000000127726.jpg",
+      "width": 640,
+      "height": 505,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 461844,
+      "file_name": "COCO_train2014_000000461844.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        84
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 272072,
+      "file_name": "COCO_train2014_000000272072.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 514602,
+      "file_name": "COCO_train2014_000000514602.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 64360,
+      "file_name": "COCO_train2014_000000064360.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 215488,
+      "file_name": "COCO_train2014_000000215488.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 569656,
+      "file_name": "COCO_train2014_000000569656.jpg",
+      "width": 500,
+      "height": 335,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 191573,
+      "file_name": "COCO_train2014_000000191573.jpg",
+      "width": 640,
+      "height": 479,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 383220,
+      "file_name": "COCO_train2014_000000383220.jpg",
+      "width": 480,
+      "height": 272,
+      "category_ids": [
+        43
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 362811,
+      "file_name": "COCO_train2014_000000362811.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 244369,
+      "file_name": "COCO_train2014_000000244369.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        50
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 48682,
+      "file_name": "COCO_train2014_000000048682.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 469080,
+      "file_name": "COCO_train2014_000000469080.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 221985,
+      "file_name": "COCO_train2014_000000221985.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 84776,
+      "file_name": "COCO_train2014_000000084776.jpg",
+      "width": 640,
+      "height": 468,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 224182,
+      "file_name": "COCO_train2014_000000224182.jpg",
+      "width": 640,
+      "height": 422,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 217515,
+      "file_name": "COCO_train2014_000000217515.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 107197,
+      "file_name": "COCO_train2014_000000107197.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 483058,
+      "file_name": "COCO_train2014_000000483058.jpg",
+      "width": 150,
+      "height": 200,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 225931,
+      "file_name": "COCO_train2014_000000225931.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 148858,
+      "file_name": "COCO_train2014_000000148858.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 66767,
+      "file_name": "COCO_train2014_000000066767.jpg",
+      "width": 500,
+      "height": 376,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 110740,
+      "file_name": "COCO_train2014_000000110740.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 283500,
+      "file_name": "COCO_train2014_000000283500.jpg",
+      "width": 430,
+      "height": 640,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 84901,
+      "file_name": "COCO_train2014_000000084901.jpg",
+      "width": 500,
+      "height": 311,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 201125,
+      "file_name": "COCO_train2014_000000201125.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 436411,
+      "file_name": "COCO_train2014_000000436411.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 552167,
+      "file_name": "COCO_train2014_000000552167.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 33656,
+      "file_name": "COCO_train2014_000000033656.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 517699,
+      "file_name": "COCO_train2014_000000517699.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 377011,
+      "file_name": "COCO_train2014_000000377011.jpg",
+      "width": 640,
+      "height": 482,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 575486,
+      "file_name": "COCO_train2014_000000575486.jpg",
+      "width": 458,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 492382,
+      "file_name": "COCO_train2014_000000492382.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 178388,
+      "file_name": "COCO_train2014_000000178388.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 217928,
+      "file_name": "COCO_train2014_000000217928.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 157266,
+      "file_name": "COCO_train2014_000000157266.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 150787,
+      "file_name": "COCO_train2014_000000150787.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 288453,
+      "file_name": "COCO_train2014_000000288453.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 579035,
+      "file_name": "COCO_train2014_000000579035.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        31
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 348602,
+      "file_name": "COCO_train2014_000000348602.jpg",
+      "width": 500,
+      "height": 335,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 211040,
+      "file_name": "COCO_train2014_000000211040.jpg",
+      "width": 500,
+      "height": 427,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513505,
+      "file_name": "COCO_train2014_000000513505.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 122493,
+      "file_name": "COCO_train2014_000000122493.jpg",
+      "width": 500,
+      "height": 357,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 178900,
+      "file_name": "COCO_train2014_000000178900.jpg",
+      "width": 500,
+      "height": 334,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 179180,
+      "file_name": "COCO_train2014_000000179180.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 410915,
+      "file_name": "COCO_train2014_000000410915.jpg",
+      "width": 500,
+      "height": 402,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 104814,
+      "file_name": "COCO_train2014_000000104814.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 393989,
+      "file_name": "COCO_train2014_000000393989.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 68713,
+      "file_name": "COCO_train2014_000000068713.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 29716,
+      "file_name": "COCO_train2014_000000029716.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 464329,
+      "file_name": "COCO_train2014_000000464329.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 526697,
+      "file_name": "COCO_train2014_000000526697.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 467394,
+      "file_name": "COCO_train2014_000000467394.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 310664,
+      "file_name": "COCO_train2014_000000310664.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 320382,
+      "file_name": "COCO_train2014_000000320382.jpg",
+      "width": 359,
+      "height": 640,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 44923,
+      "file_name": "COCO_train2014_000000044923.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 469873,
+      "file_name": "COCO_train2014_000000469873.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 44668,
+      "file_name": "COCO_train2014_000000044668.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 283144,
+      "file_name": "COCO_train2014_000000283144.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 350069,
+      "file_name": "COCO_train2014_000000350069.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 455246,
+      "file_name": "COCO_train2014_000000455246.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 206216,
+      "file_name": "COCO_train2014_000000206216.jpg",
+      "width": 640,
+      "height": 401,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 20171,
+      "file_name": "COCO_train2014_000000020171.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 269392,
+      "file_name": "COCO_train2014_000000269392.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 49798,
+      "file_name": "COCO_train2014_000000049798.jpg",
+      "width": 640,
+      "height": 383,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 8761,
+      "file_name": "COCO_train2014_000000008761.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 24671,
+      "file_name": "COCO_train2014_000000024671.jpg",
+      "width": 329,
+      "height": 640,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 272613,
+      "file_name": "COCO_train2014_000000272613.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 208310,
+      "file_name": "COCO_train2014_000000208310.jpg",
+      "width": 288,
+      "height": 352,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 95085,
+      "file_name": "COCO_train2014_000000095085.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 68206,
+      "file_name": "COCO_train2014_000000068206.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 268781,
+      "file_name": "COCO_train2014_000000268781.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 255791,
+      "file_name": "COCO_train2014_000000255791.jpg",
+      "width": 322,
+      "height": 500,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 311119,
+      "file_name": "COCO_train2014_000000311119.jpg",
+      "width": 640,
+      "height": 482,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 373849,
+      "file_name": "COCO_train2014_000000373849.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 318006,
+      "file_name": "COCO_train2014_000000318006.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 260720,
+      "file_name": "COCO_train2014_000000260720.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 455865,
+      "file_name": "COCO_train2014_000000455865.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 234847,
+      "file_name": "COCO_train2014_000000234847.jpg",
+      "width": 640,
+      "height": 436,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 515843,
+      "file_name": "COCO_train2014_000000515843.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 304864,
+      "file_name": "COCO_train2014_000000304864.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 550118,
+      "file_name": "COCO_train2014_000000550118.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 417891,
+      "file_name": "COCO_train2014_000000417891.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 163729,
+      "file_name": "COCO_train2014_000000163729.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 503059,
+      "file_name": "COCO_train2014_000000503059.jpg",
+      "width": 640,
+      "height": 297,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 18958,
+      "file_name": "COCO_train2014_000000018958.jpg",
+      "width": 640,
+      "height": 431,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 334954,
+      "file_name": "COCO_train2014_000000334954.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 264406,
+      "file_name": "COCO_train2014_000000264406.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 466529,
+      "file_name": "COCO_train2014_000000466529.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 99498,
+      "file_name": "COCO_train2014_000000099498.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 214801,
+      "file_name": "COCO_train2014_000000214801.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 13568,
+      "file_name": "COCO_train2014_000000013568.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 384260,
+      "file_name": "COCO_train2014_000000384260.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 528541,
+      "file_name": "COCO_train2014_000000528541.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 515054,
+      "file_name": "COCO_train2014_000000515054.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 547097,
+      "file_name": "COCO_train2014_000000547097.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 168179,
+      "file_name": "COCO_train2014_000000168179.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 384738,
+      "file_name": "COCO_train2014_000000384738.jpg",
+      "width": 389,
+      "height": 640,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 285448,
+      "file_name": "COCO_train2014_000000285448.jpg",
+      "width": 333,
+      "height": 500,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 491899,
+      "file_name": "COCO_train2014_000000491899.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 360517,
+      "file_name": "COCO_train2014_000000360517.jpg",
+      "width": 431,
+      "height": 640,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 431597,
+      "file_name": "COCO_train2014_000000431597.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 137757,
+      "file_name": "COCO_train2014_000000137757.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 565788,
+      "file_name": "COCO_train2014_000000565788.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 187509,
+      "file_name": "COCO_train2014_000000187509.jpg",
+      "width": 500,
+      "height": 309,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 255155,
+      "file_name": "COCO_train2014_000000255155.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 333533,
+      "file_name": "COCO_train2014_000000333533.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 403525,
+      "file_name": "COCO_train2014_000000403525.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 564990,
+      "file_name": "COCO_train2014_000000564990.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 369630,
+      "file_name": "COCO_train2014_000000369630.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 475074,
+      "file_name": "COCO_train2014_000000475074.jpg",
+      "width": 640,
+      "height": 378,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 474330,
+      "file_name": "COCO_train2014_000000474330.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 373148,
+      "file_name": "COCO_train2014_000000373148.jpg",
+      "width": 640,
+      "height": 511,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 196117,
+      "file_name": "COCO_train2014_000000196117.jpg",
+      "width": 361,
+      "height": 500,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 110613,
+      "file_name": "COCO_train2014_000000110613.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 234997,
+      "file_name": "COCO_train2014_000000234997.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 95494,
+      "file_name": "COCO_train2014_000000095494.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 308192,
+      "file_name": "COCO_train2014_000000308192.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        39
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 46114,
+      "file_name": "COCO_train2014_000000046114.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 38697,
+      "file_name": "COCO_train2014_000000038697.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 14855,
+      "file_name": "COCO_train2014_000000014855.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 553872,
+      "file_name": "COCO_train2014_000000553872.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 205915,
+      "file_name": "COCO_train2014_000000205915.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 359379,
+      "file_name": "COCO_train2014_000000359379.jpg",
+      "width": 362,
+      "height": 500,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 151324,
+      "file_name": "COCO_train2014_000000151324.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 532718,
+      "file_name": "COCO_train2014_000000532718.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 276290,
+      "file_name": "COCO_train2014_000000276290.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 175231,
+      "file_name": "COCO_train2014_000000175231.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 224264,
+      "file_name": "COCO_train2014_000000224264.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 527643,
+      "file_name": "COCO_train2014_000000527643.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 84390,
+      "file_name": "COCO_train2014_000000084390.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 391519,
+      "file_name": "COCO_train2014_000000391519.jpg",
+      "width": 640,
+      "height": 483,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 117289,
+      "file_name": "COCO_train2014_000000117289.jpg",
+      "width": 500,
+      "height": 331,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 55534,
+      "file_name": "COCO_train2014_000000055534.jpg",
+      "width": 500,
+      "height": 392,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 213499,
+      "file_name": "COCO_train2014_000000213499.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        37
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 543413,
+      "file_name": "COCO_train2014_000000543413.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 176668,
+      "file_name": "COCO_train2014_000000176668.jpg",
+      "width": 432,
+      "height": 432,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 173754,
+      "file_name": "COCO_train2014_000000173754.jpg",
+      "width": 640,
+      "height": 463,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 430759,
+      "file_name": "COCO_train2014_000000430759.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 240661,
+      "file_name": "COCO_train2014_000000240661.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        74
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 98145,
+      "file_name": "COCO_train2014_000000098145.jpg",
+      "width": 500,
+      "height": 368,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 437509,
+      "file_name": "COCO_train2014_000000437509.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 86809,
+      "file_name": "COCO_train2014_000000086809.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 451522,
+      "file_name": "COCO_train2014_000000451522.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 73276,
+      "file_name": "COCO_train2014_000000073276.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 62468,
+      "file_name": "COCO_train2014_000000062468.jpg",
+      "width": 640,
+      "height": 374,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 539705,
+      "file_name": "COCO_train2014_000000539705.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 176178,
+      "file_name": "COCO_train2014_000000176178.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 75647,
+      "file_name": "COCO_train2014_000000075647.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 418391,
+      "file_name": "COCO_train2014_000000418391.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 480734,
+      "file_name": "COCO_train2014_000000480734.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 216569,
+      "file_name": "COCO_train2014_000000216569.jpg",
+      "width": 457,
+      "height": 640,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 164638,
+      "file_name": "COCO_train2014_000000164638.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 242656,
+      "file_name": "COCO_train2014_000000242656.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 42476,
+      "file_name": "COCO_train2014_000000042476.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 390625,
+      "file_name": "COCO_train2014_000000390625.jpg",
+      "width": 640,
+      "height": 396,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 94564,
+      "file_name": "COCO_train2014_000000094564.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 210193,
+      "file_name": "COCO_train2014_000000210193.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 487144,
+      "file_name": "COCO_train2014_000000487144.jpg",
+      "width": 640,
+      "height": 409,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 575918,
+      "file_name": "COCO_train2014_000000575918.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 328589,
+      "file_name": "COCO_train2014_000000328589.jpg",
+      "width": 640,
+      "height": 544,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 371794,
+      "file_name": "COCO_train2014_000000371794.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 239520,
+      "file_name": "COCO_train2014_000000239520.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 408167,
+      "file_name": "COCO_train2014_000000408167.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 569389,
+      "file_name": "COCO_train2014_000000569389.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        48
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 163362,
+      "file_name": "COCO_train2014_000000163362.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 321546,
+      "file_name": "COCO_train2014_000000321546.jpg",
+      "width": 500,
+      "height": 500,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 101190,
+      "file_name": "COCO_train2014_000000101190.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 269664,
+      "file_name": "COCO_train2014_000000269664.jpg",
+      "width": 471,
+      "height": 640,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 270999,
+      "file_name": "COCO_train2014_000000270999.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 228392,
+      "file_name": "COCO_train2014_000000228392.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 361564,
+      "file_name": "COCO_train2014_000000361564.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 574770,
+      "file_name": "COCO_train2014_000000574770.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 50994,
+      "file_name": "COCO_train2014_000000050994.jpg",
+      "width": 640,
+      "height": 185,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 279578,
+      "file_name": "COCO_train2014_000000279578.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 290608,
+      "file_name": "COCO_train2014_000000290608.jpg",
+      "width": 640,
+      "height": 479,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 549117,
+      "file_name": "COCO_train2014_000000549117.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 595,
+      "file_name": "COCO_train2014_000000000595.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 528372,
+      "file_name": "COCO_train2014_000000528372.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 495752,
+      "file_name": "COCO_train2014_000000495752.jpg",
+      "width": 640,
+      "height": 386,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 295556,
+      "file_name": "COCO_train2014_000000295556.jpg",
+      "width": 500,
+      "height": 374,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 485193,
+      "file_name": "COCO_train2014_000000485193.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 462737,
+      "file_name": "COCO_train2014_000000462737.jpg",
+      "width": 640,
+      "height": 512,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 537157,
+      "file_name": "COCO_train2014_000000537157.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 282440,
+      "file_name": "COCO_train2014_000000282440.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 372514,
+      "file_name": "COCO_train2014_000000372514.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 354261,
+      "file_name": "COCO_train2014_000000354261.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 214927,
+      "file_name": "COCO_train2014_000000214927.jpg",
+      "width": 640,
+      "height": 374,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 112207,
+      "file_name": "COCO_train2014_000000112207.jpg",
+      "width": 375,
+      "height": 640,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 352649,
+      "file_name": "COCO_train2014_000000352649.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 234706,
+      "file_name": "COCO_train2014_000000234706.jpg",
+      "width": 640,
+      "height": 339,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 313116,
+      "file_name": "COCO_train2014_000000313116.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 159168,
+      "file_name": "COCO_train2014_000000159168.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 333067,
+      "file_name": "COCO_train2014_000000333067.jpg",
+      "width": 640,
+      "height": 346,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 557856,
+      "file_name": "COCO_train2014_000000557856.jpg",
+      "width": 640,
+      "height": 355,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 52948,
+      "file_name": "COCO_train2014_000000052948.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 373036,
+      "file_name": "COCO_train2014_000000373036.jpg",
+      "width": 360,
+      "height": 270,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 260097,
+      "file_name": "COCO_train2014_000000260097.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 157634,
+      "file_name": "COCO_train2014_000000157634.jpg",
+      "width": 500,
+      "height": 332,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 573448,
+      "file_name": "COCO_train2014_000000573448.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 212268,
+      "file_name": "COCO_train2014_000000212268.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 438808,
+      "file_name": "COCO_train2014_000000438808.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 64520,
+      "file_name": "COCO_train2014_000000064520.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 254981,
+      "file_name": "COCO_train2014_000000254981.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 158179,
+      "file_name": "COCO_train2014_000000158179.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 159121,
+      "file_name": "COCO_train2014_000000159121.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 534191,
+      "file_name": "COCO_train2014_000000534191.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 362319,
+      "file_name": "COCO_train2014_000000362319.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 454210,
+      "file_name": "COCO_train2014_000000454210.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 406646,
+      "file_name": "COCO_train2014_000000406646.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 202410,
+      "file_name": "COCO_train2014_000000202410.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 171419,
+      "file_name": "COCO_train2014_000000171419.jpg",
+      "width": 640,
+      "height": 483,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 404432,
+      "file_name": "COCO_train2014_000000404432.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 375841,
+      "file_name": "COCO_train2014_000000375841.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 304710,
+      "file_name": "COCO_train2014_000000304710.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 522817,
+      "file_name": "COCO_train2014_000000522817.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 291321,
+      "file_name": "COCO_train2014_000000291321.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 384957,
+      "file_name": "COCO_train2014_000000384957.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 482802,
+      "file_name": "COCO_train2014_000000482802.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 460576,
+      "file_name": "COCO_train2014_000000460576.jpg",
+      "width": 300,
+      "height": 400,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 321373,
+      "file_name": "COCO_train2014_000000321373.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 186944,
+      "file_name": "COCO_train2014_000000186944.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 545526,
+      "file_name": "COCO_train2014_000000545526.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 396014,
+      "file_name": "COCO_train2014_000000396014.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 60297,
+      "file_name": "COCO_train2014_000000060297.jpg",
+      "width": 360,
+      "height": 640,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 44943,
+      "file_name": "COCO_train2014_000000044943.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 553595,
+      "file_name": "COCO_train2014_000000553595.jpg",
+      "width": 229,
+      "height": 123,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 25121,
+      "file_name": "COCO_train2014_000000025121.jpg",
+      "width": 357,
+      "height": 500,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 384197,
+      "file_name": "COCO_train2014_000000384197.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 367761,
+      "file_name": "COCO_train2014_000000367761.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513075,
+      "file_name": "COCO_train2014_000000513075.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 453319,
+      "file_name": "COCO_train2014_000000453319.jpg",
+      "width": 455,
+      "height": 640,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 75522,
+      "file_name": "COCO_train2014_000000075522.jpg",
+      "width": 640,
+      "height": 361,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 311938,
+      "file_name": "COCO_train2014_000000311938.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 59462,
+      "file_name": "COCO_train2014_000000059462.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 234709,
+      "file_name": "COCO_train2014_000000234709.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 305441,
+      "file_name": "COCO_train2014_000000305441.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 422382,
+      "file_name": "COCO_train2014_000000422382.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 374396,
+      "file_name": "COCO_train2014_000000374396.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        37
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 246184,
+      "file_name": "COCO_train2014_000000246184.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 311228,
+      "file_name": "COCO_train2014_000000311228.jpg",
+      "width": 500,
+      "height": 379,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 200307,
+      "file_name": "COCO_train2014_000000200307.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 268389,
+      "file_name": "COCO_train2014_000000268389.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 494383,
+      "file_name": "COCO_train2014_000000494383.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 544371,
+      "file_name": "COCO_train2014_000000544371.jpg",
+      "width": 500,
+      "height": 374,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 301077,
+      "file_name": "COCO_train2014_000000301077.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        74
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 460148,
+      "file_name": "COCO_train2014_000000460148.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 368871,
+      "file_name": "COCO_train2014_000000368871.jpg",
+      "width": 396,
+      "height": 640,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 348697,
+      "file_name": "COCO_train2014_000000348697.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        89
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 98090,
+      "file_name": "COCO_train2014_000000098090.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 466681,
+      "file_name": "COCO_train2014_000000466681.jpg",
+      "width": 495,
+      "height": 500,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 52563,
+      "file_name": "COCO_train2014_000000052563.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 578765,
+      "file_name": "COCO_train2014_000000578765.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 85518,
+      "file_name": "COCO_train2014_000000085518.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 464902,
+      "file_name": "COCO_train2014_000000464902.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 577608,
+      "file_name": "COCO_train2014_000000577608.jpg",
+      "width": 433,
+      "height": 500,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 514060,
+      "file_name": "COCO_train2014_000000514060.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 417528,
+      "file_name": "COCO_train2014_000000417528.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 497440,
+      "file_name": "COCO_train2014_000000497440.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 85777,
+      "file_name": "COCO_train2014_000000085777.jpg",
+      "width": 640,
+      "height": 479,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 105330,
+      "file_name": "COCO_train2014_000000105330.jpg",
+      "width": 485,
+      "height": 500,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 471596,
+      "file_name": "COCO_train2014_000000471596.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 422818,
+      "file_name": "COCO_train2014_000000422818.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 544826,
+      "file_name": "COCO_train2014_000000544826.jpg",
+      "width": 640,
+      "height": 512,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 91550,
+      "file_name": "COCO_train2014_000000091550.jpg",
+      "width": 640,
+      "height": 513,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 161757,
+      "file_name": "COCO_train2014_000000161757.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 16009,
+      "file_name": "COCO_train2014_000000016009.jpg",
+      "width": 640,
+      "height": 606,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 439107,
+      "file_name": "COCO_train2014_000000439107.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 339591,
+      "file_name": "COCO_train2014_000000339591.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 347248,
+      "file_name": "COCO_train2014_000000347248.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 3131,
+      "file_name": "COCO_train2014_000000003131.jpg",
+      "width": 640,
+      "height": 421,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 571287,
+      "file_name": "COCO_train2014_000000571287.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 259104,
+      "file_name": "COCO_train2014_000000259104.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 281564,
+      "file_name": "COCO_train2014_000000281564.jpg",
+      "width": 476,
+      "height": 640,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 507781,
+      "file_name": "COCO_train2014_000000507781.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 155309,
+      "file_name": "COCO_train2014_000000155309.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 79453,
+      "file_name": "COCO_train2014_000000079453.jpg",
+      "width": 640,
+      "height": 359,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 238563,
+      "file_name": "COCO_train2014_000000238563.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 52886,
+      "file_name": "COCO_train2014_000000052886.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 527717,
+      "file_name": "COCO_train2014_000000527717.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 18045,
+      "file_name": "COCO_train2014_000000018045.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 412709,
+      "file_name": "COCO_train2014_000000412709.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 215521,
+      "file_name": "COCO_train2014_000000215521.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 281288,
+      "file_name": "COCO_train2014_000000281288.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 230966,
+      "file_name": "COCO_train2014_000000230966.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 345090,
+      "file_name": "COCO_train2014_000000345090.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 261761,
+      "file_name": "COCO_train2014_000000261761.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 127843,
+      "file_name": "COCO_train2014_000000127843.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 404424,
+      "file_name": "COCO_train2014_000000404424.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 347702,
+      "file_name": "COCO_train2014_000000347702.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 316817,
+      "file_name": "COCO_train2014_000000316817.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 139426,
+      "file_name": "COCO_train2014_000000139426.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 476901,
+      "file_name": "COCO_train2014_000000476901.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 140758,
+      "file_name": "COCO_train2014_000000140758.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 391726,
+      "file_name": "COCO_train2014_000000391726.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 229884,
+      "file_name": "COCO_train2014_000000229884.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 196558,
+      "file_name": "COCO_train2014_000000196558.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 346839,
+      "file_name": "COCO_train2014_000000346839.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 280721,
+      "file_name": "COCO_train2014_000000280721.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 285263,
+      "file_name": "COCO_train2014_000000285263.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 68565,
+      "file_name": "COCO_train2014_000000068565.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 113338,
+      "file_name": "COCO_train2014_000000113338.jpg",
+      "width": 640,
+      "height": 431,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 184161,
+      "file_name": "COCO_train2014_000000184161.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 451909,
+      "file_name": "COCO_train2014_000000451909.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 439126,
+      "file_name": "COCO_train2014_000000439126.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 534141,
+      "file_name": "COCO_train2014_000000534141.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 319117,
+      "file_name": "COCO_train2014_000000319117.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        50
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 507992,
+      "file_name": "COCO_train2014_000000507992.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 233873,
+      "file_name": "COCO_train2014_000000233873.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 510718,
+      "file_name": "COCO_train2014_000000510718.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 82480,
+      "file_name": "COCO_train2014_000000082480.jpg",
+      "width": 640,
+      "height": 414,
+      "category_ids": [
+        89
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 427036,
+      "file_name": "COCO_train2014_000000427036.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 359762,
+      "file_name": "COCO_train2014_000000359762.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 82140,
+      "file_name": "COCO_train2014_000000082140.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 250711,
+      "file_name": "COCO_train2014_000000250711.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 155167,
+      "file_name": "COCO_train2014_000000155167.jpg",
+      "width": 640,
+      "height": 430,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 145791,
+      "file_name": "COCO_train2014_000000145791.jpg",
+      "width": 640,
+      "height": 359,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 406062,
+      "file_name": "COCO_train2014_000000406062.jpg",
+      "width": 325,
+      "height": 500,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 34063,
+      "file_name": "COCO_train2014_000000034063.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 48474,
+      "file_name": "COCO_train2014_000000048474.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 222994,
+      "file_name": "COCO_train2014_000000222994.jpg",
+      "width": 419,
+      "height": 500,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 303281,
+      "file_name": "COCO_train2014_000000303281.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 59497,
+      "file_name": "COCO_train2014_000000059497.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 225709,
+      "file_name": "COCO_train2014_000000225709.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 468356,
+      "file_name": "COCO_train2014_000000468356.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 397925,
+      "file_name": "COCO_train2014_000000397925.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 293980,
+      "file_name": "COCO_train2014_000000293980.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 78716,
+      "file_name": "COCO_train2014_000000078716.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 400971,
+      "file_name": "COCO_train2014_000000400971.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 463232,
+      "file_name": "COCO_train2014_000000463232.jpg",
+      "width": 500,
+      "height": 305,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 108110,
+      "file_name": "COCO_train2014_000000108110.jpg",
+      "width": 640,
+      "height": 431,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 579781,
+      "file_name": "COCO_train2014_000000579781.jpg",
+      "width": 500,
+      "height": 400,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 34739,
+      "file_name": "COCO_train2014_000000034739.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 61761,
+      "file_name": "COCO_train2014_000000061761.jpg",
+      "width": 302,
+      "height": 640,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 404095,
+      "file_name": "COCO_train2014_000000404095.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 50760,
+      "file_name": "COCO_train2014_000000050760.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 81085,
+      "file_name": "COCO_train2014_000000081085.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 189568,
+      "file_name": "COCO_train2014_000000189568.jpg",
+      "width": 436,
+      "height": 640,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 163185,
+      "file_name": "COCO_train2014_000000163185.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 511446,
+      "file_name": "COCO_train2014_000000511446.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 35529,
+      "file_name": "COCO_train2014_000000035529.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 136881,
+      "file_name": "COCO_train2014_000000136881.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 203545,
+      "file_name": "COCO_train2014_000000203545.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 289007,
+      "file_name": "COCO_train2014_000000289007.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 373704,
+      "file_name": "COCO_train2014_000000373704.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 360672,
+      "file_name": "COCO_train2014_000000360672.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 514217,
+      "file_name": "COCO_train2014_000000514217.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 78384,
+      "file_name": "COCO_train2014_000000078384.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 441385,
+      "file_name": "COCO_train2014_000000441385.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 351139,
+      "file_name": "COCO_train2014_000000351139.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 125466,
+      "file_name": "COCO_train2014_000000125466.jpg",
+      "width": 640,
+      "height": 539,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 241204,
+      "file_name": "COCO_train2014_000000241204.jpg",
+      "width": 497,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 162577,
+      "file_name": "COCO_train2014_000000162577.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 335236,
+      "file_name": "COCO_train2014_000000335236.jpg",
+      "width": 640,
+      "height": 508,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 50049,
+      "file_name": "COCO_train2014_000000050049.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 164286,
+      "file_name": "COCO_train2014_000000164286.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 251125,
+      "file_name": "COCO_train2014_000000251125.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 222113,
+      "file_name": "COCO_train2014_000000222113.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 514888,
+      "file_name": "COCO_train2014_000000514888.jpg",
+      "width": 640,
+      "height": 481,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 30739,
+      "file_name": "COCO_train2014_000000030739.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 244928,
+      "file_name": "COCO_train2014_000000244928.jpg",
+      "width": 640,
+      "height": 475,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 150827,
+      "file_name": "COCO_train2014_000000150827.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 437093,
+      "file_name": "COCO_train2014_000000437093.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 498409,
+      "file_name": "COCO_train2014_000000498409.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 134538,
+      "file_name": "COCO_train2014_000000134538.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 175608,
+      "file_name": "COCO_train2014_000000175608.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 206397,
+      "file_name": "COCO_train2014_000000206397.jpg",
+      "width": 640,
+      "height": 437,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 78042,
+      "file_name": "COCO_train2014_000000078042.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 334396,
+      "file_name": "COCO_train2014_000000334396.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 140946,
+      "file_name": "COCO_train2014_000000140946.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 163761,
+      "file_name": "COCO_train2014_000000163761.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 365316,
+      "file_name": "COCO_train2014_000000365316.jpg",
+      "width": 508,
+      "height": 640,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 332556,
+      "file_name": "COCO_train2014_000000332556.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 172622,
+      "file_name": "COCO_train2014_000000172622.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 100435,
+      "file_name": "COCO_train2014_000000100435.jpg",
+      "width": 481,
+      "height": 640,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 57859,
+      "file_name": "COCO_train2014_000000057859.jpg",
+      "width": 288,
+      "height": 216,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 457654,
+      "file_name": "COCO_train2014_000000457654.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 93114,
+      "file_name": "COCO_train2014_000000093114.jpg",
+      "width": 640,
+      "height": 253,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 578499,
+      "file_name": "COCO_train2014_000000578499.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 293520,
+      "file_name": "COCO_train2014_000000293520.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 343887,
+      "file_name": "COCO_train2014_000000343887.jpg",
+      "width": 640,
+      "height": 565,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 519181,
+      "file_name": "COCO_train2014_000000519181.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 3682,
+      "file_name": "COCO_train2014_000000003682.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 164599,
+      "file_name": "COCO_train2014_000000164599.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 448812,
+      "file_name": "COCO_train2014_000000448812.jpg",
+      "width": 640,
+      "height": 198,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 402970,
+      "file_name": "COCO_train2014_000000402970.jpg",
+      "width": 640,
+      "height": 437,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 313710,
+      "file_name": "COCO_train2014_000000313710.jpg",
+      "width": 453,
+      "height": 640,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 470361,
+      "file_name": "COCO_train2014_000000470361.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 345177,
+      "file_name": "COCO_train2014_000000345177.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 203069,
+      "file_name": "COCO_train2014_000000203069.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 40699,
+      "file_name": "COCO_train2014_000000040699.jpg",
+      "width": 640,
+      "height": 588,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 332219,
+      "file_name": "COCO_train2014_000000332219.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        39
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 155864,
+      "file_name": "COCO_train2014_000000155864.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 79887,
+      "file_name": "COCO_train2014_000000079887.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 432218,
+      "file_name": "COCO_train2014_000000432218.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 56878,
+      "file_name": "COCO_train2014_000000056878.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 550783,
+      "file_name": "COCO_train2014_000000550783.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 61201,
+      "file_name": "COCO_train2014_000000061201.jpg",
+      "width": 268,
+      "height": 402,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 358904,
+      "file_name": "COCO_train2014_000000358904.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 401785,
+      "file_name": "COCO_train2014_000000401785.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 286376,
+      "file_name": "COCO_train2014_000000286376.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 310685,
+      "file_name": "COCO_train2014_000000310685.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 491579,
+      "file_name": "COCO_train2014_000000491579.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 219246,
+      "file_name": "COCO_train2014_000000219246.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 189853,
+      "file_name": "COCO_train2014_000000189853.jpg",
+      "width": 640,
+      "height": 479,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 51101,
+      "file_name": "COCO_train2014_000000051101.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 366389,
+      "file_name": "COCO_train2014_000000366389.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 556910,
+      "file_name": "COCO_train2014_000000556910.jpg",
+      "width": 640,
+      "height": 611,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 444769,
+      "file_name": "COCO_train2014_000000444769.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 98639,
+      "file_name": "COCO_train2014_000000098639.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 235034,
+      "file_name": "COCO_train2014_000000235034.jpg",
+      "width": 269,
+      "height": 640,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 463140,
+      "file_name": "COCO_train2014_000000463140.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        48
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 258788,
+      "file_name": "COCO_train2014_000000258788.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 282834,
+      "file_name": "COCO_train2014_000000282834.jpg",
+      "width": 640,
+      "height": 438,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 576430,
+      "file_name": "COCO_train2014_000000576430.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 538555,
+      "file_name": "COCO_train2014_000000538555.jpg",
+      "width": 350,
+      "height": 500,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 577278,
+      "file_name": "COCO_train2014_000000577278.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 517139,
+      "file_name": "COCO_train2014_000000517139.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 403265,
+      "file_name": "COCO_train2014_000000403265.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        40
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 20679,
+      "file_name": "COCO_train2014_000000020679.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 525824,
+      "file_name": "COCO_train2014_000000525824.jpg",
+      "width": 389,
+      "height": 640,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 576011,
+      "file_name": "COCO_train2014_000000576011.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 353133,
+      "file_name": "COCO_train2014_000000353133.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 405108,
+      "file_name": "COCO_train2014_000000405108.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 444160,
+      "file_name": "COCO_train2014_000000444160.jpg",
+      "width": 640,
+      "height": 328,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 275663,
+      "file_name": "COCO_train2014_000000275663.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 469142,
+      "file_name": "COCO_train2014_000000469142.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 401288,
+      "file_name": "COCO_train2014_000000401288.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 416884,
+      "file_name": "COCO_train2014_000000416884.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 135278,
+      "file_name": "COCO_train2014_000000135278.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 337890,
+      "file_name": "COCO_train2014_000000337890.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 108917,
+      "file_name": "COCO_train2014_000000108917.jpg",
+      "width": 500,
+      "height": 332,
+      "category_ids": [
+        74
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 202752,
+      "file_name": "COCO_train2014_000000202752.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 80052,
+      "file_name": "COCO_train2014_000000080052.jpg",
+      "width": 640,
+      "height": 359,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 481399,
+      "file_name": "COCO_train2014_000000481399.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 550129,
+      "file_name": "COCO_train2014_000000550129.jpg",
+      "width": 338,
+      "height": 450,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 281108,
+      "file_name": "COCO_train2014_000000281108.jpg",
+      "width": 640,
+      "height": 451,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 575040,
+      "file_name": "COCO_train2014_000000575040.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 104142,
+      "file_name": "COCO_train2014_000000104142.jpg",
+      "width": 640,
+      "height": 351,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 75132,
+      "file_name": "COCO_train2014_000000075132.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 195615,
+      "file_name": "COCO_train2014_000000195615.jpg",
+      "width": 335,
+      "height": 500,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 342184,
+      "file_name": "COCO_train2014_000000342184.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 115358,
+      "file_name": "COCO_train2014_000000115358.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 377561,
+      "file_name": "COCO_train2014_000000377561.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 431426,
+      "file_name": "COCO_train2014_000000431426.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 178924,
+      "file_name": "COCO_train2014_000000178924.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 43438,
+      "file_name": "COCO_train2014_000000043438.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 501889,
+      "file_name": "COCO_train2014_000000501889.jpg",
+      "width": 640,
+      "height": 388,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 140460,
+      "file_name": "COCO_train2014_000000140460.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 389190,
+      "file_name": "COCO_train2014_000000389190.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 437607,
+      "file_name": "COCO_train2014_000000437607.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 306145,
+      "file_name": "COCO_train2014_000000306145.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 539538,
+      "file_name": "COCO_train2014_000000539538.jpg",
+      "width": 640,
+      "height": 451,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 520843,
+      "file_name": "COCO_train2014_000000520843.jpg",
+      "width": 604,
+      "height": 453,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 169474,
+      "file_name": "COCO_train2014_000000169474.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 462224,
+      "file_name": "COCO_train2014_000000462224.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 426985,
+      "file_name": "COCO_train2014_000000426985.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 20261,
+      "file_name": "COCO_train2014_000000020261.jpg",
+      "width": 361,
+      "height": 500,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 483645,
+      "file_name": "COCO_train2014_000000483645.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 365232,
+      "file_name": "COCO_train2014_000000365232.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        50
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 47638,
+      "file_name": "COCO_train2014_000000047638.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 181516,
+      "file_name": "COCO_train2014_000000181516.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 561735,
+      "file_name": "COCO_train2014_000000561735.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 222517,
+      "file_name": "COCO_train2014_000000222517.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 19388,
+      "file_name": "COCO_train2014_000000019388.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 478105,
+      "file_name": "COCO_train2014_000000478105.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 436859,
+      "file_name": "COCO_train2014_000000436859.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 33359,
+      "file_name": "COCO_train2014_000000033359.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 190927,
+      "file_name": "COCO_train2014_000000190927.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 356817,
+      "file_name": "COCO_train2014_000000356817.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        84
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 320616,
+      "file_name": "COCO_train2014_000000320616.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 531307,
+      "file_name": "COCO_train2014_000000531307.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 472461,
+      "file_name": "COCO_train2014_000000472461.jpg",
+      "width": 640,
+      "height": 372,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 173345,
+      "file_name": "COCO_train2014_000000173345.jpg",
+      "width": 500,
+      "height": 377,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 208886,
+      "file_name": "COCO_train2014_000000208886.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 510615,
+      "file_name": "COCO_train2014_000000510615.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 476465,
+      "file_name": "COCO_train2014_000000476465.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 300558,
+      "file_name": "COCO_train2014_000000300558.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 245043,
+      "file_name": "COCO_train2014_000000245043.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 169249,
+      "file_name": "COCO_train2014_000000169249.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 211085,
+      "file_name": "COCO_train2014_000000211085.jpg",
+      "width": 640,
+      "height": 388,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 283043,
+      "file_name": "COCO_train2014_000000283043.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 289966,
+      "file_name": "COCO_train2014_000000289966.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 473903,
+      "file_name": "COCO_train2014_000000473903.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 171002,
+      "file_name": "COCO_train2014_000000171002.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 312565,
+      "file_name": "COCO_train2014_000000312565.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 345283,
+      "file_name": "COCO_train2014_000000345283.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 475561,
+      "file_name": "COCO_train2014_000000475561.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 356641,
+      "file_name": "COCO_train2014_000000356641.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 249365,
+      "file_name": "COCO_train2014_000000249365.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 422198,
+      "file_name": "COCO_train2014_000000422198.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 22899,
+      "file_name": "COCO_train2014_000000022899.jpg",
+      "width": 500,
+      "height": 336,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 85939,
+      "file_name": "COCO_train2014_000000085939.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 177877,
+      "file_name": "COCO_train2014_000000177877.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 372197,
+      "file_name": "COCO_train2014_000000372197.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 2232,
+      "file_name": "COCO_train2014_000000002232.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 505389,
+      "file_name": "COCO_train2014_000000505389.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 259337,
+      "file_name": "COCO_train2014_000000259337.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 74088,
+      "file_name": "COCO_train2014_000000074088.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 103386,
+      "file_name": "COCO_train2014_000000103386.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 561196,
+      "file_name": "COCO_train2014_000000561196.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 439911,
+      "file_name": "COCO_train2014_000000439911.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 166977,
+      "file_name": "COCO_train2014_000000166977.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 340699,
+      "file_name": "COCO_train2014_000000340699.jpg",
+      "width": 640,
+      "height": 400,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 23249,
+      "file_name": "COCO_train2014_000000023249.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 128695,
+      "file_name": "COCO_train2014_000000128695.jpg",
+      "width": 383,
+      "height": 640,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 59968,
+      "file_name": "COCO_train2014_000000059968.jpg",
+      "width": 640,
+      "height": 420,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 205270,
+      "file_name": "COCO_train2014_000000205270.jpg",
+      "width": 640,
+      "height": 400,
+      "category_ids": [
+        8
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 40380,
+      "file_name": "COCO_train2014_000000040380.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513042,
+      "file_name": "COCO_train2014_000000513042.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 212405,
+      "file_name": "COCO_train2014_000000212405.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        39
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 318381,
+      "file_name": "COCO_train2014_000000318381.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 14475,
+      "file_name": "COCO_train2014_000000014475.jpg",
+      "width": 500,
+      "height": 334,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 421447,
+      "file_name": "COCO_train2014_000000421447.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 228426,
+      "file_name": "COCO_train2014_000000228426.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 154927,
+      "file_name": "COCO_train2014_000000154927.jpg",
+      "width": 500,
+      "height": 497,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 486072,
+      "file_name": "COCO_train2014_000000486072.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 122419,
+      "file_name": "COCO_train2014_000000122419.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 27108,
+      "file_name": "COCO_train2014_000000027108.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        10
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 7936,
+      "file_name": "COCO_train2014_000000007936.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 284649,
+      "file_name": "COCO_train2014_000000284649.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 188329,
+      "file_name": "COCO_train2014_000000188329.jpg",
+      "width": 640,
+      "height": 465,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 411931,
+      "file_name": "COCO_train2014_000000411931.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 192574,
+      "file_name": "COCO_train2014_000000192574.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 74538,
+      "file_name": "COCO_train2014_000000074538.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 541601,
+      "file_name": "COCO_train2014_000000541601.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 479357,
+      "file_name": "COCO_train2014_000000479357.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 536280,
+      "file_name": "COCO_train2014_000000536280.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 477866,
+      "file_name": "COCO_train2014_000000477866.jpg",
+      "width": 640,
+      "height": 319,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 380499,
+      "file_name": "COCO_train2014_000000380499.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 109542,
+      "file_name": "COCO_train2014_000000109542.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 108602,
+      "file_name": "COCO_train2014_000000108602.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 530086,
+      "file_name": "COCO_train2014_000000530086.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513704,
+      "file_name": "COCO_train2014_000000513704.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 96360,
+      "file_name": "COCO_train2014_000000096360.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 240129,
+      "file_name": "COCO_train2014_000000240129.jpg",
+      "width": 640,
+      "height": 378,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 563411,
+      "file_name": "COCO_train2014_000000563411.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 251191,
+      "file_name": "COCO_train2014_000000251191.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 44700,
+      "file_name": "COCO_train2014_000000044700.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 214803,
+      "file_name": "COCO_train2014_000000214803.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 246499,
+      "file_name": "COCO_train2014_000000246499.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 357461,
+      "file_name": "COCO_train2014_000000357461.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 161924,
+      "file_name": "COCO_train2014_000000161924.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 421544,
+      "file_name": "COCO_train2014_000000421544.jpg",
+      "width": 330,
+      "height": 500,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 157901,
+      "file_name": "COCO_train2014_000000157901.jpg",
+      "width": 640,
+      "height": 457,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 550066,
+      "file_name": "COCO_train2014_000000550066.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        27
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 230515,
+      "file_name": "COCO_train2014_000000230515.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 550972,
+      "file_name": "COCO_train2014_000000550972.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 465697,
+      "file_name": "COCO_train2014_000000465697.jpg",
+      "width": 464,
+      "height": 640,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 522653,
+      "file_name": "COCO_train2014_000000522653.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 65842,
+      "file_name": "COCO_train2014_000000065842.jpg",
+      "width": 640,
+      "height": 438,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 171328,
+      "file_name": "COCO_train2014_000000171328.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 394165,
+      "file_name": "COCO_train2014_000000394165.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 426179,
+      "file_name": "COCO_train2014_000000426179.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 572165,
+      "file_name": "COCO_train2014_000000572165.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 435543,
+      "file_name": "COCO_train2014_000000435543.jpg",
+      "width": 500,
+      "height": 334,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 139210,
+      "file_name": "COCO_train2014_000000139210.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 46073,
+      "file_name": "COCO_train2014_000000046073.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 486030,
+      "file_name": "COCO_train2014_000000486030.jpg",
+      "width": 640,
+      "height": 457,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 6765,
+      "file_name": "COCO_train2014_000000006765.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 555976,
+      "file_name": "COCO_train2014_000000555976.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 203618,
+      "file_name": "COCO_train2014_000000203618.jpg",
+      "width": 630,
+      "height": 450,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513712,
+      "file_name": "COCO_train2014_000000513712.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 574051,
+      "file_name": "COCO_train2014_000000574051.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 403521,
+      "file_name": "COCO_train2014_000000403521.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 230094,
+      "file_name": "COCO_train2014_000000230094.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 343559,
+      "file_name": "COCO_train2014_000000343559.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 513520,
+      "file_name": "COCO_train2014_000000513520.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 48908,
+      "file_name": "COCO_train2014_000000048908.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 210401,
+      "file_name": "COCO_train2014_000000210401.jpg",
+      "width": 640,
+      "height": 481,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 372510,
+      "file_name": "COCO_train2014_000000372510.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 338579,
+      "file_name": "COCO_train2014_000000338579.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 554351,
+      "file_name": "COCO_train2014_000000554351.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 508209,
+      "file_name": "COCO_train2014_000000508209.jpg",
+      "width": 500,
+      "height": 334,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 67697,
+      "file_name": "COCO_train2014_000000067697.jpg",
+      "width": 640,
+      "height": 400,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 443500,
+      "file_name": "COCO_train2014_000000443500.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 554800,
+      "file_name": "COCO_train2014_000000554800.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 498649,
+      "file_name": "COCO_train2014_000000498649.jpg",
+      "width": 333,
+      "height": 500,
+      "category_ids": [
+        60
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 530064,
+      "file_name": "COCO_train2014_000000530064.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 188673,
+      "file_name": "COCO_train2014_000000188673.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 66127,
+      "file_name": "COCO_train2014_000000066127.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 426049,
+      "file_name": "COCO_train2014_000000426049.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 510368,
+      "file_name": "COCO_train2014_000000510368.jpg",
+      "width": 640,
+      "height": 400,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 205424,
+      "file_name": "COCO_train2014_000000205424.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 185632,
+      "file_name": "COCO_train2014_000000185632.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        31
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 102370,
+      "file_name": "COCO_train2014_000000102370.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 203405,
+      "file_name": "COCO_train2014_000000203405.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 372635,
+      "file_name": "COCO_train2014_000000372635.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        70
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 96016,
+      "file_name": "COCO_train2014_000000096016.jpg",
+      "width": 640,
+      "height": 360,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 572283,
+      "file_name": "COCO_train2014_000000572283.jpg",
+      "width": 640,
+      "height": 524,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 37790,
+      "file_name": "COCO_train2014_000000037790.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        40
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 89582,
+      "file_name": "COCO_train2014_000000089582.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 374133,
+      "file_name": "COCO_train2014_000000374133.jpg",
+      "width": 640,
+      "height": 481,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 65961,
+      "file_name": "COCO_train2014_000000065961.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 215231,
+      "file_name": "COCO_train2014_000000215231.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 423327,
+      "file_name": "COCO_train2014_000000423327.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 113599,
+      "file_name": "COCO_train2014_000000113599.jpg",
+      "width": 640,
+      "height": 406,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 487491,
+      "file_name": "COCO_train2014_000000487491.jpg",
+      "width": 500,
+      "height": 374,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 419255,
+      "file_name": "COCO_train2014_000000419255.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 305665,
+      "file_name": "COCO_train2014_000000305665.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 474420,
+      "file_name": "COCO_train2014_000000474420.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 549328,
+      "file_name": "COCO_train2014_000000549328.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 573518,
+      "file_name": "COCO_train2014_000000573518.jpg",
+      "width": 640,
+      "height": 316,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 531256,
+      "file_name": "COCO_train2014_000000531256.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 421382,
+      "file_name": "COCO_train2014_000000421382.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 482624,
+      "file_name": "COCO_train2014_000000482624.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 219114,
+      "file_name": "COCO_train2014_000000219114.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 313812,
+      "file_name": "COCO_train2014_000000313812.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 288825,
+      "file_name": "COCO_train2014_000000288825.jpg",
+      "width": 640,
+      "height": 199,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 313724,
+      "file_name": "COCO_train2014_000000313724.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 161473,
+      "file_name": "COCO_train2014_000000161473.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 377300,
+      "file_name": "COCO_train2014_000000377300.jpg",
+      "width": 600,
+      "height": 450,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 478597,
+      "file_name": "COCO_train2014_000000478597.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        59
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 84548,
+      "file_name": "COCO_train2014_000000084548.jpg",
+      "width": 500,
+      "height": 400,
+      "category_ids": [
+        77
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 277165,
+      "file_name": "COCO_train2014_000000277165.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 428778,
+      "file_name": "COCO_train2014_000000428778.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 332691,
+      "file_name": "COCO_train2014_000000332691.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 385185,
+      "file_name": "COCO_train2014_000000385185.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 535917,
+      "file_name": "COCO_train2014_000000535917.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 352248,
+      "file_name": "COCO_train2014_000000352248.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 429585,
+      "file_name": "COCO_train2014_000000429585.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 12824,
+      "file_name": "COCO_train2014_000000012824.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 77979,
+      "file_name": "COCO_train2014_000000077979.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 291206,
+      "file_name": "COCO_train2014_000000291206.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 228419,
+      "file_name": "COCO_train2014_000000228419.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 127491,
+      "file_name": "COCO_train2014_000000127491.jpg",
+      "width": 640,
+      "height": 430,
+      "category_ids": [
+        84
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 497160,
+      "file_name": "COCO_train2014_000000497160.jpg",
+      "width": 500,
+      "height": 376,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 30805,
+      "file_name": "COCO_train2014_000000030805.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 300388,
+      "file_name": "COCO_train2014_000000300388.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 351218,
+      "file_name": "COCO_train2014_000000351218.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 227667,
+      "file_name": "COCO_train2014_000000227667.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 219832,
+      "file_name": "COCO_train2014_000000219832.jpg",
+      "width": 640,
+      "height": 434,
+      "category_ids": [
+        84
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 523374,
+      "file_name": "COCO_train2014_000000523374.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        22
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 566486,
+      "file_name": "COCO_train2014_000000566486.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 280847,
+      "file_name": "COCO_train2014_000000280847.jpg",
+      "width": 640,
+      "height": 478,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 243283,
+      "file_name": "COCO_train2014_000000243283.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 41913,
+      "file_name": "COCO_train2014_000000041913.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 528432,
+      "file_name": "COCO_train2014_000000528432.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        39
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 548768,
+      "file_name": "COCO_train2014_000000548768.jpg",
+      "width": 500,
+      "height": 332,
+      "category_ids": [
+        89
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 118399,
+      "file_name": "COCO_train2014_000000118399.jpg",
+      "width": 640,
+      "height": 479,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 555107,
+      "file_name": "COCO_train2014_000000555107.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 256177,
+      "file_name": "COCO_train2014_000000256177.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 474342,
+      "file_name": "COCO_train2014_000000474342.jpg",
+      "width": 500,
+      "height": 414,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 42105,
+      "file_name": "COCO_train2014_000000042105.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 7778,
+      "file_name": "COCO_train2014_000000007778.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 238114,
+      "file_name": "COCO_train2014_000000238114.jpg",
+      "width": 640,
+      "height": 622,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 48848,
+      "file_name": "COCO_train2014_000000048848.jpg",
+      "width": 640,
+      "height": 489,
+      "category_ids": [
+        48
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 355568,
+      "file_name": "COCO_train2014_000000355568.jpg",
+      "width": 640,
+      "height": 430,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 530171,
+      "file_name": "COCO_train2014_000000530171.jpg",
+      "width": 640,
+      "height": 437,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 581903,
+      "file_name": "COCO_train2014_000000581903.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 247465,
+      "file_name": "COCO_train2014_000000247465.jpg",
+      "width": 334,
+      "height": 500,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 106823,
+      "file_name": "COCO_train2014_000000106823.jpg",
+      "width": 500,
+      "height": 412,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 466396,
+      "file_name": "COCO_train2014_000000466396.jpg",
+      "width": 340,
+      "height": 640,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 15595,
+      "file_name": "COCO_train2014_000000015595.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 284814,
+      "file_name": "COCO_train2014_000000284814.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 23541,
+      "file_name": "COCO_train2014_000000023541.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 419449,
+      "file_name": "COCO_train2014_000000419449.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        80
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 494335,
+      "file_name": "COCO_train2014_000000494335.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 13715,
+      "file_name": "COCO_train2014_000000013715.jpg",
+      "width": 335,
+      "height": 500,
+      "category_ids": [
+        2
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 139634,
+      "file_name": "COCO_train2014_000000139634.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 180771,
+      "file_name": "COCO_train2014_000000180771.jpg",
+      "width": 640,
+      "height": 324,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 77926,
+      "file_name": "COCO_train2014_000000077926.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 369438,
+      "file_name": "COCO_train2014_000000369438.jpg",
+      "width": 640,
+      "height": 429,
+      "category_ids": [
+        13
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 12883,
+      "file_name": "COCO_train2014_000000012883.jpg",
+      "width": 334,
+      "height": 500,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 126909,
+      "file_name": "COCO_train2014_000000126909.jpg",
+      "width": 333,
+      "height": 500,
+      "category_ids": [
+        32
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 453906,
+      "file_name": "COCO_train2014_000000453906.jpg",
+      "width": 480,
+      "height": 300,
+      "category_ids": [
+        24
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 429991,
+      "file_name": "COCO_train2014_000000429991.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 328999,
+      "file_name": "COCO_train2014_000000328999.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        63
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 554471,
+      "file_name": "COCO_train2014_000000554471.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 488746,
+      "file_name": "COCO_train2014_000000488746.jpg",
+      "width": 640,
+      "height": 554,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 154507,
+      "file_name": "COCO_train2014_000000154507.jpg",
+      "width": 389,
+      "height": 640,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 272316,
+      "file_name": "COCO_train2014_000000272316.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 178520,
+      "file_name": "COCO_train2014_000000178520.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 143820,
+      "file_name": "COCO_train2014_000000143820.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 74555,
+      "file_name": "COCO_train2014_000000074555.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        86
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 96268,
+      "file_name": "COCO_train2014_000000096268.jpg",
+      "width": 640,
+      "height": 379,
+      "category_ids": [
+        74
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 308950,
+      "file_name": "COCO_train2014_000000308950.jpg",
+      "width": 640,
+      "height": 481,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 349609,
+      "file_name": "COCO_train2014_000000349609.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 322975,
+      "file_name": "COCO_train2014_000000322975.jpg",
+      "width": 500,
+      "height": 402,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 474155,
+      "file_name": "COCO_train2014_000000474155.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 341440,
+      "file_name": "COCO_train2014_000000341440.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 318644,
+      "file_name": "COCO_train2014_000000318644.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 518179,
+      "file_name": "COCO_train2014_000000518179.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 321508,
+      "file_name": "COCO_train2014_000000321508.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        73
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 560180,
+      "file_name": "COCO_train2014_000000560180.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        43
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 553506,
+      "file_name": "COCO_train2014_000000553506.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 473972,
+      "file_name": "COCO_train2014_000000473972.jpg",
+      "width": 478,
+      "height": 500,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 539553,
+      "file_name": "COCO_train2014_000000539553.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 393354,
+      "file_name": "COCO_train2014_000000393354.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 280429,
+      "file_name": "COCO_train2014_000000280429.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 194576,
+      "file_name": "COCO_train2014_000000194576.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 27406,
+      "file_name": "COCO_train2014_000000027406.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        76
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 160906,
+      "file_name": "COCO_train2014_000000160906.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        9
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 454898,
+      "file_name": "COCO_train2014_000000454898.jpg",
+      "width": 640,
+      "height": 414,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 193281,
+      "file_name": "COCO_train2014_000000193281.jpg",
+      "width": 640,
+      "height": 283,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 255440,
+      "file_name": "COCO_train2014_000000255440.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 131043,
+      "file_name": "COCO_train2014_000000131043.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 187125,
+      "file_name": "COCO_train2014_000000187125.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 46506,
+      "file_name": "COCO_train2014_000000046506.jpg",
+      "width": 455,
+      "height": 640,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 498854,
+      "file_name": "COCO_train2014_000000498854.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 119750,
+      "file_name": "COCO_train2014_000000119750.jpg",
+      "width": 360,
+      "height": 640,
+      "category_ids": [
+        25
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 101050,
+      "file_name": "COCO_train2014_000000101050.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 234220,
+      "file_name": "COCO_train2014_000000234220.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 414482,
+      "file_name": "COCO_train2014_000000414482.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 457656,
+      "file_name": "COCO_train2014_000000457656.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 340103,
+      "file_name": "COCO_train2014_000000340103.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        55
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 149295,
+      "file_name": "COCO_train2014_000000149295.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 399680,
+      "file_name": "COCO_train2014_000000399680.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 274521,
+      "file_name": "COCO_train2014_000000274521.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        42
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 507068,
+      "file_name": "COCO_train2014_000000507068.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        87
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 503234,
+      "file_name": "COCO_train2014_000000503234.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 520582,
+      "file_name": "COCO_train2014_000000520582.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        6
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 501874,
+      "file_name": "COCO_train2014_000000501874.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        15
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 428585,
+      "file_name": "COCO_train2014_000000428585.jpg",
+      "width": 640,
+      "height": 486,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 166637,
+      "file_name": "COCO_train2014_000000166637.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        3
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 115403,
+      "file_name": "COCO_train2014_000000115403.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 557315,
+      "file_name": "COCO_train2014_000000557315.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        23
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 204436,
+      "file_name": "COCO_train2014_000000204436.jpg",
+      "width": 383,
+      "height": 640,
+      "category_ids": [
+        53
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 158311,
+      "file_name": "COCO_train2014_000000158311.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        65
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 162898,
+      "file_name": "COCO_train2014_000000162898.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 239736,
+      "file_name": "COCO_train2014_000000239736.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        90
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 493210,
+      "file_name": "COCO_train2014_000000493210.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 499142,
+      "file_name": "COCO_train2014_000000499142.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 203486,
+      "file_name": "COCO_train2014_000000203486.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 277798,
+      "file_name": "COCO_train2014_000000277798.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 81155,
+      "file_name": "COCO_train2014_000000081155.jpg",
+      "width": 486,
+      "height": 640,
+      "category_ids": [
+        50
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 211431,
+      "file_name": "COCO_train2014_000000211431.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 545329,
+      "file_name": "COCO_train2014_000000545329.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 465826,
+      "file_name": "COCO_train2014_000000465826.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 507615,
+      "file_name": "COCO_train2014_000000507615.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        28
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 15185,
+      "file_name": "COCO_train2014_000000015185.jpg",
+      "width": 640,
+      "height": 472,
+      "category_ids": [
+        58
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 449094,
+      "file_name": "COCO_train2014_000000449094.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 422343,
+      "file_name": "COCO_train2014_000000422343.jpg",
+      "width": 640,
+      "height": 443,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 265748,
+      "file_name": "COCO_train2014_000000265748.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        43
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 435495,
+      "file_name": "COCO_train2014_000000435495.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 453376,
+      "file_name": "COCO_train2014_000000453376.jpg",
+      "width": 640,
+      "height": 454,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 534168,
+      "file_name": "COCO_train2014_000000534168.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        46
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 163715,
+      "file_name": "COCO_train2014_000000163715.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        17
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 218965,
+      "file_name": "COCO_train2014_000000218965.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 499982,
+      "file_name": "COCO_train2014_000000499982.jpg",
+      "width": 425,
+      "height": 640,
+      "category_ids": [
+        33
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 22377,
+      "file_name": "COCO_train2014_000000022377.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        35
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 361798,
+      "file_name": "COCO_train2014_000000361798.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        54
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 503806,
+      "file_name": "COCO_train2014_000000503806.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        37
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 76606,
+      "file_name": "COCO_train2014_000000076606.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        51
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 515823,
+      "file_name": "COCO_train2014_000000515823.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        4
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 527637,
+      "file_name": "COCO_train2014_000000527637.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 254411,
+      "file_name": "COCO_train2014_000000254411.jpg",
+      "width": 640,
+      "height": 434,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 431335,
+      "file_name": "COCO_train2014_000000431335.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 7150,
+      "file_name": "COCO_train2014_000000007150.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        62
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 57699,
+      "file_name": "COCO_train2014_000000057699.jpg",
+      "width": 640,
+      "height": 424,
+      "category_ids": [
+        31
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 535399,
+      "file_name": "COCO_train2014_000000535399.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        44
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 416484,
+      "file_name": "COCO_train2014_000000416484.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        34
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 16544,
+      "file_name": "COCO_train2014_000000016544.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        57
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 213113,
+      "file_name": "COCO_train2014_000000213113.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        82
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 135894,
+      "file_name": "COCO_train2014_000000135894.jpg",
+      "width": 427,
+      "height": 640,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 406368,
+      "file_name": "COCO_train2014_000000406368.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        49
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 200772,
+      "file_name": "COCO_train2014_000000200772.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        72
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 401183,
+      "file_name": "COCO_train2014_000000401183.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        67
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 156039,
+      "file_name": "COCO_train2014_000000156039.jpg",
+      "width": 450,
+      "height": 338,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 385050,
+      "file_name": "COCO_train2014_000000385050.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        21
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 59234,
+      "file_name": "COCO_train2014_000000059234.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 411191,
+      "file_name": "COCO_train2014_000000411191.jpg",
+      "width": 640,
+      "height": 428,
+      "category_ids": [
+        56
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 324989,
+      "file_name": "COCO_train2014_000000324989.jpg",
+      "width": 478,
+      "height": 640,
+      "category_ids": [
+        79
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 506621,
+      "file_name": "COCO_train2014_000000506621.jpg",
+      "width": 640,
+      "height": 558,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 402245,
+      "file_name": "COCO_train2014_000000402245.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        19
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 83325,
+      "file_name": "COCO_train2014_000000083325.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 218113,
+      "file_name": "COCO_train2014_000000218113.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        36
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 118777,
+      "file_name": "COCO_train2014_000000118777.jpg",
+      "width": 356,
+      "height": 500,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 557368,
+      "file_name": "COCO_train2014_000000557368.jpg",
+      "width": 432,
+      "height": 500,
+      "category_ids": [
+        38
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 542814,
+      "file_name": "COCO_train2014_000000542814.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 301918,
+      "file_name": "COCO_train2014_000000301918.jpg",
+      "width": 640,
+      "height": 425,
+      "category_ids": [
+        5
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 411767,
+      "file_name": "COCO_train2014_000000411767.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        20
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 448865,
+      "file_name": "COCO_train2014_000000448865.jpg",
+      "width": 640,
+      "height": 283,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 271763,
+      "file_name": "COCO_train2014_000000271763.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        7
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 506379,
+      "file_name": "COCO_train2014_000000506379.jpg",
+      "width": 640,
+      "height": 458,
+      "category_ids": [
+        14
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 511432,
+      "file_name": "COCO_train2014_000000511432.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        47
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 529804,
+      "file_name": "COCO_train2014_000000529804.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        61
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 41288,
+      "file_name": "COCO_train2014_000000041288.jpg",
+      "width": 393,
+      "height": 640,
+      "category_ids": [
+        39
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 116078,
+      "file_name": "COCO_train2014_000000116078.jpg",
+      "width": 428,
+      "height": 640,
+      "category_ids": [
+        81
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 367131,
+      "file_name": "COCO_train2014_000000367131.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        52
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 396494,
+      "file_name": "COCO_train2014_000000396494.jpg",
+      "width": 500,
+      "height": 333,
+      "category_ids": [
+        11
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 510167,
+      "file_name": "COCO_train2014_000000510167.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        16
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 93531,
+      "file_name": "COCO_train2014_000000093531.jpg",
+      "width": 640,
+      "height": 480,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 269749,
+      "file_name": "COCO_train2014_000000269749.jpg",
+      "width": 612,
+      "height": 612,
+      "category_ids": [
+        75
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 71229,
+      "file_name": "COCO_train2014_000000071229.jpg",
+      "width": 328,
+      "height": 480,
+      "category_ids": [
+        1
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 206791,
+      "file_name": "COCO_train2014_000000206791.jpg",
+      "width": 300,
+      "height": 255,
+      "category_ids": [
+        78
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 195890,
+      "file_name": "COCO_train2014_000000195890.jpg",
+      "width": 640,
+      "height": 640,
+      "category_ids": [
+        85
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 317684,
+      "file_name": "COCO_train2014_000000317684.jpg",
+      "width": 375,
+      "height": 500,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 130637,
+      "file_name": "COCO_train2014_000000130637.jpg",
+      "width": 640,
+      "height": 426,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 401059,
+      "file_name": "COCO_train2014_000000401059.jpg",
+      "width": 500,
+      "height": 375,
+      "category_ids": [
+        18
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 439199,
+      "file_name": "COCO_train2014_000000439199.jpg",
+      "width": 640,
+      "height": 327,
+      "category_ids": [
+        41
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 558942,
+      "file_name": "COCO_train2014_000000558942.jpg",
+      "width": 480,
+      "height": 640,
+      "category_ids": [
+        37
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 122959,
+      "file_name": "COCO_train2014_000000122959.jpg",
+      "width": 640,
+      "height": 427,
+      "category_ids": [
+        88
+      ],
+      "num_categories": 1
+    },
+    {
+      "image_id": 19181,
+      "file_name": "COCO_train2014_000000019181.jpg",
+      "width": 426,
+      "height": 640,
+      "category_ids": [
+        64
+      ],
+      "num_categories": 1
+    }
+  ]
+}
