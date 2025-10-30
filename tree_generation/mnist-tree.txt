@@ -1,0 +1,35 @@
+[L0] Q: How many closed loops does the digit have?
+  -> 0:
+  [L1] Q: Does the digit have a curved segment?
+    -> 0:
+    [L2] Q: Does the digit contain a straight horizontal line segment?
+      -> 0:
+      [L3] Leaf Node: 3 (Class: 3)
+      -> 1:
+      [L3] Q: Does the digit have a curved segment at the top?
+        -> 0:
+        [L4] Leaf Node: 5 (Class: 5)
+        -> 1:
+        [L4] Leaf Node: 2 (Class: 2)
+    -> 1:
+    [L2] Q: Does the digit contain a closed or nearly closed triangular shape?
+      -> 0:
+      [L3] Q: Does the digit have a horizontal stroke at the top?
+        -> 0:
+        [L4] Leaf Node: 1 (Class: 1)
+        -> 1:
+        [L4] Leaf Node: 7 (Class: 7)
+      -> 1:
+      [L3] Leaf Node: 4 (Class: 4)
+  -> 1:
+  [L1] Q: Does the digit consist of just a loop, or a loop with an attached stem/tail?
+    -> Just a loop:
+    [L2] Leaf Node: 0 (Class: 0)
+    -> A loop with a stem/tail:
+    [L2] Q: Where is the closed loop located?
+      -> At the bottom:
+      [L3] Leaf Node: 6 (Class: 6)
+      -> At the top:
+      [L3] Leaf Node: 9 (Class: 9)
+  -> 2:
+  [L1] Leaf Node: 8 (Class: 8)
