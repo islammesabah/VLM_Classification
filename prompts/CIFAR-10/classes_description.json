@@ -1,4 +1,5 @@
 {
+  "initial_prompt": "Please classify the object in the given image. It should be only one of these classes: {class_names_str}. Please generate only the class ID number.",
   "long_description": {
     "0": {
       "name": "airplane",

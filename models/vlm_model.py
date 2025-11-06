@@ -6,8 +6,8 @@ class ModelClient:
     
     MODEL_CONFIGS = {
         'gpt-4o': {
-            'api_key_env': 'OPENAI_API_KEY',
-            'base_url': None
+            'api_key_env': 'OPENROUTER_API_KEY',
+            'base_url': 'https://openrouter.ai/api/v1'
         },
         'meta-llama/llama-3.2-11b-vision-instruct': {
             'api_key_env': 'OPENROUTER_API_KEY',

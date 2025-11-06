@@ -9,6 +9,8 @@ from PIL import Image
 
 from tree_generation.gtsrb_tree import build_traffic_sign_tree
 from tree_generation.cifar_tree import build_cifar_tree
+from tree_generation.mscoco_tree import build_MSCOCO_tree
+from tree_generation.mnist_tree import build_mnist_tree
 
 def get_class_names(dataset_path):
     # Load class names
@@ -30,9 +32,13 @@ def extract_random_samples_per_class(images, labels, class_names, samples_per_cl
     sampled_indices = []
     sampled_counts = {}
     
-    num_classes = len(class_names) if isinstance(class_names, list) else len(class_names.keys())
+    # Get actual class IDs from class_names (handles both 0-indexed and 1-indexed)
+    if isinstance(class_names, list):
+        class_labels = list(range(len(class_names)))
+    else:
+        class_labels = sorted([int(k) for k in class_names.keys()])
     
-    for class_label in range(num_classes):
+    for class_label in class_labels:
         if isinstance(class_names, list):
             class_name = class_names[class_label]
         else:
@@ -299,4 +305,162 @@ class GTSRBLoader(DatasetLoader):
         image_path = additional_batch_info[image_idx]
         image_name = Path(image_path).name
         sequence = image_name.split('_')[0]
+        return image_path, sequence
+
+class MSCOCOLoader(DatasetLoader):
+    """MSCOCO dataset loader."""
+
+    def MSCOCO_load_images(self, dataset_path: str, images_dir: str, samples_path: str = None, samples_per_class=None, random_seed: int=42) -> Tuple[List, List[int], dict[str, str], np.ndarray]:
+        """
+        Load images from the MSCOCO dataset.
+        
+        Args:
+            dataset_path (str): Path to the MSCOCO dataset directory
+            images_dir (str): Name of the directory containing images (e.g., 'filtered_1_category_images')
+            samples_path (str): Path to text file with image IDs to load (optional)
+            samples_per_class (int): Number of samples per class for random sampling (optional)
+            random_seed (int): Random seed for sampling
+            
+        Returns:
+            tuple: (images, labels, class_names, image_paths)
+                - images (List): List of PIL Image objects
+                - labels (List[int]): List of category IDs
+                - class_names (dict[str, str]): Mapping of category ID to name
+                - image_paths (np.ndarray): Array of image file paths
+        """
+        # Load class names
+        class_names_path = os.path.join(dataset_path, 'class_names.json')
+        with open(class_names_path, 'r') as f:
+            class_names = json.load(f)
+        
+        # Load the filtered images metadata
+        filtered_json_path = os.path.join(dataset_path, 'filtered_1_category_images.json')
+        with open(filtered_json_path, 'r') as f:
+            metadata = json.load(f)
+        
+        # Create a mapping from image_id to metadata
+        image_id_to_metadata = {img['image_id']: img for img in metadata['images']}
+        
+        images_folder = os.path.join(dataset_path, images_dir)
+        
+        # If samples_path is provided, load only those specific images
+        if samples_path and os.path.exists(samples_path):
+            print(f"Loading samples from {samples_path}...")
+            image_ids = []
+            with open(samples_path, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        image_ids.append(int(line))
+            
+            images = []
+            labels = []
+            image_paths = []
+            
+            for image_id in image_ids:
+                if image_id not in image_id_to_metadata:
+                    print(f"Warning: Image ID {image_id} not found in metadata")
+                    continue
+                
+                img_meta = image_id_to_metadata[image_id]
+                file_name = img_meta['file_name']
+                image_path = os.path.join(images_folder, file_name)
+                
+                if not os.path.exists(image_path):
+                    print(f"Warning: Image file not found: {image_path}")
+                    continue
+                
+                # Load image
+                img = Image.open(image_path)
+                images.append(img)
+                
+                # Get category ID (first one since these are filtered to 1 category)
+                category_id = img_meta['category_ids'][0]
+                labels.append(category_id)
+                
+                image_paths.append(image_path)
+            
+            print(f"Loaded {len(images)} images from {samples_path}")
+            print(f"Number of classes: {len(class_names)}")
+            
+            # Class distribution
+            unique_labels, counts = np.unique(labels, return_counts=True)
+            print("\nClass distribution:")
+            for label, count in zip(unique_labels, counts):
+                class_name = class_names.get(str(label), f"Unknown_{label}")
+                print(f"  {class_name}: {count} images")
+            
+            return images, labels, class_names, np.array(image_paths)
+        
+        # Otherwise, load all images or sample randomly
+        else:
+            print("Loading all images from MSCOCO dataset...")
+            all_images = []
+            all_labels = []
+            all_image_paths = []
+            
+            for img_meta in metadata['images']:
+                file_name = img_meta['file_name']
+                image_path = os.path.join(images_folder, file_name)
+                
+                if not os.path.exists(image_path):
+                    print(f"Warning: Image file not found: {image_path}")
+                    continue
+                
+                # Load image
+                img = Image.open(image_path)
+                all_images.append(img)
+                
+                # Get category ID (first one since these are filtered to 1 category)
+                category_id = img_meta['category_ids'][0]
+                all_labels.append(category_id)
+                
+                all_image_paths.append(image_path)
+            
+            print(f"Total images loaded: {len(all_images)}")
+            print(f"Number of classes: {len(class_names)}")
+            
+            # Class distribution
+            all_labels_array = np.array(all_labels)
+            unique_labels, counts = np.unique(all_labels_array, return_counts=True)
+            print("\nClass distribution:")
+            for label, count in zip(unique_labels, counts):
+                class_name = class_names.get(str(label), f"Unknown_{label}")
+                print(f"  {class_name}: {count} images")
+            
+            # Extract random samples per class if requested
+            if samples_per_class is not None:
+                print(f"Extracting {samples_per_class} random samples per class with seed {random_seed}...")
+                sampled_images, sampled_labels, sampled_indices = extract_random_samples_per_class(
+                    all_images, all_labels_array, class_names, samples_per_class, random_seed
+                )
+                sampled_image_paths = np.array(all_image_paths)[sampled_indices]
+                return sampled_images, sampled_labels, class_names, sampled_image_paths
+            else:
+                return all_images, all_labels, class_names, np.array(all_image_paths)
+
+    def load_images(self, config) -> Tuple[List, List[int], dict[str, str], Any]:
+        return self.MSCOCO_load_images(
+            config.dataset_path, 
+            config.images_dir, 
+            config.samples_path
+        )
+    
+    def get_class_names(self) -> Dict[str, str]:
+        # This should be returned from load_images, but keeping for interface consistency
+        return {}
+    
+    def build_tree(self):
+        return build_MSCOCO_tree()
+    
+    def get_zero_shot_prompt(self, config, RunID) -> str:
+        return config["zero_shot_prompts"][RunID]
+    
+    def extract_image_info(self, image_idx: int, additional_batch_info: Any) -> Tuple[str, str]:
+        # For MSCOCO, additional_batch_info contains image paths
+        image_path = additional_batch_info[image_idx]
+        # Extract image ID from filename (e.g., "COCO_train2014_000000388754.jpg" -> "388754")
+        file_name = Path(image_path).name
+        image_id = file_name.split('_')[-1].replace('.jpg', '')
+        sequence = image_id
         return image_path, sequence

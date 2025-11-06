@@ -1,0 +1,357 @@
+[L0] Q: Is the object a living thing (animal or person)?
+  -> Yes:
+  [L1] Q: Does the animal typically have hooves (ungulates such as horse, sheep, cow, zebra, giraffe)?
+    -> Hoofed animal:
+    [L2] Q: Does the animal have visible black-and-white striping on its body?
+      -> Yes:
+      [L3] Leaf Node: zebra (ID: 24)
+      -> No:
+      [L3] Q: Does the animal have horns that curve downward or outward from the head (distinct, often spiral or curved horns)?
+        -> Curved or outward horns:
+        [L4] Q: Does the animal have a white face with woolly fur covering most of its body?
+          -> Yes (woolly fur and white face):
+          [L5] Leaf Node: sheep (ID: 20)
+          -> No (short hair, not woolly):
+          [L5] Leaf Node: cow (ID: 21)
+        -> No curved horns:
+        [L4] Q: Does the animal have a long neck?
+          -> Yes:
+          [L5] Leaf Node: giraffe (ID: 25)
+          -> No:
+          [L5] Leaf Node: horse (ID: 19)
+    -> Not hoofed (person, carnivores, bird, elephant, bear, cat, dog):
+    [L2] Q: Is the subject a human or an animal?
+      -> Human:
+      [L3] Leaf Node: person (ID: 1)
+      -> Animal:
+      [L3] Q: Is the animal covered with fur?
+        -> Yes:
+        [L4] Q: Does the animal tend to have rounded ears?
+          -> Yes (bear):
+          [L5] Leaf Node: bear (ID: 23)
+          -> No (cat, dog):
+          [L5] Q: Does the animal have a long snout?
+            -> Yes (long snout):
+            [L6] Leaf Node: dog (ID: 18)
+            -> No (short snout):
+            [L6] Leaf Node: cat (ID: 17)
+        -> No:
+        [L4] Q: Does the animal have a trunk?
+          -> Yes:
+          [L5] Leaf Node: elephant (ID: 22)
+          -> No:
+          [L5] Leaf Node: bird (ID: 16)
+  -> No:
+  [L1] Q: Is the object typically found indoors (in a home or building)?
+    -> Yes:
+    [L2] Q: Is the object primarily used for sitting, resting, or as furniture?
+      -> Furniture (used for sitting/resting/storage):
+      [L3] Q: Is the object primarily used for sitting or resting the body?
+        -> Yes:
+        [L4] Q: Does the object have a backrest?
+          -> Yes:
+          [L5] Q: Does the object have armrests on both sides?
+            -> Yes:
+            [L6] Q: Is the object large enough for more than one person to sit on comfortably?
+              -> Yes:
+              [L7] Leaf Node: couch (ID: 63)
+              -> No:
+              [L7] Leaf Node: chair (ID: 62)
+            -> No:
+            [L6] Q: Does the object feature a water tank as part of its structure?
+              -> Yes:
+              [L7] Leaf Node: toilet (ID: 70)
+              -> No:
+              [L7] Leaf Node: bench (ID: 15)
+          -> No:
+          [L5] Leaf Node: bed (ID: 65)
+        -> No:
+        [L4] Q: Does the object primarily serve as a surface for placing items (such as a table or desk)?
+          -> Yes:
+          [L5] Q: Does the object typically have a setup meant for dining, often surrounded by chairs?
+            -> Yes, used for dining (often with chairs for meals):
+            [L6] Leaf Node: dining table (ID: 67)
+            -> No, used for work or study (as a desk):
+            [L6] Leaf Node: desk (ID: 69)
+          -> No:
+          [L5] Q: Is the object typically made of transparent or glass materials?
+            -> Yes:
+            [L6] Leaf Node: window (ID: 68)
+            -> No:
+            [L6] Q: Is the object a type of plant, either in a pot or standalone?
+              -> Yes:
+              [L7] Leaf Node: potted plant (ID: 64)
+              -> No:
+              [L7] Leaf Node: door (ID: 71)
+      -> Not furniture (handheld items, food, electronics, etc.):
+      [L3] Q: Is the object primarily worn or carried by a person (clothing, accessories, or bags)?
+        -> Yes:
+        [L4] Q: Is the object typically worn on the head or face?
+          -> Yes:
+          [L5] Q: Does the object primarily cover the hair or top of the head?
+            -> Yes (covers the top of the head):
+            [L6] Leaf Node: hat (ID: 26)
+            -> No (worn on the face, not covering the top of the head):
+            [L6] Leaf Node: eye glasses (ID: 30)
+          -> No:
+          [L5] Q: Is the object typically carried by hand rather than worn on the body?
+            -> Carried by hand:
+            [L6] Q: Does the object usually have two straps and is worn on the back?
+              -> Yes (worn on the back, two straps):
+              [L7] Leaf Node: backpack (ID: 27)
+              -> No (carried by hand, not worn on the back):
+              [L7] Q: Does the object commonly have wheels for easier transportation?
+                -> Yes (has wheels):
+                [L8] Leaf Node: suitcase (ID: 33)
+                -> No (no wheels):
+                [L8] Leaf Node: handbag (ID: 31)
+            -> Worn on the body:
+            [L6] Q: Is the object primarily worn on the foot?
+              -> Yes:
+              [L7] Leaf Node: shoe (ID: 29)
+              -> No:
+              [L7] Leaf Node: tie (ID: 32)
+        -> No:
+        [L4] Q: Is the object typically associated with food preparation or consumption?
+          -> Yes (food, food utensils, kitchenware, or appliances):
+          [L5] Q: Is the object an appliance (a powered kitchen device)?
+            -> Yes (appliance):
+            [L6] Q: Is the object primarily used for heating or cooking food?
+              -> Yes (heating/cooking):
+              [L7] Q: Does the object have a door with a viewing window on the front?
+                -> Yes (front door with window):
+                [L8] Q: Does the object usually feature a compact design suitable for countertop placement?
+                  -> Yes (compact, countertop):
+                  [L9] Leaf Node: microwave (ID: 78)
+                  -> No (larger, not countertop):
+                  [L9] Leaf Node: oven (ID: 79)
+                -> No (no front window, has slots on top):
+                [L8] Leaf Node: toaster (ID: 80)
+              -> No (not for heating/cooking):
+              [L7] Q: Is the object typically used to clean or dispose of water?
+                -> Yes (used to clean/dispose of water):
+                [L8] Leaf Node: sink (ID: 81)
+                -> No (not used for cleaning/disposal of water):
+                [L8] Q: Is the object usually a large stationary appliance?
+                  -> Yes (large stationary appliance):
+                  [L9] Leaf Node: refrigerator (ID: 82)
+                  -> No (small, portable appliance):
+                  [L9] Leaf Node: blender (ID: 83)
+            -> No (not an appliance):
+            [L6] Q: Is the object itself an item of food?
+              -> Yes (food):
+              [L7] Q: Is the food primarily a whole fruit or vegetable?
+                -> Whole fruit or vegetable:
+                [L8] Q: Is the object a fruit?
+                  -> Yes (fruit):
+                  [L9] Q: Is the primary color of the object yellow?
+                    -> Yes:
+                    [L10] Leaf Node: banana (ID: 52)
+                    -> No:
+                    [L10] Q: Is the object primarily red or green in color?
+                      -> Red or Green:
+                      [L11] Leaf Node: apple (ID: 53)
+                      -> Orange:
+                      [L11] Leaf Node: orange (ID: 55)
+                  -> No (vegetable):
+                  [L9] Q: Is the object green in color?
+                    -> Yes (green):
+                    [L10] Leaf Node: broccoli (ID: 56)
+                    -> No (not green):
+                    [L10] Leaf Node: carrot (ID: 57)
+                -> Prepared/processed food:
+                [L8] Q: Does the food typically contain a visible bread or dough component?
+                  -> Yes (visible bread or dough):
+                  [L9] Q: Does the food contain visible meat between bread?
+                    -> Yes, visible meat between bread:
+                    [L10] Leaf Node: hot dog (ID: 58)
+                    -> No, not visible meat between bread:
+                    [L10] Q: Is the food item typically ring-shaped with a central hole?
+                      -> Yes (ring-shaped with central hole):
+                      [L11] Leaf Node: donut (ID: 60)
+                      -> No (not ring-shaped, no central hole):
+                      [L11] Leaf Node: sandwich (ID: 54)
+                  -> No (no visible bread or dough):
+                  [L9] Q: Is the food typically round and covered with toppings such as cheese and tomato sauce?
+                    -> Yes (round, topped with cheese and sauce):
+                    [L10] Leaf Node: pizza (ID: 59)
+                    -> No (not typically with cheese and tomato sauce on top):
+                    [L10] Leaf Node: cake (ID: 61)
+              -> No (utensils/containers):
+              [L7] Q: Is the object primarily used for drinking liquids?
+                -> Yes (used for drinking):
+                [L8] Q: Does the object have a handle?
+                  -> Yes:
+                  [L9] Leaf Node: cup (ID: 47)
+                  -> No:
+                  [L9] Q: Does the object have a long, stem-like structure supporting a bowl?
+                    -> Yes:
+                    [L10] Leaf Node: wine glass (ID: 46)
+                    -> No:
+                    [L10] Leaf Node: bottle (ID: 44)
+                -> No (not used for drinking):
+                [L8] Q: Is the object used to contain or hold food?
+                  -> Yes (container):
+                  [L9] Q: Is the container typically shallow and flat?
+                    -> Yes (shallow and flat):
+                    [L10] Leaf Node: plate (ID: 45)
+                    -> No (deeper, with higher sides):
+                    [L10] Leaf Node: bowl (ID: 51)
+                  -> No (utensil):
+                  [L9] Q: Does the object have prongs or tines at one end?
+                    -> Yes, it has prongs/tines:
+                    [L10] Leaf Node: fork (ID: 48)
+                    -> No, it does not have prongs/tines:
+                    [L10] Q: Does the object have a flat, sharp edge intended for cutting?
+                      -> Yes, it has a sharp cutting edge:
+                      [L11] Leaf Node: knife (ID: 49)
+                      -> No, it does not have a sharp cutting edge:
+                      [L11] Leaf Node: spoon (ID: 50)
+          -> No (not food-related):
+          [L5] Q: Is the object primarily made of glass or reflective surfaces?
+            -> Yes:
+            [L6] Q: Does the object display a reflective surface used to see one's own image?
+              -> Yes:
+              [L7] Leaf Node: mirror (ID: 66)
+              -> No:
+              [L7] Q: Does the object typically have a face with numbers or hands?
+                -> Yes:
+                [L8] Leaf Node: clock (ID: 85)
+                -> No:
+                [L8] Leaf Node: vase (ID: 86)
+            -> No:
+            [L6] Q: Is the object an electronic device or related accessory?
+              -> Electronic device or accessory:
+              [L7] Q: Is the object used primarily for input (controlling or interacting with other electronic devices)?
+                -> Yes (input device):
+                [L8] Q: Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?
+                  -> Yes (flat rectangular surface with rows of keys):
+                  [L9] Leaf Node: keyboard (ID: 76)
+                  -> No (not a flat rectangular surface with rows of keys):
+                  [L9] Q: Does the object have a prominent scroll wheel or curved shape designed for handheld use?
+                    -> Yes (curved shape, scroll wheel present):
+                    [L10] Leaf Node: mouse (ID: 74)
+                    -> No (flat, elongated, button layout):
+                    [L10] Leaf Node: remote (ID: 75)
+                -> No (not an input device):
+                [L8] Q: Is the object mainly designed for handheld use?
+                  -> Yes (handheld device):
+                  [L9] Q: Does the object have a screen or display surface?
+                    -> Yes (object has a screen/display):
+                    [L10] Leaf Node: cell phone (ID: 77)
+                    -> No (object does not have a screen/display):
+                    [L10] Leaf Node: hair drier (ID: 89)
+                  -> No (not handheld, typically stationary or used on a surface):
+                  [L9] Q: Does the object have a built-in display screen that is used for output only (not interactive)?
+                    -> Yes (output-only display):
+                    [L10] Leaf Node: tv (ID: 72)
+                    -> No (interactive display with input capability):
+                    [L10] Leaf Node: laptop (ID: 73)
+              -> Non-electronic item:
+              [L7] Q: Is the object a soft toy or plush item?
+                -> Yes:
+                [L8] Leaf Node: teddy bear (ID: 88)
+                -> No:
+                [L8] Q: Is the object primarily made of paper?
+                  -> Yes:
+                  [L9] Leaf Node: book (ID: 84)
+                  -> No:
+                  [L9] Q: Does the object have blades used for cutting?
+                    -> Yes (the object has sharp blades for cutting):
+                    [L10] Leaf Node: scissors (ID: 87)
+                    -> No (the object does not have blades; it is for brushing):
+                    [L10] Leaf Node: toothbrush (ID: 90)
+    -> No:
+    [L2] Q: Is the object primarily a vehicle used for transportation?
+      -> Yes:
+      [L3] Q: Does the vehicle have two wheels?
+        -> Yes:
+        [L4] Q: Does the vehicle have pedals for human propulsion?
+          -> Yes:
+          [L5] Leaf Node: bicycle (ID: 2)
+          -> No:
+          [L5] Leaf Node: motorcycle (ID: 4)
+        -> No:
+        [L4] Q: Does the vehicle primarily operate on water?
+          -> Yes:
+          [L5] Leaf Node: boat (ID: 9)
+          -> No:
+          [L5] Q: Does the vehicle have wings?
+            -> Yes:
+            [L6] Leaf Node: airplane (ID: 5)
+            -> No:
+            [L6] Q: Is the vehicle designed primarily for transporting many passengers?
+              -> Yes:
+              [L7] Q: Does the vehicle travel on tracks?
+                -> Yes:
+                [L8] Leaf Node: train (ID: 7)
+                -> No:
+                [L8] Leaf Node: bus (ID: 6)
+              -> No:
+              [L7] Q: Is the vehicle smaller in size and typically used for personal transport?
+                -> Yes:
+                [L8] Leaf Node: car (ID: 3)
+                -> No:
+                [L8] Leaf Node: truck (ID: 8)
+      -> No:
+      [L3] Q: Is the object attached to or installed on a street or roadside?
+        -> Yes:
+        [L4] Q: Is the object primarily a sign displaying text or symbols?
+          -> Yes:
+          [L5] Q: Is the sign octagonal in shape?
+            -> Yes:
+            [L6] Leaf Node: stop sign (ID: 13)
+            -> No:
+            [L6] Leaf Node: street sign (ID: 12)
+          -> No:
+          [L5] Q: Does the object have visible lights or bulbs on its structure?
+            -> Yes:
+            [L6] Leaf Node: traffic light (ID: 10)
+            -> No:
+            [L6] Q: Does the object typically have a coin or digital payment slot?
+              -> Yes:
+              [L7] Leaf Node: parking meter (ID: 14)
+              -> No:
+              [L7] Leaf Node: fire hydrant (ID: 11)
+        -> No:
+        [L4] Q: Is the primary object large and flat (used for riding or standing on)?
+          -> Yes:
+          [L5] Q: Is the object typically used on snow?
+            -> Yes:
+            [L6] Q: Does the object consist of two long narrow boards rather than a single wide board?
+              -> Yes:
+              [L7] Leaf Node: skis (ID: 35)
+              -> No:
+              [L7] Leaf Node: snowboard (ID: 36)
+            -> No:
+            [L6] Q: Is the object primarily used on water?
+              -> Yes:
+              [L7] Leaf Node: surfboard (ID: 42)
+              -> No:
+              [L7] Leaf Node: skateboard (ID: 41)
+          -> No:
+          [L5] Q: Is the object primarily designed to fly or be used in the air?
+            -> Yes:
+            [L6] Q: Is the object typically thrown by hand during play?
+              -> Yes:
+              [L7] Leaf Node: frisbee (ID: 34)
+              -> No:
+              [L7] Q: Does the object have a fabric or cloth surface stretched over its frame?
+                -> Yes (fabric stretched over frame for protection from rain/sun):
+                [L8] Leaf Node: umbrella (ID: 28)
+                -> No (fabric stretched mainly for flight, not protection):
+                [L8] Leaf Node: kite (ID: 38)
+            -> No:
+            [L6] Q: Is the object spherical or round in shape?
+              -> Yes:
+              [L7] Leaf Node: sports ball (ID: 37)
+              -> No:
+              [L7] Q: Is the object held in the hand during use?
+                -> Yes:
+                [L8] Q: Does the object have a netted or strung area as part of its design?
+                  -> Yes:
+                  [L9] Leaf Node: tennis racket (ID: 43)
+                  -> No:
+                  [L9] Leaf Node: baseball bat (ID: 39)
+                -> No:
+                [L8] Leaf Node: baseball glove (ID: 40)

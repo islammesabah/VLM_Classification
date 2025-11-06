@@ -1,4 +1,4 @@
 
-from .data_loader import DatasetLoader, CIFARLoader, GTSRBLoader
+from .data_loader import DatasetLoader, CIFARLoader, GTSRBLoader, MSCOCOLoader
 
-__all__ = ['DatasetLoader', 'CIFARLoader', 'GTSRBLoader']
+__all__ = ['DatasetLoader', 'CIFARLoader', 'GTSRBLoader', 'MSCOCOLoader']

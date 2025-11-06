@@ -23,7 +23,7 @@ from results.initiate_db import create_table
 
 # Import your existing modules
 from models.vlm_model import ModelClient
-from datasets.data_loader import DatasetLoader, CIFARLoader, GTSRBLoader
+from datasets.data_loader import DatasetLoader, CIFARLoader, GTSRBLoader, MSCOCOLoader
 
 # program interface
 def create_argument_parser() -> argparse.ArgumentParser:
@@ -37,7 +37,7 @@ def create_argument_parser() -> argparse.ArgumentParser:
         '--dataset_name',
         type=str,
         default='GTSRB',
-        choices=['GTSRB', 'CIFAR-10'],
+        choices=['GTSRB', 'CIFAR-10', 'MSCOCO', "MNIST"],
         help='Dataset to use for inference'
     )
     parser.add_argument(
@@ -259,8 +259,9 @@ class VLMInference:
         """Create appropriate dataset loader."""
         loaders = {
             'CIFAR-10': CIFARLoader(),
-            'GTSRB': GTSRBLoader()
-        }
+            'GTSRB': GTSRBLoader(),
+            'MSCOCO': MSCOCOLoader()
+                            }
         
         if self.config.dataset_name not in loaders:
             raise ValueError(f"Unsupported dataset: {self.config.dataset_name}")
@@ -297,7 +298,9 @@ class VLMInference:
     
     def zero_shot_inference(self, base64_image: str, class_names: Dict[str, str], config: dict[str, Any], include_description: int, short_description: str="", RunId: int=0) -> InferenceResult:
         """Perform zero-shot inference."""
-        class_names_str = ", ".join([f"{i}: {class_names[str(i)]}" for i in range(len(class_names))])
+        # Handle both 0-indexed and 1-indexed class IDs
+        class_ids = sorted([int(k) for k in class_names.keys()])
+        class_names_str = ", ".join([f"{i}: {class_names[str(i)]}" for i in class_ids])
         messages = [
                 {
                     "role": "user",
@@ -514,9 +517,11 @@ class VLMInference:
                 })
                 return InferenceResult(response=json.dumps(tree_path), predicted_class=-1, tree_path=tree_path)
             
+            # case: when the response is upper case and the answers are lower case-> response.lower()
+            # case: when the answers are lower case and the response is upper case-> regex_pattern.lower() but we need the match to be upper case again
             match = re.search(regex_pattern.lower(), response.lower())
             if match:
-                answer = match.group(1)
+                answer = next((ans for ans in sorted_answers if ans.lower() == match.group(1).lower()), None)
                 tree_path.append({
                     "question": tree.question,
                     "answer": answer
@@ -574,7 +579,7 @@ class VLMInference:
             long_description, short_description = "", ""
         
         # Process each image
-        for image_idx in tqdm(range(len(images[:1])), desc="\nProcessing images"):
+        for image_idx in tqdm(range(len(images)), desc="\nProcessing images"):
             # Extract image information
             image_path, sequence = self.dataset_loader.extract_image_info(image_idx, additional_info)
             

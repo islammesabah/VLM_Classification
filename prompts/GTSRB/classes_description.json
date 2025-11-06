@@ -1,4 +1,6 @@
-{"long_description": {
+{
+  "initial_prompt": "Please classify the object in the given image. It should be only one of these classes: {class_names_str}. Please generate only the class ID number.",
+  "long_description": {
   "0": {
     "label": "20 Kph Limit",
     "visual_description": "Circular sign with thick red border and white interior. Large black '20' at center. Variations include faded red pigment, reflective material glare, rain streaks, or partial occlusion by vegetation.",

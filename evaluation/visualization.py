@@ -283,9 +283,10 @@ def visualization_violin_plot(df, model_name, dataset, dir):
     ax.violinplot(classes_accuracies, positions=np.arange(len(classes_accuracies)), widths=0.8, showmeans=True, showmedians=True)
     # Create a violin plot for the without tree model
     ax.violinplot(classes_accuracies_without_tree, positions=np.arange(len(classes_accuracies_without_tree)) + 0.5, widths=0.8, showmeans=True, showmedians=True)
-    # Set x-ticks to class names
+    # Set x-ticks to class names - handle both 0-indexed and 1-indexed class IDs
+    class_ids = sorted([int(k) for k in class_names.keys()])
     ax.set_xticks(np.arange(len(class_names)))
-    ax.set_xticklabels([class_names[i] for i in range(len(class_names))], rotation=45)
+    ax.set_xticklabels([class_names[i] for i in class_ids], rotation=45)
     ax.set_title(f"Violin Plot of {model_name} on {dataset}")
     ax.set_ylabel("Accuracy")
     plt.tight_layout()

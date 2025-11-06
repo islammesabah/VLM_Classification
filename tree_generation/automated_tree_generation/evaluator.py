@@ -5,7 +5,9 @@ from pydantic import BaseModel, ValidationError, Field
 from openai import OpenAI
 from dotenv import load_dotenv
 from generator import QuestionEntry
+from typing import Optional
 
+from monitor import OpenRouterMonitor
 # Load environment variables from the .env file
 load_dotenv()
 
@@ -121,12 +123,12 @@ def get_model_name(provider: Literal["openai", "openrouter"] = "openai") -> str:
     Returns:
         Model name string
     """
-    base_model_openai = "google/gemini-2.5-flash-lite"
+    base_model_openai = "openai/gpt-4.1"
     
     if provider == "openai":
         return base_model_openai
     elif provider == "openrouter":
-        return f"google/gemini-2.5-flash-lite"
+        return f"openai/gpt-4.1"
     else:
         raise ValueError(f"Unknown provider: {provider}")
 
@@ -139,7 +141,8 @@ def evaluate_structured_questions(
     generator_output: str,
     dataset_path: str,
     keep_top_k: int = 2,
-    provider: Literal["openai", "openrouter"] = "openai"
+    provider: Literal["openai", "openrouter"] = "openai",
+    monitor: Optional[OpenRouterMonitor] = None
 ) -> EvaluatorOutput:
     """
     Evaluates structured questions using OpenAI API or OpenRouter
@@ -201,6 +204,15 @@ def evaluate_structured_questions(
         **({"extra_headers": extra_headers} if extra_headers else {})
     )
 
+    # TRACK USAGE IF MONITOR PROVIDED
+    if monitor and hasattr(response, 'usage'):
+        usage = response.usage
+        monitor.track_call(
+            prompt_tokens=usage.prompt_tokens,
+            completion_tokens=usage.completion_tokens,
+            total_tokens=usage.total_tokens
+        )
+    
     response_json = response.choices[0].message.content
     print(f"Response JSON: {response_json}")
 
