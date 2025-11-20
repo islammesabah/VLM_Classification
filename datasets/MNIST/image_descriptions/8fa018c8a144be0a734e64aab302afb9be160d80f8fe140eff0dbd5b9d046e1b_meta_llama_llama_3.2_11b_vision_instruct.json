@@ -1,0 +1,5 @@
+{
+  "description": "The image is a blurry, white silhouette of a person's profile against a black background. There is only one class in this dataset.\n\nDetailed description of the classes: The image depicts a person's profile with a distinctive nose and chin, set against a solid black background.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763026551.4054523
+}

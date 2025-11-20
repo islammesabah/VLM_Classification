@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts two parking meters situated on the side of a road, with a warning sign attached to each meter. The meters are made of metal and feature a digital display screen, although the numbers displayed are not visible. Each meter has a slot for inserting coins and a button to reset the parking time.\n\nThe warning sign, which is red in color, reads, \"WARNING VEHICLES PARKED AT BROKEN METERS WILL BE CITED.\" The meters are positioned on the side of a road",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763003940.9195108
+}

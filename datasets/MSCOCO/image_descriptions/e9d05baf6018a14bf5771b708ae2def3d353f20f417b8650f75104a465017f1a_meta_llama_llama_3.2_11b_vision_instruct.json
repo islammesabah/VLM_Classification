@@ -1,0 +1,5 @@
+{
+  "description": "**Image Description**\n\n* The image features a large collection of teddy bears, diverse in size, shape, and color.\n* Some teddy bears are wearing clothes, such as shirts, hats, and pants.\n* The teddy bears in the image may be exhibits in a museum or a display at a store.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763005980.468983
+}

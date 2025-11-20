@@ -1,0 +1,5 @@
+{
+  "description": "**Image Description**\n\nThe image is a simple, blurry representation of the number \"3\". \n\n* The image is a blurry, pixelated representation of the number \"3\".\n* The number \"3\" is displayed in white against a black background.\n* The image is a low-resolution representation of the number \"3\".\n\n**Class 1: Number**\n\n* The image represents the number \"3\".\n* The number \"3\" is a single-digit numeral.\n* The number \"3\" is displayed",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763028166.4200625
+}

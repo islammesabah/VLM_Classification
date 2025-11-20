@@ -1,0 +1,5 @@
+{
+  "description": "The image features two red and yellow bicycles parked near a tree in front of a building, with a gray brick sidewalk running along the foreground.\n\n* Two red and yellow bicycles are parked near a tree.\n\t+ The bicycles are positioned close to each other, with their seats facing towards the right side of the image.\n\t+ They have yellow frames and red baskets with white lids attached to the front of the bikes.\n\t+ A small black sign with white text is visible on the front of each basket",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762992127.6974401
+}

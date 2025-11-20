@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a snowboard leaning against a pile of snow, with a fence and trees visible in the background. The snowboard is positioned upright, with its tip pointing upwards and its bindings facing downwards.\n\n* Snowboard:\n\t+ Leans against a pile of snow\n\t+ Tip points upwards\n\t+ Bindings face downwards\n\t+ Has a blue and white design on the top\n\t+ Has a black binding on the left side\n\t+ Has a red logo on the bottom",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763005507.9769738
+}

@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a street sign with directions and restrictions, situated on a metal pole. The top sign features two curved arrows pointing in opposite directions, accompanied by the text \"Only\" and \"One Way\" underneath. Adjacent to this sign is another sign displaying a red circle with a white interior, overlaid with a white \"R\" and the text \"This side this block\". The background of the image is composed of trees and buildings, providing context for the street sign.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762998379.8537169
+}

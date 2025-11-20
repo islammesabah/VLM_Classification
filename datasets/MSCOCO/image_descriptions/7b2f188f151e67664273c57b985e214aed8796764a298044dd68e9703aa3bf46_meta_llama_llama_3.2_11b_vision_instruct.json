@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a fire truck and a fire station, with a white truck in front of the fire station. The purpose of the image is to show the fire station and its vehicles.\n\n* Fire truck:\n\t+ Red color\n\t+ Parked in front of the fire station\n\t+ Has a ladder on top\n\t+ Number \"132\" written on the side\n* Fire station:\n\t+ Large building with a red roof\n\t+ Has a large garage door\n\t+ Has",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762990360.8797166
+}

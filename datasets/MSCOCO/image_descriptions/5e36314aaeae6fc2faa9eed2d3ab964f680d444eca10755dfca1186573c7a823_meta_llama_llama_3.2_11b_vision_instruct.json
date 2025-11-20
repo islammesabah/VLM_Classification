@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a street sign and traffic light against a backdrop of trees and a blue sky.\n\n* A street sign\n\t+ The sign is white with black text that reads \"MASONIC\" in large letters.\n\t+ Below the main text, there is smaller text that reads \"900\".\n\t+ The sign is attached to a metal pole and is angled slightly to the right.\n* A traffic light\n\t+ The traffic light is located above the street sign and is partially obscured by it",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763001167.3940842
+}

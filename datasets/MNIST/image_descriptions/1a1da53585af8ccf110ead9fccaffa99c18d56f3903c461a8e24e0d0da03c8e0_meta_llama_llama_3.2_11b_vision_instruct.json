@@ -1,0 +1,5 @@
+{
+  "description": "The image displays a white number \"3\" on a black background. The number is displayed in a white, stylized font, with its uppermost part curved towards the left and its lowermost part curved towards the right. The font is slightly blurry, and the effect gives the impression of a stylized hand-drawn design.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763027612.8182924
+}

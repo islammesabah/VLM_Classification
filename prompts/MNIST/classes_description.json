@@ -1,0 +1,15 @@
+{
+    "initial_prompt": "Please classify the object in the given image. It should be only one of these classes: {class_names_str}. Please generate only the class ID number.",
+    "short_description":{
+    "0": "Handwritten digit '0' typically depicted as a closed loop or oval shape",
+    "1": "Handwritten digit '1' usually represented as a single vertical line, sometimes with a slight curve or serif at the top or bottom",
+    "2": "Handwritten digit '2' characterized by a curved top and a diagonal line descending to the right, often with a flat base",
+    "3": "Handwritten digit '3' featuring two stacked semi-circular curves, one on top of the other",
+    "4": "Handwritten digit '4' usually depicted with a vertical line on the left, a horizontal line at the top, and a diagonal line connecting them",
+    "5": "Handwritten digit '5' characterized by a top horizontal line, a vertical line on the left, and a curved bottom",
+    "6": "Handwritten digit '6' featuring a closed loop at the bottom with a curved line extending upwards",
+    "7": "Handwritten digit '7' usually represented by a horizontal line at the top and a diagonal line descending to the right",
+    "8": "Handwritten digit '8' characterized by two stacked closed loops, one on top of the other",
+    "9": "Handwritten digit '9' featuring a closed loop at the top with a straight line descending downwards"
+    }
+}

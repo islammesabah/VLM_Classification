@@ -1,0 +1,5 @@
+{
+  "description": "**Summary:** A sepia-toned photograph of a small plane in flight.\n\n**Foreground:** The small plane, possibly a Soviet-designed Yak-11 or a similar model, is flying towards the right side of the image. Its wings are positioned behind the cockpit, with the tail positioned vertically behind the wings. The plane features circular white markings with a black circle and a white ring design on both wings.\n\n**Background:** The image appears to have been intentionally created to mimic the look of a vintage photograph",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763000677.3214877
+}

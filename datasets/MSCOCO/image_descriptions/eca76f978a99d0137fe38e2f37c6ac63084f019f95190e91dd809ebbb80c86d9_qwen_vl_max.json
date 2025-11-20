@@ -1,0 +1,5 @@
+{
+  "description": "Image Description: The image displays a computer screen with multiple overlapping windows, primarily showing technical system error messages and debugging information. The dominant portion of the screen features a black terminal-like window filled with white text detailing a system failure. The error message includes a code \"00000007 (Corrupt skip lists)\" and provides extensive technical details such as CPU crash info, exception state, PC, MSR, DRR, and DSISR values. There is a backtrace listing memory addresses",
+  "model": "qwen-vl-max",
+  "timestamp": 1762992590.406446
+}

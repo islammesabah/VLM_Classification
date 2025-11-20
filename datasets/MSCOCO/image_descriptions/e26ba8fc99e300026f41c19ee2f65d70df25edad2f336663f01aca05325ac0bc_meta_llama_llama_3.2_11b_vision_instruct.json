@@ -1,0 +1,5 @@
+{
+  "description": "The image shows a stainless steel microwave with a windowed door, set into a kitchen countertop with white tile backsplash and brown wooden cabinets.\n\n* Microwave:\n\t+ Stainless steel color\n\t+ Windowed door\n\t+ Control panel on the right side\n\t+ Display screen on the right side\n* Cabinets:\n\t+ Brown wooden color\n\t+ Two upper cabinets above the microwave\n\t+ Two lower cabinets on either side of the microwave\n* Countertop:\n\t+ White",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762997750.631032
+}

@@ -1,0 +1,5 @@
+{
+  "description": "The image displays a weathered gray cell phone and two remotes placed on the ground.\n\nThe cell phone is positioned at the bottom of the image, with its back panel removed to reveal the internal components. The remnants of various parts are scattered around it. The remotes, one white and one gray, are placed above the phone, angled to the right and away from the camera. The cell phone and remotes cast shadows, indicating that they are being illuminated by the sun.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763002429.7715917
+}

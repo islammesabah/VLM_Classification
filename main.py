@@ -10,6 +10,7 @@ import argparse
 import base64
 import re
 import time
+import hashlib
 import numpy as np
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple, Optional, Any, Union
@@ -23,7 +24,8 @@ from results.initiate_db import create_table
 
 # Import your existing modules
 from models.vlm_model import ModelClient
-from datasets.data_loader import DatasetLoader, CIFARLoader, GTSRBLoader, MSCOCOLoader
+from datasets.data_loader import DatasetLoader, CIFARLoader, GTSRBLoader, MSCOCOLoader, MNISTLoader
+from tree_generation.automated_tree_generation.monitor import OpenRouterMonitor
 
 # program interface
 def create_argument_parser() -> argparse.ArgumentParser:
@@ -253,6 +255,9 @@ class VLMInference:
         self.include_memory = include_memory
         self.include_description = include_description
         self.include_zero_shot_label = include_zero_shot_label
+        self.monitor = OpenRouterMonitor()
+        self.cache_dir = os.path.join(config.dataset_path, 'image_descriptions')
+        os.makedirs(self.cache_dir, exist_ok=True)
         
     
     def _create_dataset_loader(self) -> DatasetLoader:
@@ -260,13 +265,71 @@ class VLMInference:
         loaders = {
             'CIFAR-10': CIFARLoader(),
             'GTSRB': GTSRBLoader(),
-            'MSCOCO': MSCOCOLoader()
+            'MSCOCO': MSCOCOLoader(),
+            'MNIST': MNISTLoader()
                             }
         
         if self.config.dataset_name not in loaders:
             raise ValueError(f"Unsupported dataset: {self.config.dataset_name}")
         
         return loaders[self.config.dataset_name]
+    
+    def _track_api_call(self, completion):
+        """Track API call usage from completion object."""
+
+        try:
+            if hasattr(completion, 'usage'):
+                prompt_tokens = completion.usage.prompt_tokens
+                completion_tokens = completion.usage.completion_tokens
+                total_tokens = completion.usage.total_tokens
+                self.monitor.track_call(prompt_tokens, completion_tokens, total_tokens)
+            else:
+                print("Warning: Could not extract token usage from API response")
+        except Exception as e:
+            print(f"Warning: Exception occurred while tracking API call: {e}")
+    
+    def _get_image_hash(self, base64_image: str) -> str:
+        """Generate a hash for the image to use as cache key."""
+        return hashlib.sha256(base64_image.encode()).hexdigest()
+    
+    def _get_cache_path(self, image_hash: str, model_name: str) -> str:
+        """Get the cache file path for an image description."""
+        # Include model name in cache path to handle different models
+        model_safe_name = model_name.replace('/', '_').replace('-', '_')
+        return os.path.join(self.cache_dir, f"{image_hash}_{model_safe_name}.json")
+    
+    def _load_cached_description(self, base64_image: str, model_name: str) -> Optional[str]:
+        """Load cached image description if available."""
+        image_hash = self._get_image_hash(base64_image)
+        cache_path = self._get_cache_path(image_hash, model_name)
+        
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    cache_data = json.load(f)
+                    print(f"Using cached description for image (hash: {image_hash[:8]}...)")
+                    return cache_data.get('description')
+            except (json.JSONDecodeError, IOError) as e:
+                print(f"Warning: Could not load cache file {cache_path}: {e}")
+                return None
+        return None
+    
+    def _save_cached_description(self, base64_image: str, model_name: str, description: str):
+        """Save image description to cache."""
+        image_hash = self._get_image_hash(base64_image)
+        cache_path = self._get_cache_path(image_hash, model_name)
+        
+        try:
+            cache_data = {
+                'description': description,
+                'model': model_name,
+                'timestamp': time.time()
+            }
+            with open(cache_path, 'w', encoding='utf-8') as f:
+                json.dump(cache_data, f, ensure_ascii=False, indent=2)
+            print(f"Cached description for image (hash: {image_hash[:8]}...)")
+        except IOError as e:
+            print(f"Warning: Could not save cache file {cache_path}: {e}")
     
     def _encode_image(self, image: Union[np.ndarray, Image.Image]) -> str:
         """Encode image to base64."""
@@ -309,38 +372,47 @@ class VLMInference:
         ]
         
         if include_description == 2:
-            with open("prompts/describe_image.txt", "r") as file:
-                prompt_description = file.read()
+            # Try to load cached description first
+            image_description = self._load_cached_description(base64_image, self.model_client.model_name)
+            
+            if image_description is None:
+                # No cache available, make API call
+                with open("prompts/describe_image.txt", "r") as file:
+                    prompt_description = file.read()
 
-            messages_descr = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt_description},
-                        {
-                            "type": "image_url",
-                            "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
-                        }
-                    ]
+                messages_descr = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt_description},
+                            {
+                                "type": "image_url",
+                                "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
+                            }
+                        ]
+                    }
+                ]
+                payload = {
+                    "model": self.model_client.model_name,
+                    "messages": messages_descr,
+                    "max_tokens": self.config.max_tokens,
+                    "temperature": self.config.temperature
                 }
-            ]
-            payload = {
-                "model": self.model_client.model_name,
-                "messages": messages_descr,
-                "max_tokens": self.config.max_tokens,
-                "temperature": self.config.temperature
-            }
-            if self.model_client.model_name.startswith('meta-llama/'):
-                payload['extra_body'] = {
-                    "provider": {
-                        "order": openrouter_providers
-                    },
-                    "allow_fallbacks": False
-                }
-            completion = self.model_client.client.chat.completions.create(
-                **payload
-            )
-            image_description = completion.choices[0].message.content
+                if self.model_client.model_name.startswith('meta-llama/'):
+                    payload['extra_body'] = {
+                        "provider": {
+                            "order": openrouter_providers
+                        },
+                        "allow_fallbacks": False
+                    }
+                completion = self.model_client.client.chat.completions.create(
+                    **payload
+                )
+                self._track_api_call(completion)
+                image_description = completion.choices[0].message.content
+                
+                # Cache the description for future use
+                self._save_cached_description(base64_image, self.model_client.model_name, image_description)
 
             
             # Include the image description in the messages
@@ -349,10 +421,14 @@ class VLMInference:
                 "text": f"Image description:{image_description}"
             })
 
-            # add the short description of the classes
+            # Filter the short description to only include classes being asked about
+            class_ids_set = set(class_ids)
+            filtered_description = self.filter_descriptions_by_classes(short_description, class_ids_set)
+            
+            # add the short description of the classes (filtered to current classes)
             messages[0]["content"].append({
                 "type": "text",
-                "text": f"Description of the classes: {short_description}"
+                "text": f"Description of the classes: {filtered_description}"
             })
 
         prompt = self.dataset_loader.get_zero_shot_prompt(config, RunId).replace("{class_names_str}", class_names_str)
@@ -388,6 +464,7 @@ class VLMInference:
         completion = self.model_client.client.chat.completions.create(
             **payload
         )
+        self._track_api_call(completion)
         # print(f"completion: {completion}")
         response = completion.choices[0].message.content
         predicted_class = self._extract_class_from_response(response, class_names)
@@ -402,86 +479,167 @@ class VLMInference:
         """Perform tree-based inference."""
         tree = self.dataset_loader.build_tree()
         tree_path = []
-
-        # If include description for the tree of the classes and the image.
+        
+        # Initialize conversation history for chat mode
+        conversation_history = []
+        
+        # Get image description if needed
+        image_description = None
         if include_description == 1:
-            with open("prompts/describe_image.txt", "r") as file:
-                prompt = file.read()
+            # Try to load cached description first
+            image_description = self._load_cached_description(base64_image, self.model_client.model_name)
             
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
-                        }
-                    ]
+            if image_description is None:
+                # No cache available, make API call
+                with open("prompts/describe_image.txt", "r") as file:
+                    prompt = file.read()
+                
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt},
+                            {
+                                "type": "image_url",
+                                "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
+                            }
+                        ]
+                    }
+                ]
+                payload = {
+                    "model": self.model_client.model_name,
+                    "messages": messages,
+                    "max_tokens": self.config.max_tokens,
+                    "temperature": self.config.temperature
                 }
-            ]
-            payload = {
-                "model": self.model_client.model_name,
-                "messages": messages,
-                "max_tokens": self.config.max_tokens,
-                "temperature": self.config.temperature
-            }
-            if self.model_client.model_name.startswith('meta-llama/'):
-                payload['extra_body'] = {
-                    "provider": {
-                        "order": openrouter_providers
-                    },
-                    "allow_fallbacks": False
-                }
-            completion = self.model_client.client.chat.completions.create(
-                **payload
-            )
-            image_description = completion.choices[0].message.content
+                if self.model_client.model_name.startswith('meta-llama/'):
+                    payload['extra_body'] = {
+                        "provider": {
+                            "order": openrouter_providers
+                        },
+                        "allow_fallbacks": False
+                    }
+                completion = self.model_client.client.chat.completions.create(
+                    **payload
+                )
+                self._track_api_call(completion)
+                image_description = completion.choices[0].message.content
+                
+                # Cache the description for future use
+                self._save_cached_description(base64_image, self.model_client.model_name, image_description)
             # print(f"Image description: {image_description}")
+        
+        # Build system prompt with fixed content (optimized for chat mode)
+        if include_memory:
+            system_content = []
+            
+            # NOTE: many providers (Azure/OpenAI) reject image URLs inside a `system` message.
+            # Keep only text in the system message (fixed content) and add the image as
+            # a separate initial user message so it is available to the model but not
+            # inside the system role.
+            
+            # Add image description to system prompt if available
+            if include_description == 1 and image_description:
+                system_content.append({
+                    "type": "text",
+                    "text": f"Image description: {image_description}"
+                })
+            
+            # Add full class descriptions to system prompt (will be referenced throughout)
+            if include_description == 1 and short_description:
+                system_content.append({
+                    "type": "text",
+                    "text": f"Full class descriptions: {short_description}"
+                })
+            
+            # Add instruction text
+            system_content.append({
+                "type": "text",
+                "text": "You will be asked a series of questions to classify this image. Answer each question based on the image and descriptions provided."
+            })
+            
+            # Initialize conversation with system message
+            conversation_history.append({
+                "role": "system",
+                "content": system_content
+            })
+
+            # Add the image as an initial user message (allowed by providers)
+            conversation_history.append({
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
+                    }
+                ]
+            })
         while tree.question:
             print(f"Message: {tree.message}")
             prompt = f"{tree.question} Choose one of these answers: {tree.answers}."
             print(f"Prompt: {prompt}")
             
-            messages = [
-                {
-                    "role": "user",
-                    "content": []
-                }
-            ]
-            
             if include_memory:
-                # Include previous questions and answers in the messages first
-                messages[0]["content"].append({"type": "text", "text": "Previous questions and answers:"})
-                for item in tree_path:
-                    messages[0]["content"].append(
-                        {"type": "text", "text": f"Q: {item['question']} A: {item['answer']}"}
-                    )
-            
-            if include_description == 1:
-                # Include the image description in the messages
-                messages[0]["content"].append({
-                    "type": "text",
-                    "text": f"Image description: {image_description}"
+                # CONVERSATION MODE: Build on existing conversation history
+                # Get all possible classes from current tree node for context
+                if include_description == 1:
+                    possible_classes = tree.get_all_possible_classes()
+                    filtered_description = self.filter_descriptions_by_classes(short_description, possible_classes)
+                    
+                    # Add context about current possible classes
+                    user_message_content = [
+                        {"type": "text", "text": f"Current possible classes: {filtered_description}"},
+                        {"type": "text", "text": prompt}
+                    ]
+                else:
+                    user_message_content = [{"type": "text", "text": prompt}]
+                
+                # Add user question to conversation history
+                conversation_history.append({
+                    "role": "user",
+                    "content": user_message_content
                 })
+                
+                # Use full conversation history for API call
+                messages = conversation_history
+                
+            else:
+                # ONE-TIME MODE: Build single-turn message with all context
+                messages = [
+                    {
+                        "role": "user",
+                        "content": []
+                    }
+                ] 
+                if include_description == 1:
+                    # Include the image description in the messages
+                    messages[0]["content"].append({
+                        "type": "text",
+                        "text": f"Image description: {image_description}"
+                    })
 
-                # add the short description of the classes
+                    # Get all possible classes from current tree node
+                    possible_classes = tree.get_all_possible_classes()
+                    
+                    # Filter the short description to only include relevant classes
+                    filtered_description = self.filter_descriptions_by_classes(short_description, possible_classes)
+                    
+                    # add the short description of the classes (filtered to current possible classes)
+                    messages[0]["content"].append({
+                        "type": "text",
+                        "text": f"Description of the classes: {filtered_description}"
+                    })
+                
+                # Then add the current question
                 messages[0]["content"].append({
-                    "type": "text",
-                    "text": f"Description of the classes: {short_description}"
+                    "type": "text", "text": prompt
                 })
-            
-            # Then add the current question
-            messages[0]["content"].append({
-                "type": "text", "text": prompt
-            })
-            
-            # print(f"Messages for tree inference: {messages}")
-            # Add the image
-            messages[0]["content"].append({
-                "type": "image_url",
-                "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
-            })
+                
+                # Add the image (always last for one-time mode)
+                messages[0]["content"].append({
+                    "type": "image_url",
+                    "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
+                })
 
             # Sort answers by length (longest first) to avoid substring matching issues
             sorted_answers = sorted(tree.answers, key=len, reverse=True)
@@ -502,9 +660,19 @@ class VLMInference:
             completion = self.model_client.client.chat.completions.create(
                 **payload
             )
+            self._track_api_call(completion)
             # print(f"Messages sent to the model: {messages}")
             response = completion.choices[0].message.content
             
+            # Add assistant response to conversation history (for memory mode)
+            if include_memory:
+                # normalize assistant content to the same structured format we use for user/system
+                conversation_history.append({
+                    "role": "assistant",
+                    "content": [
+                        {"type": "text", "text": response}
+                    ]
+                })
             
             print("=" * 50)
             print(f"Response: {response}")
@@ -564,6 +732,29 @@ class VLMInference:
         else:
             print("No description path provided in configuration.")
             return "", ""
+    
+    def filter_descriptions_by_classes(self, short_description_json: str, class_ids: set) -> str:
+        """Filter class descriptions to only include relevant classes.
+        
+        Args:
+            short_description_json: JSON string of all class descriptions
+            class_ids: Set of class IDs to include
+            
+        Returns:
+            JSON string of filtered descriptions
+        """
+        if not short_description_json or not class_ids:
+            return ""
+        
+        try:
+            all_descriptions = json.loads(short_description_json)
+            # Filter to only include classes in class_ids
+            filtered = {str(class_id): desc for class_id, desc in all_descriptions.items() 
+                       if int(class_id) in class_ids}
+            return json.dumps(filtered)
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Error filtering descriptions: {e}")
+            return short_description_json
     
     def run_inference(self, enable_tree: bool = False, include_memory: bool = False, include_description: int = 0, include_zero_shot_label: bool = False, run_id: int = 0):
         """Run inference on all images."""
@@ -627,6 +818,7 @@ class VLMInference:
     def cleanup(self):
         """Clean up resources."""
         self.db_manager.close()
+        self.monitor.print_summary()
 
 
 def main():

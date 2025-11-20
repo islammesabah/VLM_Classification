@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a scene of a microwave with a pumpkin carved with a dog design on top, and a fake severed body part inside the microwave. The microwave is white, open, and positioned in front of a white wall. \n\n* Microwave:\n\t+ White color\n\t+ Open door\n\t+ Positioned in front of a white wall\n* Pumpkin:\n\t+ Carved with a dog design\n\t+ Placed on top of the microwave\n* Fake severed body part:\n\t+ Inside",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762997968.3028212
+}

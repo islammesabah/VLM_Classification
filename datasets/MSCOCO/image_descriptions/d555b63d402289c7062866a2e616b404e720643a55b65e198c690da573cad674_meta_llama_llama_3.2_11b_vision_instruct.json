@@ -1,0 +1,5 @@
+{
+  "description": "The image shows a red and white bus parked in front of a building.\n\n* The bus:\n\t+ Has a red top and white bottom\n\t+ Has a large windshield and side windows\n\t+ Has a black bumper and trim\n\t+ Has a license plate on the front\n\t+ Has an advertisement on the side that reads \"Can't you see its green?\"\n* The building:\n\t+ Is tall and has many windows\n\t+ Is made of concrete or stone\n\t+",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762990666.479111
+}

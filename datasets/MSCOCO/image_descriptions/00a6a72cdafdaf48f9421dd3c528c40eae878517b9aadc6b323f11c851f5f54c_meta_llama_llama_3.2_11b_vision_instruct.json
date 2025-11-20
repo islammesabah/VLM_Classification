@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a brown horse grazing in a field, with a dense forest in the background and a mountain range visible in the distance.\n\n*   A brown horse is grazing in a field.\n    *   The horse is brown with a black mane and tail.\n    *   It has white markings on its legs.\n    *   The horse is facing the right side of the image.\n    *   The horse is standing in a grassy field.\n*   There is a dense forest in the background",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762993209.5233877
+}

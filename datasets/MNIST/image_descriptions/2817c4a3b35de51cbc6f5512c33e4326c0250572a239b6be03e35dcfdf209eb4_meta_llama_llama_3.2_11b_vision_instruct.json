@@ -1,0 +1,5 @@
+{
+  "description": "Image Description: A blurry, pixelated, white number three on a black background.\n\nThe image features a single, white number three that is rendered in a pixelated style. The number three appears to be handwritten, with a slight slant to the right. The font used for the number three is blocky and lacks refinement, giving it a rough appearance. The background of the image is solid black, providing a stark contrast to the white number three.",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763028130.267797
+}

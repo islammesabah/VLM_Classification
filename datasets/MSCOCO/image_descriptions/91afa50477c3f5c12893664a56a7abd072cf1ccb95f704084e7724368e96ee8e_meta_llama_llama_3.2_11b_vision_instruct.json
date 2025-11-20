@@ -1,0 +1,5 @@
+{
+  "description": "The image shows a parking meter situated on the sidewalk in front of a building.\n\n*   Parking meter:\n    *   The parking meter is positioned on the sidewalk.\n    *   It has a black body with a curved top and a flat bottom.\n    *   The meter is attached to a metal pole.\n    *   The meter has a small screen on its front, displaying the time and other information.\n    *   The meter has a coin slot on its front, allowing users to deposit coins",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763002790.9036007
+}

@@ -6,6 +6,18 @@ class TreeNode:
         self.message = message
         self.possible_classes = possible_classes or []
         self.children = {}  # Map answers to child nodes
+    
+    def get_all_possible_classes(self):
+        """Get all possible classes that could be reached from this node."""
+        if not self.question:
+            # Leaf node - return its possible classes
+            return set(self.possible_classes)
+        
+        # Internal node - collect all possible classes from children
+        all_classes = set()
+        for child in self.children.values():
+            all_classes.update(child.get_all_possible_classes())
+        return all_classes
 
 def build_mnist_tree():
     # ==============================================

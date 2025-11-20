@@ -1,0 +1,5 @@
+{
+  "description": "The image depicts a cluster of green and red apples on a tree, with the sun shining brightly behind them. The apples are likely ripe and ready to be picked.\n\n* Apples:\n\t+ Clustered together on a tree branch\n\t+ Green and red in color\n\t+ Ripe and ready to be picked\n* Leaves:\n\t+ Green in color\n\t+ Attached to the tree branch\n\t+ Surrounding the apples\n* Sun:\n\t+ Shining brightly behind the apples",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763000932.7328367
+}

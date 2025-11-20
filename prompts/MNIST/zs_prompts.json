@@ -1,0 +1,28 @@
+{
+  "dataset": "MNIST",
+  "num_prompts": 10,
+  "prompts": [
+    "\"Kindly analyze the provided image and determine the appropriate classification by assigning it to one of the following categories: {class_names_str}. Ensure that the response consists solely of the numeric class identifier.\"",
+    "\"Hey there! Could you take a look at this image and let me know which class it belongs to? The options are {class_names_str}. Just reply with the class ID number, thanks!\"",
+    "\"Carefully analyze the handwritten digit displayed in the provided image. Determine whether it belongs to one of the following classes: '0' (a digit typically shaped as a closed loop or oval) or '1' (a digit usually represented as a single vertical line, sometimes with a slight curve or serif). Provide your response exclusively as the class ID number, either 0 or 1.\"",
+    "\"Identify the digit in the image as one of the following classes: {class_names_str}. Return only the class ID.\"",
+    "\"To classify the object in the given image, follow these steps: 1) Carefully observe the features of the object. 2) Compare them to the descriptions of the two possible classes: {class_names_str}. 3) Determine the best match based on the features. 4) Provide only the class ID number (0 or 1) as the output.\"",
+    "\"Analyze the handwritten digit in the image and determine its classification based on the following options: {class_names_str}. Respond solely with the corresponding class ID number.\"",
+    "\"Analyze the given image and determine the most likely class it belongs to from the following options: {class_names_str}. Provide only the class ID number that you are most confident represents the image.\"",
+    "\"Analyze the provided image and determine its category based on its visual features. Choose the most appropriate class ID from the following options: {class_names_str}. Provide only the numerical class ID as your response.\"",
+    "\"Kindly analyze the provided image and determine the appropriate classification by assigning it to one of the following categories: {class_names_str}. Ensure that the output consists solely of the numerical identifier corresponding to the selected class.\"",
+    "\"Hey there! Can you take a look at this image and tell me which class it belongs to? Just pick one from these options: {class_names_str}. And oh, I only need the class ID number as your answer!\""
+  ],
+  "class_descriptions": {
+    "0": "Handwritten digit '0' typically depicted as a closed loop or oval shape",
+    "1": "Handwritten digit '1' usually represented as a single vertical line, sometimes with a slight curve or serif at the top or bottom",
+    "2": "Handwritten digit '2' characterized by a curved top and a diagonal line descending to the right, often with a flat base",
+    "3": "Handwritten digit '3' featuring two stacked semi-circular curves, one on top of the other",
+    "4": "Handwritten digit '4' usually depicted with a vertical line on the left, a horizontal line at the top, and a diagonal line connecting them",
+    "5": "Handwritten digit '5' characterized by a top horizontal line, a vertical line on the left, and a curved bottom",
+    "6": "Handwritten digit '6' featuring a closed loop at the bottom with a curved line extending upwards",
+    "7": "Handwritten digit '7' usually represented by a horizontal line at the top and a diagonal line descending to the right",
+    "8": "Handwritten digit '8' characterized by two stacked closed loops, one on top of the other",
+    "9": "Handwritten digit '9' featuring a closed loop at the top with a straight line descending downwards"
+  }
+}

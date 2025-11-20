@@ -5,7 +5,8 @@
         "images_dir": "images",
         "database_name": "results/cifar10.db",
         "samples_path": "datasets/CIFAR-10/1000_samples.txt",
-        "description_path": "prompts/CIFAR-10/classes_description.json"
+        "description_path": "prompts/CIFAR-10/classes_description.json",
+        "num_samples": 1000
     },  
     "GTSRB": {
         "num_classes": 43,
@@ -13,7 +14,8 @@
         "images_dir": "Training",
         "database_name": "results/gtsrb.db",
         "samples_path": "datasets/GTSRB/901_samples.txt",
-        "description_path": "prompts/GTSRB/classes_description.json"
+        "description_path": "prompts/GTSRB/classes_description.json",
+        "num_samples": 901
         },
     "MSCOCO": {
         "num_classes": 90,
@@ -21,14 +23,16 @@
         "images_dir": "filtered_1_category_images",
         "database_name": "results/mscoco.db",
         "samples_path": "datasets/MSCOCO/850_filtered_1_category_image_ids.txt",
-        "description_path": "prompts/MSCOCO/classes_description.json"
+        "description_path": "prompts/MSCOCO/classes_description.json",
+        "num_samples": 850
     },
     "MNIST": {
         "num_classes": 10,
         "Dataset_path": "datasets/MNIST",
-        "images_dir": "images",
+        "images_dir": "sampled_images",
         "database_name": "results/mnist.db",
-        "samples_path": "datasets/MNIST/1000_samples.txt",
-        "description_path": "prompts/MNIST/classes_description.json"
+        "samples_path": "datasets/MNIST/sampled_image_ids.txt",
+        "description_path": "prompts/MNIST/classes_description.json",
+        "num_samples": 1000
     }
 }

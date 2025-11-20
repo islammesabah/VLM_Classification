@@ -1,5 +1,5 @@
 {
-    "CIFAR10": {
+    "CIFAR-10": {
         "LLAMA": {
             "memory_True": {
                 "temperature_0": {
@@ -172,9 +172,9 @@
                     "same_performance": 19
                 },
                 "temperature_0.7": {
-                    "tree_outperformance": 15,
+                    "tree_outperformance": 14,
                     "without_tree_outperformance": 20,
-                    "same_performance": 8
+                    "same_performance": 9
                 }
             },
             "description_True": {
@@ -196,9 +196,9 @@
                     "same_performance": 19
                 },
                 "temperature_0.7": {
-                    "tree_outperformance": 15,
+                    "tree_outperformance": 14,
                     "without_tree_outperformance": 20,
-                    "same_performance": 8
+                    "same_performance": 9
                 }
             }
         },
@@ -217,14 +217,14 @@
             },
             "memory_False": {
                 "temperature_0": {
-                    "tree_outperformance": 10,
+                    "tree_outperformance": 11,
                     "without_tree_outperformance": 21,
-                    "same_performance": 12
+                    "same_performance": 11
                 },
                 "temperature_0.7": {
-                    "tree_outperformance": 7,
+                    "tree_outperformance": 8,
                     "without_tree_outperformance": 25,
-                    "same_performance": 11
+                    "same_performance": 10
                 }
             },
             "description_True": {
@@ -241,14 +241,14 @@
             },
             "description_False": {
                 "temperature_0": {
-                    "tree_outperformance": 10,
+                    "tree_outperformance": 11,
                     "without_tree_outperformance": 21,
-                    "same_performance": 12
+                    "same_performance": 11
                 },
                 "temperature_0.7": {
-                    "tree_outperformance": 7,
+                    "tree_outperformance": 8,
                     "without_tree_outperformance": 25,
-                    "same_performance": 11
+                    "same_performance": 10
                 }
             }
         },
@@ -299,6 +299,154 @@
                     "tree_outperformance": 6,
                     "without_tree_outperformance": 29,
                     "same_performance": 8
+                }
+            }
+        }
+    },
+    "MNIST": {
+        "LLAMA": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 10,
+                    "same_performance": 0
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 8,
+                    "same_performance": 2
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 10,
+                    "same_performance": 0
+                }
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 1,
+                    "without_tree_outperformance": 9,
+                    "same_performance": 0
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 10,
+                    "same_performance": 0
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 1,
+                    "without_tree_outperformance": 9,
+                    "same_performance": 0
+                }
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 1,
+                    "without_tree_outperformance": 9,
+                    "same_performance": 0
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 10,
+                    "same_performance": 0
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 1,
+                    "without_tree_outperformance": 9,
+                    "same_performance": 0
+                }
+            }
+        }
+    },
+    "MSCOCO": {
+        "LLAMA": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 2,
+                    "without_tree_outperformance": 63,
+                    "same_performance": 15
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 0,
+                    "without_tree_outperformance": 72,
+                    "same_performance": 8
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 2,
+                    "without_tree_outperformance": 63,
+                    "same_performance": 15
+                }
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 6,
+                    "without_tree_outperformance": 64,
+                    "same_performance": 10
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 5,
+                    "without_tree_outperformance": 58,
+                    "same_performance": 17
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 6,
+                    "without_tree_outperformance": 64,
+                    "same_performance": 10
+                }
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 8,
+                    "without_tree_outperformance": 55,
+                    "same_performance": 17
+                }
+            },
+            "description_True": {
+                "temperature_0.7": {
+                    "tree_outperformance": 8,
+                    "without_tree_outperformance": 59,
+                    "same_performance": 13
+                }
+            },
+            "description_False": {
+                "temperature_0.7": {
+                    "tree_outperformance": 8,
+                    "without_tree_outperformance": 55,
+                    "same_performance": 17
                 }
             }
         }

@@ -1,0 +1,5 @@
+{
+  "description": "The image shows a kitchen with a television mounted on the wall above a counter. The television is displaying a menu or website on its screen, which appears to be a restaurant or food establishment.\n\n* Television:\n\t+ Mounted on the wall above the counter\n\t+ Displaying a menu or website on its screen\n\t+ Screen is dark with white text and images\n* Counter:\n\t+Located below the television\n\t+ Appears to be made of stainless steel or another shiny material\n\t+",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763004668.870519
+}

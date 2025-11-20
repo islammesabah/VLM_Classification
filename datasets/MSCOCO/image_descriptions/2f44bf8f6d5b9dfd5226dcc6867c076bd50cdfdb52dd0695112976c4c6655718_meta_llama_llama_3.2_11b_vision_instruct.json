@@ -1,0 +1,5 @@
+{
+  "description": "The image features two zebras standing in a sandy enclosure, captured from an overhead perspective.\n\n* Two zebras are standing in a sandy enclosure.\n\t+ The zebra in the foreground is facing forward, while the other is sitting down, facing the left side of the image.\n\t+ Both zebras have their heads turned slightly to the left.\n\t+ The zebra in the foreground casts a shadow on the ground.\n\t+ The zebra sitting down appears to be resting its head on the",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762991278.4975262
+}

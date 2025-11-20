@@ -14,10 +14,12 @@ pd.options.mode.chained_assignment = None
 os.makedirs("results/logs/", exist_ok=True)
 sys.stdout = open(f'results/logs/visualization_log_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt', 'w')
 
-def load_db(dataset):
+def load_db(dataset, config):
     dataset_to_db = {
-        'CIFAR10': 'results/cifar10.db',
-        'GTSRB': 'results/gtsrb.db'
+        'CIFAR-10': config['CIFAR-10']['database_name'],
+        'GTSRB': config['GTSRB']['database_name'],
+        'MNIST': config['MNIST']['database_name'],
+        'MSCOCO': config['MSCOCO']['database_name']
     }
 
     # load the db
@@ -25,6 +27,48 @@ def load_db(dataset):
     cursor = conn.cursor()
 
     return cursor, conn
+
+def check_data_completeness(cursor, dataset, config, model, RunId, temperature=None, 
+                           include_memory=None, include_description=None, threshold=0.9):
+    """
+    Check if the database has at least threshold% of expected samples for the given configuration.
+    Returns True if data is sufficient, False otherwise.
+    """
+    expected_samples = config[dataset]['num_samples']
+    
+    # Build query based on provided parameters
+    query = "SELECT COUNT(*) FROM answers WHERE LLM_name = ? AND RunId = ?"
+    params = [model, RunId]
+    
+    if temperature is not None:
+        query += " AND temperature = ?"
+        params.append(temperature)
+    
+    if include_memory is not None:
+        query += " AND Include_memory = ?"
+        params.append(int(include_memory))
+    
+    if include_description is not None:
+        query += " AND Include_description = ?"
+        params.append(int(include_description))
+    
+    cursor.execute(query, params)
+    actual_count = cursor.fetchone()[0]
+    
+    min_required = expected_samples * threshold
+    
+    config_str = f"temp={temperature}, mem={include_memory}, desc={include_description}"
+    print(f"Dataset: {dataset}, Model: {model}, Config: {config_str}")
+    print(f"Expected samples: {expected_samples}, Actual rows: {actual_count}")
+    print(f"Required minimum (90%): {min_required}")
+    
+    if actual_count < min_required:
+        print(f"WARNING: Insufficient data! Only {actual_count}/{expected_samples} rows ({actual_count/expected_samples*100:.1f}%)")
+        print(f"Skipping visualization for this configuration\n")
+        return False
+    
+    print(f"Data completeness: {actual_count/expected_samples*100:.1f}% - Proceeding with visualization\n")
+    return True
 
 def preprocess_dataframe(cursor, model, RunId):
     # 1. Filter the dataframe by model
@@ -196,7 +240,10 @@ def compare_classes(tree_is_correct, without_tree_is_correct):
     tree_outperformance = 0
     without_tree_outperformance = 0
     same_performance = 0
-    for i in range(len(tree_is_correct)):
+    # get the classes indices
+    classes = tree_is_correct.index
+
+    for i in classes:
         if tree_is_correct[i] > without_tree_is_correct[i]:
             tree_outperformance += 1
         elif tree_is_correct[i] < without_tree_is_correct[i]:
@@ -234,36 +281,36 @@ def plot_venn_comparison(df, dir):
 
 def create_results_dir(dirs):
     # create the results directory if it does not exist
-    if not os.path.exists('Results'):
-        os.makedirs('Results')
+    if not os.path.exists('results'):
+        os.makedirs('results')
 
     for dataset in dirs['datasets']:
-        os.makedirs(f'Results/{dataset}', exist_ok=True)
+        os.makedirs(f'results/{dataset}', exist_ok=True)
         # create directories for each model
         for model in dirs['models']:
-            os.makedirs(f'Results/{dataset}/{dirs["models"][model]}', exist_ok=True)
+            os.makedirs(f'results/{dataset}/{dirs["models"][model]}', exist_ok=True)
             # create directories for each temperature setting
             for temperature in dirs['temperature']:
-                os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/{dirs["temperature"][temperature]}', exist_ok=True)
+                os.makedirs(f'results/{dataset}/{dirs["models"][model]}/{dirs["temperature"][temperature]}', exist_ok=True)
             # create directories for each memory setting
             for memory in dirs['memory']:
-                os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/{dirs["memory"][memory]}', exist_ok=True)
+                os.makedirs(f'results/{dataset}/{dirs["models"][model]}/{dirs["memory"][memory]}', exist_ok=True)
                 for temperature in dirs['temperature']:
-                    os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/{dirs["memory"][memory]}/{dirs["temperature"][temperature]}', exist_ok=True)
+                    os.makedirs(f'results/{dataset}/{dirs["models"][model]}/{dirs["memory"][memory]}/{dirs["temperature"][temperature]}', exist_ok=True)
             
             # create directories for each description setting
             for description in dirs['description']:
-                os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/{dirs["description"][description]}', exist_ok=True)
+                os.makedirs(f'results/{dataset}/{dirs["models"][model]}/{dirs["description"][description]}', exist_ok=True)
                 for temperature in dirs['temperature']:
-                    os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/{dirs["description"][description]}/{dirs["temperature"][temperature]}', exist_ok=True)
+                    os.makedirs(f'results/{dataset}/{dirs["models"][model]}/{dirs["description"][description]}/{dirs["temperature"][temperature]}', exist_ok=True)
                 
-            os.makedirs(f'Results/{dataset}/{dirs["models"][model]}/description_zero_shot', exist_ok=True)
+            os.makedirs(f'results/{dataset}/{dirs["models"][model]}/description_zero_shot', exist_ok=True)
 
-def ret_class_names(dataset):
+def ret_class_names(dataset, config):
     # load the class names from the json file
     if dataset == 'CIFAR10':
-        dataset = 'cifar-10-python'
-    with open(f'Data/{dataset}/class_names.json', 'r') as f:
+        dataset = 'CIFAR-10'
+    with open(os.path.join(config[dataset]['Dataset_path'], 'class_names.json'), 'r') as f:
         class_names = json.load(f)
     
     # convert the class names to a dictionary
@@ -271,12 +318,11 @@ def ret_class_names(dataset):
     
     return class_names
 
-def visualization_violin_plot(df, model_name, dataset, dir):
+def visualization_violin_plot(df, model_name, dataset, dir, config):
     # Create a violin plot for the mean accuracy of the model across all classes
     classes_accuracies = df.groupby('Class')['tree_is_correct'].mean()
     classes_accuracies_without_tree = df.groupby('Class')['without_tree_is_correct'].mean()
-    class_names = ret_class_names(dataset)
-
+    class_names = ret_class_names(dataset, config)
     fig, ax = plt.subplots(figsize=(15, 8))
 
     # Create a violin plot for the tree model
@@ -305,13 +351,20 @@ def visualization_box_plot(df, model_name, dataset, dir):
     # # Box plot for with tree model
     # ax1.boxplot(mean_accuracy, vert=False)
 
+def load_config(config_path: str) -> dict:
+    with open(config_path, 'r') as f:
+        config = json.load(f)
+    return config
+
 def main():
     models = ['meta-llama/llama-3.2-11b-vision-instruct', 'qwen-vl-max', 'gpt-4o']
     include_memory = [True, False]
     include_description = [True, False]
     include_zero_shot_answer = [True, False]
-    datasets = ['CIFAR10', 'GTSRB']
+    datasets = ['CIFAR-10', 'GTSRB', 'MNIST', 'MSCOCO']
     RunId = 0
+    CONFIG_PATH = 'config.json'
+    config_json = load_config(CONFIG_PATH)
 
     model_to_name = {
         'meta-llama/llama-3.2-11b-vision-instruct': 'LLAMA',
@@ -321,8 +374,10 @@ def main():
     
     config = {
     'datasets': {
-        'CIFAR10': 'Results/CIFAR10',
-        'GTSRB': 'Results/GTSRB'
+        'CIFAR-10': 'results/CIFAR-10',
+        'GTSRB': 'results/GTSRB',
+        'MNIST': 'results/MNIST',
+        'MSCOCO': 'results/MSCOCO'
     },
     'models': {
         'meta-llama/llama-3.2-11b-vision-instruct': 'LLAMA',
@@ -347,6 +402,9 @@ def main():
         0.7: 'temperature_0.7'
     }
     }
+    # add the config datasets paths to the current config
+    for dataset in datasets:
+        config[dataset] = config_json[dataset]
     # create the results directory if it does not exist
     create_results_dir(config)
 
@@ -358,7 +416,7 @@ def main():
     outperformance = {}
     for dataset in datasets:
         # load the db
-        cursor, conn= load_db(dataset)
+        cursor, conn= load_db(dataset, config)
         mean_accuracy[dataset] = {}
         outperformance[dataset] = {}
         mean_accuracy_classes[dataset] = {}
@@ -367,6 +425,7 @@ def main():
             mean_accuracy_classes[dataset][model_to_name[model]] = {}
             outperformance[dataset][model_to_name[model]] = {}
             print(f"Processing dataset: {dataset}, model: {model_to_name[model]}")
+            
             # preprocess the dataframe
             df = preprocess_dataframe(cursor, model, RunId)
             
@@ -379,6 +438,13 @@ def main():
             
             # mean of the accuracy for the model without tree
             for temperature in config['temperature']:
+                # Check data completeness for this temperature configuration
+                if not check_data_completeness(cursor, dataset, config, model, RunId, 
+                                              temperature=temperature, include_description=0, threshold=0.9):
+                    print(f"SKIPPED: {dataset} - {model_to_name[model]} - temperature={temperature} (description != 2)")
+                    print(f"Reason: Insufficient data rows in database\n")
+                    continue
+                
                 df_temp = df[df['temperature'] == temperature]
                 df_temp = df_temp[df_temp['Include_description'] != 2]
 
@@ -402,6 +468,15 @@ def main():
                 # df_mem = df_mem[df_mem['temperature'] == 0.7]
 
                 for temperature in config['temperature']:
+                    # Check data completeness for this memory+temperature configuration
+                    if not check_data_completeness(cursor, dataset, config, model, RunId, 
+                                                  temperature=temperature, include_memory=memory, 
+                                                  include_description=0, threshold=0.9):
+                        print(f"SKIPPED: {dataset} - {model_to_name[model]} - memory={memory}, temperature={temperature}, description=0")
+                        print(f"Reason: Insufficient data rows in database")
+                        print(f"Skipping visualization for: {config['memory'][memory]}/{config['temperature'][temperature]}\n")
+                        continue
+                    
                     mean_accuracy[dataset][model_to_name[model]][f'memory_{memory}'][f'temperature_{temperature}'] = {}
                     mean_accuracy_classes[dataset][model_to_name[model]][f'memory_{memory}'][f'temperature_{temperature}'] = {}
                     outperformance[dataset][model_to_name[model]][f'memory_{memory}'][f'temperature_{temperature}'] = {}
@@ -420,6 +495,8 @@ def main():
                         'tree': tree_is_correct.mean(),
                         'without_tree': without_tree_is_correct.mean()
                     }
+                    print(f"Mean accuracy with tree: {tree_is_correct.mean()}, len: {len(tree_is_correct)}")
+                    print(f"Mean accuracy without tree: {without_tree_is_correct.mean()}, len: {len(without_tree_is_correct)}")
                     outperformance_output = compare_classes(tree_is_correct, without_tree_is_correct)
                     outperformance[dataset][model_to_name[model]][f'memory_{memory}']['temperature_' + str(temperature)] = {
                         'tree_outperformance': outperformance_output[0],
@@ -449,6 +526,15 @@ def main():
                 df_desc = df_desc[df_desc['Include_memory'] == 0]
 
                 for temperature in config['temperature']:
+                    # Check data completeness for this description+temperature configuration
+                    if not check_data_completeness(cursor, dataset, config, model, RunId, 
+                                                  temperature=temperature, include_memory=0, 
+                                                  include_description=description, threshold=0.9):
+                        print(f"SKIPPED: {dataset} - {model_to_name[model]} - description={description}, temperature={temperature}, memory=0")
+                        print(f"Reason: Insufficient data rows in database")
+                        print(f"Skipping visualization for: {config['description'][description]}/{config['temperature'][temperature]}\n")
+                        continue
+                    
                     mean_accuracy[dataset][model_to_name[model]][f'description_{description}']['temperature_' + str(temperature)] = {}
                     mean_accuracy_classes[dataset][model_to_name[model]][f'description_{description}']['temperature_' + str(temperature)] = {}
                     df_temp = df_desc[df_desc['temperature'] == temperature]
@@ -482,6 +568,14 @@ def main():
             # write the accuracy of the zero shot with description with temperature 0, 0.7
             mean_accuracy[dataset][model_to_name[model]]['description_zero_shot'] = {}
             for temperature in config['temperature']:
+                # Check data completeness for zero shot configuration
+                if not check_data_completeness(cursor, dataset, config, model, RunId, 
+                                              temperature=temperature, include_description=2, threshold=0.9):
+                    print(f"SKIPPED: {dataset} - {model_to_name[model]} - Zero-shot configuration (description=2, temperature={temperature})")
+                    print(f"Reason: Insufficient data rows in database")
+                    print(f"Skipping visualization for: description_zero_shot/{config['temperature'][temperature]}\n")
+                    continue
+                
                 df_zero_shot_desc = df[df['Include_description'] == 2]
                 df_zero_shot_desc = df[df['temperature'] == temperature]
                 tree_is_correct_zero_shot, without_tree_is_correct_zero_shot = plot_comparison_accuracy(df_zero_shot_desc, dir + 'description_zero_shot')
@@ -513,16 +607,16 @@ def main():
             # print('-----------------------------------------------')
             # print()
     # save the mean accuracy for the model
-    with open('Results/mean_accuracy.json', 'w') as f:
+    with open('results/mean_accuracy.json', 'w') as f:
         json.dump(mean_accuracy, f, indent=4)
     
     # save the outperformance for the model
-    with open('Results/outperformance.json', 'w') as f:
+    with open('results/outperformance.json', 'w') as f:
         json.dump(outperformance, f, indent=4)
 
     # save the mean accuracy classes for the model
-    # with open('Results/mean_accuracy_classes.json', 'w') as f:
-    #     json.dump(mean_accuracy_classes, f, indent=4)
+    with open('results/mean_accuracy_classes.json', 'w') as f:
+        json.dump(mean_accuracy_classes, f, indent=4)
 if __name__ == "__main__":
     main()
     print("Done")

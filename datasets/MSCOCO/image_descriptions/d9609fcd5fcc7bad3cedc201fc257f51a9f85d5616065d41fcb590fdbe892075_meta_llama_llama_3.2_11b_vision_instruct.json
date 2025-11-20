@@ -1,0 +1,5 @@
+{
+  "description": "**Summary:** A street scene with a parked bicycle, a wall with Chinese characters, and a green street sign indicating \"Xing St.\"\n\n**Foreground:** The bicycle, with its red seat and handlebars, is parked on the ground, leaning against the wall. The seat is black, and the handlebars are red. To the left of the bicycle is a white pole with a green street sign attached, displaying \"305\" in white text on a black background, with \"Xing St.\"",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1763002920.7183478
+}

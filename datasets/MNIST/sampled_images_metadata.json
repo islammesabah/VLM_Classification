@@ -1,0 +1,7035 @@
+{
+  "dataset": "MNIST",
+  "total_sampled": 1000,
+  "samples_per_class": {
+    "0": 100,
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100,
+    "5": 100,
+    "6": 100,
+    "7": 100,
+    "8": 100,
+    "9": 100
+  },
+  "class_names": {
+    "0": "zero",
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five",
+    "6": "six",
+    "7": "seven",
+    "8": "eight",
+    "9": "nine"
+  },
+  "image_shape": {
+    "height": 28,
+    "width": 28,
+    "channels": 1
+  },
+  "images": [
+    {
+      "image_id": "023499",
+      "file_name": "mnist_023499.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012662",
+      "file_name": "mnist_012662.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054502",
+      "file_name": "mnist_054502.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028627",
+      "file_name": "mnist_028627.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051148",
+      "file_name": "mnist_051148.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034714",
+      "file_name": "mnist_034714.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033136",
+      "file_name": "mnist_033136.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031502",
+      "file_name": "mnist_031502.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027633",
+      "file_name": "mnist_027633.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029055",
+      "file_name": "mnist_029055.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000869",
+      "file_name": "mnist_000869.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008028",
+      "file_name": "mnist_008028.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005612",
+      "file_name": "mnist_005612.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027659",
+      "file_name": "mnist_027659.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051774",
+      "file_name": "mnist_051774.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030891",
+      "file_name": "mnist_030891.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030439",
+      "file_name": "mnist_030439.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023297",
+      "file_name": "mnist_023297.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001678",
+      "file_name": "mnist_001678.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016523",
+      "file_name": "mnist_016523.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014019",
+      "file_name": "mnist_014019.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049278",
+      "file_name": "mnist_049278.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006133",
+      "file_name": "mnist_006133.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005469",
+      "file_name": "mnist_005469.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058360",
+      "file_name": "mnist_058360.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024858",
+      "file_name": "mnist_024858.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056219",
+      "file_name": "mnist_056219.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055817",
+      "file_name": "mnist_055817.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026183",
+      "file_name": "mnist_026183.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030438",
+      "file_name": "mnist_030438.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018858",
+      "file_name": "mnist_018858.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034099",
+      "file_name": "mnist_034099.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058765",
+      "file_name": "mnist_058765.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053116",
+      "file_name": "mnist_053116.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053124",
+      "file_name": "mnist_053124.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042081",
+      "file_name": "mnist_042081.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045522",
+      "file_name": "mnist_045522.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013816",
+      "file_name": "mnist_013816.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020955",
+      "file_name": "mnist_020955.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013175",
+      "file_name": "mnist_013175.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014675",
+      "file_name": "mnist_014675.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023279",
+      "file_name": "mnist_023279.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013730",
+      "file_name": "mnist_013730.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050769",
+      "file_name": "mnist_050769.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015777",
+      "file_name": "mnist_015777.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017828",
+      "file_name": "mnist_017828.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015559",
+      "file_name": "mnist_015559.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014840",
+      "file_name": "mnist_014840.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054514",
+      "file_name": "mnist_054514.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018909",
+      "file_name": "mnist_018909.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000210",
+      "file_name": "mnist_000210.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053685",
+      "file_name": "mnist_053685.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043932",
+      "file_name": "mnist_043932.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049065",
+      "file_name": "mnist_049065.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002782",
+      "file_name": "mnist_002782.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044326",
+      "file_name": "mnist_044326.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042771",
+      "file_name": "mnist_042771.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021497",
+      "file_name": "mnist_021497.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018222",
+      "file_name": "mnist_018222.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016423",
+      "file_name": "mnist_016423.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031753",
+      "file_name": "mnist_031753.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011022",
+      "file_name": "mnist_011022.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053424",
+      "file_name": "mnist_053424.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037953",
+      "file_name": "mnist_037953.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012387",
+      "file_name": "mnist_012387.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028044",
+      "file_name": "mnist_028044.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023301",
+      "file_name": "mnist_023301.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007985",
+      "file_name": "mnist_007985.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030699",
+      "file_name": "mnist_030699.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026665",
+      "file_name": "mnist_026665.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022441",
+      "file_name": "mnist_022441.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017956",
+      "file_name": "mnist_017956.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039935",
+      "file_name": "mnist_039935.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050331",
+      "file_name": "mnist_050331.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051999",
+      "file_name": "mnist_051999.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028824",
+      "file_name": "mnist_028824.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043463",
+      "file_name": "mnist_043463.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015516",
+      "file_name": "mnist_015516.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041506",
+      "file_name": "mnist_041506.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025942",
+      "file_name": "mnist_025942.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027209",
+      "file_name": "mnist_027209.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049535",
+      "file_name": "mnist_049535.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054690",
+      "file_name": "mnist_054690.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048677",
+      "file_name": "mnist_048677.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005398",
+      "file_name": "mnist_005398.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049200",
+      "file_name": "mnist_049200.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058599",
+      "file_name": "mnist_058599.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010372",
+      "file_name": "mnist_010372.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043347",
+      "file_name": "mnist_043347.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059249",
+      "file_name": "mnist_059249.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018371",
+      "file_name": "mnist_018371.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024081",
+      "file_name": "mnist_024081.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027544",
+      "file_name": "mnist_027544.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006094",
+      "file_name": "mnist_006094.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042649",
+      "file_name": "mnist_042649.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044871",
+      "file_name": "mnist_044871.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032007",
+      "file_name": "mnist_032007.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002538",
+      "file_name": "mnist_002538.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018543",
+      "file_name": "mnist_018543.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002493",
+      "file_name": "mnist_002493.png",
+      "label": 0,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017900",
+      "file_name": "mnist_017900.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003306",
+      "file_name": "mnist_003306.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042546",
+      "file_name": "mnist_042546.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048027",
+      "file_name": "mnist_048027.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025719",
+      "file_name": "mnist_025719.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059820",
+      "file_name": "mnist_059820.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006443",
+      "file_name": "mnist_006443.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034241",
+      "file_name": "mnist_034241.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022926",
+      "file_name": "mnist_022926.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007275",
+      "file_name": "mnist_007275.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049899",
+      "file_name": "mnist_049899.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013113",
+      "file_name": "mnist_013113.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058719",
+      "file_name": "mnist_058719.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006682",
+      "file_name": "mnist_006682.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015435",
+      "file_name": "mnist_015435.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034158",
+      "file_name": "mnist_034158.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036517",
+      "file_name": "mnist_036517.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017695",
+      "file_name": "mnist_017695.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020163",
+      "file_name": "mnist_020163.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025842",
+      "file_name": "mnist_025842.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036353",
+      "file_name": "mnist_036353.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024711",
+      "file_name": "mnist_024711.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039451",
+      "file_name": "mnist_039451.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057433",
+      "file_name": "mnist_057433.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027693",
+      "file_name": "mnist_027693.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020699",
+      "file_name": "mnist_020699.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041898",
+      "file_name": "mnist_041898.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025898",
+      "file_name": "mnist_025898.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012693",
+      "file_name": "mnist_012693.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004248",
+      "file_name": "mnist_004248.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050207",
+      "file_name": "mnist_050207.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012521",
+      "file_name": "mnist_012521.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019898",
+      "file_name": "mnist_019898.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031526",
+      "file_name": "mnist_031526.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042731",
+      "file_name": "mnist_042731.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002630",
+      "file_name": "mnist_002630.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053908",
+      "file_name": "mnist_053908.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053321",
+      "file_name": "mnist_053321.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054576",
+      "file_name": "mnist_054576.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017351",
+      "file_name": "mnist_017351.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003549",
+      "file_name": "mnist_003549.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032365",
+      "file_name": "mnist_032365.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039542",
+      "file_name": "mnist_039542.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058479",
+      "file_name": "mnist_058479.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019282",
+      "file_name": "mnist_019282.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023921",
+      "file_name": "mnist_023921.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012512",
+      "file_name": "mnist_012512.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042332",
+      "file_name": "mnist_042332.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056734",
+      "file_name": "mnist_056734.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059153",
+      "file_name": "mnist_059153.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040976",
+      "file_name": "mnist_040976.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020593",
+      "file_name": "mnist_020593.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055716",
+      "file_name": "mnist_055716.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015684",
+      "file_name": "mnist_015684.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029840",
+      "file_name": "mnist_029840.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018165",
+      "file_name": "mnist_018165.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049068",
+      "file_name": "mnist_049068.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021715",
+      "file_name": "mnist_021715.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026406",
+      "file_name": "mnist_026406.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039622",
+      "file_name": "mnist_039622.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024688",
+      "file_name": "mnist_024688.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056226",
+      "file_name": "mnist_056226.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018768",
+      "file_name": "mnist_018768.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054809",
+      "file_name": "mnist_054809.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029679",
+      "file_name": "mnist_029679.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054428",
+      "file_name": "mnist_054428.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058570",
+      "file_name": "mnist_058570.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057834",
+      "file_name": "mnist_057834.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041826",
+      "file_name": "mnist_041826.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032632",
+      "file_name": "mnist_032632.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046113",
+      "file_name": "mnist_046113.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001977",
+      "file_name": "mnist_001977.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005644",
+      "file_name": "mnist_005644.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054087",
+      "file_name": "mnist_054087.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030292",
+      "file_name": "mnist_030292.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051631",
+      "file_name": "mnist_051631.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028831",
+      "file_name": "mnist_028831.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022928",
+      "file_name": "mnist_022928.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030475",
+      "file_name": "mnist_030475.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048943",
+      "file_name": "mnist_048943.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032871",
+      "file_name": "mnist_032871.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025124",
+      "file_name": "mnist_025124.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056010",
+      "file_name": "mnist_056010.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002227",
+      "file_name": "mnist_002227.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022410",
+      "file_name": "mnist_022410.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036898",
+      "file_name": "mnist_036898.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005824",
+      "file_name": "mnist_005824.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059728",
+      "file_name": "mnist_059728.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026479",
+      "file_name": "mnist_026479.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029114",
+      "file_name": "mnist_029114.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054310",
+      "file_name": "mnist_054310.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032326",
+      "file_name": "mnist_032326.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045921",
+      "file_name": "mnist_045921.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048916",
+      "file_name": "mnist_048916.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030906",
+      "file_name": "mnist_030906.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008512",
+      "file_name": "mnist_008512.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022533",
+      "file_name": "mnist_022533.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057888",
+      "file_name": "mnist_057888.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008040",
+      "file_name": "mnist_008040.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016259",
+      "file_name": "mnist_016259.png",
+      "label": 1,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013019",
+      "file_name": "mnist_013019.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053430",
+      "file_name": "mnist_053430.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059355",
+      "file_name": "mnist_059355.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034606",
+      "file_name": "mnist_034606.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002518",
+      "file_name": "mnist_002518.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054125",
+      "file_name": "mnist_054125.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052251",
+      "file_name": "mnist_052251.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047839",
+      "file_name": "mnist_047839.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018395",
+      "file_name": "mnist_018395.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042115",
+      "file_name": "mnist_042115.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050543",
+      "file_name": "mnist_050543.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014230",
+      "file_name": "mnist_014230.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055429",
+      "file_name": "mnist_055429.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021557",
+      "file_name": "mnist_021557.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034532",
+      "file_name": "mnist_034532.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022922",
+      "file_name": "mnist_022922.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033672",
+      "file_name": "mnist_033672.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035198",
+      "file_name": "mnist_035198.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049642",
+      "file_name": "mnist_049642.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037743",
+      "file_name": "mnist_037743.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008591",
+      "file_name": "mnist_008591.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041881",
+      "file_name": "mnist_041881.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037418",
+      "file_name": "mnist_037418.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015799",
+      "file_name": "mnist_015799.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027239",
+      "file_name": "mnist_027239.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048550",
+      "file_name": "mnist_048550.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024427",
+      "file_name": "mnist_024427.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000400",
+      "file_name": "mnist_000400.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058287",
+      "file_name": "mnist_058287.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003200",
+      "file_name": "mnist_003200.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026046",
+      "file_name": "mnist_026046.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057939",
+      "file_name": "mnist_057939.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000907",
+      "file_name": "mnist_000907.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048640",
+      "file_name": "mnist_048640.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000558",
+      "file_name": "mnist_000558.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047375",
+      "file_name": "mnist_047375.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058315",
+      "file_name": "mnist_058315.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004717",
+      "file_name": "mnist_004717.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027033",
+      "file_name": "mnist_027033.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037760",
+      "file_name": "mnist_037760.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033691",
+      "file_name": "mnist_033691.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056901",
+      "file_name": "mnist_056901.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043974",
+      "file_name": "mnist_043974.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041832",
+      "file_name": "mnist_041832.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036187",
+      "file_name": "mnist_036187.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039429",
+      "file_name": "mnist_039429.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055982",
+      "file_name": "mnist_055982.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012370",
+      "file_name": "mnist_012370.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059675",
+      "file_name": "mnist_059675.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019926",
+      "file_name": "mnist_019926.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055433",
+      "file_name": "mnist_055433.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016281",
+      "file_name": "mnist_016281.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039079",
+      "file_name": "mnist_039079.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014108",
+      "file_name": "mnist_014108.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021952",
+      "file_name": "mnist_021952.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021024",
+      "file_name": "mnist_021024.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038800",
+      "file_name": "mnist_038800.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040221",
+      "file_name": "mnist_040221.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006841",
+      "file_name": "mnist_006841.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025289",
+      "file_name": "mnist_025289.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042885",
+      "file_name": "mnist_042885.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017821",
+      "file_name": "mnist_017821.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012803",
+      "file_name": "mnist_012803.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008202",
+      "file_name": "mnist_008202.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039118",
+      "file_name": "mnist_039118.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057358",
+      "file_name": "mnist_057358.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044611",
+      "file_name": "mnist_044611.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051419",
+      "file_name": "mnist_051419.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043211",
+      "file_name": "mnist_043211.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032634",
+      "file_name": "mnist_032634.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053377",
+      "file_name": "mnist_053377.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037615",
+      "file_name": "mnist_037615.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059831",
+      "file_name": "mnist_059831.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002769",
+      "file_name": "mnist_002769.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007576",
+      "file_name": "mnist_007576.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010127",
+      "file_name": "mnist_010127.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059721",
+      "file_name": "mnist_059721.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059245",
+      "file_name": "mnist_059245.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022990",
+      "file_name": "mnist_022990.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050575",
+      "file_name": "mnist_050575.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030880",
+      "file_name": "mnist_030880.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045169",
+      "file_name": "mnist_045169.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015585",
+      "file_name": "mnist_015585.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040881",
+      "file_name": "mnist_040881.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052488",
+      "file_name": "mnist_052488.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001920",
+      "file_name": "mnist_001920.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000253",
+      "file_name": "mnist_000253.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012608",
+      "file_name": "mnist_012608.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005380",
+      "file_name": "mnist_005380.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020100",
+      "file_name": "mnist_020100.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051630",
+      "file_name": "mnist_051630.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010029",
+      "file_name": "mnist_010029.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037084",
+      "file_name": "mnist_037084.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051569",
+      "file_name": "mnist_051569.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020992",
+      "file_name": "mnist_020992.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052316",
+      "file_name": "mnist_052316.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004428",
+      "file_name": "mnist_004428.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027165",
+      "file_name": "mnist_027165.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041821",
+      "file_name": "mnist_041821.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058923",
+      "file_name": "mnist_058923.png",
+      "label": 2,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054013",
+      "file_name": "mnist_054013.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058760",
+      "file_name": "mnist_058760.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054735",
+      "file_name": "mnist_054735.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038066",
+      "file_name": "mnist_038066.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057495",
+      "file_name": "mnist_057495.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033357",
+      "file_name": "mnist_033357.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028936",
+      "file_name": "mnist_028936.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014025",
+      "file_name": "mnist_014025.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032610",
+      "file_name": "mnist_032610.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051428",
+      "file_name": "mnist_051428.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037643",
+      "file_name": "mnist_037643.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017712",
+      "file_name": "mnist_017712.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030962",
+      "file_name": "mnist_030962.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032563",
+      "file_name": "mnist_032563.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035898",
+      "file_name": "mnist_035898.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026209",
+      "file_name": "mnist_026209.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052164",
+      "file_name": "mnist_052164.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036957",
+      "file_name": "mnist_036957.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047901",
+      "file_name": "mnist_047901.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014786",
+      "file_name": "mnist_014786.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041491",
+      "file_name": "mnist_041491.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018826",
+      "file_name": "mnist_018826.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053954",
+      "file_name": "mnist_053954.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015245",
+      "file_name": "mnist_015245.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039928",
+      "file_name": "mnist_039928.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013376",
+      "file_name": "mnist_013376.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017574",
+      "file_name": "mnist_017574.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002917",
+      "file_name": "mnist_002917.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049948",
+      "file_name": "mnist_049948.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016663",
+      "file_name": "mnist_016663.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022459",
+      "file_name": "mnist_022459.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013478",
+      "file_name": "mnist_013478.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000715",
+      "file_name": "mnist_000715.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031988",
+      "file_name": "mnist_031988.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004101",
+      "file_name": "mnist_004101.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027316",
+      "file_name": "mnist_027316.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021487",
+      "file_name": "mnist_021487.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043252",
+      "file_name": "mnist_043252.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054191",
+      "file_name": "mnist_054191.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035086",
+      "file_name": "mnist_035086.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001295",
+      "file_name": "mnist_001295.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017295",
+      "file_name": "mnist_017295.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056029",
+      "file_name": "mnist_056029.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048935",
+      "file_name": "mnist_048935.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046370",
+      "file_name": "mnist_046370.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037383",
+      "file_name": "mnist_037383.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037085",
+      "file_name": "mnist_037085.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033240",
+      "file_name": "mnist_033240.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017997",
+      "file_name": "mnist_017997.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037797",
+      "file_name": "mnist_037797.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019855",
+      "file_name": "mnist_019855.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000012",
+      "file_name": "mnist_000012.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054008",
+      "file_name": "mnist_054008.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003815",
+      "file_name": "mnist_003815.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052240",
+      "file_name": "mnist_052240.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010880",
+      "file_name": "mnist_010880.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027701",
+      "file_name": "mnist_027701.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046595",
+      "file_name": "mnist_046595.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016134",
+      "file_name": "mnist_016134.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017593",
+      "file_name": "mnist_017593.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051421",
+      "file_name": "mnist_051421.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002074",
+      "file_name": "mnist_002074.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036931",
+      "file_name": "mnist_036931.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051463",
+      "file_name": "mnist_051463.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055566",
+      "file_name": "mnist_055566.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050210",
+      "file_name": "mnist_050210.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002536",
+      "file_name": "mnist_002536.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047514",
+      "file_name": "mnist_047514.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028757",
+      "file_name": "mnist_028757.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045273",
+      "file_name": "mnist_045273.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016743",
+      "file_name": "mnist_016743.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026781",
+      "file_name": "mnist_026781.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005036",
+      "file_name": "mnist_005036.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017324",
+      "file_name": "mnist_017324.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057788",
+      "file_name": "mnist_057788.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007225",
+      "file_name": "mnist_007225.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030375",
+      "file_name": "mnist_030375.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029224",
+      "file_name": "mnist_029224.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021112",
+      "file_name": "mnist_021112.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059725",
+      "file_name": "mnist_059725.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026554",
+      "file_name": "mnist_026554.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036707",
+      "file_name": "mnist_036707.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019092",
+      "file_name": "mnist_019092.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034815",
+      "file_name": "mnist_034815.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032275",
+      "file_name": "mnist_032275.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010483",
+      "file_name": "mnist_010483.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015097",
+      "file_name": "mnist_015097.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059996",
+      "file_name": "mnist_059996.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058219",
+      "file_name": "mnist_058219.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058503",
+      "file_name": "mnist_058503.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016793",
+      "file_name": "mnist_016793.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027651",
+      "file_name": "mnist_027651.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048045",
+      "file_name": "mnist_048045.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045727",
+      "file_name": "mnist_045727.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031311",
+      "file_name": "mnist_031311.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040427",
+      "file_name": "mnist_040427.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050175",
+      "file_name": "mnist_050175.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027691",
+      "file_name": "mnist_027691.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002128",
+      "file_name": "mnist_002128.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044716",
+      "file_name": "mnist_044716.png",
+      "label": 3,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026798",
+      "file_name": "mnist_026798.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041426",
+      "file_name": "mnist_041426.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009741",
+      "file_name": "mnist_009741.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001693",
+      "file_name": "mnist_001693.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020484",
+      "file_name": "mnist_020484.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011153",
+      "file_name": "mnist_011153.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033064",
+      "file_name": "mnist_033064.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011547",
+      "file_name": "mnist_011547.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046033",
+      "file_name": "mnist_046033.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034784",
+      "file_name": "mnist_034784.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043947",
+      "file_name": "mnist_043947.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038622",
+      "file_name": "mnist_038622.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057538",
+      "file_name": "mnist_057538.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033925",
+      "file_name": "mnist_033925.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057892",
+      "file_name": "mnist_057892.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030792",
+      "file_name": "mnist_030792.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000222",
+      "file_name": "mnist_000222.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026207",
+      "file_name": "mnist_026207.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038717",
+      "file_name": "mnist_038717.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055258",
+      "file_name": "mnist_055258.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032657",
+      "file_name": "mnist_032657.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009353",
+      "file_name": "mnist_009353.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028049",
+      "file_name": "mnist_028049.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010331",
+      "file_name": "mnist_010331.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044459",
+      "file_name": "mnist_044459.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029884",
+      "file_name": "mnist_029884.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059106",
+      "file_name": "mnist_059106.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055774",
+      "file_name": "mnist_055774.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049005",
+      "file_name": "mnist_049005.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027617",
+      "file_name": "mnist_027617.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004406",
+      "file_name": "mnist_004406.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027538",
+      "file_name": "mnist_027538.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039414",
+      "file_name": "mnist_039414.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054309",
+      "file_name": "mnist_054309.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048957",
+      "file_name": "mnist_048957.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010693",
+      "file_name": "mnist_010693.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056833",
+      "file_name": "mnist_056833.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005175",
+      "file_name": "mnist_005175.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041680",
+      "file_name": "mnist_041680.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000541",
+      "file_name": "mnist_000541.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027826",
+      "file_name": "mnist_027826.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014578",
+      "file_name": "mnist_014578.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059657",
+      "file_name": "mnist_059657.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056539",
+      "file_name": "mnist_056539.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054911",
+      "file_name": "mnist_054911.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017862",
+      "file_name": "mnist_017862.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004636",
+      "file_name": "mnist_004636.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012922",
+      "file_name": "mnist_012922.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032761",
+      "file_name": "mnist_032761.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036075",
+      "file_name": "mnist_036075.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016168",
+      "file_name": "mnist_016168.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028159",
+      "file_name": "mnist_028159.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029228",
+      "file_name": "mnist_029228.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015100",
+      "file_name": "mnist_015100.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011016",
+      "file_name": "mnist_011016.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004791",
+      "file_name": "mnist_004791.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023623",
+      "file_name": "mnist_023623.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014206",
+      "file_name": "mnist_014206.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027575",
+      "file_name": "mnist_027575.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052128",
+      "file_name": "mnist_052128.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036540",
+      "file_name": "mnist_036540.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014683",
+      "file_name": "mnist_014683.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020053",
+      "file_name": "mnist_020053.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033958",
+      "file_name": "mnist_033958.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050653",
+      "file_name": "mnist_050653.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006652",
+      "file_name": "mnist_006652.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041159",
+      "file_name": "mnist_041159.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031102",
+      "file_name": "mnist_031102.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013564",
+      "file_name": "mnist_013564.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051077",
+      "file_name": "mnist_051077.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044544",
+      "file_name": "mnist_044544.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031029",
+      "file_name": "mnist_031029.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048486",
+      "file_name": "mnist_048486.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048286",
+      "file_name": "mnist_048286.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019311",
+      "file_name": "mnist_019311.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032341",
+      "file_name": "mnist_032341.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016995",
+      "file_name": "mnist_016995.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007779",
+      "file_name": "mnist_007779.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048745",
+      "file_name": "mnist_048745.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008457",
+      "file_name": "mnist_008457.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037986",
+      "file_name": "mnist_037986.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016051",
+      "file_name": "mnist_016051.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025334",
+      "file_name": "mnist_025334.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046460",
+      "file_name": "mnist_046460.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017141",
+      "file_name": "mnist_017141.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051951",
+      "file_name": "mnist_051951.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047431",
+      "file_name": "mnist_047431.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013163",
+      "file_name": "mnist_013163.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032862",
+      "file_name": "mnist_032862.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006314",
+      "file_name": "mnist_006314.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001172",
+      "file_name": "mnist_001172.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007459",
+      "file_name": "mnist_007459.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012485",
+      "file_name": "mnist_012485.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003360",
+      "file_name": "mnist_003360.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044956",
+      "file_name": "mnist_044956.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002742",
+      "file_name": "mnist_002742.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035716",
+      "file_name": "mnist_035716.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053990",
+      "file_name": "mnist_053990.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038047",
+      "file_name": "mnist_038047.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013943",
+      "file_name": "mnist_013943.png",
+      "label": 4,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022918",
+      "file_name": "mnist_022918.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059160",
+      "file_name": "mnist_059160.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057128",
+      "file_name": "mnist_057128.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045602",
+      "file_name": "mnist_045602.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048113",
+      "file_name": "mnist_048113.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038134",
+      "file_name": "mnist_038134.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039280",
+      "file_name": "mnist_039280.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013800",
+      "file_name": "mnist_013800.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039424",
+      "file_name": "mnist_039424.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035838",
+      "file_name": "mnist_035838.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033690",
+      "file_name": "mnist_033690.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002999",
+      "file_name": "mnist_002999.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050786",
+      "file_name": "mnist_050786.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039208",
+      "file_name": "mnist_039208.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025566",
+      "file_name": "mnist_025566.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009326",
+      "file_name": "mnist_009326.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003580",
+      "file_name": "mnist_003580.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019659",
+      "file_name": "mnist_019659.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016745",
+      "file_name": "mnist_016745.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023264",
+      "file_name": "mnist_023264.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045233",
+      "file_name": "mnist_045233.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022756",
+      "file_name": "mnist_022756.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003768",
+      "file_name": "mnist_003768.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053229",
+      "file_name": "mnist_053229.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051157",
+      "file_name": "mnist_051157.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045753",
+      "file_name": "mnist_045753.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032074",
+      "file_name": "mnist_032074.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001813",
+      "file_name": "mnist_001813.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056999",
+      "file_name": "mnist_056999.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004847",
+      "file_name": "mnist_004847.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017642",
+      "file_name": "mnist_017642.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046418",
+      "file_name": "mnist_046418.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017732",
+      "file_name": "mnist_017732.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035608",
+      "file_name": "mnist_035608.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003205",
+      "file_name": "mnist_003205.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030125",
+      "file_name": "mnist_030125.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027711",
+      "file_name": "mnist_027711.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007081",
+      "file_name": "mnist_007081.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038655",
+      "file_name": "mnist_038655.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042761",
+      "file_name": "mnist_042761.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040959",
+      "file_name": "mnist_040959.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004077",
+      "file_name": "mnist_004077.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000065",
+      "file_name": "mnist_000065.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006237",
+      "file_name": "mnist_006237.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011739",
+      "file_name": "mnist_011739.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025966",
+      "file_name": "mnist_025966.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055489",
+      "file_name": "mnist_055489.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019306",
+      "file_name": "mnist_019306.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058753",
+      "file_name": "mnist_058753.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058948",
+      "file_name": "mnist_058948.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016295",
+      "file_name": "mnist_016295.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034800",
+      "file_name": "mnist_034800.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016819",
+      "file_name": "mnist_016819.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057662",
+      "file_name": "mnist_057662.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026891",
+      "file_name": "mnist_026891.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002965",
+      "file_name": "mnist_002965.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026229",
+      "file_name": "mnist_026229.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046612",
+      "file_name": "mnist_046612.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036888",
+      "file_name": "mnist_036888.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051744",
+      "file_name": "mnist_051744.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045250",
+      "file_name": "mnist_045250.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019022",
+      "file_name": "mnist_019022.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049632",
+      "file_name": "mnist_049632.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005489",
+      "file_name": "mnist_005489.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004495",
+      "file_name": "mnist_004495.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045872",
+      "file_name": "mnist_045872.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033502",
+      "file_name": "mnist_033502.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031287",
+      "file_name": "mnist_031287.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055795",
+      "file_name": "mnist_055795.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012626",
+      "file_name": "mnist_012626.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042407",
+      "file_name": "mnist_042407.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010703",
+      "file_name": "mnist_010703.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032674",
+      "file_name": "mnist_032674.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054781",
+      "file_name": "mnist_054781.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041223",
+      "file_name": "mnist_041223.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022205",
+      "file_name": "mnist_022205.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032506",
+      "file_name": "mnist_032506.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041610",
+      "file_name": "mnist_041610.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011402",
+      "file_name": "mnist_011402.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025273",
+      "file_name": "mnist_025273.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052172",
+      "file_name": "mnist_052172.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043245",
+      "file_name": "mnist_043245.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021671",
+      "file_name": "mnist_021671.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017598",
+      "file_name": "mnist_017598.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041786",
+      "file_name": "mnist_041786.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052947",
+      "file_name": "mnist_052947.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026706",
+      "file_name": "mnist_026706.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030858",
+      "file_name": "mnist_030858.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009328",
+      "file_name": "mnist_009328.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058190",
+      "file_name": "mnist_058190.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036508",
+      "file_name": "mnist_036508.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019083",
+      "file_name": "mnist_019083.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018417",
+      "file_name": "mnist_018417.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009320",
+      "file_name": "mnist_009320.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033815",
+      "file_name": "mnist_033815.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018639",
+      "file_name": "mnist_018639.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041868",
+      "file_name": "mnist_041868.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055148",
+      "file_name": "mnist_055148.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017583",
+      "file_name": "mnist_017583.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016242",
+      "file_name": "mnist_016242.png",
+      "label": 5,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039650",
+      "file_name": "mnist_039650.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030063",
+      "file_name": "mnist_030063.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028027",
+      "file_name": "mnist_028027.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037675",
+      "file_name": "mnist_037675.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042960",
+      "file_name": "mnist_042960.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053625",
+      "file_name": "mnist_053625.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003172",
+      "file_name": "mnist_003172.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013964",
+      "file_name": "mnist_013964.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023453",
+      "file_name": "mnist_023453.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041272",
+      "file_name": "mnist_041272.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040564",
+      "file_name": "mnist_040564.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014265",
+      "file_name": "mnist_014265.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022775",
+      "file_name": "mnist_022775.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014405",
+      "file_name": "mnist_014405.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027807",
+      "file_name": "mnist_027807.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029226",
+      "file_name": "mnist_029226.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008898",
+      "file_name": "mnist_008898.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057777",
+      "file_name": "mnist_057777.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044315",
+      "file_name": "mnist_044315.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015797",
+      "file_name": "mnist_015797.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057012",
+      "file_name": "mnist_057012.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033006",
+      "file_name": "mnist_033006.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005802",
+      "file_name": "mnist_005802.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004198",
+      "file_name": "mnist_004198.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031626",
+      "file_name": "mnist_031626.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053220",
+      "file_name": "mnist_053220.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059161",
+      "file_name": "mnist_059161.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050469",
+      "file_name": "mnist_050469.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011038",
+      "file_name": "mnist_011038.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048907",
+      "file_name": "mnist_048907.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007224",
+      "file_name": "mnist_007224.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042647",
+      "file_name": "mnist_042647.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051109",
+      "file_name": "mnist_051109.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057554",
+      "file_name": "mnist_057554.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005973",
+      "file_name": "mnist_005973.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003808",
+      "file_name": "mnist_003808.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028170",
+      "file_name": "mnist_028170.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017985",
+      "file_name": "mnist_017985.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021995",
+      "file_name": "mnist_021995.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051920",
+      "file_name": "mnist_051920.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039440",
+      "file_name": "mnist_039440.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011530",
+      "file_name": "mnist_011530.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048632",
+      "file_name": "mnist_048632.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056809",
+      "file_name": "mnist_056809.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007662",
+      "file_name": "mnist_007662.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032833",
+      "file_name": "mnist_032833.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025908",
+      "file_name": "mnist_025908.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006869",
+      "file_name": "mnist_006869.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000465",
+      "file_name": "mnist_000465.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031371",
+      "file_name": "mnist_031371.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013696",
+      "file_name": "mnist_013696.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011261",
+      "file_name": "mnist_011261.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004210",
+      "file_name": "mnist_004210.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011363",
+      "file_name": "mnist_011363.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012801",
+      "file_name": "mnist_012801.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041912",
+      "file_name": "mnist_041912.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005553",
+      "file_name": "mnist_005553.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050556",
+      "file_name": "mnist_050556.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058111",
+      "file_name": "mnist_058111.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007102",
+      "file_name": "mnist_007102.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025340",
+      "file_name": "mnist_025340.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008532",
+      "file_name": "mnist_008532.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049659",
+      "file_name": "mnist_049659.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051745",
+      "file_name": "mnist_051745.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024764",
+      "file_name": "mnist_024764.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025680",
+      "file_name": "mnist_025680.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001557",
+      "file_name": "mnist_001557.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029441",
+      "file_name": "mnist_029441.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027708",
+      "file_name": "mnist_027708.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050146",
+      "file_name": "mnist_050146.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059273",
+      "file_name": "mnist_059273.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042957",
+      "file_name": "mnist_042957.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023628",
+      "file_name": "mnist_023628.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056964",
+      "file_name": "mnist_056964.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051676",
+      "file_name": "mnist_051676.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056251",
+      "file_name": "mnist_056251.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038028",
+      "file_name": "mnist_038028.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055018",
+      "file_name": "mnist_055018.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046590",
+      "file_name": "mnist_046590.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037370",
+      "file_name": "mnist_037370.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020431",
+      "file_name": "mnist_020431.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002523",
+      "file_name": "mnist_002523.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003454",
+      "file_name": "mnist_003454.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033814",
+      "file_name": "mnist_033814.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023321",
+      "file_name": "mnist_023321.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012319",
+      "file_name": "mnist_012319.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053007",
+      "file_name": "mnist_053007.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041675",
+      "file_name": "mnist_041675.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013357",
+      "file_name": "mnist_013357.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058191",
+      "file_name": "mnist_058191.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038782",
+      "file_name": "mnist_038782.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043386",
+      "file_name": "mnist_043386.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003736",
+      "file_name": "mnist_003736.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008384",
+      "file_name": "mnist_008384.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058443",
+      "file_name": "mnist_058443.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015145",
+      "file_name": "mnist_015145.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031397",
+      "file_name": "mnist_031397.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029758",
+      "file_name": "mnist_029758.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007580",
+      "file_name": "mnist_007580.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053175",
+      "file_name": "mnist_053175.png",
+      "label": 6,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012961",
+      "file_name": "mnist_012961.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048453",
+      "file_name": "mnist_048453.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057323",
+      "file_name": "mnist_057323.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059360",
+      "file_name": "mnist_059360.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031362",
+      "file_name": "mnist_031362.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014954",
+      "file_name": "mnist_014954.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023433",
+      "file_name": "mnist_023433.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016524",
+      "file_name": "mnist_016524.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031387",
+      "file_name": "mnist_031387.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045530",
+      "file_name": "mnist_045530.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020061",
+      "file_name": "mnist_020061.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011937",
+      "file_name": "mnist_011937.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015340",
+      "file_name": "mnist_015340.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054099",
+      "file_name": "mnist_054099.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035150",
+      "file_name": "mnist_035150.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009901",
+      "file_name": "mnist_009901.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055266",
+      "file_name": "mnist_055266.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049372",
+      "file_name": "mnist_049372.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014556",
+      "file_name": "mnist_014556.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046737",
+      "file_name": "mnist_046737.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001054",
+      "file_name": "mnist_001054.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016999",
+      "file_name": "mnist_016999.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003750",
+      "file_name": "mnist_003750.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030801",
+      "file_name": "mnist_030801.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054155",
+      "file_name": "mnist_054155.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028562",
+      "file_name": "mnist_028562.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019812",
+      "file_name": "mnist_019812.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049071",
+      "file_name": "mnist_049071.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045188",
+      "file_name": "mnist_045188.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013056",
+      "file_name": "mnist_013056.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056604",
+      "file_name": "mnist_056604.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003854",
+      "file_name": "mnist_003854.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032988",
+      "file_name": "mnist_032988.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039038",
+      "file_name": "mnist_039038.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042514",
+      "file_name": "mnist_042514.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031423",
+      "file_name": "mnist_031423.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019184",
+      "file_name": "mnist_019184.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026189",
+      "file_name": "mnist_026189.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024815",
+      "file_name": "mnist_024815.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "009382",
+      "file_name": "mnist_009382.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025985",
+      "file_name": "mnist_025985.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006050",
+      "file_name": "mnist_006050.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052992",
+      "file_name": "mnist_052992.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000511",
+      "file_name": "mnist_000511.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047698",
+      "file_name": "mnist_047698.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033057",
+      "file_name": "mnist_033057.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031558",
+      "file_name": "mnist_031558.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058490",
+      "file_name": "mnist_058490.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008576",
+      "file_name": "mnist_008576.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029661",
+      "file_name": "mnist_029661.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044835",
+      "file_name": "mnist_044835.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013131",
+      "file_name": "mnist_013131.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037279",
+      "file_name": "mnist_037279.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033107",
+      "file_name": "mnist_033107.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001347",
+      "file_name": "mnist_001347.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008502",
+      "file_name": "mnist_008502.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042004",
+      "file_name": "mnist_042004.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030713",
+      "file_name": "mnist_030713.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001586",
+      "file_name": "mnist_001586.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042739",
+      "file_name": "mnist_042739.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017955",
+      "file_name": "mnist_017955.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014403",
+      "file_name": "mnist_014403.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026054",
+      "file_name": "mnist_026054.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044387",
+      "file_name": "mnist_044387.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036088",
+      "file_name": "mnist_036088.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054681",
+      "file_name": "mnist_054681.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057458",
+      "file_name": "mnist_057458.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021463",
+      "file_name": "mnist_021463.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020549",
+      "file_name": "mnist_020549.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011290",
+      "file_name": "mnist_011290.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030271",
+      "file_name": "mnist_030271.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011220",
+      "file_name": "mnist_011220.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020223",
+      "file_name": "mnist_020223.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049958",
+      "file_name": "mnist_049958.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000803",
+      "file_name": "mnist_000803.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044271",
+      "file_name": "mnist_044271.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004643",
+      "file_name": "mnist_004643.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034970",
+      "file_name": "mnist_034970.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033867",
+      "file_name": "mnist_033867.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013391",
+      "file_name": "mnist_013391.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054891",
+      "file_name": "mnist_054891.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027623",
+      "file_name": "mnist_027623.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014866",
+      "file_name": "mnist_014866.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039616",
+      "file_name": "mnist_039616.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014387",
+      "file_name": "mnist_014387.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029508",
+      "file_name": "mnist_029508.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047988",
+      "file_name": "mnist_047988.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038220",
+      "file_name": "mnist_038220.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019580",
+      "file_name": "mnist_019580.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033885",
+      "file_name": "mnist_033885.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000052",
+      "file_name": "mnist_000052.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021148",
+      "file_name": "mnist_021148.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "043956",
+      "file_name": "mnist_043956.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008616",
+      "file_name": "mnist_008616.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006224",
+      "file_name": "mnist_006224.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032395",
+      "file_name": "mnist_032395.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037165",
+      "file_name": "mnist_037165.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015570",
+      "file_name": "mnist_015570.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028362",
+      "file_name": "mnist_028362.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045937",
+      "file_name": "mnist_045937.png",
+      "label": 7,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050597",
+      "file_name": "mnist_050597.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023890",
+      "file_name": "mnist_023890.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040403",
+      "file_name": "mnist_040403.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040882",
+      "file_name": "mnist_040882.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059751",
+      "file_name": "mnist_059751.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010694",
+      "file_name": "mnist_010694.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004860",
+      "file_name": "mnist_004860.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011602",
+      "file_name": "mnist_011602.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015623",
+      "file_name": "mnist_015623.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036270",
+      "file_name": "mnist_036270.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057731",
+      "file_name": "mnist_057731.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000602",
+      "file_name": "mnist_000602.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021118",
+      "file_name": "mnist_021118.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059581",
+      "file_name": "mnist_059581.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032607",
+      "file_name": "mnist_032607.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051670",
+      "file_name": "mnist_051670.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016231",
+      "file_name": "mnist_016231.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039419",
+      "file_name": "mnist_039419.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038832",
+      "file_name": "mnist_038832.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042979",
+      "file_name": "mnist_042979.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029172",
+      "file_name": "mnist_029172.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056600",
+      "file_name": "mnist_056600.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "001790",
+      "file_name": "mnist_001790.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015522",
+      "file_name": "mnist_015522.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049046",
+      "file_name": "mnist_049046.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011613",
+      "file_name": "mnist_011613.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033419",
+      "file_name": "mnist_033419.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025843",
+      "file_name": "mnist_025843.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019223",
+      "file_name": "mnist_019223.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044631",
+      "file_name": "mnist_044631.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036478",
+      "file_name": "mnist_036478.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051668",
+      "file_name": "mnist_051668.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010595",
+      "file_name": "mnist_010595.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059395",
+      "file_name": "mnist_059395.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040737",
+      "file_name": "mnist_040737.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017527",
+      "file_name": "mnist_017527.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031816",
+      "file_name": "mnist_031816.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026791",
+      "file_name": "mnist_026791.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011241",
+      "file_name": "mnist_011241.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059034",
+      "file_name": "mnist_059034.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "032390",
+      "file_name": "mnist_032390.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019879",
+      "file_name": "mnist_019879.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040192",
+      "file_name": "mnist_040192.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044944",
+      "file_name": "mnist_044944.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020133",
+      "file_name": "mnist_020133.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035072",
+      "file_name": "mnist_035072.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033019",
+      "file_name": "mnist_033019.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045117",
+      "file_name": "mnist_045117.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020079",
+      "file_name": "mnist_020079.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "053440",
+      "file_name": "mnist_053440.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055764",
+      "file_name": "mnist_055764.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005670",
+      "file_name": "mnist_005670.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041504",
+      "file_name": "mnist_041504.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024641",
+      "file_name": "mnist_024641.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054612",
+      "file_name": "mnist_054612.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037417",
+      "file_name": "mnist_037417.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029979",
+      "file_name": "mnist_029979.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023843",
+      "file_name": "mnist_023843.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012958",
+      "file_name": "mnist_012958.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024691",
+      "file_name": "mnist_024691.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035323",
+      "file_name": "mnist_035323.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047462",
+      "file_name": "mnist_047462.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037979",
+      "file_name": "mnist_037979.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "041200",
+      "file_name": "mnist_041200.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005633",
+      "file_name": "mnist_005633.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054471",
+      "file_name": "mnist_054471.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047013",
+      "file_name": "mnist_047013.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003961",
+      "file_name": "mnist_003961.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054341",
+      "file_name": "mnist_054341.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037316",
+      "file_name": "mnist_037316.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030823",
+      "file_name": "mnist_030823.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031313",
+      "file_name": "mnist_031313.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046348",
+      "file_name": "mnist_046348.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000923",
+      "file_name": "mnist_000923.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012073",
+      "file_name": "mnist_012073.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023948",
+      "file_name": "mnist_023948.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027892",
+      "file_name": "mnist_027892.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "034061",
+      "file_name": "mnist_034061.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003028",
+      "file_name": "mnist_003028.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035096",
+      "file_name": "mnist_035096.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005997",
+      "file_name": "mnist_005997.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038452",
+      "file_name": "mnist_038452.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040381",
+      "file_name": "mnist_040381.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007461",
+      "file_name": "mnist_007461.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000761",
+      "file_name": "mnist_000761.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016022",
+      "file_name": "mnist_016022.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037522",
+      "file_name": "mnist_037522.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047085",
+      "file_name": "mnist_047085.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040488",
+      "file_name": "mnist_040488.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "055801",
+      "file_name": "mnist_055801.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056985",
+      "file_name": "mnist_056985.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011751",
+      "file_name": "mnist_011751.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012960",
+      "file_name": "mnist_012960.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036099",
+      "file_name": "mnist_036099.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011890",
+      "file_name": "mnist_011890.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011450",
+      "file_name": "mnist_011450.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020521",
+      "file_name": "mnist_020521.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023161",
+      "file_name": "mnist_023161.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036845",
+      "file_name": "mnist_036845.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036224",
+      "file_name": "mnist_036224.png",
+      "label": 8,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010387",
+      "file_name": "mnist_010387.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019178",
+      "file_name": "mnist_019178.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "026005",
+      "file_name": "mnist_026005.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019972",
+      "file_name": "mnist_019972.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000631",
+      "file_name": "mnist_000631.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023016",
+      "file_name": "mnist_023016.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "007505",
+      "file_name": "mnist_007505.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036507",
+      "file_name": "mnist_036507.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040264",
+      "file_name": "mnist_040264.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056859",
+      "file_name": "mnist_056859.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "002798",
+      "file_name": "mnist_002798.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030049",
+      "file_name": "mnist_030049.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046773",
+      "file_name": "mnist_046773.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035824",
+      "file_name": "mnist_035824.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "047987",
+      "file_name": "mnist_047987.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016918",
+      "file_name": "mnist_016918.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029874",
+      "file_name": "mnist_029874.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033948",
+      "file_name": "mnist_033948.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004663",
+      "file_name": "mnist_004663.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "005817",
+      "file_name": "mnist_005817.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000280",
+      "file_name": "mnist_000280.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037369",
+      "file_name": "mnist_037369.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033311",
+      "file_name": "mnist_033311.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017342",
+      "file_name": "mnist_017342.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030096",
+      "file_name": "mnist_030096.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059656",
+      "file_name": "mnist_059656.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036771",
+      "file_name": "mnist_036771.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024860",
+      "file_name": "mnist_024860.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010951",
+      "file_name": "mnist_010951.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045369",
+      "file_name": "mnist_045369.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "021892",
+      "file_name": "mnist_021892.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "039192",
+      "file_name": "mnist_039192.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040167",
+      "file_name": "mnist_040167.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "020925",
+      "file_name": "mnist_020925.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012833",
+      "file_name": "mnist_012833.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "051945",
+      "file_name": "mnist_051945.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004788",
+      "file_name": "mnist_004788.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004989",
+      "file_name": "mnist_004989.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "018382",
+      "file_name": "mnist_018382.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046336",
+      "file_name": "mnist_046336.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "037046",
+      "file_name": "mnist_037046.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024704",
+      "file_name": "mnist_024704.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024949",
+      "file_name": "mnist_024949.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "031094",
+      "file_name": "mnist_031094.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036930",
+      "file_name": "mnist_036930.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "038930",
+      "file_name": "mnist_038930.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024825",
+      "file_name": "mnist_024825.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022782",
+      "file_name": "mnist_022782.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "008902",
+      "file_name": "mnist_008902.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004589",
+      "file_name": "mnist_004589.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056230",
+      "file_name": "mnist_056230.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "050003",
+      "file_name": "mnist_050003.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "014956",
+      "file_name": "mnist_014956.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "044701",
+      "file_name": "mnist_044701.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "015253",
+      "file_name": "mnist_015253.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "004206",
+      "file_name": "mnist_004206.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "006641",
+      "file_name": "mnist_006641.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "003084",
+      "file_name": "mnist_003084.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030922",
+      "file_name": "mnist_030922.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025371",
+      "file_name": "mnist_025371.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033422",
+      "file_name": "mnist_033422.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "025909",
+      "file_name": "mnist_025909.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023838",
+      "file_name": "mnist_023838.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "058401",
+      "file_name": "mnist_058401.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "040113",
+      "file_name": "mnist_040113.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "052383",
+      "file_name": "mnist_052383.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "046662",
+      "file_name": "mnist_046662.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019707",
+      "file_name": "mnist_019707.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027448",
+      "file_name": "mnist_027448.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "042628",
+      "file_name": "mnist_042628.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "057896",
+      "file_name": "mnist_057896.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013982",
+      "file_name": "mnist_013982.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "030419",
+      "file_name": "mnist_030419.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "024914",
+      "file_name": "mnist_024914.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "023772",
+      "file_name": "mnist_023772.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036104",
+      "file_name": "mnist_036104.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "045201",
+      "file_name": "mnist_045201.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027698",
+      "file_name": "mnist_027698.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "029213",
+      "file_name": "mnist_029213.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010480",
+      "file_name": "mnist_010480.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "049870",
+      "file_name": "mnist_049870.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "012074",
+      "file_name": "mnist_012074.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "056018",
+      "file_name": "mnist_056018.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "010746",
+      "file_name": "mnist_010746.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "016201",
+      "file_name": "mnist_016201.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "011280",
+      "file_name": "mnist_011280.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033472",
+      "file_name": "mnist_033472.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "033855",
+      "file_name": "mnist_033855.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "019748",
+      "file_name": "mnist_019748.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "028592",
+      "file_name": "mnist_028592.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "013666",
+      "file_name": "mnist_013666.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "059794",
+      "file_name": "mnist_059794.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "036538",
+      "file_name": "mnist_036538.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "035677",
+      "file_name": "mnist_035677.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "000350",
+      "file_name": "mnist_000350.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "022471",
+      "file_name": "mnist_022471.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "017562",
+      "file_name": "mnist_017562.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "027191",
+      "file_name": "mnist_027191.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "054048",
+      "file_name": "mnist_054048.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "image_id": "048265",
+      "file_name": "mnist_048265.png",
+      "label": 9,
+      "width": 28,
+      "height": 28
+    }
+  ]
+}

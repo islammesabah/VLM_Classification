@@ -1,0 +1,5 @@
+{
+  "description": "The image shows a yellow front loader and a yellow truck parked in front of a building, with a large piece of equipment on the left side of the image. The purpose of the image is to display the equipment and the building.\n\n* A yellow front loader is parked in a lot:\n\t+ The loader has a large bucket on the front.\n\t+ It is facing to the right.\n\t+ It is parked on a wet surface.\n* A yellow truck is parked next to the loader:\n\t",
+  "model": "meta-llama/llama-3.2-11b-vision-instruct",
+  "timestamp": 1762996845.791255
+}
