@@ -69,25 +69,27 @@ python datasets/download_CIFAR.py --save_images
 For MNIST:
 
 ```bash
+cd datasets/MNIST
+
 curl -L -o mnist-dataset.zip \
   https://www.kaggle.com/api/v1/datasets/download/hojjatk/mnist-dataset
 unzip mnist-dataset.zip
 
-cd datasets/MNIST
 python extract_transform_mnist.py
 ```
 
 For MSCOCO:
 
 ```bash
+cd datasets/MSCOCO
+
 curl -L -O http://images.cocodataset.org/zips/train2014.zip
 unzip train2014.zip
 
 curl -L -O http://images.cocodataset.org/annotations/annotations_trainval2014.zip
 unzip annotations_trainval2014.zip
 
-cd datasets/MSCOCO
-python extract_transform_mscoco.py 'train2014' --num_categories 1 --max_samples 1000 --DATASET_ANNOTATION_PATH 'annotations/' --random_seed 42 --copy_images --output_dir './'
+python extract_transform_mscoco.py 'train2014' --num_categories 1 --max_samples 1000 --DATASET_ANNOTATIONS_PATH 'annotations/' --random_seed 42 --copy_images --output_dir './'
 ```
 
 You should have the following structure for MSCOCO:

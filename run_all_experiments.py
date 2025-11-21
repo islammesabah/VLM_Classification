@@ -227,7 +227,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--use_slurm',
         action='store_true',
-        default=True,
+        default=False,
         help='Submit jobs to SLURM cluster instead of running locally'
     )
     parser.add_argument(

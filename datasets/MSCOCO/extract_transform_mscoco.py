@@ -380,7 +380,6 @@ def main():
     # Output files
     OUTPUT_FILE = os.path.join(OUTPUT_DIR, f'filtered_{NUM_CATEGORIES}_category_images.json')
     OUTPUT_IMAGES_DIR = os.path.join(OUTPUT_DIR, f'filtered_{NUM_CATEGORIES}_category_images/')
-    IMAGE_IDS_FILE = os.path.join(OUTPUT_DIR, f'{len(filtered_image_ids)}_filtered_{NUM_CATEGORIES}_category_image_ids.txt') # {numberofsamples}_filtered_{NUM_CATEGORIES}_category_image_ids.txt
     
     # Sample images if needed
     if MAX_SAMPLES is not None and len(filtered_image_ids) > MAX_SAMPLES:
@@ -394,6 +393,7 @@ def main():
     else:
         sampled_image_ids = filtered_image_ids
     
+    IMAGE_IDS_FILE = os.path.join(OUTPUT_DIR, f'{len(sampled_image_ids)}_filtered_{NUM_CATEGORIES}_category_image_ids.txt') # {numberofsamples}_filtered_{NUM_CATEGORIES}_category_image_ids.txt
     # Get detailed image information
     image_info = filter_obj.get_image_info(sampled_image_ids)
     
