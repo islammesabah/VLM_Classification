@@ -1,0 +1,190 @@
+{
+    "CIFAR-10": {
+        "LLAMA": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        }
+    },
+    "GTSRB": {
+        "LLAMA": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "memory_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0": {},
+                "temperature_0.7": {}
+            }
+        }
+    },
+    "MNIST": {
+        "LLAMA": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        }
+    },
+    "MSCOCO": {
+        "LLAMA": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        },
+        "Qwen VL Max": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        },
+        "GPT-4o": {
+            "memory_True": {},
+            "memory_False": {
+                "temperature_0.7": {}
+            },
+            "description_True": {
+                "temperature_0.7": {}
+            },
+            "description_False": {
+                "temperature_0.7": {}
+            }
+        }
+    }
+}

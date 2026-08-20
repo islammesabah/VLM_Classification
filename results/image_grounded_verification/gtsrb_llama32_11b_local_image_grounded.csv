@@ -1,0 +1,814 @@
+dataset,model,true_class,image_index,depth,question,expected_answer,predicted_answer,correct,latency_s
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,468.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,133.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,2,Does it depict a left curve?,no,no,True,214.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,3,Does it depict double curve?,no,no,True,119.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,4,Does it depict right curve?,no,no,True,252.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,5,Does it depict rough/bumpy road?,no,no,True,262.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,6,Does it depict slippery road?,no,no,True,255.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,176.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,8,Does it depict construction/road work?,no,no,True,169.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,9,Does it depict traffic light?,no,no,True,167.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,10,Does it depict both child and pedestrian?,no,no,True,194.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,11,Does it depict pedestrian?,no,no,True,229.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,12,Does it depict bicycle?,no,no,True,213.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,13,Does it depict ice/snow?,no,no,True,235.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00003_00000.jpeg,14,Does it depict deer?,yes,no,False,147.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00000_00013.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,349.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00000_00013.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,182.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00000_00013.jpeg,2,Does it depict a left curve?,no,no,True,66.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00000_00013.jpeg,3,Does it depict double curve?,no,yes,False,187.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00008_00012.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,526.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00008_00012.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,237.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00008_00012.jpeg,2,Does it depict a left curve?,no,no,True,174.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00008_00012.jpeg,3,Does it depict double curve?,no,yes,False,198.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,350.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,193.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,2,Does it depict a left curve?,no,no,True,192.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,3,Does it depict double curve?,no,no,True,121.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,4,Does it depict right curve?,no,no,True,161.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,5,Does it depict rough/bumpy road?,no,no,True,91.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,6,Does it depict slippery road?,no,no,True,133.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,175.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,8,Does it depict construction/road work?,no,no,True,65.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,9,Does it depict traffic light?,no,no,True,109.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,10,Does it depict both child and pedestrian?,no,no,True,96.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,11,Does it depict pedestrian?,no,no,True,168.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,12,Does it depict bicycle?,no,no,True,165.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,13,Does it depict ice/snow?,no,no,True,71.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00017_00026.jpeg,14,Does it depict deer?,yes,yes,True,47.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00014_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,61.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00014_00009.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00014_00009.jpeg,2,Does it depict a left curve?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,31,00014_00009.jpeg,3,Does it depict double curve?,no,yes,False,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00008_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00008_00010.jpeg,1,What's the circle color?,red-white,,False,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00006_00015.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00006_00015.jpeg,1,What's the circle color?,red-white,,False,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00005_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00005_00007.jpeg,1,What's the circle color?,red-white,,False,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00027_00017.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00027_00017.jpeg,1,What's the circle color?,red-white,blue,False,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00002_00027.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00002_00027.jpeg,1,What's the circle color?,red-white,red-white,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00002_00027.jpeg,2,Does it contain numbers?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00002_00027.jpeg,3,Does it have a diagonal strike bar?,no,no,True,8.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,9,00002_00027.jpeg,4,What is inside the circle?,red car and black car,horizontal white bar,False,19.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00000_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00000_00000.jpeg,1,What's the circle color?,blue,blue,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00000_00000.jpeg,2,What arrow is shown?,forward-right,,False,19.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00001_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00001_00028.jpeg,1,What's the circle color?,blue,blue,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00001_00028.jpeg,2,What arrow is shown?,forward-right,right,False,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00007_00022.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00007_00022.jpeg,1,What's the circle color?,blue,blue,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00007_00022.jpeg,2,What arrow is shown?,forward-right,forward-right,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00006_00027.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00006_00027.jpeg,1,What's the circle color?,blue,blue,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00006_00027.jpeg,2,What arrow is shown?,forward-right,forward-right,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00004_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00004_00028.jpeg,1,What's the circle color?,blue,blue,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,36,00004_00028.jpeg,2,What arrow is shown?,forward-right,forward-right,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00004_00023.jpeg,0,What's the sign's primary shape?,circle,circle,True,17.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00004_00023.jpeg,1,What's the circle color?,red-white,red-white,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00004_00023.jpeg,2,Does it contain numbers?,yes,yes,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00004_00023.jpeg,3,What is the number?,20,20,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00000_00020.jpeg,0,What's the sign's primary shape?,circle,circle,True,30.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00000_00020.jpeg,1,What's the circle color?,red-white,red-white,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00000_00020.jpeg,2,Does it contain numbers?,yes,yes,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00000_00020.jpeg,3,What is the number?,20,20,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00002_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00002_00000.jpeg,1,What's the circle color?,red-white,,False,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00003_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,17.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00003_00008.jpeg,1,What's the circle color?,red-white,red-white,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00003_00008.jpeg,2,Does it contain numbers?,yes,yes,True,9.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00003_00008.jpeg,3,What is the number?,20,20,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,0,00001_00003.jpeg,0,What's the sign's primary shape?,circle,triangle,False,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00014_00021.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00014_00021.jpeg,1,What's the circle color?,blue,blue,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00014_00021.jpeg,2,What arrow is shown?,keep-right,forward-right,False,14.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00028_00016.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00028_00016.jpeg,1,What's the circle color?,blue,blue,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00028_00016.jpeg,2,What arrow is shown?,keep-right,forward-right,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00037_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00037_00008.jpeg,1,What's the circle color?,blue,blue,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00037_00008.jpeg,2,What arrow is shown?,keep-right,right,False,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00017_00005.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00017_00005.jpeg,1,What's the circle color?,blue,blue,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00017_00005.jpeg,2,What arrow is shown?,keep-right,right,False,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00000_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00000_00007.jpeg,1,What's the circle color?,blue,blue,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,38,00000_00007.jpeg,2,What arrow is shown?,keep-right,,False,20.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00010_00015.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00010_00015.jpeg,1,What's the circle color?,red-white,red-white,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00010_00015.jpeg,2,Does it contain numbers?,yes,yes,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00010_00015.jpeg,3,What is the number?,100,100,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00027_00023.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00027_00023.jpeg,1,What's the circle color?,red-white,red-white,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00027_00023.jpeg,2,Does it contain numbers?,yes,yes,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00027_00023.jpeg,3,What is the number?,100,100,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00021_00001.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00021_00001.jpeg,1,What's the circle color?,red-white,,False,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00017_00015.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00017_00015.jpeg,1,What's the circle color?,red-white,red-white,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00017_00015.jpeg,2,Does it contain numbers?,yes,yes,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00017_00015.jpeg,3,What is the number?,100,100,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00009_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,7,00009_00024.jpeg,1,What's the circle color?,red-white,white-gray,False,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00001_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00001_00007.jpeg,1,What's the circle color?,blue,blue,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00001_00007.jpeg,2,What arrow is shown?,keep-left,circular,False,17.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00002_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,18.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00002_00008.jpeg,1,What's the circle color?,blue,blue,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00002_00008.jpeg,2,What arrow is shown?,keep-left,right,False,18.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00000_00020.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00000_00020.jpeg,1,What's the circle color?,blue,blue,True,15.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00000_00020.jpeg,2,What arrow is shown?,keep-left,right,False,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00004_00002.jpeg,0,What's the sign's primary shape?,circle,triangle,False,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00006_00014.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00006_00014.jpeg,1,What's the circle color?,blue,blue,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,39,00006_00014.jpeg,2,What arrow is shown?,keep-left,right,False,15.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00001_00011.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00001_00011.jpeg,1,What's the circle color?,red-white,white-gray,False,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00005_00016.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00005_00016.jpeg,1,What's the circle color?,red-white,white-gray,False,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00008_00017.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00008_00017.jpeg,1,What's the circle color?,red-white,white-gray,False,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00004_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00004_00024.jpeg,1,What's the circle color?,red-white,red-white,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00004_00024.jpeg,2,Does it contain numbers?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00004_00024.jpeg,3,Does it have a diagonal strike bar?,yes,no,False,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00002_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,6,00002_00024.jpeg,1,What's the circle color?,red-white,white-gray,False,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00002_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00002_00000.jpeg,1,What's the circle color?,red-white,red-white,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00002_00000.jpeg,2,Does it contain numbers?,yes,yes,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00002_00000.jpeg,3,What is the number?,30,30,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00046_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00046_00008.jpeg,1,What's the circle color?,red-white,,False,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00029_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00029_00000.jpeg,1,What's the circle color?,red-white,red-white,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00029_00000.jpeg,2,Does it contain numbers?,yes,yes,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00029_00000.jpeg,3,What is the number?,30,30,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00034_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00034_00013.jpeg,1,What's the circle color?,red-white,red-white,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00034_00013.jpeg,2,Does it contain numbers?,yes,yes,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00034_00013.jpeg,3,What is the number?,30,30,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00007_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00007_00007.jpeg,1,What's the circle color?,red-white,red-white,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00007_00007.jpeg,2,Does it contain numbers?,yes,yes,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,1,00007_00007.jpeg,3,What is the number?,30,30,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00017_00016.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00017_00016.jpeg,1,What's the circle color?,red-white,red-white,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00017_00016.jpeg,2,Does it contain numbers?,yes,yes,True,9.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00017_00016.jpeg,3,What is the number?,120,120,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00003_00003.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00003_00003.jpeg,1,What's the circle color?,red-white,white-gray,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00025_00023.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00025_00023.jpeg,1,What's the circle color?,red-white,,False,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00013_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00013_00013.jpeg,1,What's the circle color?,red-white,,False,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00029_00014.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00029_00014.jpeg,1,What's the circle color?,red-white,red-white,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00029_00014.jpeg,2,Does it contain numbers?,yes,yes,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,8,00029_00014.jpeg,3,What is the number?,120,120,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00004_00005.jpeg,0,What's the sign's primary shape?,circle,triangle,False,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00002_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00002_00007.jpeg,1,What's the circle color?,blue,blue,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00002_00007.jpeg,2,What arrow is shown?,forward-left,right,False,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00003_00025.jpeg,0,What's the sign's primary shape?,circle,circle,True,17.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00003_00025.jpeg,1,What's the circle color?,blue,blue,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00003_00025.jpeg,2,What arrow is shown?,forward-left,forward-right,False,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00000_00024.jpeg,0,What's the sign's primary shape?,circle,,False,15.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00001_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00001_00013.jpeg,1,What's the circle color?,blue,blue,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,37,00001_00013.jpeg,2,What arrow is shown?,forward-left,forward-right,False,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,9.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,2,Does it depict a left curve?,no,no,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,3,Does it depict double curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,4,Does it depict right curve?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,5,Does it depict rough/bumpy road?,no,no,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,6,Does it depict slippery road?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,8,Does it depict construction/road work?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,9,Does it depict traffic light?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,10,Does it depict both child and pedestrian?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,11,Does it depict pedestrian?,no,no,True,9.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,12,Does it depict bicycle?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00000_00009.jpeg,13,Does it depict ice/snow?,yes,no,False,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,2,Does it depict a left curve?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,3,Does it depict double curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,4,Does it depict right curve?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,6,Does it depict slippery road?,no,no,True,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00003_00009.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00004_00022.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00004_00022.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00004_00022.jpeg,2,Does it depict a left curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00004_00022.jpeg,3,Does it depict double curve?,no,,False,19.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00009_00016.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00009_00016.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00009_00016.jpeg,2,Does it depict a left curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00009_00016.jpeg,3,Does it depict double curve?,no,,False,20.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,2,Does it depict a left curve?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,3,Does it depict double curve?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,4,Does it depict right curve?,no,no,True,14.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,30,00001_00021.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00000_00004.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00000_00004.jpeg,1,What's the circle color?,white-gray,,False,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00003_00004.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00003_00004.jpeg,1,What's the circle color?,white-gray,,False,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00002_00012.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00002_00012.jpeg,1,What's the circle color?,white-gray,white-gray,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00002_00012.jpeg,2,What restriction ends?,car passing,,False,19.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00001_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00001_00007.jpeg,1,What's the circle color?,white-gray,white-gray,True,13.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00001_00007.jpeg,2,What restriction ends?,car passing,,False,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00004_00022.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00004_00022.jpeg,1,What's the circle color?,white-gray,white-gray,True,15.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,41,00004_00022.jpeg,2,What restriction ends?,car passing,,False,17.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,12,00010_00004.jpeg,0,What's the sign's primary shape?,diamond,diamond,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,12,00023_00001.jpeg,0,What's the sign's primary shape?,diamond,diamond,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,12,00022_00027.jpeg,0,What's the sign's primary shape?,diamond,diamond,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,12,00013_00006.jpeg,0,What's the sign's primary shape?,diamond,circle,False,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,12,00042_00006.jpeg,0,What's the sign's primary shape?,diamond,diamond,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00004_00021.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00004_00021.jpeg,1,What's the circle color?,red-white,,False,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00011_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00011_00008.jpeg,1,What's the circle color?,red-white,,False,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00010_00006.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00010_00006.jpeg,1,What's the circle color?,red-white,,False,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00012_00009.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00012_00009.jpeg,1,What's the circle color?,red-white,,False,16.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,15,00001_00004.jpeg,0,What's the sign's primary shape?,circle,triangle,False,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00009_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00009_00025.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00009_00025.jpeg,2,Does it depict a left curve?,no,no,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00009_00025.jpeg,3,Does it depict double curve?,no,yes,False,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,16.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,2,Does it depict a left curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,3,Does it depict double curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,4,Does it depict right curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00010_00001.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00002_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00002_00027.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00002_00027.jpeg,2,Does it depict a left curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00002_00027.jpeg,3,Does it depict double curve?,no,yes,False,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00008_00015.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00008_00015.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00008_00015.jpeg,2,Does it depict a left curve?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00008_00015.jpeg,3,Does it depict double curve?,no,,False,15.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00003_00006.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00003_00006.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00003_00006.jpeg,2,Does it depict a left curve?,no,no,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,23,00003_00006.jpeg,3,Does it depict double curve?,no,yes,False,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00001_00014.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00001_00014.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00001_00014.jpeg,2,Does it depict a left curve?,no,yes,False,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00003_00026.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00003_00026.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00003_00026.jpeg,2,Does it depict a left curve?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00003_00026.jpeg,3,Does it depict double curve?,no,yes,False,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,16.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,2,Does it depict a left curve?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,3,Does it depict double curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,4,Does it depict right curve?,no,no,True,8.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,5,Does it depict rough/bumpy road?,no,no,True,9.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,6,Does it depict slippery road?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00004_00009.jpeg,7,Does it depict merging/narrow lanes?,yes,yes,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00005_00026.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00005_00026.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00005_00026.jpeg,2,Does it depict a left curve?,no,yes,False,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00000_00029.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00000_00029.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,24,00000_00029.jpeg,2,Does it depict a left curve?,no,yes,False,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00005_00009.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00005_00009.jpeg,1,What's the circle color?,blue,blue,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00005_00009.jpeg,2,What arrow is shown?,circular,circular,True,19.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00006_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00006_00028.jpeg,1,What's the circle color?,blue,blue,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00006_00028.jpeg,2,What arrow is shown?,circular,circular,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00000_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00000_00008.jpeg,1,What's the circle color?,blue,blue,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00000_00008.jpeg,2,What arrow is shown?,circular,,False,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00001_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00001_00010.jpeg,1,What's the circle color?,blue,blue,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00001_00010.jpeg,2,What arrow is shown?,circular,forward-right,False,15.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00007_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,17.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00007_00007.jpeg,1,What's the circle color?,blue,blue,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,40,00007_00007.jpeg,2,What arrow is shown?,circular,forward-right,False,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,2,Does it depict a left curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,3,Does it depict double curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,4,Does it depict right curve?,no,no,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00020_00011.jpeg,6,Does it depict slippery road?,no,yes,False,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,2,Does it depict a left curve?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,3,Does it depict double curve?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,4,Does it depict right curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,6,Does it depict slippery road?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00025_00002.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,2,Does it depict a left curve?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,3,Does it depict double curve?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,4,Does it depict right curve?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,6,Does it depict slippery road?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00017_00000.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00004_00012.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00004_00012.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00004_00012.jpeg,2,Does it depict a left curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00004_00012.jpeg,3,Does it depict double curve?,no,yes,False,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00013_00006.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00013_00006.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00013_00006.jpeg,2,Does it depict a left curve?,no,no,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00013_00006.jpeg,3,Does it depict double curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,25,00013_00006.jpeg,4,Does it depict right curve?,no,,False,18.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00005_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00005_00025.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00005_00025.jpeg,2,Does it depict a left curve?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00005_00025.jpeg,3,Does it depict double curve?,no,yes,False,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00003_00007.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00003_00007.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00003_00007.jpeg,2,Does it depict a left curve?,no,no,True,9.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00003_00007.jpeg,3,Does it depict double curve?,no,,False,19.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00008_00023.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00008_00023.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00008_00023.jpeg,2,Does it depict a left curve?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00008_00023.jpeg,3,Does it depict double curve?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00007_00029.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00007_00029.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00007_00029.jpeg,2,Does it depict a left curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00007_00029.jpeg,3,Does it depict double curve?,no,yes,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00006_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00006_00027.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00006_00027.jpeg,2,Does it depict a left curve?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,22,00006_00027.jpeg,3,Does it depict double curve?,no,yes,False,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,14,00014_00003.jpeg,0,What's the sign's primary shape?,octagon,octagon,True,15.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,14,00004_00028.jpeg,0,What's the sign's primary shape?,octagon,octagon,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,14,00008_00003.jpeg,0,What's the sign's primary shape?,octagon,octagon,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,14,00002_00026.jpeg,0,What's the sign's primary shape?,octagon,octagon,True,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,14,00003_00008.jpeg,0,What's the sign's primary shape?,octagon,octagon,True,14.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,13,00047_00017.jpeg,0,What's the sign's primary shape?,inverted-triangle,triangle,False,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,13,00035_00010.jpeg,0,What's the sign's primary shape?,inverted-triangle,triangle,False,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,13,00034_00002.jpeg,0,What's the sign's primary shape?,inverted-triangle,triangle,False,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,13,00016_00016.jpeg,0,What's the sign's primary shape?,inverted-triangle,triangle,False,15.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,13,00037_00028.jpeg,0,What's the sign's primary shape?,inverted-triangle,triangle,False,15.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00013_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00013_00000.jpeg,1,What's the circle color?,blue,blue,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00013_00000.jpeg,2,What arrow is shown?,forward,forward-right,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00018_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00018_00024.jpeg,1,What's the circle color?,blue,blue,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00018_00024.jpeg,2,What arrow is shown?,forward,forward-right,False,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00012_00006.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00012_00006.jpeg,1,What's the circle color?,blue,blue,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00012_00006.jpeg,2,What arrow is shown?,forward,forward,True,19.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00011_00015.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00011_00015.jpeg,1,What's the circle color?,blue,blue,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00011_00015.jpeg,2,What arrow is shown?,forward,forward,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,35,00007_00009.jpeg,0,What's the sign's primary shape?,circle,triangle,False,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00001_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00001_00013.jpeg,1,What's the circle color?,white-gray,white-gray,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00001_00013.jpeg,2,What restriction ends?,speed limit,,False,19.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00004_00018.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00004_00018.jpeg,1,What's the circle color?,white-gray,white-gray,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00004_00018.jpeg,2,What restriction ends?,speed limit,,False,18.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00003_00019.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00003_00019.jpeg,1,What's the circle color?,white-gray,white-gray,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00003_00019.jpeg,2,What restriction ends?,speed limit,car passing,False,20.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00000_00006.jpeg,0,What's the sign's primary shape?,circle,,False,19.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00002_00025.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00002_00025.jpeg,1,What's the circle color?,white-gray,white-gray,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,32,00002_00025.jpeg,2,What restriction ends?,speed limit,speed limit,True,19.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00007_00018.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00007_00018.jpeg,1,What's the circle color?,red-white,red-white,True,14.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00007_00018.jpeg,2,Does it contain numbers?,yes,yes,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00007_00018.jpeg,3,What is the number?,70,70,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00009_00003.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00009_00003.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00009_00003.jpeg,2,Does it contain numbers?,yes,no,False,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00040_00012.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00040_00012.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00040_00012.jpeg,2,Does it contain numbers?,yes,yes,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00040_00012.jpeg,3,What is the number?,70,70,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00010_00020.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00010_00020.jpeg,1,What's the circle color?,red-white,red-white,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00010_00020.jpeg,2,Does it contain numbers?,yes,yes,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00010_00020.jpeg,3,What is the number?,70,70,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00043_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00043_00028.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00043_00028.jpeg,2,Does it contain numbers?,yes,yes,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,4,00043_00028.jpeg,3,What is the number?,70,70,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00027_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00027_00024.jpeg,1,What's the circle color?,red-white,red-white,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00027_00024.jpeg,2,Does it contain numbers?,yes,yes,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00027_00024.jpeg,3,What is the number?,60,60,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00004_00007.jpeg,0,What's the sign's primary shape?,circle,circle,True,16.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00004_00007.jpeg,1,What's the circle color?,red-white,red-white,True,15.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00004_00007.jpeg,2,Does it contain numbers?,yes,yes,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00004_00007.jpeg,3,What is the number?,60,60,True,14.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00024_00019.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00024_00019.jpeg,1,What's the circle color?,red-white,red-white,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00024_00019.jpeg,2,Does it contain numbers?,yes,yes,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00024_00019.jpeg,3,What is the number?,60,60,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00029_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00029_00024.jpeg,1,What's the circle color?,red-white,red-white,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00029_00024.jpeg,2,Does it contain numbers?,yes,yes,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00029_00024.jpeg,3,What is the number?,60,60,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,3,00016_00020.jpeg,0,What's the sign's primary shape?,circle,,False,14.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00035_00006.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00035_00006.jpeg,1,What's the circle color?,red-white,,False,16.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00000_00011.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00000_00011.jpeg,1,What's the circle color?,red-white,red-white,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00000_00011.jpeg,2,Does it contain numbers?,yes,yes,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00000_00011.jpeg,3,What is the number?,50,20,False,19.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00043_00019.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00043_00019.jpeg,1,What's the circle color?,red-white,red-white,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00043_00019.jpeg,2,Does it contain numbers?,yes,yes,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00043_00019.jpeg,3,What is the number?,50,50,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00046_00002.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00046_00002.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00046_00002.jpeg,2,Does it contain numbers?,yes,yes,True,9.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00046_00002.jpeg,3,What is the number?,50,50,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00007_00011.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00007_00011.jpeg,1,What's the circle color?,red-white,red-white,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,2,00007_00011.jpeg,2,Does it contain numbers?,yes,no,False,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00034_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00034_00010.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00034_00010.jpeg,2,Does it contain numbers?,yes,yes,True,9.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00034_00010.jpeg,3,What is the number?,80,60,False,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00017_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00017_00028.jpeg,1,What's the circle color?,red-white,red-white,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00017_00028.jpeg,2,Does it contain numbers?,yes,yes,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00017_00028.jpeg,3,What is the number?,80,80,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00041_00016.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00041_00016.jpeg,1,What's the circle color?,red-white,red-white,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00041_00016.jpeg,2,Does it contain numbers?,yes,yes,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00041_00016.jpeg,3,What is the number?,80,80,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00021_00020.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00021_00020.jpeg,1,What's the circle color?,red-white,red-white,True,15.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00021_00020.jpeg,2,Does it contain numbers?,yes,yes,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00021_00020.jpeg,3,What is the number?,80,80,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00007_00012.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,5,00007_00012.jpeg,1,What's the circle color?,red-white,,False,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00009_00014.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00009_00014.jpeg,1,What's the circle color?,blue,blue,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00009_00014.jpeg,2,What arrow is shown?,right,right,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00006_00025.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00006_00025.jpeg,1,What's the circle color?,blue,blue,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00006_00025.jpeg,2,What arrow is shown?,right,right,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00002_00016.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00002_00016.jpeg,1,What's the circle color?,blue,blue,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00002_00016.jpeg,2,What arrow is shown?,right,right,True,15.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00007_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00007_00010.jpeg,1,What's the circle color?,blue,blue,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00007_00010.jpeg,2,What arrow is shown?,right,right,True,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00000_00014.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00000_00014.jpeg,1,What's the circle color?,blue,blue,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,33,00000_00014.jpeg,2,What arrow is shown?,right,forward-right,False,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00004_00024.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00004_00024.jpeg,1,What's the circle color?,blue,blue,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00004_00024.jpeg,2,What arrow is shown?,left,right,False,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00008_00026.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00008_00026.jpeg,1,What's the circle color?,blue,blue,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00008_00026.jpeg,2,What arrow is shown?,left,right,False,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00002_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00002_00010.jpeg,1,What's the circle color?,blue,blue,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00002_00010.jpeg,2,What arrow is shown?,left,right,False,22.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00009_00021.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00009_00021.jpeg,1,What's the circle color?,blue,blue,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00009_00021.jpeg,2,What arrow is shown?,left,,False,19.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00000_00020.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00000_00020.jpeg,1,What's the circle color?,blue,blue,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,34,00000_00020.jpeg,2,What arrow is shown?,left,right,False,15.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00004_00001.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00004_00001.jpeg,1,What's the circle color?,red-white,,False,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00008_00027.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00008_00027.jpeg,1,What's the circle color?,red-white,red-white,True,15.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00008_00027.jpeg,2,Does it contain numbers?,no,no,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00008_00027.jpeg,3,Does it have a diagonal strike bar?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00008_00027.jpeg,4,What is inside the circle?,truck,truck,True,20.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00003_00002.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00003_00002.jpeg,1,What's the circle color?,red-white,,False,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00001_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00001_00008.jpeg,1,What's the circle color?,red-white,red-white,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00001_00008.jpeg,2,Does it contain numbers?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00001_00008.jpeg,3,Does it have a diagonal strike bar?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00001_00008.jpeg,4,What is inside the circle?,truck,,False,18.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00002_00028.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,16,00002_00028.jpeg,1,What's the circle color?,red-white,,False,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,2,Does it depict a left curve?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,3,Does it depict double curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,4,Does it depict right curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,6,Does it depict slippery road?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00001_00021.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,16.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,2,Does it depict a left curve?,no,no,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,3,Does it depict double curve?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,4,Does it depict right curve?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00004_00003.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00000_00010.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00000_00010.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00000_00010.jpeg,2,Does it depict a left curve?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00000_00010.jpeg,3,Does it depict double curve?,no,no,True,9.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00000_00010.jpeg,4,Does it depict right curve?,no,,False,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,2,Does it depict a left curve?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,3,Does it depict double curve?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,4,Does it depict right curve?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00002_00027.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,2,Does it depict a left curve?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,3,Does it depict double curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,4,Does it depict right curve?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,5,Does it depict rough/bumpy road?,no,no,True,9.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,6,Does it depict slippery road?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,29,00005_00019.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,16.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,2,Does it depict a left curve?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,3,Does it depict double curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,4,Does it depict right curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,5,Does it depict rough/bumpy road?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,6,Does it depict slippery road?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,8,Does it depict construction/road work?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,9,Does it depict traffic light?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,10,Does it depict both child and pedestrian?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,11,Does it depict pedestrian?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,12,Does it depict bicycle?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,13,Does it depict ice/snow?,no,no,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00015_00009.jpeg,14,Does it depict deer?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00000_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00000_00025.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00000_00025.jpeg,2,Does it depict a left curve?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00000_00025.jpeg,3,Does it depict double curve?,no,,False,19.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,16.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,2,Does it depict a left curve?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,3,Does it depict double curve?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,4,Does it depict right curve?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00003_00012.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,2,Does it depict a left curve?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,3,Does it depict double curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,4,Does it depict right curve?,no,no,True,9.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,5,Does it depict rough/bumpy road?,no,no,True,9.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,6,Does it depict slippery road?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00029_00005.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,14.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,2,Does it depict a left curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,3,Does it depict double curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,4,Does it depict right curve?,no,no,True,9.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,11,00011_00014.jpeg,5,Does it depict rough/bumpy road?,no,yes,False,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,2,Does it depict a left curve?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,3,Does it depict double curve?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,4,Does it depict right curve?,no,no,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,6,Does it depict slippery road?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,8,Does it depict construction/road work?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,9,Does it depict traffic light?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,10,Does it depict both child and pedestrian?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00002_00029.jpeg,11,Does it depict pedestrian?,yes,yes,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,2,Does it depict a left curve?,no,no,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,3,Does it depict double curve?,no,no,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,4,Does it depict right curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,6,Does it depict slippery road?,no,no,True,9.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,8.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,8,Does it depict construction/road work?,no,no,True,8.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,9,Does it depict traffic light?,no,no,True,8.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,10,Does it depict both child and pedestrian?,no,no,True,8.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00001_00016.jpeg,11,Does it depict pedestrian?,yes,yes,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,2,Does it depict a left curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,3,Does it depict double curve?,no,no,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,4,Does it depict right curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,6,Does it depict slippery road?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00000_00000.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,2,Does it depict a left curve?,no,no,True,9.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,3,Does it depict double curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,4,Does it depict right curve?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,6,Does it depict slippery road?,no,no,True,9.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,8,Does it depict construction/road work?,no,no,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,9,Does it depict traffic light?,no,no,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,10,Does it depict both child and pedestrian?,no,no,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00003_00017.jpeg,11,Does it depict pedestrian?,yes,yes,True,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00005_00013.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00005_00013.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00005_00013.jpeg,2,Does it depict a left curve?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,27,00005_00013.jpeg,3,Does it depict double curve?,no,,False,17.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00002_00009.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00002_00009.jpeg,1,Does the triangle have an exclamation mark?,yes,no,False,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00023_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00023_00027.jpeg,1,Does the triangle have an exclamation mark?,yes,yes,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00015_00011.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00015_00011.jpeg,1,Does the triangle have an exclamation mark?,yes,no,False,9.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00026_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00026_00025.jpeg,1,Does the triangle have an exclamation mark?,yes,no,False,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00024_00026.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,18,00024_00026.jpeg,1,Does the triangle have an exclamation mark?,yes,yes,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00002_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00002_00027.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00002_00027.jpeg,2,Does it depict a left curve?,no,yes,False,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00001_00007.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00001_00007.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,14.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00001_00007.jpeg,2,Does it depict a left curve?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00001_00007.jpeg,3,Does it depict double curve?,no,no,True,13.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00001_00007.jpeg,4,Does it depict right curve?,yes,no,False,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00005_00004.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00005_00004.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00005_00004.jpeg,2,Does it depict a left curve?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00005_00004.jpeg,3,Does it depict double curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00005_00004.jpeg,4,Does it depict right curve?,yes,no,False,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00003_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00003_00025.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00003_00025.jpeg,2,Does it depict a left curve?,no,yes,False,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00006_00005.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,17.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00006_00005.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00006_00005.jpeg,2,Does it depict a left curve?,no,no,True,8.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00006_00005.jpeg,3,Does it depict double curve?,no,no,True,8.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,20,00006_00005.jpeg,4,Does it depict right curve?,yes,no,False,8.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00002_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00002_00013.jpeg,1,What's the circle color?,white-gray,white-gray,True,13.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00002_00013.jpeg,2,What restriction ends?,truck passing,,False,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00004_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00004_00013.jpeg,1,What's the circle color?,white-gray,,False,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00003_00010.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00003_00010.jpeg,1,What's the circle color?,white-gray,,False,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00000_00006.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00000_00006.jpeg,1,What's the circle color?,white-gray,white-gray,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00000_00006.jpeg,2,What restriction ends?,truck passing,,False,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00005_00022.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00005_00022.jpeg,1,What's the circle color?,white-gray,white-gray,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,42,00005_00022.jpeg,2,What restriction ends?,truck passing,,False,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00004_00029.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00004_00029.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00004_00029.jpeg,2,Does it depict a left curve?,no,yes,False,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00003_00010.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00003_00010.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00003_00010.jpeg,2,Does it depict a left curve?,no,no,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00003_00010.jpeg,3,Does it depict double curve?,yes,yes,True,8.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00005_00005.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00005_00005.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00005_00005.jpeg,2,Does it depict a left curve?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00005_00005.jpeg,3,Does it depict double curve?,yes,no,False,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00002_00005.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00002_00005.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00002_00005.jpeg,2,Does it depict a left curve?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00002_00005.jpeg,3,Does it depict double curve?,yes,no,False,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00006_00023.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00006_00023.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,21,00006_00023.jpeg,2,Does it depict a left curve?,no,yes,False,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,2,Does it depict a left curve?,no,no,True,9.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,3,Does it depict double curve?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,4,Does it depict right curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,6,Does it depict slippery road?,no,no,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00008_00008.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00007_00025.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00007_00025.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00007_00025.jpeg,2,Does it depict a left curve?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00007_00025.jpeg,3,Does it depict double curve?,no,,False,15.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,9.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,2,Does it depict a left curve?,no,no,True,9.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,3,Does it depict double curve?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,4,Does it depict right curve?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,5,Does it depict rough/bumpy road?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,6,Does it depict slippery road?,no,no,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,8,Does it depict construction/road work?,no,no,True,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00001_00019.jpeg,9,Does it depict traffic light?,yes,no,False,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,2,Does it depict a left curve?,no,no,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,3,Does it depict double curve?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,4,Does it depict right curve?,no,no,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,5,Does it depict rough/bumpy road?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,6,Does it depict slippery road?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,8,Does it depict construction/road work?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00003_00022.jpeg,9,Does it depict traffic light?,yes,no,False,9.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,2,Does it depict a left curve?,no,no,True,11.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,3,Does it depict double curve?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,4,Does it depict right curve?,no,no,True,13.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,5,Does it depict rough/bumpy road?,no,no,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,6,Does it depict slippery road?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,26,00010_00028.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,11.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00000_00028.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00000_00028.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00000_00028.jpeg,2,Does it depict a left curve?,yes,no,False,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00002_00013.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00002_00013.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00002_00013.jpeg,2,Does it depict a left curve?,yes,yes,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00004_00019.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00004_00019.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00004_00019.jpeg,2,Does it depict a left curve?,yes,no,False,12.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00003_00023.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00003_00023.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00003_00023.jpeg,2,Does it depict a left curve?,yes,yes,True,9.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00001_00027.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00001_00027.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,12.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,19,00001_00027.jpeg,2,Does it depict a left curve?,yes,yes,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00000_00014.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00000_00014.jpeg,1,What's the circle color?,red-white,,False,11.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00004_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,15.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00004_00013.jpeg,1,What's the circle color?,red-white,,False,12.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00040_00017.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00040_00017.jpeg,1,What's the circle color?,red-white,red-white,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00040_00017.jpeg,2,Does it contain numbers?,no,no,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00040_00017.jpeg,3,Does it have a diagonal strike bar?,no,no,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00040_00017.jpeg,4,What is inside the circle?,red truck and black car,truck,False,14.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00003_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00003_00008.jpeg,1,What's the circle color?,red-white,,False,14.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00014_00001.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,10,00014_00001.jpeg,1,What's the circle color?,red-white,,False,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00002_00020.jpeg,0,What's the sign's primary shape?,circle,diamond,False,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00001_00002.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00001_00002.jpeg,1,What's the circle color?,red-white,,False,15.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00010_00000.jpeg,0,What's the sign's primary shape?,circle,circle,True,14.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00010_00000.jpeg,1,What's the circle color?,red-white,,False,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00016_00008.jpeg,0,What's the sign's primary shape?,circle,circle,True,12.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00016_00008.jpeg,1,What's the circle color?,red-white,red-white,True,12.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00016_00008.jpeg,2,Does it contain numbers?,no,no,True,11.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00016_00008.jpeg,3,Does it have a diagonal strike bar?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00016_00008.jpeg,4,What is inside the circle?,horizontal white bar,,False,19.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00007_00013.jpeg,0,What's the sign's primary shape?,circle,circle,True,13.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00007_00013.jpeg,1,What's the circle color?,red-white,red-white,True,11.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00007_00013.jpeg,2,Does it contain numbers?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00007_00013.jpeg,3,Does it have a diagonal strike bar?,no,no,True,12.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,17,00007_00013.jpeg,4,What is inside the circle?,horizontal white bar,,False,21.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,15.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,2,Does it depict a left curve?,no,no,True,13.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,3,Does it depict double curve?,no,no,True,14.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,4,Does it depict right curve?,no,no,True,10.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,6,Does it depict slippery road?,no,no,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00004_00029.jpeg,7,Does it depict merging/narrow lanes?,no,yes,False,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,13.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,2,Does it depict a left curve?,no,no,True,11.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,3,Does it depict double curve?,no,no,True,13.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,4,Does it depict right curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,6,Does it depict slippery road?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,8,Does it depict construction/road work?,no,no,True,10.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,9,Does it depict traffic light?,no,no,True,11.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00010_00013.jpeg,10,Does it depict both child and pedestrian?,yes,no,False,15.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,12.9
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,2,Does it depict a left curve?,no,no,True,16.1
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,3,Does it depict double curve?,no,no,True,11.4
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,4,Does it depict right curve?,no,no,True,9.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,5,Does it depict rough/bumpy road?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,6,Does it depict slippery road?,no,no,True,9.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,7,Does it depict merging/narrow lanes?,no,no,True,10.3
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,8,Does it depict construction/road work?,no,no,True,10.5
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,9,Does it depict traffic light?,no,no,True,9.8
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00007_00023.jpeg,10,Does it depict both child and pedestrian?,yes,yes,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00003_00010.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,17.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00003_00010.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,13.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00003_00010.jpeg,2,Does it depict a left curve?,no,no,True,11.2
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00003_00010.jpeg,3,Does it depict double curve?,no,yes,False,10.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00002_00011.jpeg,0,What's the sign's primary shape?,triangle,triangle,True,14.7
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00002_00011.jpeg,1,Does the triangle have an exclamation mark?,no,no,True,10.6
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00002_00011.jpeg,2,Does it depict a left curve?,no,no,True,12.0
+GTSRB,meta-llama/llama-3.2-11b-vision-instruct-8bit-local,28,00002_00011.jpeg,3,Does it depict double curve?,no,,False,22.5

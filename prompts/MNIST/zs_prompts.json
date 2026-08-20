@@ -4,7 +4,7 @@
   "prompts": [
     "\"Kindly analyze the provided image and determine the appropriate classification by assigning it to one of the following categories: {class_names_str}. Ensure that the response consists solely of the numeric class identifier.\"",
     "\"Hey there! Could you take a look at this image and let me know which class it belongs to? The options are {class_names_str}. Just reply with the class ID number, thanks!\"",
-    "\"Carefully analyze the handwritten digit displayed in the provided image. Determine whether it belongs to one of the following classes: '0' (a digit typically shaped as a closed loop or oval) or '1' (a digit usually represented as a single vertical line, sometimes with a slight curve or serif). Provide your response exclusively as the class ID number, either 0 or 1.\"",
+    "\"Carefully analyze the handwritten digit displayed in the provided image, paying attention to distinguishing features such as loops, straight strokes, and curves. Determine which of the following classes it belongs to: {class_names_str}. Provide your response exclusively as the class ID number.\"",
     "\"Identify the digit in the image as one of the following classes: {class_names_str}. Return only the class ID.\"",
     "\"To classify the object in the given image, follow these steps: 1) Carefully observe the features of the object. 2) Compare them to the descriptions of the two possible classes: {class_names_str}. 3) Determine the best match based on the features. 4) Provide only the class ID number (0 or 1) as the output.\"",
     "\"Analyze the handwritten digit in the image and determine its classification based on the following options: {class_names_str}. Respond solely with the corresponding class ID number.\"",

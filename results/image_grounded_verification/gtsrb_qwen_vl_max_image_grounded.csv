@@ -1,0 +1,694 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+GTSRB,qwen-vl-max,31,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,31,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,14,Does it depict deer?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,31,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,31,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,31,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,14,Does it depict deer?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,31,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.0
+GTSRB,qwen-vl-max,31,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,qwen-vl-max,31,14,Does it depict deer?,yes,no,False,0.0
+GTSRB,qwen-vl-max,9,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,9,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,9,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,4,What is inside the circle?,red car and black car,,False,0.0
+GTSRB,qwen-vl-max,9,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,9,1,What's the circle color?,red-white,blue,False,0.0
+GTSRB,qwen-vl-max,9,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,4,What is inside the circle?,red car and black car,,False,0.0
+GTSRB,qwen-vl-max,9,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,qwen-vl-max,9,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,9,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,9,4,What is inside the circle?,red car and black car,horizontal white bar,False,0.0
+GTSRB,qwen-vl-max,36,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,36,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,36,2,What arrow is shown?,forward-right,forward-right,True,0.0
+GTSRB,qwen-vl-max,36,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,36,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,36,2,What arrow is shown?,forward-right,,False,0.0
+GTSRB,qwen-vl-max,36,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,36,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,36,2,What arrow is shown?,forward-right,keep-right,False,0.0
+GTSRB,qwen-vl-max,0,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,qwen-vl-max,0,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,0,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,0,3,What is the number?,20,20,True,0.0
+GTSRB,qwen-vl-max,0,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,0,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,0,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,0,3,What is the number?,20,20,True,0.0
+GTSRB,qwen-vl-max,0,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,0,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,0,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,0,3,What is the number?,20,20,True,0.0
+GTSRB,qwen-vl-max,38,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,38,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,38,2,What arrow is shown?,keep-right,forward-left,False,0.0
+GTSRB,qwen-vl-max,38,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,38,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,38,2,What arrow is shown?,keep-right,forward,False,0.0
+GTSRB,qwen-vl-max,38,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,38,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,38,2,What arrow is shown?,keep-right,forward-left,False,0.0
+GTSRB,qwen-vl-max,7,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,7,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,7,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,7,3,What is the number?,100,100,True,0.0
+GTSRB,qwen-vl-max,7,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,7,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,7,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,7,3,What is the number?,100,100,True,0.0
+GTSRB,qwen-vl-max,7,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,7,1,What's the circle color?,red-white,blue,False,0.0
+GTSRB,qwen-vl-max,7,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,7,3,What is the number?,100,100,True,0.0
+GTSRB,qwen-vl-max,39,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,39,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,39,2,What arrow is shown?,keep-left,keep-left,True,0.0
+GTSRB,qwen-vl-max,39,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,39,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,39,2,What arrow is shown?,keep-left,left,False,0.0
+GTSRB,qwen-vl-max,39,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,39,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,39,2,What arrow is shown?,keep-left,left,False,0.0
+GTSRB,qwen-vl-max,6,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,6,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,qwen-vl-max,6,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,6,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,6,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,6,2,Does it contain numbers?,no,yes,False,0.0
+GTSRB,qwen-vl-max,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,6,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,6,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,qwen-vl-max,6,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,1,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,1,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,1,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,1,3,What is the number?,30,30,True,0.0
+GTSRB,qwen-vl-max,1,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,1,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,1,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,1,3,What is the number?,30,30,True,0.0
+GTSRB,qwen-vl-max,1,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,1,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,1,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,1,3,What is the number?,30,30,True,0.0
+GTSRB,qwen-vl-max,8,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,8,1,What's the circle color?,red-white,blue,False,0.0
+GTSRB,qwen-vl-max,8,2,Does it contain numbers?,yes,no,False,0.0
+GTSRB,qwen-vl-max,8,3,What is the number?,120,,False,0.0
+GTSRB,qwen-vl-max,8,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,8,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,8,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,8,3,What is the number?,120,120,True,0.0
+GTSRB,qwen-vl-max,8,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,8,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,8,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,8,3,What is the number?,120,120,True,0.0
+GTSRB,qwen-vl-max,37,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,37,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,37,2,What arrow is shown?,forward-left,circular,False,0.0
+GTSRB,qwen-vl-max,37,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,37,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,37,2,What arrow is shown?,forward-left,circular,False,0.0
+GTSRB,qwen-vl-max,37,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,37,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,37,2,What arrow is shown?,forward-left,left,False,0.0
+GTSRB,qwen-vl-max,30,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,30,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,30,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,13,Does it depict ice/snow?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,30,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,30,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,30,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,30,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,30,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,30,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,13,Does it depict ice/snow?,yes,no,False,0.0
+GTSRB,qwen-vl-max,30,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,30,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,30,13,Does it depict ice/snow?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,41,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,41,1,What's the circle color?,white-gray,blue,False,0.0
+GTSRB,qwen-vl-max,41,2,What restriction ends?,car passing,speed limit,False,0.0
+GTSRB,qwen-vl-max,41,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,41,1,What's the circle color?,white-gray,blue,False,0.0
+GTSRB,qwen-vl-max,41,2,What restriction ends?,car passing,speed limit,False,0.0
+GTSRB,qwen-vl-max,41,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,41,1,What's the circle color?,white-gray,,False,0.0
+GTSRB,qwen-vl-max,41,2,What restriction ends?,car passing,speed limit,False,0.0
+GTSRB,qwen-vl-max,12,0,What's the sign's primary shape?,diamond,diamond,True,0.0
+GTSRB,qwen-vl-max,12,0,What's the sign's primary shape?,diamond,diamond,True,0.0
+GTSRB,qwen-vl-max,12,0,What's the sign's primary shape?,diamond,octagon,False,0.0
+GTSRB,qwen-vl-max,15,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,15,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,15,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,4,What is inside the circle?,empty circle,,False,0.0
+GTSRB,qwen-vl-max,15,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,15,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,15,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,4,What is inside the circle?,empty circle,horizontal white bar,False,0.0
+GTSRB,qwen-vl-max,15,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,15,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,15,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,15,4,What is inside the circle?,empty circle,horizontal white bar,False,0.0
+GTSRB,qwen-vl-max,23,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,23,6,Does it depict slippery road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,23,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,23,6,Does it depict slippery road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,23,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,23,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,23,6,Does it depict slippery road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,24,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,24,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,24,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,24,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,24,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,24,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,24,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,40,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,40,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,40,2,What arrow is shown?,circular,circular,True,0.0
+GTSRB,qwen-vl-max,40,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,40,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,40,2,What arrow is shown?,circular,circular,True,0.0
+GTSRB,qwen-vl-max,40,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,40,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,40,2,What arrow is shown?,circular,circular,True,0.0
+GTSRB,qwen-vl-max,25,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,25,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,25,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,8,Does it depict construction/road work?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,25,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,25,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,8,Does it depict construction/road work?,yes,no,False,0.0
+GTSRB,qwen-vl-max,25,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,25,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,25,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,25,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,25,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,25,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,25,8,Does it depict construction/road work?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,22,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,22,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,22,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,22,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,3,Does it depict double curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,22,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,22,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,22,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0
+GTSRB,qwen-vl-max,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0
+GTSRB,qwen-vl-max,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0
+GTSRB,qwen-vl-max,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.0
+GTSRB,qwen-vl-max,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.0
+GTSRB,qwen-vl-max,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.0
+GTSRB,qwen-vl-max,35,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,35,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,35,2,What arrow is shown?,forward,forward,True,0.0
+GTSRB,qwen-vl-max,35,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,35,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,35,2,What arrow is shown?,forward,forward,True,0.0
+GTSRB,qwen-vl-max,35,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,35,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,35,2,What arrow is shown?,forward,forward,True,0.0
+GTSRB,qwen-vl-max,32,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,32,1,What's the circle color?,white-gray,white-gray,True,0.0
+GTSRB,qwen-vl-max,32,2,What restriction ends?,speed limit,speed limit,True,0.0
+GTSRB,qwen-vl-max,32,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,32,1,What's the circle color?,white-gray,blue,False,0.0
+GTSRB,qwen-vl-max,32,2,What restriction ends?,speed limit,speed limit,True,0.0
+GTSRB,qwen-vl-max,32,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,32,1,What's the circle color?,white-gray,red-white,False,0.0
+GTSRB,qwen-vl-max,32,2,What restriction ends?,speed limit,,False,0.0
+GTSRB,qwen-vl-max,4,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,4,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,4,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,4,3,What is the number?,70,70,True,0.0
+GTSRB,qwen-vl-max,4,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,4,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,4,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,4,3,What is the number?,70,70,True,0.0
+GTSRB,qwen-vl-max,4,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,4,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,4,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,4,3,What is the number?,70,70,True,0.0
+GTSRB,qwen-vl-max,3,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,3,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,3,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,3,3,What is the number?,60,30,False,0.0
+GTSRB,qwen-vl-max,3,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,3,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,3,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,3,3,What is the number?,60,60,True,0.0
+GTSRB,qwen-vl-max,3,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,3,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,3,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,3,3,What is the number?,60,60,True,0.0
+GTSRB,qwen-vl-max,2,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,2,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,2,2,Does it contain numbers?,yes,no,False,0.0
+GTSRB,qwen-vl-max,2,3,What is the number?,50,60,False,0.0
+GTSRB,qwen-vl-max,2,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,2,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,2,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,2,3,What is the number?,50,50,True,0.0
+GTSRB,qwen-vl-max,2,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,2,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,2,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,2,3,What is the number?,50,50,True,0.0
+GTSRB,qwen-vl-max,5,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,5,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,5,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,5,3,What is the number?,80,80,True,0.0
+GTSRB,qwen-vl-max,5,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,5,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,5,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,5,3,What is the number?,80,80,True,0.0
+GTSRB,qwen-vl-max,5,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,5,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,5,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,5,3,What is the number?,80,60,False,0.0
+GTSRB,qwen-vl-max,33,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,33,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,33,2,What arrow is shown?,right,right,True,0.0
+GTSRB,qwen-vl-max,33,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,33,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,33,2,What arrow is shown?,right,keep-right,False,0.0
+GTSRB,qwen-vl-max,33,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,33,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,33,2,What arrow is shown?,right,right,True,0.0
+GTSRB,qwen-vl-max,34,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,34,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,34,2,What arrow is shown?,left,left,True,0.0
+GTSRB,qwen-vl-max,34,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,34,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,34,2,What arrow is shown?,left,keep-left,False,0.0
+GTSRB,qwen-vl-max,34,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,34,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,qwen-vl-max,34,2,What arrow is shown?,left,left,True,0.0
+GTSRB,qwen-vl-max,16,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,16,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,16,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,16,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,16,4,What is inside the circle?,truck,truck,True,0.0
+GTSRB,qwen-vl-max,16,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,16,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,16,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,16,3,Does it have a diagonal strike bar?,no,yes,False,0.0
+GTSRB,qwen-vl-max,16,4,What is inside the circle?,truck,,False,0.0
+GTSRB,qwen-vl-max,16,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,16,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,16,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,16,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,16,4,What is inside the circle?,truck,truck,True,0.0
+GTSRB,qwen-vl-max,29,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.0
+GTSRB,qwen-vl-max,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,12,Does it depict bicycle?,yes,no,False,0.0
+GTSRB,qwen-vl-max,29,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,29,12,Does it depict bicycle?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,29,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,29,12,Does it depict bicycle?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,11,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,11,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,13,Does it depict ice/snow?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,14,Does it depict deer?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,11,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,14,Does it depict deer?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,11,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,11,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,qwen-vl-max,11,14,Does it depict deer?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,11,Does it depict pedestrian?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,27,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,11,Does it depict pedestrian?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,27,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,27,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,qwen-vl-max,27,11,Does it depict pedestrian?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,18,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.0
+GTSRB,qwen-vl-max,18,1,Does the triangle have an exclamation mark?,yes,no,False,0.0
+GTSRB,qwen-vl-max,18,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,18,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,20,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,20,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,20,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,4,Does it depict right curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,20,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,20,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,20,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,4,Does it depict right curve?,yes,no,False,0.0
+GTSRB,qwen-vl-max,20,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,20,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,20,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,20,4,Does it depict right curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,42,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,42,1,What's the circle color?,white-gray,,False,0.0
+GTSRB,qwen-vl-max,42,2,What restriction ends?,truck passing,,False,0.0
+GTSRB,qwen-vl-max,42,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,qwen-vl-max,42,1,What's the circle color?,white-gray,,False,0.0
+GTSRB,qwen-vl-max,42,2,What restriction ends?,truck passing,,False,0.0
+GTSRB,qwen-vl-max,42,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,42,1,What's the circle color?,white-gray,white-gray,True,0.0
+GTSRB,qwen-vl-max,42,2,What restriction ends?,truck passing,,False,0.0
+GTSRB,qwen-vl-max,21,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,21,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,21,3,Does it depict double curve?,yes,no,False,0.0
+GTSRB,qwen-vl-max,21,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,21,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,21,3,Does it depict double curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,21,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,21,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,qwen-vl-max,21,3,Does it depict double curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,26,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,26,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,9,Does it depict traffic light?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,26,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,26,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,9,Does it depict traffic light?,yes,no,False,0.0
+GTSRB,qwen-vl-max,26,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,26,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,26,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,26,9,Does it depict traffic light?,yes,no,False,0.0
+GTSRB,qwen-vl-max,19,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,19,2,Does it depict a left curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,19,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,19,2,Does it depict a left curve?,yes,no,False,0.0
+GTSRB,qwen-vl-max,19,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,19,2,Does it depict a left curve?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,10,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,qwen-vl-max,10,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,10,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,10,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,10,4,What is inside the circle?,red truck and black car,,False,0.0
+GTSRB,qwen-vl-max,10,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,10,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,10,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,10,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,10,4,What is inside the circle?,red truck and black car,,False,0.0
+GTSRB,qwen-vl-max,10,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,10,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,10,2,Does it contain numbers?,no,yes,False,0.0
+GTSRB,qwen-vl-max,10,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,10,4,What is inside the circle?,red truck and black car,,False,0.0
+GTSRB,qwen-vl-max,17,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,17,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,17,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,17,3,Does it have a diagonal strike bar?,no,yes,False,0.0
+GTSRB,qwen-vl-max,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.0
+GTSRB,qwen-vl-max,17,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,qwen-vl-max,17,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,qwen-vl-max,17,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,17,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,qwen-vl-max,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.0
+GTSRB,qwen-vl-max,17,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,qwen-vl-max,17,1,What's the circle color?,red-white,,False,0.0
+GTSRB,qwen-vl-max,17,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,qwen-vl-max,17,3,Does it have a diagonal strike bar?,no,yes,False,0.0
+GTSRB,qwen-vl-max,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.0
+GTSRB,qwen-vl-max,28,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.0
+GTSRB,qwen-vl-max,28,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,10,Does it depict both child and pedestrian?,yes,no,False,0.0
+GTSRB,qwen-vl-max,28,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,qwen-vl-max,28,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,qwen-vl-max,28,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,qwen-vl-max,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.0

@@ -1,0 +1,36 @@
+dataset,model,true_class,class_name,depth,question,expected_answer,predicted_answer,correct,call_cost
+CIFAR-10,gpt-4o,0,airplane,0,Is the object in the image a living animal?,no,no,True,0.0001925
+CIFAR-10,gpt-4o,0,airplane,1,Is the object capable of floating on water?,no,no,True,0.00027
+CIFAR-10,gpt-4o,0,airplane,2,Does the object have wings?,yes,yes,True,0.00033
+CIFAR-10,gpt-4o,1,automobile,0,Is the object in the image a living animal?,no,no,True,0.0001925
+CIFAR-10,gpt-4o,1,automobile,1,Is the object capable of floating on water?,no,no,True,0.00026
+CIFAR-10,gpt-4o,1,automobile,2,Does the object have wings?,no,no,True,0.00033
+CIFAR-10,gpt-4o,1,automobile,3,Is the vehicle larger in size and typically used for transporting goods?,no,yes,False,0.0004275
+CIFAR-10,gpt-4o,2,bird,0,Is the object in the image a living animal?,yes,yes,True,0.00017
+CIFAR-10,gpt-4o,2,bird,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,0.000265
+CIFAR-10,gpt-4o,2,bird,2,Does the animal have feathers covering its body?,yes,yes,True,0.00033
+CIFAR-10,gpt-4o,3,cat,0,Is the object in the image a living animal?,yes,yes,True,0.00018
+CIFAR-10,gpt-4o,3,cat,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,0.0002675
+CIFAR-10,gpt-4o,3,cat,2,Is the animal typically shown with prominent hooves?,no,no,True,0.0003475
+CIFAR-10,gpt-4o,3,cat,3,Does the animal have a noticeably longer snout or muzzle?,no,no,True,0.0004425
+CIFAR-10,gpt-4o,4,deer,0,Is the object in the image a living animal?,yes,yes,True,0.0001725
+CIFAR-10,gpt-4o,4,deer,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,0.0002575
+CIFAR-10,gpt-4o,4,deer,2,Is the animal typically shown with prominent hooves?,yes,yes,True,0.000345
+CIFAR-10,gpt-4o,4,deer,3,Does the animal have antlers visible in the image?,yes,yes,True,0.000425
+CIFAR-10,gpt-4o,5,dog,0,Is the object in the image a living animal?,yes,yes,True,0.00018
+CIFAR-10,gpt-4o,5,dog,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,0.0002775
+CIFAR-10,gpt-4o,5,dog,2,Is the animal typically shown with prominent hooves?,no,no,True,0.0003475
+CIFAR-10,gpt-4o,5,dog,3,Does the animal have a noticeably longer snout or muzzle?,yes,yes,True,0.0004425
+CIFAR-10,gpt-4o,6,frog,0,Is the object in the image a living animal?,yes,yes,True,0.00017
+CIFAR-10,gpt-4o,6,frog,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,0.000265
+CIFAR-10,gpt-4o,6,frog,2,Does the animal have feathers covering its body?,no,no,True,0.00033
+CIFAR-10,gpt-4o,7,horse,0,Is the object in the image a living animal?,yes,yes,True,0.00018
+CIFAR-10,gpt-4o,7,horse,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,0.000265
+CIFAR-10,gpt-4o,7,horse,2,Is the animal typically shown with prominent hooves?,yes,yes,True,0.0003325
+CIFAR-10,gpt-4o,7,horse,3,Does the animal have antlers visible in the image?,no,no,True,0.0004125
+CIFAR-10,gpt-4o,8,ship,0,Is the object in the image a living animal?,no,no,True,0.00019
+CIFAR-10,gpt-4o,8,ship,1,Is the object capable of floating on water?,yes,yes,True,0.0002575
+CIFAR-10,gpt-4o,9,truck,0,Is the object in the image a living animal?,no,no,True,0.00018
+CIFAR-10,gpt-4o,9,truck,1,Is the object capable of floating on water?,no,no,True,0.0002575
+CIFAR-10,gpt-4o,9,truck,2,Does the object have wings?,no,no,True,0.0003275
+CIFAR-10,gpt-4o,9,truck,3,Is the vehicle larger in size and typically used for transporting goods?,yes,yes,True,0.000415

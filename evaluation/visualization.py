@@ -1,5 +1,10 @@
 import sqlite3
 import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db_utils import ANSWERS
 
 import pandas as pd
 from datetime import datetime
@@ -37,7 +42,7 @@ def check_data_completeness(cursor, dataset, config, model, RunId, temperature=N
     expected_samples = config[dataset]['num_samples']
     
     # Build query based on provided parameters
-    query = "SELECT COUNT(*) FROM answers WHERE LLM_name = ? AND RunId = ?"
+    query = f"SELECT COUNT(*) FROM {ANSWERS} WHERE LLM_name = ? AND RunId = ?"
     params = [model, RunId]
     
     if temperature is not None:
@@ -76,7 +81,7 @@ def preprocess_dataframe(cursor, model, RunId):
     # 3. Add a column tree_is_correct (int(Class) == int(LLM_output_with_tree_class))
     # 4. Add a column without_tree_is_correct (int(Class) == int(LLM_output_without_tree_class))
 
-    cursor.execute("SELECT * FROM answers WHERE LLM_name = ? AND RunId = ?", (model,RunId))
+    cursor.execute(f"SELECT * FROM {ANSWERS} WHERE LLM_name = ? AND RunId = ?", (model,RunId))
     rows = cursor.fetchall()
     df = pd.DataFrame(rows, columns=[col[0] for col in cursor.description])
     

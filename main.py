@@ -46,7 +46,7 @@ def create_argument_parser() -> argparse.ArgumentParser:
         '--model',
         type=str,
         required=True,
-        choices=['gpt-4o', 'qwen-vl-max', 'meta-llama/llama-3.2-11b-vision-instruct'],
+        choices=['gpt-4o', 'qwen-vl-max', 'llama3.2-vision:11b-instruct-fp16'],
         help='Model to use for inference'
     )
     parser.add_argument(
@@ -189,9 +189,18 @@ class DatabaseManager:
         image_path = image_path.replace("\\", "/")
         if model_name.__contains__('gpt'):
             model_name = 'gpt-4o'
+        # Match on the trailing path segments rather than the full string. The
+        # dataset roots were reorganised during the study (GTSRB moved from
+        # Data/GTSRB/all_sequences_training/ to datasets/GTSRB/Training/), and an
+        # exact-path check treats the same image under a new root as unseen,
+        # silently re-running it and leaving two rows for one image. The last two
+        # segments identify an image in every dataset here: GTSRB needs its class
+        # folder, since sequence filenames repeat across classes, while CIFAR-10
+        # ids contain no separator and fall back to the exact-equality branch.
+        suffix = "/".join(image_path.split("/")[-2:])
         self.cursor.execute(
-            'SELECT * FROM answers WHERE Image_path = ? AND LLM_name = ? AND Include_memory = ? AND Include_description = ? AND Include_zero_shot_label = ? AND temperature = ? AND RunId = ?',
-            (image_path, model_name, include_memory, include_description, include_zero_shot_label, temperature, RunId)
+            'SELECT * FROM answers WHERE (Image_path = ? OR Image_path LIKE ?) AND LLM_name = ? AND Include_memory = ? AND Include_description = ? AND Include_zero_shot_label = ? AND temperature = ? AND RunId = ?',
+            (image_path, f"%/{suffix}", model_name, include_memory, include_description, include_zero_shot_label, temperature, RunId)
         )
         return self.cursor.fetchone() is not None
     

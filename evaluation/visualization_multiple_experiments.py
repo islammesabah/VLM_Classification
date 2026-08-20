@@ -1,5 +1,11 @@
 import sqlite3
+import sys
+from pathlib import Path
+
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db_utils import ANSWERS
 from datetime import datetime
 from matplotlib import pyplot as plt
 from matplotlib_venn import venn2
@@ -15,7 +21,7 @@ sys.stdout = open(f'results/logs/visualization_log_experiments_{datetime.now().s
 def load_db(dataset):
     dataset_to_db = {
         'CIFAR10': 'results/cifar10.db',
-        'GTSRB': 'results/gtsrb.db'
+        'GTSRB': 'results/gtsrb_merged.db'
     }
 
     # load the db
@@ -29,7 +35,7 @@ def preprocess_dataframe(cursor, model):
     # 3. Add a column tree_is_correct (int(Class) == int(LLM_output_with_tree_class))
     # 4. Add a column without_tree_is_correct (int(Class) == int(LLM_output_without_tree_class))
 
-    cursor.execute("SELECT * FROM answers WHERE LLM_name = ?", (model,))
+    cursor.execute(f"SELECT * FROM {ANSWERS} WHERE LLM_name = ?", (model,))
     rows = cursor.fetchall()
     df = pd.DataFrame(rows, columns=[col[0] for col in cursor.description])
     

@@ -1,0 +1,6 @@
+n_total,outcome,n,percent
+204,correct_child_class,65,31.9
+204,parent_class,1,0.5
+204,unresolved,57,27.9
+204,other_class,81,39.7
+204,unresolved_or_other,138,67.6

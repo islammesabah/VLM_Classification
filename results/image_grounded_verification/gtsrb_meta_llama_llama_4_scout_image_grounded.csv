@@ -1,0 +1,1156 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+GTSRB,meta-llama/llama-4-scout,31,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,31,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,31,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,31,3,Does it depict double curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,31,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,5,Does it depict rough/bumpy road?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,31,6,Does it depict slippery road?,no,yes,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,31,7,Does it depict merging/narrow lanes?,no,yes,False,0.0003677
+GTSRB,meta-llama/llama-4-scout,31,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,11,Does it depict pedestrian?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,31,12,Does it depict bicycle?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,31,13,Does it depict ice/snow?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,31,14,Does it depict deer?,yes,no,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,31,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,31,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,31,2,Does it depict a left curve?,no,no,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,31,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,31,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,31,5,Does it depict rough/bumpy road?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,31,6,Does it depict slippery road?,no,yes,False,1.84e-05
+GTSRB,meta-llama/llama-4-scout,31,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,31,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,10,Does it depict both child and pedestrian?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,31,11,Does it depict pedestrian?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,31,12,Does it depict bicycle?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,31,13,Does it depict ice/snow?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,31,14,Does it depict deer?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,31,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,31,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,31,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,31,3,Does it depict double curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,31,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,5,Does it depict rough/bumpy road?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,31,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,31,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,31,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,31,10,Does it depict both child and pedestrian?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,31,11,Does it depict pedestrian?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,31,12,Does it depict bicycle?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,31,13,Does it depict ice/snow?,no,no,True,3.286e-05
+GTSRB,meta-llama/llama-4-scout,31,14,Does it depict deer?,yes,no,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,31,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,31,1,Does the triangle have an exclamation mark?,no,no,True,2.048e-05
+GTSRB,meta-llama/llama-4-scout,31,2,Does it depict a left curve?,no,yes,False,3.286e-05
+GTSRB,meta-llama/llama-4-scout,31,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,31,5,Does it depict rough/bumpy road?,no,yes,False,3.304e-05
+GTSRB,meta-llama/llama-4-scout,31,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,31,8,Does it depict construction/road work?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,31,9,Does it depict traffic light?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,31,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,11,Does it depict pedestrian?,no,no,True,3.25e-05
+GTSRB,meta-llama/llama-4-scout,31,12,Does it depict bicycle?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,31,13,Does it depict ice/snow?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,31,14,Does it depict deer?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,31,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,31,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,31,2,Does it depict a left curve?,no,no,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,31,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,31,4,Does it depict right curve?,no,,False,2.967e-05
+GTSRB,meta-llama/llama-4-scout,31,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,6,Does it depict slippery road?,no,yes,False,1.84e-05
+GTSRB,meta-llama/llama-4-scout,31,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,31,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,31,11,Does it depict pedestrian?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,31,12,Does it depict bicycle?,no,yes,False,2.004e-05
+GTSRB,meta-llama/llama-4-scout,31,13,Does it depict ice/snow?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,31,14,Does it depict deer?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,9,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,9,1,What's the circle color?,red-white,red-white,True,2.943e-05
+GTSRB,meta-llama/llama-4-scout,9,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,9,3,Does it have a diagonal strike bar?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,9,4,What is inside the circle?,red car and black car,,False,0.0003937
+GTSRB,meta-llama/llama-4-scout,9,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,9,1,What's the circle color?,red-white,red-white,True,2.03e-05
+GTSRB,meta-llama/llama-4-scout,9,2,Does it contain numbers?,no,no,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,9,3,Does it have a diagonal strike bar?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,9,4,What is inside the circle?,red car and black car,,False,2.85e-05
+GTSRB,meta-llama/llama-4-scout,9,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,9,1,What's the circle color?,red-white,red-white,True,2.569e-05
+GTSRB,meta-llama/llama-4-scout,9,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,9,3,Does it have a diagonal strike bar?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,9,4,What is inside the circle?,red car and black car,truck,False,3.187e-05
+GTSRB,meta-llama/llama-4-scout,9,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,9,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,9,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,9,3,Does it have a diagonal strike bar?,no,,False,4.956e-05
+GTSRB,meta-llama/llama-4-scout,9,4,What is inside the circle?,red car and black car,horizontal white bar,False,5.103e-05
+GTSRB,meta-llama/llama-4-scout,9,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,9,1,What's the circle color?,red-white,blue,False,3.635e-05
+GTSRB,meta-llama/llama-4-scout,9,2,Does it contain numbers?,no,yes,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,9,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,9,4,What is inside the circle?,red car and black car,,False,5.28e-05
+GTSRB,meta-llama/llama-4-scout,36,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,36,1,What's the circle color?,blue,blue,True,2.33e-05
+GTSRB,meta-llama/llama-4-scout,36,2,What arrow is shown?,forward-right,keep-left,False,2.09e-05
+GTSRB,meta-llama/llama-4-scout,36,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,36,1,What's the circle color?,blue,blue,True,4.284e-05
+GTSRB,meta-llama/llama-4-scout,36,2,What arrow is shown?,forward-right,forward-right,True,2.325e-05
+GTSRB,meta-llama/llama-4-scout,36,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,36,1,What's the circle color?,blue,blue,True,2.27e-05
+GTSRB,meta-llama/llama-4-scout,36,2,What arrow is shown?,forward-right,forward-right,True,2.325e-05
+GTSRB,meta-llama/llama-4-scout,36,0,What's the sign's primary shape?,circle,circle,True,4.89e-05
+GTSRB,meta-llama/llama-4-scout,36,1,What's the circle color?,blue,blue,True,2.705e-05
+GTSRB,meta-llama/llama-4-scout,36,2,What arrow is shown?,forward-right,forward-right,True,2.09e-05
+GTSRB,meta-llama/llama-4-scout,36,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,36,1,What's the circle color?,blue,blue,True,2.705e-05
+GTSRB,meta-llama/llama-4-scout,36,2,What arrow is shown?,forward-right,right,False,2.87e-05
+GTSRB,meta-llama/llama-4-scout,0,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,0,1,What's the circle color?,red-white,red-white,True,3.011e-05
+GTSRB,meta-llama/llama-4-scout,0,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,0,3,What is the number?,20,70,False,2.882e-05
+GTSRB,meta-llama/llama-4-scout,0,0,What's the sign's primary shape?,circle,circle,True,2.22e-05
+GTSRB,meta-llama/llama-4-scout,0,1,What's the circle color?,red-white,red-white,True,2.03e-05
+GTSRB,meta-llama/llama-4-scout,0,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,0,3,What is the number?,20,20,True,2.49e-05
+GTSRB,meta-llama/llama-4-scout,0,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,0,1,What's the circle color?,red-white,red-white,True,2.03e-05
+GTSRB,meta-llama/llama-4-scout,0,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,0,3,What is the number?,20,20,True,2.82e-05
+GTSRB,meta-llama/llama-4-scout,0,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,0,1,What's the circle color?,red-white,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,0,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,0,3,What is the number?,20,20,True,2.916e-05
+GTSRB,meta-llama/llama-4-scout,0,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,0,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,0,2,Does it contain numbers?,yes,,False,5.01e-05
+GTSRB,meta-llama/llama-4-scout,0,3,What is the number?,20,20,True,2.882e-05
+GTSRB,meta-llama/llama-4-scout,38,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,38,1,What's the circle color?,blue,blue,True,2.841e-05
+GTSRB,meta-llama/llama-4-scout,38,2,What arrow is shown?,keep-right,right,False,2.87e-05
+GTSRB,meta-llama/llama-4-scout,38,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,38,1,What's the circle color?,blue,white-gray,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,38,2,What arrow is shown?,keep-right,keep-right,True,2.325e-05
+GTSRB,meta-llama/llama-4-scout,38,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,38,1,What's the circle color?,blue,blue,True,4.343e-05
+GTSRB,meta-llama/llama-4-scout,38,2,What arrow is shown?,keep-right,forward-right,False,2.325e-05
+GTSRB,meta-llama/llama-4-scout,38,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,38,1,What's the circle color?,blue,blue,True,2.093e-05
+GTSRB,meta-llama/llama-4-scout,38,2,What arrow is shown?,keep-right,left,False,4.667e-05
+GTSRB,meta-llama/llama-4-scout,38,0,What's the sign's primary shape?,circle,octagon,False,2.22e-05
+GTSRB,meta-llama/llama-4-scout,38,1,What's the circle color?,blue,blue,True,2.24e-05
+GTSRB,meta-llama/llama-4-scout,38,2,What arrow is shown?,keep-right,forward-left,False,3.782e-05
+GTSRB,meta-llama/llama-4-scout,7,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,7,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,7,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,7,3,What is the number?,100,100,True,2.82e-05
+GTSRB,meta-llama/llama-4-scout,7,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,7,1,What's the circle color?,red-white,white-gray,False,2.773e-05
+GTSRB,meta-llama/llama-4-scout,7,2,Does it contain numbers?,yes,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,7,3,What is the number?,100,,False,3.154e-05
+GTSRB,meta-llama/llama-4-scout,7,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,7,1,What's the circle color?,red-white,blue,False,3.635e-05
+GTSRB,meta-llama/llama-4-scout,7,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,7,3,What is the number?,100,20,False,3.154e-05
+GTSRB,meta-llama/llama-4-scout,7,0,What's the sign's primary shape?,circle,,False,0.0003707
+GTSRB,meta-llama/llama-4-scout,7,1,What's the circle color?,red-white,white-gray,False,2.807e-05
+GTSRB,meta-llama/llama-4-scout,7,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,7,3,What is the number?,100,100,True,0.00038155
+GTSRB,meta-llama/llama-4-scout,7,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,7,1,What's the circle color?,red-white,white-gray,False,2.331e-05
+GTSRB,meta-llama/llama-4-scout,7,2,Does it contain numbers?,yes,yes,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,7,3,What is the number?,100,100,True,2.55e-05
+GTSRB,meta-llama/llama-4-scout,39,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,39,1,What's the circle color?,blue,blue,True,2.569e-05
+GTSRB,meta-llama/llama-4-scout,39,2,What arrow is shown?,keep-left,left,False,2.51e-05
+GTSRB,meta-llama/llama-4-scout,39,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,39,1,What's the circle color?,blue,blue,True,2.39e-05
+GTSRB,meta-llama/llama-4-scout,39,2,What arrow is shown?,keep-left,keep-left,True,2.09e-05
+GTSRB,meta-llama/llama-4-scout,39,0,What's the sign's primary shape?,circle,circle,True,3.992e-05
+GTSRB,meta-llama/llama-4-scout,39,1,What's the circle color?,blue,blue,True,0.00037685
+GTSRB,meta-llama/llama-4-scout,39,2,What arrow is shown?,keep-left,keep-left,True,3.782e-05
+GTSRB,meta-llama/llama-4-scout,39,0,What's the sign's primary shape?,circle,circle,True,3.52e-05
+GTSRB,meta-llama/llama-4-scout,39,1,What's the circle color?,blue,blue,True,2.24e-05
+GTSRB,meta-llama/llama-4-scout,39,2,What arrow is shown?,keep-left,left,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,39,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,39,1,What's the circle color?,blue,blue,True,2e-05
+GTSRB,meta-llama/llama-4-scout,39,2,What arrow is shown?,keep-left,forward-right,False,2.325e-05
+GTSRB,meta-llama/llama-4-scout,6,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,6,1,What's the circle color?,red-white,,False,0.00039435
+GTSRB,meta-llama/llama-4-scout,6,2,Does it contain numbers?,no,yes,False,2.038e-05
+GTSRB,meta-llama/llama-4-scout,6,3,Does it have a diagonal strike bar?,yes,no,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,6,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,6,1,What's the circle color?,red-white,white-gray,False,2.03e-05
+GTSRB,meta-llama/llama-4-scout,6,2,Does it contain numbers?,no,yes,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,6,3,Does it have a diagonal strike bar?,yes,no,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,6,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,6,1,What's the circle color?,red-white,white-gray,False,3.753e-05
+GTSRB,meta-llama/llama-4-scout,6,2,Does it contain numbers?,no,yes,False,3.25e-05
+GTSRB,meta-llama/llama-4-scout,6,3,Does it have a diagonal strike bar?,yes,no,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,6,0,What's the sign's primary shape?,circle,circle,True,0.0003875
+GTSRB,meta-llama/llama-4-scout,6,1,What's the circle color?,red-white,blue,False,2e-05
+GTSRB,meta-llama/llama-4-scout,6,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,6,3,Does it have a diagonal strike bar?,yes,no,False,2.071e-05
+GTSRB,meta-llama/llama-4-scout,6,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,6,1,What's the circle color?,red-white,white-gray,False,2.637e-05
+GTSRB,meta-llama/llama-4-scout,6,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,6,3,Does it have a diagonal strike bar?,yes,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,1,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,1,1,What's the circle color?,red-white,red-white,True,2.03e-05
+GTSRB,meta-llama/llama-4-scout,1,2,Does it contain numbers?,yes,yes,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,1,3,What is the number?,30,30,True,2.64e-05
+GTSRB,meta-llama/llama-4-scout,1,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,1,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,1,2,Does it contain numbers?,yes,yes,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,1,3,What is the number?,30,30,True,2.55e-05
+GTSRB,meta-llama/llama-4-scout,1,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,1,1,What's the circle color?,red-white,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,1,2,Does it contain numbers?,yes,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,1,3,What is the number?,30,50,False,2.848e-05
+GTSRB,meta-llama/llama-4-scout,1,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,1,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,1,2,Does it contain numbers?,yes,yes,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,1,3,What is the number?,30,30,True,2.58e-05
+GTSRB,meta-llama/llama-4-scout,1,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,1,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,1,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,1,3,What is the number?,30,30,True,2.58e-05
+GTSRB,meta-llama/llama-4-scout,8,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,8,1,What's the circle color?,red-white,white-gray,False,2.671e-05
+GTSRB,meta-llama/llama-4-scout,8,2,Does it contain numbers?,yes,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,8,3,What is the number?,120,70,False,2.13e-05
+GTSRB,meta-llama/llama-4-scout,8,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,8,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,8,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,8,3,What is the number?,120,120,True,4.695e-05
+GTSRB,meta-llama/llama-4-scout,8,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,8,1,What's the circle color?,red-white,white-gray,False,0.00038245
+GTSRB,meta-llama/llama-4-scout,8,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,8,3,What is the number?,120,20,False,2.82e-05
+GTSRB,meta-llama/llama-4-scout,8,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,8,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,8,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,8,3,What is the number?,120,20,False,2.82e-05
+GTSRB,meta-llama/llama-4-scout,8,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,8,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,8,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,8,3,What is the number?,120,120,True,4.577e-05
+GTSRB,meta-llama/llama-4-scout,37,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,37,1,What's the circle color?,blue,blue,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,37,2,What arrow is shown?,forward-left,left,False,5.316e-05
+GTSRB,meta-llama/llama-4-scout,37,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,37,1,What's the circle color?,blue,blue,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,37,2,What arrow is shown?,forward-left,forward-right,False,3.782e-05
+GTSRB,meta-llama/llama-4-scout,37,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,37,1,What's the circle color?,blue,blue,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,37,2,What arrow is shown?,forward-left,forward-left,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,37,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,37,1,What's the circle color?,blue,blue,True,2.705e-05
+GTSRB,meta-llama/llama-4-scout,37,2,What arrow is shown?,forward-left,,False,0.0003722
+GTSRB,meta-llama/llama-4-scout,37,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,37,1,What's the circle color?,blue,blue,True,2e-05
+GTSRB,meta-llama/llama-4-scout,37,2,What arrow is shown?,forward-left,right,False,2.72e-05
+GTSRB,meta-llama/llama-4-scout,30,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,30,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,30,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,30,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,30,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,5,Does it depict rough/bumpy road?,no,yes,False,2.071e-05
+GTSRB,meta-llama/llama-4-scout,30,6,Does it depict slippery road?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,30,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,30,10,Does it depict both child and pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,11,Does it depict pedestrian?,no,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,30,12,Does it depict bicycle?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,30,13,Does it depict ice/snow?,yes,,False,0.0
+GTSRB,meta-llama/llama-4-scout,30,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,30,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,30,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,30,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,6,Does it depict slippery road?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,30,7,Does it depict merging/narrow lanes?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,30,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,10,Does it depict both child and pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,11,Does it depict pedestrian?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,30,12,Does it depict bicycle?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,30,13,Does it depict ice/snow?,yes,no,False,1.82e-05
+GTSRB,meta-llama/llama-4-scout,30,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,30,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,30,2,Does it depict a left curve?,no,yes,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,30,3,Does it depict double curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,30,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,30,5,Does it depict rough/bumpy road?,no,,False,4.956e-05
+GTSRB,meta-llama/llama-4-scout,30,6,Does it depict slippery road?,no,yes,False,1.84e-05
+GTSRB,meta-llama/llama-4-scout,30,7,Does it depict merging/narrow lanes?,no,,False,4.956e-05
+GTSRB,meta-llama/llama-4-scout,30,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,10,Does it depict both child and pedestrian?,no,,False,4.956e-05
+GTSRB,meta-llama/llama-4-scout,30,11,Does it depict pedestrian?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,30,12,Does it depict bicycle?,no,yes,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,30,13,Does it depict ice/snow?,yes,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,30,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,30,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,30,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,30,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,30,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,5,Does it depict rough/bumpy road?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,6,Does it depict slippery road?,no,yes,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,8,Does it depict construction/road work?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,30,9,Does it depict traffic light?,no,no,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,30,10,Does it depict both child and pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,11,Does it depict pedestrian?,no,yes,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,12,Does it depict bicycle?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,30,13,Does it depict ice/snow?,yes,yes,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,30,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,30,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,30,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,30,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,30,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,30,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,30,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,30,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,9,Does it depict traffic light?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,30,10,Does it depict both child and pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,30,11,Does it depict pedestrian?,no,yes,False,0.0003672
+GTSRB,meta-llama/llama-4-scout,30,12,Does it depict bicycle?,no,no,True,3.25e-05
+GTSRB,meta-llama/llama-4-scout,30,13,Does it depict ice/snow?,yes,,False,0.0
+GTSRB,meta-llama/llama-4-scout,41,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,41,1,What's the circle color?,white-gray,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,41,2,What restriction ends?,car passing,speed limit,False,2.69e-05
+GTSRB,meta-llama/llama-4-scout,41,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,41,1,What's the circle color?,white-gray,white-gray,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,41,2,What restriction ends?,car passing,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,41,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,41,1,What's the circle color?,white-gray,red-white,False,2.297e-05
+GTSRB,meta-llama/llama-4-scout,41,2,What restriction ends?,car passing,,False,4.992e-05
+GTSRB,meta-llama/llama-4-scout,41,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,41,1,What's the circle color?,white-gray,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,41,2,What restriction ends?,car passing,speed limit,False,2.127e-05
+GTSRB,meta-llama/llama-4-scout,41,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,41,1,What's the circle color?,white-gray,blue,False,0.00037895
+GTSRB,meta-llama/llama-4-scout,41,2,What restriction ends?,car passing,,False,2.69e-05
+GTSRB,meta-llama/llama-4-scout,12,0,What's the sign's primary shape?,diamond,diamond,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,12,0,What's the sign's primary shape?,diamond,diamond,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,12,0,What's the sign's primary shape?,diamond,diamond,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,12,0,What's the sign's primary shape?,diamond,diamond,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,12,0,What's the sign's primary shape?,diamond,diamond,True,3.52e-05
+GTSRB,meta-llama/llama-4-scout,15,0,What's the sign's primary shape?,circle,circle,True,2.951e-05
+GTSRB,meta-llama/llama-4-scout,15,1,What's the circle color?,red-white,red-white,True,2.39e-05
+GTSRB,meta-llama/llama-4-scout,15,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,15,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,15,4,What is inside the circle?,empty circle,empty circle,True,0.0003874
+GTSRB,meta-llama/llama-4-scout,15,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,15,1,What's the circle color?,red-white,white-gray,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,15,2,Does it contain numbers?,no,no,True,3.25e-05
+GTSRB,meta-llama/llama-4-scout,15,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,15,4,What is inside the circle?,empty circle,empty circle,True,2.22e-05
+GTSRB,meta-llama/llama-4-scout,15,0,What's the sign's primary shape?,circle,circle,True,0.0003714
+GTSRB,meta-llama/llama-4-scout,15,1,What's the circle color?,red-white,white-gray,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,15,2,Does it contain numbers?,no,no,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,15,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,15,4,What is inside the circle?,empty circle,empty circle,True,2.303e-05
+GTSRB,meta-llama/llama-4-scout,15,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,15,1,What's the circle color?,red-white,red-white,True,2.977e-05
+GTSRB,meta-llama/llama-4-scout,15,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,15,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,15,4,What is inside the circle?,empty circle,empty circle,True,2.52e-05
+GTSRB,meta-llama/llama-4-scout,15,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,15,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,15,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,15,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,15,4,What is inside the circle?,empty circle,empty circle,True,2.85e-05
+GTSRB,meta-llama/llama-4-scout,23,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,23,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,23,2,Does it depict a left curve?,no,yes,False,3.286e-05
+GTSRB,meta-llama/llama-4-scout,23,3,Does it depict double curve?,no,yes,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,23,4,Does it depict right curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,23,5,Does it depict rough/bumpy road?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,23,6,Does it depict slippery road?,yes,yes,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,23,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,23,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,23,2,Does it depict a left curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,23,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,23,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,23,5,Does it depict rough/bumpy road?,no,yes,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,23,6,Does it depict slippery road?,yes,yes,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,23,0,What's the sign's primary shape?,triangle,,False,0.0
+GTSRB,meta-llama/llama-4-scout,23,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,23,2,Does it depict a left curve?,no,yes,False,2.026e-05
+GTSRB,meta-llama/llama-4-scout,23,3,Does it depict double curve?,no,,False,2.65e-05
+GTSRB,meta-llama/llama-4-scout,23,4,Does it depict right curve?,no,no,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,23,5,Does it depict rough/bumpy road?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,23,6,Does it depict slippery road?,yes,yes,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,23,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,23,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,23,2,Does it depict a left curve?,no,yes,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,23,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,23,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,23,5,Does it depict rough/bumpy road?,no,yes,False,3.304e-05
+GTSRB,meta-llama/llama-4-scout,23,6,Does it depict slippery road?,yes,yes,True,0.0003672
+GTSRB,meta-llama/llama-4-scout,23,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,23,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,23,2,Does it depict a left curve?,no,no,True,3.345e-05
+GTSRB,meta-llama/llama-4-scout,23,3,Does it depict double curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,23,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,23,5,Does it depict rough/bumpy road?,no,yes,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,23,6,Does it depict slippery road?,yes,yes,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,24,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,24,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,24,2,Does it depict a left curve?,no,yes,False,2.026e-05
+GTSRB,meta-llama/llama-4-scout,24,3,Does it depict double curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,4,Does it depict right curve?,no,yes,False,3.268e-05
+GTSRB,meta-llama/llama-4-scout,24,5,Does it depict rough/bumpy road?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,24,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,7,Does it depict merging/narrow lanes?,yes,yes,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,24,0,What's the sign's primary shape?,triangle,triangle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,24,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,24,2,Does it depict a left curve?,no,no,True,3.286e-05
+GTSRB,meta-llama/llama-4-scout,24,3,Does it depict double curve?,no,yes,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,24,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,24,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,24,6,Does it depict slippery road?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,7,Does it depict merging/narrow lanes?,yes,no,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,24,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,24,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,24,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,24,3,Does it depict double curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,5,Does it depict rough/bumpy road?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,24,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,24,7,Does it depict merging/narrow lanes?,yes,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,24,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,24,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,24,2,Does it depict a left curve?,no,,False,2.978e-05
+GTSRB,meta-llama/llama-4-scout,24,3,Does it depict double curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,24,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,5,Does it depict rough/bumpy road?,no,yes,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,24,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,24,7,Does it depict merging/narrow lanes?,yes,yes,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,24,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,24,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,24,2,Does it depict a left curve?,no,yes,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,24,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,24,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,24,5,Does it depict rough/bumpy road?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,24,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,24,7,Does it depict merging/narrow lanes?,yes,yes,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,40,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,40,1,What's the circle color?,blue,blue,True,2.671e-05
+GTSRB,meta-llama/llama-4-scout,40,2,What arrow is shown?,circular,circular,True,2.325e-05
+GTSRB,meta-llama/llama-4-scout,40,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,40,1,What's the circle color?,blue,blue,True,2.569e-05
+GTSRB,meta-llama/llama-4-scout,40,2,What arrow is shown?,circular,left,False,2.291e-05
+GTSRB,meta-llama/llama-4-scout,40,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,40,1,What's the circle color?,blue,blue,True,2.671e-05
+GTSRB,meta-llama/llama-4-scout,40,2,What arrow is shown?,circular,circular,True,2.87e-05
+GTSRB,meta-llama/llama-4-scout,40,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,40,1,What's the circle color?,blue,blue,True,2e-05
+GTSRB,meta-llama/llama-4-scout,40,2,What arrow is shown?,circular,circular,True,2.325e-05
+GTSRB,meta-llama/llama-4-scout,40,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,40,1,What's the circle color?,blue,blue,True,2.773e-05
+GTSRB,meta-llama/llama-4-scout,40,2,What arrow is shown?,circular,circular,True,2.09e-05
+GTSRB,meta-llama/llama-4-scout,25,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,25,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,25,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,25,3,Does it depict double curve?,no,no,True,0.0003672
+GTSRB,meta-llama/llama-4-scout,25,4,Does it depict right curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,25,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,25,6,Does it depict slippery road?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,25,7,Does it depict merging/narrow lanes?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,25,8,Does it depict construction/road work?,yes,no,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,25,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,25,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,25,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,25,3,Does it depict double curve?,no,,False,2.65e-05
+GTSRB,meta-llama/llama-4-scout,25,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,25,5,Does it depict rough/bumpy road?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,25,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,25,7,Does it depict merging/narrow lanes?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,25,8,Does it depict construction/road work?,yes,yes,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,25,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,25,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,25,2,Does it depict a left curve?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,25,3,Does it depict double curve?,no,no,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,25,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,25,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,25,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,25,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,25,8,Does it depict construction/road work?,yes,no,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,25,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,25,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,25,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,25,3,Does it depict double curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,25,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,25,5,Does it depict rough/bumpy road?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,25,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,25,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,25,8,Does it depict construction/road work?,yes,yes,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,25,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,25,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,25,2,Does it depict a left curve?,no,no,True,3.286e-05
+GTSRB,meta-llama/llama-4-scout,25,3,Does it depict double curve?,no,,False,2.967e-05
+GTSRB,meta-llama/llama-4-scout,25,4,Does it depict right curve?,no,,False,2.967e-05
+GTSRB,meta-llama/llama-4-scout,25,5,Does it depict rough/bumpy road?,no,,False,4.956e-05
+GTSRB,meta-llama/llama-4-scout,25,6,Does it depict slippery road?,no,yes,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,25,7,Does it depict merging/narrow lanes?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,25,8,Does it depict construction/road work?,yes,no,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,22,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,22,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,22,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,22,3,Does it depict double curve?,no,,False,2.967e-05
+GTSRB,meta-llama/llama-4-scout,22,4,Does it depict right curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,22,5,Does it depict rough/bumpy road?,yes,yes,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,22,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,22,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,22,2,Does it depict a left curve?,no,,False,4.938e-05
+GTSRB,meta-llama/llama-4-scout,22,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,22,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,22,5,Does it depict rough/bumpy road?,yes,yes,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,22,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,22,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,22,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,22,3,Does it depict double curve?,no,yes,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,22,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,22,5,Does it depict rough/bumpy road?,yes,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,22,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,22,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,22,2,Does it depict a left curve?,no,no,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,22,3,Does it depict double curve?,no,yes,False,1.84e-05
+GTSRB,meta-llama/llama-4-scout,22,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,22,5,Does it depict rough/bumpy road?,yes,yes,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,22,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,22,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,22,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,22,3,Does it depict double curve?,no,,False,2.65e-05
+GTSRB,meta-llama/llama-4-scout,22,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,22,5,Does it depict rough/bumpy road?,yes,yes,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,14,0,What's the sign's primary shape?,octagon,octagon,True,2.01e-05
+GTSRB,meta-llama/llama-4-scout,14,0,What's the sign's primary shape?,octagon,octagon,True,2.01e-05
+GTSRB,meta-llama/llama-4-scout,14,0,What's the sign's primary shape?,octagon,octagon,True,2.01e-05
+GTSRB,meta-llama/llama-4-scout,14,0,What's the sign's primary shape?,octagon,octagon,True,2.01e-05
+GTSRB,meta-llama/llama-4-scout,14,0,What's the sign's primary shape?,octagon,octagon,True,2.01e-05
+GTSRB,meta-llama/llama-4-scout,13,0,What's the sign's primary shape?,inverted-triangle,triangle,False,3.579e-05
+GTSRB,meta-llama/llama-4-scout,13,0,What's the sign's primary shape?,inverted-triangle,triangle,False,3.579e-05
+GTSRB,meta-llama/llama-4-scout,13,0,What's the sign's primary shape?,inverted-triangle,triangle,False,1.95e-05
+GTSRB,meta-llama/llama-4-scout,13,0,What's the sign's primary shape?,inverted-triangle,triangle,False,2.203e-05
+GTSRB,meta-llama/llama-4-scout,13,0,What's the sign's primary shape?,inverted-triangle,triangle,False,1.98e-05
+GTSRB,meta-llama/llama-4-scout,35,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,35,1,What's the circle color?,blue,blue,True,2.807e-05
+GTSRB,meta-llama/llama-4-scout,35,2,What arrow is shown?,forward,forward,True,2.291e-05
+GTSRB,meta-llama/llama-4-scout,35,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,35,1,What's the circle color?,blue,blue,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,35,2,What arrow is shown?,forward,forward,True,2.291e-05
+GTSRB,meta-llama/llama-4-scout,35,0,What's the sign's primary shape?,circle,circle,True,0.0003714
+GTSRB,meta-llama/llama-4-scout,35,1,What's the circle color?,blue,blue,True,0.00037965
+GTSRB,meta-llama/llama-4-scout,35,2,What arrow is shown?,forward,forward,True,2.84e-05
+GTSRB,meta-llama/llama-4-scout,35,0,What's the sign's primary shape?,circle,circle,True,3.52e-05
+GTSRB,meta-llama/llama-4-scout,35,1,What's the circle color?,blue,blue,True,2.33e-05
+GTSRB,meta-llama/llama-4-scout,35,2,What arrow is shown?,forward,forward,True,2.291e-05
+GTSRB,meta-llama/llama-4-scout,35,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,35,1,What's the circle color?,blue,blue,True,2.03e-05
+GTSRB,meta-llama/llama-4-scout,35,2,What arrow is shown?,forward,forward,True,3.141e-05
+GTSRB,meta-llama/llama-4-scout,32,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,32,1,What's the circle color?,white-gray,white-gray,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,32,2,What restriction ends?,speed limit,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,32,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,32,1,What's the circle color?,white-gray,white-gray,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,32,2,What restriction ends?,speed limit,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,32,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,32,1,What's the circle color?,white-gray,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,32,2,What restriction ends?,speed limit,,False,4.992e-05
+GTSRB,meta-llama/llama-4-scout,32,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,32,1,What's the circle color?,white-gray,white-gray,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,32,2,What restriction ends?,speed limit,,False,2.69e-05
+GTSRB,meta-llama/llama-4-scout,32,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,32,1,What's the circle color?,white-gray,white-gray,True,1.91e-05
+GTSRB,meta-llama/llama-4-scout,32,2,What restriction ends?,speed limit,,False,2.69e-05
+GTSRB,meta-llama/llama-4-scout,4,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,4,1,What's the circle color?,red-white,red-white,True,2.263e-05
+GTSRB,meta-llama/llama-4-scout,4,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,4,3,What is the number?,70,70,True,2.58e-05
+GTSRB,meta-llama/llama-4-scout,4,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,4,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,4,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,4,3,What is the number?,70,70,True,2.82e-05
+GTSRB,meta-llama/llama-4-scout,4,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,4,1,What's the circle color?,red-white,red-white,True,2.263e-05
+GTSRB,meta-llama/llama-4-scout,4,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,4,3,What is the number?,70,70,True,5.226e-05
+GTSRB,meta-llama/llama-4-scout,4,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,4,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,4,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,4,3,What is the number?,70,70,True,2.882e-05
+GTSRB,meta-llama/llama-4-scout,4,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,4,1,What's the circle color?,red-white,white-gray,False,2.739e-05
+GTSRB,meta-llama/llama-4-scout,4,2,Does it contain numbers?,yes,no,False,2.038e-05
+GTSRB,meta-llama/llama-4-scout,4,3,What is the number?,70,20,False,3.154e-05
+GTSRB,meta-llama/llama-4-scout,3,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,3,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,3,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,3,3,What is the number?,60,60,True,4.459e-05
+GTSRB,meta-llama/llama-4-scout,3,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,3,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,3,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,3,3,What is the number?,60,60,True,4.695e-05
+GTSRB,meta-llama/llama-4-scout,3,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,3,1,What's the circle color?,red-white,blue,False,2e-05
+GTSRB,meta-llama/llama-4-scout,3,2,Does it contain numbers?,yes,,False,0.0
+GTSRB,meta-llama/llama-4-scout,3,3,What is the number?,60,20,False,2.82e-05
+GTSRB,meta-llama/llama-4-scout,3,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,3,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,3,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,3,3,What is the number?,60,60,True,2.52e-05
+GTSRB,meta-llama/llama-4-scout,3,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,3,1,What's the circle color?,red-white,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,3,2,Does it contain numbers?,yes,,False,0.0
+GTSRB,meta-llama/llama-4-scout,3,3,What is the number?,60,60,True,2.78e-05
+GTSRB,meta-llama/llama-4-scout,2,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,2,1,What's the circle color?,red-white,red-white,True,0.00038945
+GTSRB,meta-llama/llama-4-scout,2,2,Does it contain numbers?,yes,yes,True,3.309e-05
+GTSRB,meta-llama/llama-4-scout,2,3,What is the number?,50,,False,2.82e-05
+GTSRB,meta-llama/llama-4-scout,2,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,2,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,2,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,2,3,What is the number?,50,50,True,2.576e-05
+GTSRB,meta-llama/llama-4-scout,2,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,2,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,2,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,2,3,What is the number?,50,50,True,2.78e-05
+GTSRB,meta-llama/llama-4-scout,2,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,2,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,2,2,Does it contain numbers?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,2,3,What is the number?,50,50,True,2.55e-05
+GTSRB,meta-llama/llama-4-scout,2,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,2,1,What's the circle color?,red-white,red-white,True,7.025e-05
+GTSRB,meta-llama/llama-4-scout,2,2,Does it contain numbers?,yes,yes,True,0.00036695
+GTSRB,meta-llama/llama-4-scout,2,3,What is the number?,50,50,True,2.916e-05
+GTSRB,meta-llama/llama-4-scout,5,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,5,1,What's the circle color?,red-white,red-white,True,3.011e-05
+GTSRB,meta-llama/llama-4-scout,5,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,5,3,What is the number?,80,80,True,4.459e-05
+GTSRB,meta-llama/llama-4-scout,5,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,5,1,What's the circle color?,red-white,blue,False,3.635e-05
+GTSRB,meta-llama/llama-4-scout,5,2,Does it contain numbers?,yes,no,False,2.004e-05
+GTSRB,meta-llama/llama-4-scout,5,3,What is the number?,80,,False,3.154e-05
+GTSRB,meta-llama/llama-4-scout,5,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,5,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,5,2,Does it contain numbers?,yes,no,False,2.004e-05
+GTSRB,meta-llama/llama-4-scout,5,3,What is the number?,80,,False,0.00039275
+GTSRB,meta-llama/llama-4-scout,5,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,5,1,What's the circle color?,red-white,white-gray,False,3.753e-05
+GTSRB,meta-llama/llama-4-scout,5,2,Does it contain numbers?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,5,3,What is the number?,80,80,True,2.52e-05
+GTSRB,meta-llama/llama-4-scout,5,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,5,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,5,2,Does it contain numbers?,yes,yes,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,5,3,What is the number?,80,30,False,2.82e-05
+GTSRB,meta-llama/llama-4-scout,33,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,33,1,What's the circle color?,blue,blue,True,2.24e-05
+GTSRB,meta-llama/llama-4-scout,33,2,What arrow is shown?,right,right,True,2.78e-05
+GTSRB,meta-llama/llama-4-scout,33,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,33,1,What's the circle color?,blue,blue,True,2.705e-05
+GTSRB,meta-llama/llama-4-scout,33,2,What arrow is shown?,right,right,True,2.971e-05
+GTSRB,meta-llama/llama-4-scout,33,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,33,1,What's the circle color?,blue,blue,True,2.603e-05
+GTSRB,meta-llama/llama-4-scout,33,2,What arrow is shown?,right,forward-right,False,2.325e-05
+GTSRB,meta-llama/llama-4-scout,33,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,33,1,What's the circle color?,blue,blue,True,2.569e-05
+GTSRB,meta-llama/llama-4-scout,33,2,What arrow is shown?,right,right,True,2.57e-05
+GTSRB,meta-llama/llama-4-scout,33,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,33,1,What's the circle color?,blue,blue,True,2e-05
+GTSRB,meta-llama/llama-4-scout,33,2,What arrow is shown?,right,forward-left,False,2.09e-05
+GTSRB,meta-llama/llama-4-scout,34,0,What's the sign's primary shape?,circle,circle,True,2.19e-05
+GTSRB,meta-llama/llama-4-scout,34,1,What's the circle color?,blue,blue,True,2.27e-05
+GTSRB,meta-llama/llama-4-scout,34,2,What arrow is shown?,left,circular,False,5.316e-05
+GTSRB,meta-llama/llama-4-scout,34,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,34,1,What's the circle color?,blue,blue,True,2.3e-05
+GTSRB,meta-llama/llama-4-scout,34,2,What arrow is shown?,left,left,True,5.316e-05
+GTSRB,meta-llama/llama-4-scout,34,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,34,1,What's the circle color?,blue,blue,True,2.535e-05
+GTSRB,meta-llama/llama-4-scout,34,2,What arrow is shown?,left,left,True,4.667e-05
+GTSRB,meta-llama/llama-4-scout,34,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,34,1,What's the circle color?,blue,blue,True,2.39e-05
+GTSRB,meta-llama/llama-4-scout,34,2,What arrow is shown?,left,circular,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,34,0,What's the sign's primary shape?,circle,circle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,34,1,What's the circle color?,blue,blue,True,2.671e-05
+GTSRB,meta-llama/llama-4-scout,34,2,What arrow is shown?,left,left,True,4.667e-05
+GTSRB,meta-llama/llama-4-scout,16,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,16,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,16,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,16,3,Does it have a diagonal strike bar?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,16,4,What is inside the circle?,truck,truck,True,2.405e-05
+GTSRB,meta-llama/llama-4-scout,16,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,16,1,What's the circle color?,red-white,red-white,True,3.753e-05
+GTSRB,meta-llama/llama-4-scout,16,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,16,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,16,4,What is inside the circle?,truck,truck,True,2.76e-05
+GTSRB,meta-llama/llama-4-scout,16,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,16,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,16,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,16,3,Does it have a diagonal strike bar?,no,no,True,0.0003677
+GTSRB,meta-llama/llama-4-scout,16,4,What is inside the circle?,truck,,False,5.28e-05
+GTSRB,meta-llama/llama-4-scout,16,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,16,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,16,2,Does it contain numbers?,no,,False,4.902e-05
+GTSRB,meta-llama/llama-4-scout,16,3,Does it have a diagonal strike bar?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,16,4,What is inside the circle?,truck,,False,2.85e-05
+GTSRB,meta-llama/llama-4-scout,16,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,16,1,What's the circle color?,red-white,red-white,True,2.263e-05
+GTSRB,meta-llama/llama-4-scout,16,2,Does it contain numbers?,no,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,16,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,16,4,What is inside the circle?,truck,truck,True,3.187e-05
+GTSRB,meta-llama/llama-4-scout,29,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,29,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,29,2,Does it depict a left curve?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,29,3,Does it depict double curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,29,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,10,Does it depict both child and pedestrian?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,29,11,Does it depict pedestrian?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,29,12,Does it depict bicycle?,yes,yes,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,29,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,29,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,29,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,29,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,4,Does it depict right curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,29,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,6,Does it depict slippery road?,no,yes,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,8,Does it depict construction/road work?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,29,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,10,Does it depict both child and pedestrian?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,11,Does it depict pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,12,Does it depict bicycle?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,29,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,29,1,Does the triangle have an exclamation mark?,no,no,True,2.048e-05
+GTSRB,meta-llama/llama-4-scout,29,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,29,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,4,Does it depict right curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,29,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,10,Does it depict both child and pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,11,Does it depict pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,12,Does it depict bicycle?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,29,0,What's the sign's primary shape?,triangle,triangle,True,2.19e-05
+GTSRB,meta-llama/llama-4-scout,29,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,29,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,29,3,Does it depict double curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,29,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,29,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,9,Does it depict traffic light?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,29,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,11,Does it depict pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,12,Does it depict bicycle?,yes,yes,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,29,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,29,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,29,2,Does it depict a left curve?,no,no,True,3.345e-05
+GTSRB,meta-llama/llama-4-scout,29,3,Does it depict double curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,29,4,Does it depict right curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,29,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,29,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,29,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,9,Does it depict traffic light?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,29,10,Does it depict both child and pedestrian?,no,no,True,4.59e-05
+GTSRB,meta-llama/llama-4-scout,29,11,Does it depict pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,29,12,Does it depict bicycle?,yes,no,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,11,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,11,2,Does it depict a left curve?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,11,3,Does it depict double curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,11,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,11,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,11,Does it depict pedestrian?,no,yes,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,12,Does it depict bicycle?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,11,13,Does it depict ice/snow?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,11,14,Does it depict deer?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,11,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,11,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,11,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,5,Does it depict rough/bumpy road?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,6,Does it depict slippery road?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,7,Does it depict merging/narrow lanes?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,11,8,Does it depict construction/road work?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,11,9,Does it depict traffic light?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,11,10,Does it depict both child and pedestrian?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,11,11,Does it depict pedestrian?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,12,Does it depict bicycle?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,13,Does it depict ice/snow?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,11,14,Does it depict deer?,no,no,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,11,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,11,1,Does the triangle have an exclamation mark?,no,no,True,3.381e-05
+GTSRB,meta-llama/llama-4-scout,11,2,Does it depict a left curve?,no,no,True,3.345e-05
+GTSRB,meta-llama/llama-4-scout,11,3,Does it depict double curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,11,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,11,5,Does it depict rough/bumpy road?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,11,6,Does it depict slippery road?,no,no,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,11,7,Does it depict merging/narrow lanes?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,11,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,9,Does it depict traffic light?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,11,10,Does it depict both child and pedestrian?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,11,11,Does it depict pedestrian?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,12,Does it depict bicycle?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,11,13,Does it depict ice/snow?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,11,14,Does it depict deer?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,11,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,11,2,Does it depict a left curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,11,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,11,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,5,Does it depict rough/bumpy road?,no,yes,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,6,Does it depict slippery road?,no,no,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,11,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,11,10,Does it depict both child and pedestrian?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,11,11,Does it depict pedestrian?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,11,12,Does it depict bicycle?,no,no,True,0.00036695
+GTSRB,meta-llama/llama-4-scout,11,13,Does it depict ice/snow?,no,no,True,3.286e-05
+GTSRB,meta-llama/llama-4-scout,11,14,Does it depict deer?,no,yes,False,2.004e-05
+GTSRB,meta-llama/llama-4-scout,11,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,11,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,11,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,11,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,11,4,Does it depict right curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,11,5,Does it depict rough/bumpy road?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,11,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,11,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,11,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,11,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,11,11,Does it depict pedestrian?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,11,12,Does it depict bicycle?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,11,13,Does it depict ice/snow?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,11,14,Does it depict deer?,no,yes,False,1.8e-05
+GTSRB,meta-llama/llama-4-scout,27,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,27,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,27,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,27,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,27,4,Does it depict right curve?,no,yes,False,1.84e-05
+GTSRB,meta-llama/llama-4-scout,27,5,Does it depict rough/bumpy road?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,27,6,Does it depict slippery road?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,27,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,10,Does it depict both child and pedestrian?,no,no,True,3.363e-05
+GTSRB,meta-llama/llama-4-scout,27,11,Does it depict pedestrian?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,27,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,27,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,27,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,27,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,27,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,8,Does it depict construction/road work?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,27,9,Does it depict traffic light?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,27,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,11,Does it depict pedestrian?,yes,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,27,0,What's the sign's primary shape?,triangle,,False,0.0
+GTSRB,meta-llama/llama-4-scout,27,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,27,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,27,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,27,5,Does it depict rough/bumpy road?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,27,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,27,7,Does it depict merging/narrow lanes?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,27,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,27,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,11,Does it depict pedestrian?,yes,yes,True,2.038e-05
+GTSRB,meta-llama/llama-4-scout,27,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,27,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,27,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,27,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,27,10,Does it depict both child and pedestrian?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,27,11,Does it depict pedestrian?,yes,yes,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,27,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,27,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,27,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,27,4,Does it depict right curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,27,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,27,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,27,9,Does it depict traffic light?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,27,10,Does it depict both child and pedestrian?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,27,11,Does it depict pedestrian?,yes,,False,0.0
+GTSRB,meta-llama/llama-4-scout,18,0,What's the sign's primary shape?,triangle,triangle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,18,1,Does the triangle have an exclamation mark?,yes,yes,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,18,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,18,1,Does the triangle have an exclamation mark?,yes,yes,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,18,0,What's the sign's primary shape?,triangle,,False,0.0003945
+GTSRB,meta-llama/llama-4-scout,18,1,Does the triangle have an exclamation mark?,yes,,False,3e-05
+GTSRB,meta-llama/llama-4-scout,18,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,18,1,Does the triangle have an exclamation mark?,yes,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,18,0,What's the sign's primary shape?,triangle,triangle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,18,1,Does the triangle have an exclamation mark?,yes,yes,True,3.322e-05
+GTSRB,meta-llama/llama-4-scout,20,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,20,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,20,2,Does it depict a left curve?,no,yes,False,3.345e-05
+GTSRB,meta-llama/llama-4-scout,20,3,Does it depict double curve?,no,no,True,0.0003672
+GTSRB,meta-llama/llama-4-scout,20,4,Does it depict right curve?,yes,yes,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,0,What's the sign's primary shape?,triangle,triangle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,20,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,20,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,20,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,4,Does it depict right curve?,yes,no,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,20,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,20,2,Does it depict a left curve?,no,no,True,3.286e-05
+GTSRB,meta-llama/llama-4-scout,20,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,4,Does it depict right curve?,yes,no,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,20,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,20,2,Does it depict a left curve?,no,yes,False,1.82e-05
+GTSRB,meta-llama/llama-4-scout,20,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,20,4,Does it depict right curve?,yes,no,False,3.268e-05
+GTSRB,meta-llama/llama-4-scout,20,0,What's the sign's primary shape?,triangle,triangle,True,3.52e-05
+GTSRB,meta-llama/llama-4-scout,20,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,20,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,20,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,20,4,Does it depict right curve?,yes,no,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,42,0,What's the sign's primary shape?,circle,,False,4.96e-05
+GTSRB,meta-llama/llama-4-scout,42,1,What's the circle color?,white-gray,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,42,2,What restriction ends?,truck passing,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,42,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,42,1,What's the circle color?,white-gray,white-gray,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,42,2,What restriction ends?,truck passing,,False,4.992e-05
+GTSRB,meta-llama/llama-4-scout,42,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,42,1,What's the circle color?,white-gray,white-gray,True,1.91e-05
+GTSRB,meta-llama/llama-4-scout,42,2,What restriction ends?,truck passing,,False,0.00039065
+GTSRB,meta-llama/llama-4-scout,42,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,42,1,What's the circle color?,white-gray,,False,0.00036915
+GTSRB,meta-llama/llama-4-scout,42,2,What restriction ends?,truck passing,speed limit,False,0.00039345
+GTSRB,meta-llama/llama-4-scout,42,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,42,1,What's the circle color?,white-gray,white-gray,True,2.739e-05
+GTSRB,meta-llama/llama-4-scout,42,2,What restriction ends?,truck passing,,False,3.011e-05
+GTSRB,meta-llama/llama-4-scout,21,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,21,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,21,2,Does it depict a left curve?,no,no,True,1.85e-05
+GTSRB,meta-llama/llama-4-scout,21,3,Does it depict double curve?,yes,yes,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,21,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,21,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,21,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,21,3,Does it depict double curve?,yes,no,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,21,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,21,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,21,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,21,3,Does it depict double curve?,yes,no,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,21,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,21,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,21,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,21,3,Does it depict double curve?,yes,no,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,21,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,21,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,21,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,21,3,Does it depict double curve?,yes,no,False,3.327e-05
+GTSRB,meta-llama/llama-4-scout,26,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,26,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,26,2,Does it depict a left curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,26,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,26,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,9,Does it depict traffic light?,yes,yes,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,26,0,What's the sign's primary shape?,triangle,triangle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,26,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,26,2,Does it depict a left curve?,no,yes,False,2.026e-05
+GTSRB,meta-llama/llama-4-scout,26,3,Does it depict double curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,26,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,5,Does it depict rough/bumpy road?,no,yes,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,26,6,Does it depict slippery road?,no,yes,False,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,7,Does it depict merging/narrow lanes?,no,yes,False,1.83e-05
+GTSRB,meta-llama/llama-4-scout,26,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,26,9,Does it depict traffic light?,yes,no,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,26,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,26,1,Does the triangle have an exclamation mark?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,26,2,Does it depict a left curve?,no,yes,False,2.06e-05
+GTSRB,meta-llama/llama-4-scout,26,3,Does it depict double curve?,no,yes,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,26,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,5,Does it depict rough/bumpy road?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,26,6,Does it depict slippery road?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,26,7,Does it depict merging/narrow lanes?,no,yes,False,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,9,Does it depict traffic light?,yes,yes,True,3.327e-05
+GTSRB,meta-llama/llama-4-scout,26,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,26,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,26,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,26,3,Does it depict double curve?,no,no,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,26,4,Does it depict right curve?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,26,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,26,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,8,Does it depict construction/road work?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,26,9,Does it depict traffic light?,yes,no,False,2.049e-05
+GTSRB,meta-llama/llama-4-scout,26,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,26,1,Does the triangle have an exclamation mark?,no,no,True,3.381e-05
+GTSRB,meta-llama/llama-4-scout,26,2,Does it depict a left curve?,no,no,True,3.345e-05
+GTSRB,meta-llama/llama-4-scout,26,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,26,4,Does it depict right curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,26,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,26,6,Does it depict slippery road?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,26,7,Does it depict merging/narrow lanes?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,26,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,26,9,Does it depict traffic light?,yes,yes,True,1.84e-05
+GTSRB,meta-llama/llama-4-scout,19,0,What's the sign's primary shape?,triangle,triangle,True,3.579e-05
+GTSRB,meta-llama/llama-4-scout,19,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,19,2,Does it depict a left curve?,yes,yes,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,19,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,19,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,19,2,Does it depict a left curve?,yes,,False,4.938e-05
+GTSRB,meta-llama/llama-4-scout,19,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,19,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,19,2,Does it depict a left curve?,yes,no,False,2.026e-05
+GTSRB,meta-llama/llama-4-scout,19,0,What's the sign's primary shape?,triangle,triangle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,19,1,Does the triangle have an exclamation mark?,no,,False,0.0003682
+GTSRB,meta-llama/llama-4-scout,19,2,Does it depict a left curve?,yes,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,19,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,19,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,19,2,Does it depict a left curve?,yes,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,10,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,10,1,What's the circle color?,red-white,white-gray,False,2.671e-05
+GTSRB,meta-llama/llama-4-scout,10,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,10,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,10,4,What is inside the circle?,red truck and black car,truck,False,3.187e-05
+GTSRB,meta-llama/llama-4-scout,10,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,10,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,10,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,10,3,Does it have a diagonal strike bar?,no,yes,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,10,4,What is inside the circle?,red truck and black car,,False,2.85e-05
+GTSRB,meta-llama/llama-4-scout,10,0,What's the sign's primary shape?,circle,circle,True,1.95e-05
+GTSRB,meta-llama/llama-4-scout,10,1,What's the circle color?,red-white,blue,False,2e-05
+GTSRB,meta-llama/llama-4-scout,10,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,10,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,10,4,What is inside the circle?,red truck and black car,,False,3.187e-05
+GTSRB,meta-llama/llama-4-scout,10,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,10,1,What's the circle color?,red-white,red-white,True,2.127e-05
+GTSRB,meta-llama/llama-4-scout,10,2,Does it contain numbers?,no,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,10,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,10,4,What is inside the circle?,red truck and black car,truck,False,3.187e-05
+GTSRB,meta-llama/llama-4-scout,10,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,10,1,What's the circle color?,red-white,red-white,True,2.739e-05
+GTSRB,meta-llama/llama-4-scout,10,2,Does it contain numbers?,no,,False,2.64e-05
+GTSRB,meta-llama/llama-4-scout,10,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,10,4,What is inside the circle?,red truck and black car,truck,False,3.187e-05
+GTSRB,meta-llama/llama-4-scout,17,0,What's the sign's primary shape?,circle,circle,True,1.98e-05
+GTSRB,meta-llama/llama-4-scout,17,1,What's the circle color?,red-white,red-white,True,2.297e-05
+GTSRB,meta-llama/llama-4-scout,17,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,17,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,2.25e-05
+GTSRB,meta-llama/llama-4-scout,17,0,What's the sign's primary shape?,circle,circle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,17,1,What's the circle color?,red-white,red-white,True,3.011e-05
+GTSRB,meta-llama/llama-4-scout,17,2,Does it contain numbers?,no,no,True,2.004e-05
+GTSRB,meta-llama/llama-4-scout,17,3,Does it have a diagonal strike bar?,no,no,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,2.371e-05
+GTSRB,meta-llama/llama-4-scout,17,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,17,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,17,2,Does it contain numbers?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,17,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,2.371e-05
+GTSRB,meta-llama/llama-4-scout,17,0,What's the sign's primary shape?,circle,circle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,17,1,What's the circle color?,red-white,red-white,True,2.06e-05
+GTSRB,meta-llama/llama-4-scout,17,2,Does it contain numbers?,no,no,True,3.25e-05
+GTSRB,meta-llama/llama-4-scout,17,3,Does it have a diagonal strike bar?,no,no,True,2.071e-05
+GTSRB,meta-llama/llama-4-scout,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,2.371e-05
+GTSRB,meta-llama/llama-4-scout,17,0,What's the sign's primary shape?,circle,octagon,False,2.28e-05
+GTSRB,meta-llama/llama-4-scout,17,1,What's the circle color?,red-white,red-white,True,3.011e-05
+GTSRB,meta-llama/llama-4-scout,17,2,Does it contain numbers?,no,no,True,1.8e-05
+GTSRB,meta-llama/llama-4-scout,17,3,Does it have a diagonal strike bar?,no,,False,2.67e-05
+GTSRB,meta-llama/llama-4-scout,17,4,What is inside the circle?,horizontal white bar,,False,2.85e-05
+GTSRB,meta-llama/llama-4-scout,28,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,28,1,Does the triangle have an exclamation mark?,no,no,True,1.87e-05
+GTSRB,meta-llama/llama-4-scout,28,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,28,3,Does it depict double curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,4,Does it depict right curve?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,6,Does it depict slippery road?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,28,7,Does it depict merging/narrow lanes?,no,no,True,3.304e-05
+GTSRB,meta-llama/llama-4-scout,28,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,10,Does it depict both child and pedestrian?,yes,yes,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,28,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,28,2,Does it depict a left curve?,no,no,True,2.026e-05
+GTSRB,meta-llama/llama-4-scout,28,3,Does it depict double curve?,no,,False,4.92e-05
+GTSRB,meta-llama/llama-4-scout,28,4,Does it depict right curve?,no,yes,False,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,28,7,Does it depict merging/narrow lanes?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,28,10,Does it depict both child and pedestrian?,yes,yes,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,28,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,28,1,Does the triangle have an exclamation mark?,no,,False,4.974e-05
+GTSRB,meta-llama/llama-4-scout,28,2,Does it depict a left curve?,no,,False,2.66e-05
+GTSRB,meta-llama/llama-4-scout,28,3,Does it depict double curve?,no,no,True,0.0003672
+GTSRB,meta-llama/llama-4-scout,28,4,Does it depict right curve?,no,yes,False,3.268e-05
+GTSRB,meta-llama/llama-4-scout,28,5,Does it depict rough/bumpy road?,no,no,True,0.00036745
+GTSRB,meta-llama/llama-4-scout,28,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,8,Does it depict construction/road work?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,9,Does it depict traffic light?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,10,Does it depict both child and pedestrian?,yes,no,False,1.86e-05
+GTSRB,meta-llama/llama-4-scout,28,0,What's the sign's primary shape?,triangle,triangle,True,2.203e-05
+GTSRB,meta-llama/llama-4-scout,28,1,Does the triangle have an exclamation mark?,no,no,True,2.082e-05
+GTSRB,meta-llama/llama-4-scout,28,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,28,3,Does it depict double curve?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,28,4,Does it depict right curve?,no,no,True,0.0003672
+GTSRB,meta-llama/llama-4-scout,28,5,Does it depict rough/bumpy road?,no,no,True,2.037e-05
+GTSRB,meta-llama/llama-4-scout,28,6,Does it depict slippery road?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,28,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,8,Does it depict construction/road work?,no,,False,0.0
+GTSRB,meta-llama/llama-4-scout,28,9,Does it depict traffic light?,no,no,True,3.268e-05
+GTSRB,meta-llama/llama-4-scout,28,10,Does it depict both child and pedestrian?,yes,yes,True,1.86e-05
+GTSRB,meta-llama/llama-4-scout,28,0,What's the sign's primary shape?,triangle,triangle,True,2.169e-05
+GTSRB,meta-llama/llama-4-scout,28,1,Does the triangle have an exclamation mark?,no,,False,2.68e-05
+GTSRB,meta-llama/llama-4-scout,28,2,Does it depict a left curve?,no,no,True,1.82e-05
+GTSRB,meta-llama/llama-4-scout,28,3,Does it depict double curve?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,28,4,Does it depict right curve?,no,no,True,2.049e-05
+GTSRB,meta-llama/llama-4-scout,28,5,Does it depict rough/bumpy road?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,6,Does it depict slippery road?,no,no,True,1.81e-05
+GTSRB,meta-llama/llama-4-scout,28,7,Does it depict merging/narrow lanes?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,8,Does it depict construction/road work?,no,no,True,1.83e-05
+GTSRB,meta-llama/llama-4-scout,28,9,Does it depict traffic light?,no,no,True,2.015e-05
+GTSRB,meta-llama/llama-4-scout,28,10,Does it depict both child and pedestrian?,yes,yes,True,3.363e-05

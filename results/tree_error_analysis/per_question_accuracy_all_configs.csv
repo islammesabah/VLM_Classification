@@ -1,0 +1,124 @@
+dataset,question,n_correct,n_total,accuracy
+CIFAR-10,Is the object in the image a living animal?,14318,16433,0.8712955638045397
+CIFAR-10,Is the animal primarily depicted with fur or hair covering its body?,6271,7495,0.8366911274182789
+CIFAR-10,Is the object capable of floating on water?,5406,5951,0.908418753150731
+CIFAR-10,Is the animal typically shown with prominent hooves?,3801,4261,0.8920441210983338
+CIFAR-10,Does the object have wings?,3784,4223,0.8960454653090221
+CIFAR-10,Is the vehicle larger in size and typically used for transporting goods?,2430,2881,0.8434571329399514
+CIFAR-10,Does the animal have a noticeably longer snout or muzzle?,1134,1908,0.5943396226415094
+CIFAR-10,Does the animal have feathers covering its body?,1545,1842,0.8387622149837134
+CIFAR-10,Does the animal have antlers visible in the image?,1481,1678,0.8825983313468415
+GTSRB,What's the sign's primary shape?,13559,15179,0.8932736016865406
+GTSRB,What's the circle color?,7089,8527,0.8313592119150932
+GTSRB,Does it contain numbers?,4378,4965,0.8817724068479356
+GTSRB,What is the number?,2865,3361,0.8524248735495388
+GTSRB,Does the triangle have an exclamation mark?,2208,2872,0.7688022284122563
+GTSRB,Does it depict a left curve?,1465,1701,0.8612580834803057
+GTSRB,What arrow is shown?,680,1595,0.4263322884012539
+GTSRB,Does it depict double curve?,1066,1136,0.9383802816901409
+GTSRB,Does it depict right curve?,874,977,0.8945752302968271
+GTSRB,Does it have a diagonal strike bar?,521,948,0.54957805907173
+GTSRB,Does it depict rough/bumpy road?,734,818,0.8973105134474327
+GTSRB,Does it depict slippery road?,621,665,0.9338345864661655
+GTSRB,Does it depict merging/narrow lanes?,560,581,0.963855421686747
+GTSRB,Does it depict construction/road work?,495,539,0.9183673469387755
+GTSRB,What is inside the circle?,326,459,0.710239651416122
+GTSRB,Does it depict traffic light?,337,350,0.9628571428571429
+GTSRB,Does it depict both child and pedestrian?,291,310,0.9387096774193548
+GTSRB,Does it depict pedestrian?,217,233,0.9313304721030042
+GTSRB,Does it depict bicycle?,182,182,1.0
+GTSRB,Does it depict ice/snow?,148,149,0.9932885906040269
+GTSRB,What restriction ends?,65,137,0.4744525547445255
+GTSRB,Does it depict deer?,130,132,0.9848484848484849
+MNIST,How many closed loops does the digit have?,3490,5502,0.6343147946201382
+MNIST,Does the digit have a curved segment?,787,1812,0.43432671081677704
+MNIST,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",925,1075,0.8604651162790697
+MNIST,Where is the closed loop located?,603,680,0.8867647058823529
+MNIST,Does the digit contain a closed or nearly closed triangular shape?,190,393,0.48346055979643765
+MNIST,Does the digit contain a straight horizontal line segment?,160,228,0.7017543859649122
+MNIST,Does the digit have a horizontal stroke at the top?,123,159,0.7735849056603774
+MNIST,Does the digit have a curved segment at the top?,10,30,0.3333333333333333
+MSCOCO,Is the object a living thing (animal or person)?,4423,4593,0.9629871543653385
+MSCOCO,Is the object typically found indoors (in a home or building)?,2963,3518,0.8422399090392269
+MSCOCO,"Is the object primarily used for sitting, resting, or as furniture?",1696,1861,0.9113379903277807
+MSCOCO,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",1472,1537,0.9577098243331165
+MSCOCO,Is the object typically associated with food preparation or consumption?,1227,1359,0.9028697571743929
+MSCOCO,Is the object primarily a vehicle used for transportation?,917,1034,0.8868471953578336
+MSCOCO,Is the object an appliance (a powered kitchen device)?,682,792,0.8611111111111112
+MSCOCO,Does the animal typically have hooves?,578,623,0.92776886035313
+MSCOCO,Is the object attached to or installed on a street or roadside?,494,540,0.9148148148148149
+MSCOCO,Is the object itself an item of food?,441,519,0.8497109826589595
+MSCOCO,Is the object primarily made of glass or reflective surfaces?,373,424,0.8797169811320755
+MSCOCO,Does the vehicle have two wheels?,360,363,0.9917355371900827
+MSCOCO,Is the food primarily a whole fruit or vegetable?,304,358,0.8491620111731844
+MSCOCO,Is the object an electronic device or related accessory?,326,344,0.9476744186046512
+MSCOCO,Is the subject a human or an animal?,304,305,0.9967213114754099
+MSCOCO,Is the primary object large and flat (used for riding or standing on)?,278,295,0.9423728813559322
+MSCOCO,Does the vehicle primarily operate on water?,276,276,1.0
+MSCOCO,Is the animal covered with fur?,267,269,0.9925650557620818
+MSCOCO,Does the animal have visible black-and-white striping on its body?,255,264,0.9659090909090909
+MSCOCO,Does the food typically contain a visible bread or dough component?,140,236,0.5932203389830508
+MSCOCO,Does the vehicle have wings?,220,225,0.9777777777777777
+MSCOCO,Is the object used primarily for input (controlling or interacting with other electronic devices)?,193,220,0.8772727272727273
+MSCOCO,Is the object primarily a sign displaying text or symbols?,153,192,0.796875
+MSCOCO,Does the animal have horns that curve downward or outward from the head?,119,188,0.6329787234042553
+MSCOCO,Is the vehicle designed primarily for transporting many passengers?,144,172,0.8372093023255814
+MSCOCO,Does the animal tend to have rounded ears?,90,163,0.5521472392638037
+MSCOCO,Is the object primarily designed to fly or be used in the air?,120,160,0.75
+MSCOCO,Is the object primarily used for heating or cooking food?,145,152,0.9539473684210527
+MSCOCO,Does the food contain visible meat between bread?,76,120,0.6333333333333333
+MSCOCO,Is the object typically used on snow?,116,116,1.0
+MSCOCO,Is the object primarily used for sitting or resting the body?,104,115,0.9043478260869565
+MSCOCO,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,84,110,0.7636363636363637
+MSCOCO,Is the object a soft toy or plush item?,104,106,0.9811320754716981
+MSCOCO,Does the object have a backrest?,54,102,0.5294117647058824
+MSCOCO,Does the object have visible lights or bulbs on its structure?,95,99,0.9595959595959596
+MSCOCO,Does the animal have a trunk?,97,97,1.0
+MSCOCO,Does the object have a door with a viewing window on the front?,81,93,0.8709677419354839
+MSCOCO,Does the animal have a long neck?,85,92,0.9239130434782609
+MSCOCO,Is the object mainly designed for handheld use?,73,83,0.8795180722891566
+MSCOCO,Does the vehicle have pedals for human propulsion?,81,82,0.9878048780487805
+MSCOCO,Is the object primarily used for drinking liquids?,69,81,0.8518518518518519
+MSCOCO,Is the object typically worn on the head or face?,65,81,0.8024691358024691
+MSCOCO,Does the vehicle travel on tracks?,78,78,1.0
+MSCOCO,Is the object typically thrown by hand during play?,67,74,0.9054054054054054
+MSCOCO,Does the object typically have a coin or digital payment slot?,70,72,0.9722222222222222
+MSCOCO,Is the object a fruit?,68,68,1.0
+MSCOCO,Is the object primarily made of paper?,59,65,0.9076923076923077
+MSCOCO,Is the object primarily used on water?,65,65,1.0
+MSCOCO,Is the vehicle smaller in size and typically used for personal transport?,59,65,0.9076923076923077
+MSCOCO,Is the object typically carried by hand rather than worn on the body?,57,64,0.890625
+MSCOCO,Does the object usually feature a compact design suitable for countertop placement?,51,62,0.8225806451612904
+MSCOCO,Does the object have blades used for cutting?,54,59,0.9152542372881356
+MSCOCO,Does the object have a built-in display screen that is used for output only (not interactive)?,46,54,0.8518518518518519
+MSCOCO,Is the food item typically ring-shaped with a central hole?,51,54,0.9444444444444444
+MSCOCO,Is the sign octagonal in shape?,48,54,0.8888888888888888
+MSCOCO,Is the object typically used to clean or dispose of water?,49,51,0.9607843137254902
+MSCOCO,Does the object consist of two long narrow boards rather than a single wide board?,48,50,0.96
+MSCOCO,Is the primary color of the object yellow?,47,50,0.94
+MSCOCO,Is the object usually a large stationary appliance?,47,47,1.0
+MSCOCO,Is the object spherical or round in shape?,40,46,0.8695652173913043
+MSCOCO,Is the object primarily worn on the foot?,38,38,1.0
+MSCOCO,Is the object used to contain or hold food?,27,38,0.7105263157894737
+MSCOCO,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,33,35,0.9428571428571428
+MSCOCO,Does the object have armrests on both sides?,23,35,0.6571428571428571
+MSCOCO,Does the animal have a long snout?,28,34,0.8235294117647058
+MSCOCO,Does the object have a fabric or cloth surface stretched over its frame?,1,32,0.03125
+MSCOCO,Does the object have a handle?,29,31,0.9354838709677419
+MSCOCO,Is the object held in the hand during use?,26,28,0.9285714285714286
+MSCOCO,Does the animal have a white face with woolly fur covering most of its body?,10,26,0.38461538461538464
+MSCOCO,Does the object display a reflective surface used to see one's own image?,25,26,0.9615384615384616
+MSCOCO,Does the object have a netted or strung area as part of its design?,25,25,1.0
+MSCOCO,Does the object typically have a face with numbers or hands?,25,25,1.0
+MSCOCO,"Does the object have a long, stem-like structure supporting a bowl?",23,23,1.0
+MSCOCO,Is the object primarily red or green in color?,16,23,0.6956521739130435
+MSCOCO,Does the object have prongs or tines at one end?,22,22,1.0
+MSCOCO,"Does the object have a flat, sharp edge intended for cutting?",21,21,1.0
+MSCOCO,Does the object have a screen or display surface?,19,19,1.0
+MSCOCO,Does the object usually have two straps and is worn on the back?,19,19,1.0
+MSCOCO,Is the food typically round and covered with toppings such as cheese and tomato sauce?,19,19,1.0
+MSCOCO,Does the object commonly have wheels for easier transportation?,15,18,0.8333333333333334
+MSCOCO,Is the object green in color?,13,18,0.7222222222222222
+MSCOCO,Is the object large enough for more than one person to sit on comfortably?,12,17,0.7058823529411765
+MSCOCO,Does the object feature a water tank as part of its structure?,6,6,1.0
+MSCOCO,Is the container typically shallow and flat?,0,5,0.0

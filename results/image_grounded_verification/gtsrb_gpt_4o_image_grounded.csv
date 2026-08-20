@@ -1,0 +1,1156 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+GTSRB,gpt-4o,31,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,31,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,31,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,31,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,6,Does it depict slippery road?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,8,Does it depict construction/road work?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,31,10,Does it depict both child and pedestrian?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,31,12,Does it depict bicycle?,no,no,True,0.000615
+GTSRB,gpt-4o,31,13,Does it depict ice/snow?,no,no,True,0.00062
+GTSRB,gpt-4o,31,14,Does it depict deer?,yes,yes,True,0.000615
+GTSRB,gpt-4o,31,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,31,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,31,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,31,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,31,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,31,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,8,Does it depict construction/road work?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,9,Does it depict traffic light?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,10,Does it depict both child and pedestrian?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,31,12,Does it depict bicycle?,no,no,True,0.000615
+GTSRB,gpt-4o,31,13,Does it depict ice/snow?,no,yes,False,0.0007225
+GTSRB,gpt-4o,31,14,Does it depict deer?,yes,yes,True,0.000615
+GTSRB,gpt-4o,31,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,31,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,31,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,31,3,Does it depict double curve?,no,,False,0.0007675
+GTSRB,gpt-4o,31,4,Does it depict right curve?,no,,False,0.0007175
+GTSRB,gpt-4o,31,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,31,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,31,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,31,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,31,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,31,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,31,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,31,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,31,13,Does it depict ice/snow?,no,no,True,0.0007225
+GTSRB,gpt-4o,31,14,Does it depict deer?,yes,no,False,0.0007175
+GTSRB,gpt-4o,31,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,31,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,31,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,31,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,31,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,31,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,31,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,8,Does it depict construction/road work?,no,no,True,0.0006225
+GTSRB,gpt-4o,31,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,31,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,31,11,Does it depict pedestrian?,no,no,True,0.0007175
+GTSRB,gpt-4o,31,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,31,13,Does it depict ice/snow?,no,no,True,0.00062
+GTSRB,gpt-4o,31,14,Does it depict deer?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,31,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,31,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,31,2,Does it depict a left curve?,no,,False,0.0008125
+GTSRB,gpt-4o,31,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,31,4,Does it depict right curve?,no,,False,0.00083
+GTSRB,gpt-4o,31,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,31,6,Does it depict slippery road?,no,yes,False,0.0006175
+GTSRB,gpt-4o,31,7,Does it depict merging/narrow lanes?,no,,False,0.000745
+GTSRB,gpt-4o,31,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,31,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,31,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,31,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,31,12,Does it depict bicycle?,no,no,True,0.000615
+GTSRB,gpt-4o,31,13,Does it depict ice/snow?,no,no,True,0.00062
+GTSRB,gpt-4o,31,14,Does it depict deer?,yes,yes,True,0.000615
+GTSRB,gpt-4o,9,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,9,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,9,2,Does it contain numbers?,no,,False,0.000735
+GTSRB,gpt-4o,9,3,Does it have a diagonal strike bar?,no,yes,False,0.0006225
+GTSRB,gpt-4o,9,4,What is inside the circle?,red car and black car,horizontal white bar,False,0.00086
+GTSRB,gpt-4o,9,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,9,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,9,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,9,3,Does it have a diagonal strike bar?,no,yes,False,0.0006225
+GTSRB,gpt-4o,9,4,What is inside the circle?,red car and black car,red truck and black car,False,0.00086
+GTSRB,gpt-4o,9,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,9,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,9,2,Does it contain numbers?,no,no,True,0.000615
+GTSRB,gpt-4o,9,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,9,4,What is inside the circle?,red car and black car,red car and black car,True,0.00086
+GTSRB,gpt-4o,9,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,9,1,What's the circle color?,red-white,red-white,True,0.00081
+GTSRB,gpt-4o,9,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,9,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,9,4,What is inside the circle?,red car and black car,horizontal white bar,False,0.00085
+GTSRB,gpt-4o,9,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,9,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,9,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,9,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,9,4,What is inside the circle?,red car and black car,horizontal white bar,False,0.0007375
+GTSRB,gpt-4o,36,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,36,1,What's the circle color?,blue,blue,True,0.0006675
+GTSRB,gpt-4o,36,2,What arrow is shown?,forward-right,circular,False,0.000835
+GTSRB,gpt-4o,36,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,36,1,What's the circle color?,blue,blue,True,0.0006675
+GTSRB,gpt-4o,36,2,What arrow is shown?,forward-right,forward-right,True,0.000835
+GTSRB,gpt-4o,36,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,36,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,36,2,What arrow is shown?,forward-right,forward-right,True,0.000835
+GTSRB,gpt-4o,36,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,36,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,36,2,What arrow is shown?,forward-right,forward-left,False,0.000835
+GTSRB,gpt-4o,36,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,36,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,36,2,What arrow is shown?,forward-right,forward-left,False,0.0007325
+GTSRB,gpt-4o,0,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,0,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,0,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,0,3,What is the number?,20,50,False,0.0007
+GTSRB,gpt-4o,0,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,0,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,0,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,0,3,What is the number?,20,20,True,0.0008025
+GTSRB,gpt-4o,0,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,0,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,0,2,Does it contain numbers?,yes,yes,True,0.000605
+GTSRB,gpt-4o,0,3,What is the number?,20,20,True,0.0008025
+GTSRB,gpt-4o,0,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,0,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,0,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,0,3,What is the number?,20,20,True,0.0008025
+GTSRB,gpt-4o,0,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,0,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,0,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,0,3,What is the number?,20,20,True,0.0008025
+GTSRB,gpt-4o,38,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,38,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,38,2,What arrow is shown?,keep-right,keep-right,True,0.000835
+GTSRB,gpt-4o,38,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,38,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,38,2,What arrow is shown?,keep-right,forward-right,False,0.000835
+GTSRB,gpt-4o,38,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,38,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,38,2,What arrow is shown?,keep-right,forward-right,False,0.0007325
+GTSRB,gpt-4o,38,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,38,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,38,2,What arrow is shown?,keep-right,forward-right,False,0.000835
+GTSRB,gpt-4o,38,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,38,1,What's the circle color?,blue,blue,True,0.00077
+GTSRB,gpt-4o,38,2,What arrow is shown?,keep-right,forward-left,False,0.000835
+GTSRB,gpt-4o,7,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,7,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,7,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,7,3,What is the number?,100,100,True,0.0007
+GTSRB,gpt-4o,7,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,7,1,What's the circle color?,red-white,red-white,True,0.00081
+GTSRB,gpt-4o,7,2,Does it contain numbers?,yes,no,False,0.0007175
+GTSRB,gpt-4o,7,3,What is the number?,100,80,False,0.0008025
+GTSRB,gpt-4o,7,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,7,1,What's the circle color?,red-white,red-white,True,0.00081
+GTSRB,gpt-4o,7,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,7,3,What is the number?,100,100,True,0.0008325
+GTSRB,gpt-4o,7,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,7,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,7,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,7,3,What is the number?,100,100,True,0.0008025
+GTSRB,gpt-4o,7,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,7,1,What's the circle color?,red-white,red-white,True,0.00078
+GTSRB,gpt-4o,7,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,7,3,What is the number?,100,100,True,0.0007
+GTSRB,gpt-4o,39,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,39,1,What's the circle color?,blue,blue,True,0.0006675
+GTSRB,gpt-4o,39,2,What arrow is shown?,keep-left,forward-left,False,0.0007325
+GTSRB,gpt-4o,39,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,39,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,39,2,What arrow is shown?,keep-left,forward-left,False,0.000835
+GTSRB,gpt-4o,39,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,39,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,39,2,What arrow is shown?,keep-left,forward-left,False,0.000835
+GTSRB,gpt-4o,39,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,39,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,39,2,What arrow is shown?,keep-left,left,False,0.0007225
+GTSRB,gpt-4o,39,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,39,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,39,2,What arrow is shown?,keep-left,keep-left,True,0.0007325
+GTSRB,gpt-4o,6,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,6,1,What's the circle color?,red-white,white-gray,False,0.00079
+GTSRB,gpt-4o,6,2,Does it contain numbers?,no,,False,0.000695
+GTSRB,gpt-4o,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.000725
+GTSRB,gpt-4o,6,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,6,1,What's the circle color?,red-white,white-gray,False,0.00079
+GTSRB,gpt-4o,6,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,6,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,6,1,What's the circle color?,red-white,white-gray,False,0.00079
+GTSRB,gpt-4o,6,2,Does it contain numbers?,no,yes,False,0.000615
+GTSRB,gpt-4o,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.000725
+GTSRB,gpt-4o,6,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,6,1,What's the circle color?,red-white,white-gray,False,0.00078
+GTSRB,gpt-4o,6,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.000725
+GTSRB,gpt-4o,6,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,6,1,What's the circle color?,red-white,white-gray,False,0.00079
+GTSRB,gpt-4o,6,2,Does it contain numbers?,no,,False,0.0007975
+GTSRB,gpt-4o,6,3,Does it have a diagonal strike bar?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,1,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,1,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,1,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,1,3,What is the number?,30,30,True,0.0008025
+GTSRB,gpt-4o,1,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,1,1,What's the circle color?,red-white,red-white,True,0.00078
+GTSRB,gpt-4o,1,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,1,3,What is the number?,30,30,True,0.0008025
+GTSRB,gpt-4o,1,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,1,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,1,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,1,3,What is the number?,30,30,True,0.0007
+GTSRB,gpt-4o,1,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,1,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,1,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,1,3,What is the number?,30,30,True,0.0007
+GTSRB,gpt-4o,1,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,1,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,1,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,1,3,What is the number?,30,30,True,0.0008025
+GTSRB,gpt-4o,8,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,8,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,8,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,8,3,What is the number?,120,50,False,0.0008025
+GTSRB,gpt-4o,8,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,8,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,8,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,8,3,What is the number?,120,120,True,0.0007
+GTSRB,gpt-4o,8,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,8,1,What's the circle color?,red-white,blue,False,0.00077
+GTSRB,gpt-4o,8,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,8,3,What is the number?,120,80,False,0.0008025
+GTSRB,gpt-4o,8,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,8,1,What's the circle color?,red-white,blue,False,0.00078
+GTSRB,gpt-4o,8,2,Does it contain numbers?,yes,,False,0.0007775
+GTSRB,gpt-4o,8,3,What is the number?,120,100,False,0.0007
+GTSRB,gpt-4o,8,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,8,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,8,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,8,3,What is the number?,120,120,True,0.0008025
+GTSRB,gpt-4o,37,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,37,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,37,2,What arrow is shown?,forward-left,forward-left,True,0.000835
+GTSRB,gpt-4o,37,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,37,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,37,2,What arrow is shown?,forward-left,forward-left,True,0.000835
+GTSRB,gpt-4o,37,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,37,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,37,2,What arrow is shown?,forward-left,forward-left,True,0.000835
+GTSRB,gpt-4o,37,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,37,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,37,2,What arrow is shown?,forward-left,forward-left,True,0.000835
+GTSRB,gpt-4o,37,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,37,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,37,2,What arrow is shown?,forward-left,circular,False,0.000835
+GTSRB,gpt-4o,30,0,What's the sign's primary shape?,triangle,triangle,True,0.0007325
+GTSRB,gpt-4o,30,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,30,2,Does it depict a left curve?,no,,False,0.0008325
+GTSRB,gpt-4o,30,3,Does it depict double curve?,no,,False,0.00078
+GTSRB,gpt-4o,30,4,Does it depict right curve?,no,,False,0.0007175
+GTSRB,gpt-4o,30,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,30,7,Does it depict merging/narrow lanes?,no,,False,0.000745
+GTSRB,gpt-4o,30,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,9,Does it depict traffic light?,no,no,True,0.0006175
+GTSRB,gpt-4o,30,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,30,12,Does it depict bicycle?,no,yes,False,0.0007175
+GTSRB,gpt-4o,30,13,Does it depict ice/snow?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,30,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,30,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,30,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,30,3,Does it depict double curve?,no,,False,0.00084
+GTSRB,gpt-4o,30,4,Does it depict right curve?,no,,False,0.0007975
+GTSRB,gpt-4o,30,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,30,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,30,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,30,11,Does it depict pedestrian?,no,,False,0.0007875
+GTSRB,gpt-4o,30,12,Does it depict bicycle?,no,,False,0.0007775
+GTSRB,gpt-4o,30,13,Does it depict ice/snow?,yes,no,False,0.0007225
+GTSRB,gpt-4o,30,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,30,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,30,2,Does it depict a left curve?,no,,False,0.0007425
+GTSRB,gpt-4o,30,3,Does it depict double curve?,no,,False,0.00078
+GTSRB,gpt-4o,30,4,Does it depict right curve?,no,,False,0.0006775
+GTSRB,gpt-4o,30,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,30,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,30,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,9,Does it depict traffic light?,no,no,True,0.0006175
+GTSRB,gpt-4o,30,10,Does it depict both child and pedestrian?,no,no,True,0.0006225
+GTSRB,gpt-4o,30,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,30,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,30,13,Does it depict ice/snow?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,30,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,30,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,30,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,30,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,30,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,30,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,30,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,30,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,30,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,30,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,30,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,30,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,30,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,30,13,Does it depict ice/snow?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,30,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.0007625
+GTSRB,gpt-4o,30,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,30,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,30,3,Does it depict double curve?,no,,False,0.00078
+GTSRB,gpt-4o,30,4,Does it depict right curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,30,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,6,Does it depict slippery road?,no,yes,False,0.0006175
+GTSRB,gpt-4o,30,7,Does it depict merging/narrow lanes?,no,yes,False,0.0006225
+GTSRB,gpt-4o,30,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,30,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,30,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,30,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,30,13,Does it depict ice/snow?,yes,no,False,0.0007225
+GTSRB,gpt-4o,41,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,41,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,41,2,What restriction ends?,car passing,speed limit,False,0.0008
+GTSRB,gpt-4o,41,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,41,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,41,2,What restriction ends?,car passing,speed limit,False,0.0008
+GTSRB,gpt-4o,41,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,41,1,What's the circle color?,white-gray,white-gray,True,0.0006875
+GTSRB,gpt-4o,41,2,What restriction ends?,car passing,truck passing,False,0.0006975
+GTSRB,gpt-4o,41,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,41,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,41,2,What restriction ends?,car passing,speed limit,False,0.00081
+GTSRB,gpt-4o,41,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,41,1,What's the circle color?,white-gray,blue,False,0.00077
+GTSRB,gpt-4o,41,2,What restriction ends?,car passing,car passing,True,0.0008
+GTSRB,gpt-4o,12,0,What's the sign's primary shape?,diamond,diamond,True,0.000825
+GTSRB,gpt-4o,12,0,What's the sign's primary shape?,diamond,diamond,True,0.0007225
+GTSRB,gpt-4o,12,0,What's the sign's primary shape?,diamond,diamond,True,0.000825
+GTSRB,gpt-4o,12,0,What's the sign's primary shape?,diamond,diamond,True,0.000825
+GTSRB,gpt-4o,12,0,What's the sign's primary shape?,diamond,diamond,True,0.000825
+GTSRB,gpt-4o,15,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,15,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,15,2,Does it contain numbers?,no,yes,False,0.000615
+GTSRB,gpt-4o,15,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,15,4,What is inside the circle?,empty circle,red truck and black car,False,0.00086
+GTSRB,gpt-4o,15,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,15,1,What's the circle color?,red-white,white-gray,False,0.00079
+GTSRB,gpt-4o,15,2,Does it contain numbers?,no,,False,0.0008375
+GTSRB,gpt-4o,15,3,Does it have a diagonal strike bar?,no,,False,0.000865
+GTSRB,gpt-4o,15,4,What is inside the circle?,empty circle,empty circle,True,0.00083
+GTSRB,gpt-4o,15,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,15,1,What's the circle color?,red-white,red-white,True,0.0006775
+GTSRB,gpt-4o,15,2,Does it contain numbers?,no,,False,0.0008475
+GTSRB,gpt-4o,15,3,Does it have a diagonal strike bar?,no,,False,0.0006825
+GTSRB,gpt-4o,15,4,What is inside the circle?,empty circle,empty circle,True,0.00078
+GTSRB,gpt-4o,15,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,15,1,What's the circle color?,red-white,red-white,True,0.0006775
+GTSRB,gpt-4o,15,2,Does it contain numbers?,no,no,True,0.000615
+GTSRB,gpt-4o,15,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,15,4,What is inside the circle?,empty circle,empty circle,True,0.0007275
+GTSRB,gpt-4o,15,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,15,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,15,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,15,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,15,4,What is inside the circle?,empty circle,empty circle,True,0.00083
+GTSRB,gpt-4o,23,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,23,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,23,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,23,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,23,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,23,6,Does it depict slippery road?,yes,yes,True,0.0006175
+GTSRB,gpt-4o,23,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,23,2,Does it depict a left curve?,no,,False,0.00076
+GTSRB,gpt-4o,23,3,Does it depict double curve?,no,,False,0.0009
+GTSRB,gpt-4o,23,4,Does it depict right curve?,no,,False,0.00079
+GTSRB,gpt-4o,23,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,23,6,Does it depict slippery road?,yes,yes,True,0.00072
+GTSRB,gpt-4o,23,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,23,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,23,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,23,3,Does it depict double curve?,no,,False,0.0006875
+GTSRB,gpt-4o,23,4,Does it depict right curve?,no,,False,0.00082
+GTSRB,gpt-4o,23,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,23,6,Does it depict slippery road?,yes,yes,True,0.00072
+GTSRB,gpt-4o,23,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,23,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,23,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,23,3,Does it depict double curve?,no,yes,False,0.0006175
+GTSRB,gpt-4o,23,4,Does it depict right curve?,no,,False,0.0008
+GTSRB,gpt-4o,23,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,23,6,Does it depict slippery road?,yes,yes,True,0.00072
+GTSRB,gpt-4o,23,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,23,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,23,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,23,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,23,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,23,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,23,6,Does it depict slippery road?,yes,yes,True,0.0006175
+GTSRB,gpt-4o,24,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,24,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,24,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,24,3,Does it depict double curve?,no,yes,False,0.0006175
+GTSRB,gpt-4o,24,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,24,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,24,6,Does it depict slippery road?,no,no,True,0.0006175
+GTSRB,gpt-4o,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.000725
+GTSRB,gpt-4o,24,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,24,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,24,2,Does it depict a left curve?,no,,False,0.0007
+GTSRB,gpt-4o,24,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,24,4,Does it depict right curve?,no,,False,0.0006875
+GTSRB,gpt-4o,24,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,24,6,Does it depict slippery road?,no,yes,False,0.0006175
+GTSRB,gpt-4o,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,24,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,24,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,24,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,24,3,Does it depict double curve?,no,yes,False,0.0006175
+GTSRB,gpt-4o,24,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,24,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,24,6,Does it depict slippery road?,no,no,True,0.0006175
+GTSRB,gpt-4o,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.000725
+GTSRB,gpt-4o,24,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,24,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,24,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,24,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,24,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,24,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,24,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,24,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,24,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,24,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,24,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,24,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,24,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,24,6,Does it depict slippery road?,no,no,True,0.0006175
+GTSRB,gpt-4o,24,7,Does it depict merging/narrow lanes?,yes,yes,True,0.000725
+GTSRB,gpt-4o,40,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,40,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,40,2,What arrow is shown?,circular,circular,True,0.000835
+GTSRB,gpt-4o,40,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,40,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,40,2,What arrow is shown?,circular,circular,True,0.000835
+GTSRB,gpt-4o,40,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,40,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,40,2,What arrow is shown?,circular,circular,True,0.000835
+GTSRB,gpt-4o,40,0,What's the sign's primary shape?,circle,octagon,False,0.0007325
+GTSRB,gpt-4o,40,1,What's the circle color?,blue,blue,True,0.0006675
+GTSRB,gpt-4o,40,2,What arrow is shown?,circular,circular,True,0.0007325
+GTSRB,gpt-4o,40,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,40,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,40,2,What arrow is shown?,circular,circular,True,0.0007325
+GTSRB,gpt-4o,25,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,25,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,25,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,25,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,25,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,25,5,Does it depict rough/bumpy road?,no,,False,0.0006925
+GTSRB,gpt-4o,25,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,25,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,25,8,Does it depict construction/road work?,yes,yes,True,0.000725
+GTSRB,gpt-4o,25,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,25,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,25,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,25,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,25,4,Does it depict right curve?,no,no,True,0.0006275
+GTSRB,gpt-4o,25,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,25,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,25,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,25,8,Does it depict construction/road work?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,25,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,25,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,25,2,Does it depict a left curve?,no,,False,0.0007925
+GTSRB,gpt-4o,25,3,Does it depict double curve?,no,,False,0.00077
+GTSRB,gpt-4o,25,4,Does it depict right curve?,no,,False,0.0007675
+GTSRB,gpt-4o,25,5,Does it depict rough/bumpy road?,no,,False,0.000905
+GTSRB,gpt-4o,25,6,Does it depict slippery road?,no,,False,0.0007175
+GTSRB,gpt-4o,25,7,Does it depict merging/narrow lanes?,no,,False,0.000955
+GTSRB,gpt-4o,25,8,Does it depict construction/road work?,yes,,False,0.000785
+GTSRB,gpt-4o,25,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,25,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,25,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,25,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,25,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,25,5,Does it depict rough/bumpy road?,no,,False,0.000825
+GTSRB,gpt-4o,25,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,25,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,25,8,Does it depict construction/road work?,yes,yes,True,0.000725
+GTSRB,gpt-4o,25,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,25,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,25,2,Does it depict a left curve?,no,,False,0.0008025
+GTSRB,gpt-4o,25,3,Does it depict double curve?,no,,False,0.00084
+GTSRB,gpt-4o,25,4,Does it depict right curve?,no,,False,0.0007275
+GTSRB,gpt-4o,25,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,25,6,Does it depict slippery road?,no,,False,0.00082
+GTSRB,gpt-4o,25,7,Does it depict merging/narrow lanes?,no,,False,0.0007225
+GTSRB,gpt-4o,25,8,Does it depict construction/road work?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,22,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,22,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,22,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,22,3,Does it depict double curve?,no,,False,0.00088
+GTSRB,gpt-4o,22,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.000725
+GTSRB,gpt-4o,22,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,22,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,22,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,22,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.000725
+GTSRB,gpt-4o,22,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,22,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,22,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,22,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.0006225
+GTSRB,gpt-4o,22,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,22,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,22,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,22,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.000725
+GTSRB,gpt-4o,22,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,22,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,22,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,22,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,22,5,Does it depict rough/bumpy road?,yes,yes,True,0.000725
+GTSRB,gpt-4o,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0007425
+GTSRB,gpt-4o,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0007425
+GTSRB,gpt-4o,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0007425
+GTSRB,gpt-4o,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0007425
+GTSRB,gpt-4o,14,0,What's the sign's primary shape?,octagon,octagon,True,0.0007325
+GTSRB,gpt-4o,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.000855
+GTSRB,gpt-4o,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.0007625
+GTSRB,gpt-4o,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.000865
+GTSRB,gpt-4o,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.000865
+GTSRB,gpt-4o,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,0.000875
+GTSRB,gpt-4o,35,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,35,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,35,2,What arrow is shown?,forward,forward,True,0.0007225
+GTSRB,gpt-4o,35,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,35,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,35,2,What arrow is shown?,forward,forward,True,0.000825
+GTSRB,gpt-4o,35,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,35,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,35,2,What arrow is shown?,forward,forward,True,0.000825
+GTSRB,gpt-4o,35,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,35,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,35,2,What arrow is shown?,forward,forward,True,0.0007225
+GTSRB,gpt-4o,35,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,35,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,35,2,What arrow is shown?,forward,forward,True,0.000825
+GTSRB,gpt-4o,32,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,32,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,32,2,What restriction ends?,speed limit,speed limit,True,0.0007075
+GTSRB,gpt-4o,32,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,32,1,What's the circle color?,white-gray,red-white,False,0.00078
+GTSRB,gpt-4o,32,2,What restriction ends?,speed limit,speed limit,True,0.0008
+GTSRB,gpt-4o,32,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,32,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,32,2,What restriction ends?,speed limit,speed limit,True,0.00092
+GTSRB,gpt-4o,32,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,32,1,What's the circle color?,white-gray,white-gray,True,0.0006875
+GTSRB,gpt-4o,32,2,What restriction ends?,speed limit,speed limit,True,0.00092
+GTSRB,gpt-4o,32,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,32,1,What's the circle color?,white-gray,white-gray,True,0.0006875
+GTSRB,gpt-4o,32,2,What restriction ends?,speed limit,speed limit,True,0.0006975
+GTSRB,gpt-4o,4,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,4,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,4,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,4,3,What is the number?,70,70,True,0.0008025
+GTSRB,gpt-4o,4,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,4,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,4,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,4,3,What is the number?,70,70,True,0.0008025
+GTSRB,gpt-4o,4,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,4,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,4,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,4,3,What is the number?,70,70,True,0.0007
+GTSRB,gpt-4o,4,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,4,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,4,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,4,3,What is the number?,70,70,True,0.0008025
+GTSRB,gpt-4o,4,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,4,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,4,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,4,3,What is the number?,70,120,False,0.0008025
+GTSRB,gpt-4o,3,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,3,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,3,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,3,3,What is the number?,60,60,True,0.0007
+GTSRB,gpt-4o,3,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,3,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,3,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,3,3,What is the number?,60,60,True,0.00073
+GTSRB,gpt-4o,3,0,What's the sign's primary shape?,circle,octagon,False,0.0007325
+GTSRB,gpt-4o,3,1,What's the circle color?,red-white,blue,False,0.00078
+GTSRB,gpt-4o,3,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,3,3,What is the number?,60,80,False,0.0007
+GTSRB,gpt-4o,3,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,3,1,What's the circle color?,red-white,red-white,True,0.0006775
+GTSRB,gpt-4o,3,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,3,3,What is the number?,60,60,True,0.0008025
+GTSRB,gpt-4o,3,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,3,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,3,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,3,3,What is the number?,60,60,True,0.0007
+GTSRB,gpt-4o,2,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,2,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,2,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,2,3,What is the number?,50,50,True,0.0008325
+GTSRB,gpt-4o,2,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,2,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,2,2,Does it contain numbers?,yes,yes,True,0.000605
+GTSRB,gpt-4o,2,3,What is the number?,50,50,True,0.0008025
+GTSRB,gpt-4o,2,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,2,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,2,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,2,3,What is the number?,50,50,True,0.0008025
+GTSRB,gpt-4o,2,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,2,1,What's the circle color?,red-white,red-white,True,0.00078
+GTSRB,gpt-4o,2,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,2,3,What is the number?,50,50,True,0.0007
+GTSRB,gpt-4o,2,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,2,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,2,2,Does it contain numbers?,yes,yes,True,0.000615
+GTSRB,gpt-4o,2,3,What is the number?,50,50,True,0.0008025
+GTSRB,gpt-4o,5,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,5,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,5,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,5,3,What is the number?,80,80,True,0.0008025
+GTSRB,gpt-4o,5,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,5,1,What's the circle color?,red-white,blue,False,0.00077
+GTSRB,gpt-4o,5,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,5,3,What is the number?,80,60,False,0.0008025
+GTSRB,gpt-4o,5,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,5,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,5,2,Does it contain numbers?,yes,,False,0.0007975
+GTSRB,gpt-4o,5,3,What is the number?,80,60,False,0.0008025
+GTSRB,gpt-4o,5,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,5,1,What's the circle color?,red-white,red-white,True,0.00078
+GTSRB,gpt-4o,5,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,5,3,What is the number?,80,80,True,0.0007
+GTSRB,gpt-4o,5,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,5,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,5,2,Does it contain numbers?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,5,3,What is the number?,80,30,False,0.0007
+GTSRB,gpt-4o,33,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,33,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,33,2,What arrow is shown?,right,right,True,0.000825
+GTSRB,gpt-4o,33,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,33,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,33,2,What arrow is shown?,right,right,True,0.0007225
+GTSRB,gpt-4o,33,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,33,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,33,2,What arrow is shown?,right,right,True,0.0007225
+GTSRB,gpt-4o,33,0,What's the sign's primary shape?,circle,circle,True,0.000745
+GTSRB,gpt-4o,33,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,33,2,What arrow is shown?,right,right,True,0.000825
+GTSRB,gpt-4o,33,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,33,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,33,2,What arrow is shown?,right,circular,False,0.0007325
+GTSRB,gpt-4o,34,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,34,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,34,2,What arrow is shown?,left,forward-left,False,0.0007325
+GTSRB,gpt-4o,34,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,34,1,What's the circle color?,blue,blue,True,0.0006675
+GTSRB,gpt-4o,34,2,What arrow is shown?,left,forward-left,False,0.000835
+GTSRB,gpt-4o,34,0,What's the sign's primary shape?,circle,circle,True,0.0007225
+GTSRB,gpt-4o,34,1,What's the circle color?,blue,blue,True,0.00078
+GTSRB,gpt-4o,34,2,What arrow is shown?,left,forward-left,False,0.0007325
+GTSRB,gpt-4o,34,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,34,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,34,2,What arrow is shown?,left,circular,False,0.000835
+GTSRB,gpt-4o,34,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,34,1,What's the circle color?,blue,blue,True,0.0006775
+GTSRB,gpt-4o,34,2,What arrow is shown?,left,forward-left,False,0.000835
+GTSRB,gpt-4o,16,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,16,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,16,2,Does it contain numbers?,no,,False,0.0007875
+GTSRB,gpt-4o,16,3,Does it have a diagonal strike bar?,no,no,True,0.0006225
+GTSRB,gpt-4o,16,4,What is inside the circle?,truck,truck,True,0.00081
+GTSRB,gpt-4o,16,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,16,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,16,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,16,3,Does it have a diagonal strike bar?,no,no,True,0.0006225
+GTSRB,gpt-4o,16,4,What is inside the circle?,truck,truck,True,0.00084
+GTSRB,gpt-4o,16,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,16,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,16,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,16,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,16,4,What is inside the circle?,truck,horizontal white bar,False,0.00087
+GTSRB,gpt-4o,16,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,16,1,What's the circle color?,red-white,red-white,True,0.0006775
+GTSRB,gpt-4o,16,2,Does it contain numbers?,no,no,True,0.000615
+GTSRB,gpt-4o,16,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,16,4,What is inside the circle?,truck,truck,True,0.00082
+GTSRB,gpt-4o,16,0,What's the sign's primary shape?,circle,circle,True,0.0007325
+GTSRB,gpt-4o,16,1,What's the circle color?,red-white,red-white,True,0.0006875
+GTSRB,gpt-4o,16,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,16,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,16,4,What is inside the circle?,truck,truck,True,0.00082
+GTSRB,gpt-4o,29,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,29,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,29,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,29,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,29,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,29,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,29,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,29,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,29,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,29,10,Does it depict both child and pedestrian?,no,no,True,0.0006225
+GTSRB,gpt-4o,29,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,29,12,Does it depict bicycle?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,29,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,29,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,29,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,29,3,Does it depict double curve?,no,yes,False,0.0006175
+GTSRB,gpt-4o,29,4,Does it depict right curve?,no,,False,0.0006775
+GTSRB,gpt-4o,29,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,29,6,Does it depict slippery road?,no,yes,False,0.0006175
+GTSRB,gpt-4o,29,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,29,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,29,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,29,10,Does it depict both child and pedestrian?,no,yes,False,0.0006225
+GTSRB,gpt-4o,29,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,29,12,Does it depict bicycle?,yes,yes,True,0.000615
+GTSRB,gpt-4o,29,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,29,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,29,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,29,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,29,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,29,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,29,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,29,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,29,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,29,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,29,11,Does it depict pedestrian?,no,no,True,0.0007175
+GTSRB,gpt-4o,29,12,Does it depict bicycle?,yes,yes,True,0.000615
+GTSRB,gpt-4o,29,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,29,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,29,2,Does it depict a left curve?,no,,False,0.0008025
+GTSRB,gpt-4o,29,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,29,4,Does it depict right curve?,no,,False,0.00085
+GTSRB,gpt-4o,29,5,Does it depict rough/bumpy road?,no,,False,0.000865
+GTSRB,gpt-4o,29,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,29,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,29,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,29,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,29,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,29,11,Does it depict pedestrian?,no,no,True,0.0007175
+GTSRB,gpt-4o,29,12,Does it depict bicycle?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,29,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,29,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,29,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,29,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,29,4,Does it depict right curve?,no,,False,0.00078
+GTSRB,gpt-4o,29,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,29,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,29,7,Does it depict merging/narrow lanes?,no,yes,False,0.0006225
+GTSRB,gpt-4o,29,8,Does it depict construction/road work?,no,yes,False,0.0006225
+GTSRB,gpt-4o,29,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,29,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,29,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,29,12,Does it depict bicycle?,yes,,False,0.0007775
+GTSRB,gpt-4o,11,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,11,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,11,2,Does it depict a left curve?,no,,False,0.0008925
+GTSRB,gpt-4o,11,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,11,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,9,Does it depict traffic light?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,11,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,13,Does it depict ice/snow?,no,yes,False,0.0007225
+GTSRB,gpt-4o,11,14,Does it depict deer?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,0,What's the sign's primary shape?,triangle,triangle,True,0.0007325
+GTSRB,gpt-4o,11,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,11,2,Does it depict a left curve?,no,,False,0.0007925
+GTSRB,gpt-4o,11,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,11,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,11,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,11,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,11,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,11,11,Does it depict pedestrian?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,13,Does it depict ice/snow?,no,no,True,0.0007225
+GTSRB,gpt-4o,11,14,Does it depict deer?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,11,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,11,2,Does it depict a left curve?,no,no,True,0.00062
+GTSRB,gpt-4o,11,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,11,4,Does it depict right curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,11,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,11,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,11,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,11,10,Does it depict both child and pedestrian?,no,no,True,0.0006225
+GTSRB,gpt-4o,11,11,Does it depict pedestrian?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,13,Does it depict ice/snow?,no,no,True,0.0007225
+GTSRB,gpt-4o,11,14,Does it depict deer?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,11,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,11,2,Does it depict a left curve?,no,,False,0.0008125
+GTSRB,gpt-4o,11,3,Does it depict double curve?,no,,False,0.00074
+GTSRB,gpt-4o,11,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,11,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,6,Does it depict slippery road?,no,,False,0.00091
+GTSRB,gpt-4o,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,9,Does it depict traffic light?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,11,11,Does it depict pedestrian?,no,no,True,0.000615
+GTSRB,gpt-4o,11,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,13,Does it depict ice/snow?,no,no,True,0.00062
+GTSRB,gpt-4o,11,14,Does it depict deer?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,11,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,11,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,11,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,4,Does it depict right curve?,no,,False,0.0006975
+GTSRB,gpt-4o,11,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,11,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,11,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,11,10,Does it depict both child and pedestrian?,no,yes,False,0.0006225
+GTSRB,gpt-4o,11,11,Does it depict pedestrian?,no,yes,False,0.0007175
+GTSRB,gpt-4o,11,12,Does it depict bicycle?,no,no,True,0.0007175
+GTSRB,gpt-4o,11,13,Does it depict ice/snow?,no,no,True,0.0007225
+GTSRB,gpt-4o,11,14,Does it depict deer?,no,yes,False,0.0007175
+GTSRB,gpt-4o,27,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,27,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,27,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,27,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,27,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,27,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,27,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,27,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,27,11,Does it depict pedestrian?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,27,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,27,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,27,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,27,3,Does it depict double curve?,no,,False,0.0007675
+GTSRB,gpt-4o,27,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,5,Does it depict rough/bumpy road?,no,yes,False,0.0006225
+GTSRB,gpt-4o,27,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,27,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,27,8,Does it depict construction/road work?,no,yes,False,0.0006225
+GTSRB,gpt-4o,27,9,Does it depict traffic light?,no,no,True,0.0006175
+GTSRB,gpt-4o,27,10,Does it depict both child and pedestrian?,no,yes,False,0.000725
+GTSRB,gpt-4o,27,11,Does it depict pedestrian?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,27,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,27,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,27,3,Does it depict double curve?,no,no,True,0.0006175
+GTSRB,gpt-4o,27,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,27,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,27,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,27,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,27,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,27,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,27,11,Does it depict pedestrian?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,27,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,27,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,27,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,5,Does it depict rough/bumpy road?,no,no,True,0.0006225
+GTSRB,gpt-4o,27,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,27,7,Does it depict merging/narrow lanes?,no,no,True,0.0006225
+GTSRB,gpt-4o,27,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,27,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,27,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,27,11,Does it depict pedestrian?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,27,0,What's the sign's primary shape?,triangle,triangle,True,0.000745
+GTSRB,gpt-4o,27,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,27,2,Does it depict a left curve?,no,,False,0.0008125
+GTSRB,gpt-4o,27,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,27,5,Does it depict rough/bumpy road?,no,,False,0.000905
+GTSRB,gpt-4o,27,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,27,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,27,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,27,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,27,10,Does it depict both child and pedestrian?,no,no,True,0.000725
+GTSRB,gpt-4o,27,11,Does it depict pedestrian?,yes,yes,True,0.0007175
+GTSRB,gpt-4o,18,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0007275
+GTSRB,gpt-4o,18,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.000625
+GTSRB,gpt-4o,18,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0007275
+GTSRB,gpt-4o,18,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0007275
+GTSRB,gpt-4o,18,0,What's the sign's primary shape?,triangle,triangle,True,0.0007325
+GTSRB,gpt-4o,18,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0007275
+GTSRB,gpt-4o,20,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,20,1,Does the triangle have an exclamation mark?,no,no,True,0.000625
+GTSRB,gpt-4o,20,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,20,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,20,4,Does it depict right curve?,yes,yes,True,0.00072
+GTSRB,gpt-4o,20,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,20,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,20,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,20,3,Does it depict double curve?,no,,False,0.0008
+GTSRB,gpt-4o,20,4,Does it depict right curve?,yes,,False,0.00082
+GTSRB,gpt-4o,20,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,20,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,20,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,20,3,Does it depict double curve?,no,,False,0.00078
+GTSRB,gpt-4o,20,4,Does it depict right curve?,yes,,False,0.0006975
+GTSRB,gpt-4o,20,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,20,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,20,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,20,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,20,4,Does it depict right curve?,yes,yes,True,0.00072
+GTSRB,gpt-4o,20,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.000865
+GTSRB,gpt-4o,20,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,20,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,20,3,Does it depict double curve?,no,,False,0.00085
+GTSRB,gpt-4o,20,4,Does it depict right curve?,yes,yes,True,0.00072
+GTSRB,gpt-4o,42,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,42,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,42,2,What restriction ends?,truck passing,truck passing,True,0.0006975
+GTSRB,gpt-4o,42,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,42,1,What's the circle color?,white-gray,blue,False,0.00078
+GTSRB,gpt-4o,42,2,What restriction ends?,truck passing,truck passing,True,0.0008
+GTSRB,gpt-4o,42,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,42,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,42,2,What restriction ends?,truck passing,car passing,False,0.0008
+GTSRB,gpt-4o,42,0,What's the sign's primary shape?,circle,circle,True,0.000745
+GTSRB,gpt-4o,42,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,42,2,What restriction ends?,truck passing,truck passing,True,0.0008
+GTSRB,gpt-4o,42,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,42,1,What's the circle color?,white-gray,white-gray,True,0.00079
+GTSRB,gpt-4o,42,2,What restriction ends?,truck passing,truck passing,True,0.0008
+GTSRB,gpt-4o,21,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,21,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,21,3,Does it depict double curve?,yes,yes,True,0.00072
+GTSRB,gpt-4o,21,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,21,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,21,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,21,3,Does it depict double curve?,yes,,False,0.001
+GTSRB,gpt-4o,21,0,What's the sign's primary shape?,triangle,triangle,True,0.0007225
+GTSRB,gpt-4o,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,21,2,Does it depict a left curve?,no,,False,0.0007425
+GTSRB,gpt-4o,21,3,Does it depict double curve?,yes,no,False,0.00072
+GTSRB,gpt-4o,21,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,21,1,Does the triangle have an exclamation mark?,no,yes,False,0.000625
+GTSRB,gpt-4o,21,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,21,3,Does it depict double curve?,yes,,False,0.0008
+GTSRB,gpt-4o,21,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,21,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,21,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,21,3,Does it depict double curve?,yes,yes,True,0.00072
+GTSRB,gpt-4o,26,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,26,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,26,2,Does it depict a left curve?,no,,False,0.0007825
+GTSRB,gpt-4o,26,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,26,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,26,5,Does it depict rough/bumpy road?,no,,False,0.000945
+GTSRB,gpt-4o,26,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,26,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,26,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,9,Does it depict traffic light?,yes,yes,True,0.00072
+GTSRB,gpt-4o,26,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,26,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,26,2,Does it depict a left curve?,no,yes,False,0.00062
+GTSRB,gpt-4o,26,3,Does it depict double curve?,no,yes,False,0.0006175
+GTSRB,gpt-4o,26,4,Does it depict right curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,26,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,26,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,9,Does it depict traffic light?,yes,no,False,0.00072
+GTSRB,gpt-4o,26,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,26,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,26,2,Does it depict a left curve?,no,yes,False,0.0007225
+GTSRB,gpt-4o,26,3,Does it depict double curve?,no,yes,False,0.00072
+GTSRB,gpt-4o,26,4,Does it depict right curve?,no,,False,0.00085
+GTSRB,gpt-4o,26,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,26,7,Does it depict merging/narrow lanes?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,9,Does it depict traffic light?,yes,yes,True,0.00072
+GTSRB,gpt-4o,26,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,26,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,26,2,Does it depict a left curve?,no,,False,0.0008125
+GTSRB,gpt-4o,26,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,26,4,Does it depict right curve?,no,,False,0.00078
+GTSRB,gpt-4o,26,5,Does it depict rough/bumpy road?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,6,Does it depict slippery road?,no,yes,False,0.00072
+GTSRB,gpt-4o,26,7,Does it depict merging/narrow lanes?,no,,False,0.000805
+GTSRB,gpt-4o,26,8,Does it depict construction/road work?,no,yes,False,0.000725
+GTSRB,gpt-4o,26,9,Does it depict traffic light?,yes,yes,True,0.00072
+GTSRB,gpt-4o,26,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,26,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,26,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,26,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,26,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,26,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,26,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,26,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,26,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,26,9,Does it depict traffic light?,yes,yes,True,0.00072
+GTSRB,gpt-4o,19,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,19,2,Does it depict a left curve?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,19,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,19,2,Does it depict a left curve?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,19,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,19,1,Does the triangle have an exclamation mark?,no,yes,False,0.0007275
+GTSRB,gpt-4o,19,2,Does it depict a left curve?,yes,,False,0.0008225
+GTSRB,gpt-4o,19,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,19,2,Does it depict a left curve?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,19,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,19,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,19,2,Does it depict a left curve?,yes,yes,True,0.0007225
+GTSRB,gpt-4o,10,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,10,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,10,2,Does it contain numbers?,no,,False,0.0008475
+GTSRB,gpt-4o,10,3,Does it have a diagonal strike bar?,no,,False,0.000835
+GTSRB,gpt-4o,10,4,What is inside the circle?,red truck and black car,red truck and black car,True,0.00086
+GTSRB,gpt-4o,10,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,10,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,10,2,Does it contain numbers?,no,,False,0.0008675
+GTSRB,gpt-4o,10,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,10,4,What is inside the circle?,red truck and black car,horizontal white bar,False,0.00087
+GTSRB,gpt-4o,10,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,10,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,10,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,10,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,10,4,What is inside the circle?,red truck and black car,red car and black car,False,0.00086
+GTSRB,gpt-4o,10,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,10,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,10,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,10,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,10,4,What is inside the circle?,red truck and black car,red truck and black car,True,0.00089
+GTSRB,gpt-4o,10,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,10,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,10,2,Does it contain numbers?,no,yes,False,0.0007175
+GTSRB,gpt-4o,10,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,10,4,What is inside the circle?,red truck and black car,red truck and black car,True,0.00089
+GTSRB,gpt-4o,17,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,17,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,17,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,17,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.00084
+GTSRB,gpt-4o,17,0,What's the sign's primary shape?,circle,circle,True,0.000825
+GTSRB,gpt-4o,17,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,17,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,17,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.00084
+GTSRB,gpt-4o,17,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,17,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,17,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,17,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.00084
+GTSRB,gpt-4o,17,0,What's the sign's primary shape?,circle,circle,True,0.000835
+GTSRB,gpt-4o,17,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,17,2,Does it contain numbers?,no,no,True,0.0007175
+GTSRB,gpt-4o,17,3,Does it have a diagonal strike bar?,no,no,True,0.000725
+GTSRB,gpt-4o,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.00083
+GTSRB,gpt-4o,17,0,What's the sign's primary shape?,circle,octagon,False,0.000845
+GTSRB,gpt-4o,17,1,What's the circle color?,red-white,red-white,True,0.00079
+GTSRB,gpt-4o,17,2,Does it contain numbers?,no,,False,0.0008175
+GTSRB,gpt-4o,17,3,Does it have a diagonal strike bar?,no,yes,False,0.000725
+GTSRB,gpt-4o,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.00084
+GTSRB,gpt-4o,28,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,28,2,Does it depict a left curve?,no,,False,0.0007425
+GTSRB,gpt-4o,28,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,4,Does it depict right curve?,no,no,True,0.00098
+GTSRB,gpt-4o,28,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,28,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,28,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,28,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,28,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.000725
+GTSRB,gpt-4o,28,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,28,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,28,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,28,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,28,7,Does it depict merging/narrow lanes?,no,no,True,0.000735
+GTSRB,gpt-4o,28,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,28,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.000725
+GTSRB,gpt-4o,28,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,28,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,28,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,28,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,28,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,28,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,28,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.000725
+GTSRB,gpt-4o,28,0,What's the sign's primary shape?,triangle,triangle,True,0.000825
+GTSRB,gpt-4o,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,28,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,28,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,28,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,28,7,Does it depict merging/narrow lanes?,no,no,True,0.000735
+GTSRB,gpt-4o,28,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,28,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.000725
+GTSRB,gpt-4o,28,0,What's the sign's primary shape?,triangle,triangle,True,0.000835
+GTSRB,gpt-4o,28,1,Does the triangle have an exclamation mark?,no,no,True,0.0007275
+GTSRB,gpt-4o,28,2,Does it depict a left curve?,no,no,True,0.0007225
+GTSRB,gpt-4o,28,3,Does it depict double curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,4,Does it depict right curve?,no,no,True,0.00072
+GTSRB,gpt-4o,28,5,Does it depict rough/bumpy road?,no,no,True,0.000725
+GTSRB,gpt-4o,28,6,Does it depict slippery road?,no,no,True,0.00072
+GTSRB,gpt-4o,28,7,Does it depict merging/narrow lanes?,no,no,True,0.000725
+GTSRB,gpt-4o,28,8,Does it depict construction/road work?,no,no,True,0.000725
+GTSRB,gpt-4o,28,9,Does it depict traffic light?,no,no,True,0.00072
+GTSRB,gpt-4o,28,10,Does it depict both child and pedestrian?,yes,yes,True,0.000725

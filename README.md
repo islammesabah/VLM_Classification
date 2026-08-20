@@ -1,4 +1,4 @@
-# Assessing Tree-Based Reasoning in Vision Language Models (VLMs)
+# MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Model
 
 This repository investigates whether hierarchical, tree-based reasoning can improve image classification performance in Vision Language Models (VLMs). It provides a framework to compare standard zero-shot classification with a structured, decision-tree-based approach across multiple datasets and VLMs.
 
@@ -8,6 +8,25 @@ This repository investigates whether hierarchical, tree-based reasoning can impr
 - Supports multiple VLMs (e.g., GPT-4o, Qwen-VL-Max, Llama-3.2-Vision).
 - Works with CIFAR-10, GTSRB (traffic sign), MNIST, and MSCOCO datasets.
 - Stores all experiment results in SQLite databases for reproducibility and analysis.
+- Includes CLIP-based baselines for comparison (`evaluation/baselines.py`): plain zero-shot, CHiLS-style hierarchical classification, and description-based classification. These run locally on an open-weight CLIP checkpoint and require no API keys.
+- Includes an error-analysis script (`evaluation/tree_error_analysis.py`) that reconstructs per-depth and per-question decision accuracy from stored tree-traversal paths.
+
+## License
+
+The code, decision trees, prompt templates, and evaluation harness in this repository are released under the [MIT License](LICENSE). This does **not** apply to the underlying datasets, which remain under their own original licenses and terms (see below) — you are responsible for complying with those terms when downloading and using the datasets themselves.
+
+## Dataset Licensing & Provenance
+
+| Dataset                                                | License / terms                                                                                                                                                                                                                 | Notes                                                                                                                                                          |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GTSRB](https://benchmark.ini.rub.de/)                  | Free to use for research; citation requested ([Stallkamp et al., 2012](https://doi.org/10.1016/j.neunet.2012.02.016)). An archival Zenodo mirror additionally lists it under CC BY 4.0.                                          | May incidentally contain identifiable people/vehicles in the background.                                                                                       |
+| [MNIST](http://yann.lecun.com/exdb/mnist/)              | CC BY-SA 3.0                                                                                                                                                                                                                    | Derived from NIST data by LeCun and Cortes.                                                                                                                    |
+| [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) | No formal license published; the authors request only that the accompanying technical report be cited. We use it strictly for non-commercial academic research, consistent with standard practice in the ML research community. |                                                                                                                                                                |
+| [MSCOCO](https://cocodataset.org/)                      | Annotations: CC BY 4.0. Images: not owned by the COCO Consortium; each remains under its original Flickr uploader's license.                                                                                                    | This repo redistributes only annotations, class labels, and derived sample-ID lists as part of the benchmark artifact — not the raw MSCOCO images themselves. |
+
+This work uses only these publicly available benchmark datasets and involves no collection of new human-subject or personally identifiable data.
+
+**Intended use.** The released decision trees, prompt templates, and evaluation harness are intended for research on structured/hierarchical reasoning in VLMs. They are not intended as a stand-alone certification suite for deploying any specific model — see the Ethics and Broader Impact section of the paper for a fuller discussion of this and related known limitations (tree quality reflects a single human reviewer's judgment; trees are tailored to their originating dataset's label set).
 
 ## How to Use
 
@@ -134,15 +153,15 @@ python main.py --model gpt-4o --dataset_name GTSRB --include_memory
 
 #### Argument Options:
 
-| Argument                | Description                                                                                                                | Type / Values                                                                                                       | Default |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|
-| `--model`               | Model to use for inference.                                                                                                | `gpt-4o`, `qwen-vl-max`, `meta-llama/llama-3.2-11b-vision-instruct`                                                  | —       |
-| `--dataset_name`        | Dataset to run inference on.                                                                                                | `GTSRB`, `CIFAR-10`, `MNIST`, `MSCOCO`                                                                              | `GTSRB` |
-| `--include_description` | Include image and class descriptions in inference. `1` to include in tree-based, `2` for zero-shot (requires `--disable_tree`). | `0` (disabled), `1` (tree-based), `2` (zero-shot)                                                                    | `0`     |
-| `--disable_tree`        | Run only zero-shot inference.                                                                                               | Flag                                                                                                                 | False   |
-| `--include_memory`      | Include memory of previous questions and answers in tree-based inference only.                                              | Flag                                                                                                                 | False   |
-| `--temperature`         | Temperature setting for model generation.                                                                                  | Float                                                                                                                | `0.7`   |
-| `--RunId`               | Select prompt variant from 10 zero-shot prompt options (only for zero-shot inference).                                     | Integer from `0` to `9`                                                                                              | `0`     |
+| Argument                  | Description                                                                                                                          | Type / Values                                                             | Default   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------- |
+| `--model`               | Model to use for inference.                                                                                                          | `gpt-4o`, `qwen-vl-max`, `meta-llama/llama-3.2-11b-vision-instruct` | —        |
+| `--dataset_name`        | Dataset to run inference on.                                                                                                         | `GTSRB`, `CIFAR-10`, `MNIST`, `MSCOCO`                            | `GTSRB` |
+| `--include_description` | Include image and class descriptions in inference.`1` to include in tree-based, `2` for zero-shot (requires `--disable_tree`). | `0` (disabled), `1` (tree-based), `2` (zero-shot)                   | `0`     |
+| `--disable_tree`        | Run only zero-shot inference.                                                                                                        | Flag                                                                      | False     |
+| `--include_memory`      | Include memory of previous questions and answers in tree-based inference only.                                                       | Flag                                                                      | False     |
+| `--temperature`         | Temperature setting for model generation.                                                                                            | Float                                                                     | `0.7`   |
+| `--RunId`               | Select prompt variant from 10 zero-shot prompt options (only for zero-shot inference).                                               | Integer from`0` to `9`                                                | `0`     |
 
 ### 5. Results and Reproducibility
 
@@ -158,3 +177,11 @@ These databases contain the outputs for all models and configurations.
 ### 6. Additional Notes
 
 - **Image Descriptions**: The `image_descriptions` directory contains the response of each model for each image to the image description prompt. This allows reusing the responses without re-querying the model.
+- **CLIP-based baselines**: `evaluation/baselines.py` requires `torch` and `transformers` in addition to `requirements.txt`, and no API keys — it runs entirely on a local CLIP checkpoint (CPU, CUDA, or Apple Silicon MPS). Results are written to `results/baselines/`.
+- **Tree error analysis**: `evaluation/tree_error_analysis.py` requires no additional dependencies beyond `requirements.txt` and reads directly from the existing result databases. Results are written to `results/tree_error_analysis/`.
+- **Image-conditioned knowledge verification**: `evaluation/image_grounded_knowledge_verification.py` replicates the label-conditioned knowledge-verification protocol but shows the model the actual image instead. Makes real, paid VLM API calls (needs `OPENROUTER_API_KEY`) and hard-stops at a `--max_cost` budget. Results are written to `results/image_grounded_verification/`.
+- **Tree generation on a new label set**: `tree_generation/automated_tree_generation/generate_tree.py` runs the LLM generator/evaluator pipeline on any dataset directory with a `class_names.json`, demonstrated on 20 CUB-200-2011 species (`datasets/CUB200Demo/`). Must be run from `tree_generation/automated_tree_generation/` (matching its sibling scripts' relative-path convention); makes real LLM calls (needs `OPENROUTER_API_KEY`) and hard-stops at a `--max_calls` budget.
+
+## Maintenance
+
+This is a research-project repository maintained on a best-effort basis by the authors. To report an issue (a bug, a data or licensing concern, or a question about reproducing a result), please open a GitHub issue on this repository, or contact the corresponding author listed in the paper.

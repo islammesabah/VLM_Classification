@@ -1,0 +1,1190 @@
+dataset,model,condition,image_index,true_class,depth,question,expected_answer,predicted_answer,correct,resolved
+GTSRB,gpt-4o,local_list,375,25,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,375,25,1,Does the triangle have an exclamation mark?,no,yes,False,True
+GTSRB,gpt-4o,local_list,639,5,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,639,5,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,639,5,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,639,5,3,What is the number?,80,80,True,True
+GTSRB,gpt-4o,global_list,375,25,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,375,25,1,Does the triangle have an exclamation mark?,no,yes,False,True
+GTSRB,gpt-4o,global_list,639,5,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,639,5,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,639,5,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,639,5,3,What is the number?,80,80,True,True
+MNIST,gpt-4o,local_list,19,0,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,19,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,True
+MNIST,gpt-4o,local_list,76,0,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,76,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,A loop with a stem/tail,False,True
+CIFAR-10,gpt-4o,local_list,19,7,0,Is the object in the image a living animal?,yes,no,False,True
+MNIST,gpt-4o,local_list,100,1,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,100,1,1,Does the digit have a curved segment?,1,0,False,True
+CIFAR-10,gpt-4o,local_list,76,2,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,76,2,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,76,2,2,Does the animal have feathers covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,100,7,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,100,7,1,Is the animal primarily depicted with fur or hair covering its body?,yes,no,False,True
+MNIST,gpt-4o,local_list,178,1,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,178,1,1,Does the digit have a curved segment?,1,1,True,True
+MNIST,gpt-4o,local_list,178,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,True
+MNIST,gpt-4o,local_list,178,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,True
+MNIST,gpt-4o,local_list,255,2,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,255,2,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,3,31,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,3,31,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,12,Does it depict bicycle?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,13,Does it depict ice/snow?,no,no,True,True
+GTSRB,gpt-4o,local_list,3,31,14,Does it depict deer?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,27,25,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,27,25,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,27,25,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,27,25,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,True
+MSCOCO,gpt-4o,local_list,27,25,4,Does the animal have a long neck?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,143,3,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,143,3,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,143,3,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,143,3,3,Does the animal have a noticeably longer snout or muzzle?,no,yes,False,True
+MNIST,gpt-4o,local_list,257,2,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,257,2,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,27,9,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,27,9,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,27,9,2,Does it contain numbers?,no,yes,False,True
+MNIST,gpt-4o,local_list,306,3,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,306,3,1,Does the digit have a curved segment?,0,1,False,True
+CIFAR-10,gpt-4o,local_list,178,0,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,178,0,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,178,0,2,Does the object have wings?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,35,28,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,35,28,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,35,28,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,local_list,35,28,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,local_list,35,28,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,35,28,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,True
+MNIST,gpt-4o,local_list,316,3,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,316,3,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,41,9,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,41,9,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,41,9,2,Does it contain numbers?,no,,False,False
+CIFAR-10,gpt-4o,local_list,195,0,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,195,0,1,Is the object capable of floating on water?,no,,False,False
+MNIST,gpt-4o,local_list,410,4,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,410,4,1,Does the digit have a curved segment?,1,0,False,True
+CIFAR-10,gpt-4o,local_list,255,8,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,255,8,1,Is the object capable of floating on water?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,59,36,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,59,36,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,59,36,2,What arrow is shown?,forward-right,circular,False,True
+MNIST,gpt-4o,local_list,470,4,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,470,4,1,Does the digit have a curved segment?,1,1,True,True
+MNIST,gpt-4o,local_list,470,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,True
+MSCOCO,gpt-4o,local_list,60,22,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,60,22,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,local_list,60,22,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,local_list,60,22,3,Is the animal covered with fur?,no,no,True,True
+MSCOCO,gpt-4o,local_list,60,22,4,Does the animal have a trunk?,yes,yes,True,True
+MNIST,gpt-4o,local_list,524,5,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,524,5,1,Does the digit have a curved segment?,0,1,False,True
+CIFAR-10,gpt-4o,local_list,288,1,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,288,1,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,288,1,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,288,1,3,Is the vehicle larger in size and typically used for transporting goods?,no,no,True,True
+GTSRB,gpt-4o,local_list,76,38,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,76,38,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,76,38,2,What arrow is shown?,keep-right,right,False,True
+MNIST,gpt-4o,local_list,580,5,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,580,5,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,81,38,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,81,38,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,81,38,2,What arrow is shown?,keep-right,right,False,True
+CIFAR-10,gpt-4o,local_list,316,5,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,316,5,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,316,5,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,316,5,3,Does the animal have a noticeably longer snout or muzzle?,yes,no,False,True
+MNIST,gpt-4o,local_list,641,6,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,641,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,local_list,641,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,True
+GTSRB,gpt-4o,local_list,118,7,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,118,7,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,118,7,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,118,7,3,What is the number?,100,100,True,True
+CIFAR-10,gpt-4o,local_list,410,4,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,410,4,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,410,4,2,Is the animal typically shown with prominent hooves?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,410,4,3,Does the animal have antlers visible in the image?,yes,yes,True,True
+MNIST,gpt-4o,local_list,657,6,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,657,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,local_list,657,6,2,Where is the closed loop located?,At the bottom,At the top,False,True
+MSCOCO,gpt-4o,local_list,76,46,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,76,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,76,46,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,6,Is the object itself an item of food?,no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,7,Is the object primarily used for drinking liquids?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,76,46,8,Does the object have a handle?,no,no,True,True
+MSCOCO,gpt-4o,local_list,76,46,9,"Does the object have a long, stem-like structure supporting a bowl?",yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,470,6,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,470,6,1,Is the animal primarily depicted with fur or hair covering its body?,no,yes,False,True
+MNIST,gpt-4o,local_list,709,7,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,709,7,1,Does the digit have a curved segment?,1,0,False,True
+GTSRB,gpt-4o,local_list,132,7,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,132,7,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,132,7,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,132,7,3,What is the number?,100,100,True,True
+MNIST,gpt-4o,local_list,770,7,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,local_list,770,7,1,Does the digit have a curved segment?,1,0,False,True
+MNIST,gpt-4o,local_list,803,8,0,How many closed loops does the digit have?,2,2,True,True
+GTSRB,gpt-4o,local_list,143,39,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,143,39,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,143,39,2,What arrow is shown?,keep-left,forward-left,False,True
+MNIST,gpt-4o,local_list,830,8,0,How many closed loops does the digit have?,2,2,True,True
+CIFAR-10,gpt-4o,local_list,524,9,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,524,9,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,524,9,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,524,9,3,Is the vehicle larger in size and typically used for transporting goods?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,154,6,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,154,6,1,What's the circle color?,red-white,blue,False,True
+MSCOCO,gpt-4o,local_list,81,32,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,81,32,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,81,32,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,81,32,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,True
+MSCOCO,gpt-4o,local_list,81,32,4,Is the object typically worn on the head or face?,no,no,True,True
+MSCOCO,gpt-4o,local_list,81,32,5,Is the object typically carried by hand rather than worn on the body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,81,32,6,Is the object primarily worn on the foot?,no,no,True,True
+MNIST,gpt-4o,local_list,900,9,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,900,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,local_list,900,9,2,Where is the closed loop located?,At the top,At the top,True,True
+CIFAR-10,gpt-4o,local_list,580,1,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,580,1,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,580,1,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,580,1,3,Is the vehicle larger in size and typically used for transporting goods?,no,no,True,True
+GTSRB,gpt-4o,local_list,161,1,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,161,1,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,161,1,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,161,1,3,What is the number?,30,30,True,True
+MNIST,gpt-4o,local_list,960,9,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,local_list,960,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,local_list,960,9,2,Where is the closed loop located?,At the top,At the top,True,True
+GTSRB,gpt-4o,local_list,173,1,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,173,1,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,173,1,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,173,1,3,What is the number?,30,30,True,True
+MSCOCO,gpt-4o,local_list,118,65,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,118,65,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,118,65,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,True
+MSCOCO,gpt-4o,local_list,118,65,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,118,65,4,Does the object have a backrest?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,628,5,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,628,5,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,628,5,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,628,5,3,Does the animal have a noticeably longer snout or muzzle?,yes,yes,True,True
+MNIST,gpt-4o,global_list,19,0,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,19,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,True
+MNIST,gpt-4o,global_list,76,0,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,76,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,True
+GTSRB,gpt-4o,local_list,245,8,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,245,8,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,245,8,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,245,8,3,What is the number?,120,50,False,True
+MNIST,gpt-4o,global_list,100,1,0,How many closed loops does the digit have?,0,1,False,True
+CIFAR-10,gpt-4o,local_list,633,9,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,633,9,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,633,9,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,633,9,3,Is the vehicle larger in size and typically used for transporting goods?,yes,yes,True,True
+MNIST,gpt-4o,global_list,178,1,0,How many closed loops does the digit have?,0,1,False,True
+MNIST,gpt-4o,global_list,255,2,0,How many closed loops does the digit have?,0,2,False,True
+GTSRB,gpt-4o,local_list,255,37,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,255,37,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,255,37,2,What arrow is shown?,forward-left,forward-left,True,True
+MNIST,gpt-4o,global_list,257,2,0,How many closed loops does the digit have?,0,2,False,True
+CIFAR-10,gpt-4o,local_list,634,3,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,634,3,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,634,3,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,634,3,3,Does the animal have a noticeably longer snout or muzzle?,no,yes,False,True
+MNIST,gpt-4o,global_list,306,3,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,306,3,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,256,37,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,256,37,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,256,37,2,What arrow is shown?,forward-left,circular,False,True
+GTSRB,gpt-4o,local_list,277,12,0,What's the sign's primary shape?,diamond,diamond,True,True
+MSCOCO,gpt-4o,local_list,121,90,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,121,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,6,Is the object an electronic device or related accessory?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,7,Is the object a soft toy or plush item?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,8,Is the object primarily made of paper?,no,no,True,True
+MSCOCO,gpt-4o,local_list,121,90,9,Does the object have blades used for cutting?,no,no,True,True
+MNIST,gpt-4o,global_list,316,3,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,316,3,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,293,12,0,What's the sign's primary shape?,diamond,diamond,True,True
+CIFAR-10,gpt-4o,local_list,636,2,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,636,2,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,636,2,2,Does the animal have feathers covering its body?,yes,yes,True,True
+MNIST,gpt-4o,global_list,410,4,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,410,4,1,Does the digit have a curved segment?,1,0,False,True
+GTSRB,gpt-4o,local_list,326,15,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,326,15,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,326,15,2,Does it contain numbers?,no,,False,False
+CIFAR-10,gpt-4o,local_list,641,4,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,641,4,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,641,4,2,Is the animal typically shown with prominent hooves?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,641,4,3,Does the animal have antlers visible in the image?,yes,yes,True,True
+MNIST,gpt-4o,global_list,470,4,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,470,4,1,Does the digit have a curved segment?,1,1,True,True
+MNIST,gpt-4o,global_list,470,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,True
+MSCOCO,gpt-4o,local_list,124,46,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,124,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,124,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,124,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,124,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,124,46,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,True
+CIFAR-10,gpt-4o,local_list,657,8,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,657,8,1,Is the object capable of floating on water?,yes,yes,True,True
+MNIST,gpt-4o,global_list,524,5,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,524,5,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,336,15,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,336,15,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,336,15,2,Does it contain numbers?,no,no,True,True
+GTSRB,gpt-4o,local_list,336,15,3,Does it have a diagonal strike bar?,no,no,True,True
+GTSRB,gpt-4o,local_list,336,15,4,What is inside the circle?,empty circle,,False,False
+MSCOCO,gpt-4o,local_list,141,41,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,141,41,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,141,41,2,Is the object primarily a vehicle used for transportation?,no,yes,False,True
+CIFAR-10,gpt-4o,local_list,830,6,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,local_list,830,6,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,local_list,830,6,2,Does the animal have feathers covering its body?,no,no,True,True
+MNIST,gpt-4o,global_list,580,5,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,580,5,1,Does the digit have a curved segment?,0,1,False,True
+GTSRB,gpt-4o,local_list,337,23,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,337,23,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,337,23,2,Does it depict a left curve?,no,yes,False,True
+MNIST,gpt-4o,global_list,641,6,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,641,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,global_list,641,6,2,Where is the closed loop located?,At the bottom,At the top,False,True
+CIFAR-10,gpt-4o,global_list,19,7,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,19,7,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,19,7,2,Is the animal typically shown with prominent hooves?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,19,7,3,Does the animal have antlers visible in the image?,no,no,True,True
+GTSRB,gpt-4o,local_list,355,40,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,355,40,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,355,40,2,What arrow is shown?,circular,circular,True,True
+MNIST,gpt-4o,global_list,657,6,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,657,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,global_list,657,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,True
+GTSRB,gpt-4o,local_list,371,25,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,371,25,1,Does the triangle have an exclamation mark?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,142,42,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,142,42,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,142,42,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,local_list,142,42,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,local_list,142,42,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,142,42,5,Is the object typically used on snow?,no,no,True,True
+MSCOCO,gpt-4o,local_list,142,42,6,Is the object primarily used on water?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,76,2,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,76,2,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,76,2,2,Does the animal have feathers covering its body?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,410,14,0,What's the sign's primary shape?,octagon,octagon,True,True
+MNIST,gpt-4o,global_list,709,7,0,How many closed loops does the digit have?,0,1,False,True
+GTSRB,gpt-4o,local_list,422,14,0,What's the sign's primary shape?,octagon,octagon,True,True
+CIFAR-10,gpt-4o,global_list,100,7,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,100,7,1,Is the animal primarily depicted with fur or hair covering its body?,yes,,False,False
+MNIST,gpt-4o,global_list,770,7,0,How many closed loops does the digit have?,0,0,True,True
+MNIST,gpt-4o,global_list,770,7,1,Does the digit have a curved segment?,1,0,False,True
+GTSRB,gpt-4o,local_list,451,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,True
+MNIST,gpt-4o,global_list,803,8,0,How many closed loops does the digit have?,2,2,True,True
+MNIST,gpt-4o,global_list,830,8,0,How many closed loops does the digit have?,2,2,True,True
+GTSRB,gpt-4o,local_list,484,35,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,484,35,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,484,35,2,What arrow is shown?,forward,forward,True,True
+CIFAR-10,gpt-4o,global_list,143,3,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,143,3,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,143,3,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,143,3,3,Does the animal have a noticeably longer snout or muzzle?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,151,13,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,151,13,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,151,13,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,local_list,151,13,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,151,13,4,Is the object primarily a sign displaying text or symbols?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,151,13,5,Is the sign octagonal in shape?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,489,35,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,489,35,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,489,35,2,What arrow is shown?,forward,forward,True,True
+CIFAR-10,gpt-4o,global_list,178,0,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,178,0,1,Is the object capable of floating on water?,no,,False,False
+MNIST,gpt-4o,global_list,900,9,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,900,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,global_list,900,9,2,Where is the closed loop located?,At the top,At the top,True,True
+CIFAR-10,gpt-4o,global_list,195,0,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,195,0,1,Is the object capable of floating on water?,no,,False,False
+GTSRB,gpt-4o,local_list,499,32,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,499,32,1,What's the circle color?,white-gray,white-gray,True,True
+GTSRB,gpt-4o,local_list,499,32,2,What restriction ends?,speed limit,speed limit,True,True
+MNIST,gpt-4o,global_list,960,9,0,How many closed loops does the digit have?,1,1,True,True
+MNIST,gpt-4o,global_list,960,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,True
+MNIST,gpt-4o,global_list,960,9,2,Where is the closed loop located?,At the top,At the top,True,True
+CIFAR-10,gpt-4o,global_list,255,8,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,255,8,1,Is the object capable of floating on water?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,501,32,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,501,32,1,What's the circle color?,white-gray,white-gray,True,True
+GTSRB,gpt-4o,local_list,501,32,2,What restriction ends?,speed limit,speed limit,True,True
+MSCOCO,gpt-4o,local_list,156,62,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,156,62,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,156,62,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,True
+MSCOCO,gpt-4o,local_list,156,62,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,156,62,4,Does the object have a backrest?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,156,62,5,Does the object have armrests on both sides?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,156,62,6,Is the object large enough for more than one person to sit on comfortably?,no,yes,False,True
+CIFAR-10,gpt-4o,global_list,288,1,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,288,1,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,288,1,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,288,1,3,Is the vehicle larger in size and typically used for transporting goods?,no,no,True,True
+GTSRB,gpt-4o,local_list,521,4,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,521,4,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,521,4,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,521,4,3,What is the number?,70,70,True,True
+MSCOCO,gpt-4o,local_list,159,81,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,159,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,159,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,159,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,159,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,True
+CIFAR-10,gpt-4o,global_list,316,5,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,316,5,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,316,5,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,316,5,3,Does the animal have a noticeably longer snout or muzzle?,yes,no,False,True
+GTSRB,gpt-4o,local_list,528,4,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,528,4,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,528,4,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,528,4,3,What is the number?,70,70,True,True
+GTSRB,gpt-4o,local_list,556,3,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,556,3,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,556,3,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,556,3,3,What is the number?,60,50,False,True
+CIFAR-10,gpt-4o,global_list,410,4,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,410,4,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,410,4,2,Is the animal typically shown with prominent hooves?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,410,4,3,Does the animal have antlers visible in the image?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,161,17,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,161,17,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,local_list,161,17,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,local_list,161,17,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,161,17,4,Does the animal tend to have rounded ears?,no,no,True,True
+MSCOCO,gpt-4o,local_list,161,17,5,Does the animal have a long snout?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,470,6,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,470,6,1,Is the animal primarily depicted with fur or hair covering its body?,no,yes,False,True
+GTSRB,gpt-4o,local_list,571,3,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,571,3,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,571,3,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,571,3,3,What is the number?,60,60,True,True
+CIFAR-10,gpt-4o,global_list,524,9,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,524,9,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,524,9,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,524,9,3,Is the vehicle larger in size and typically used for transporting goods?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,597,2,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,597,2,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,597,2,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,597,2,3,What is the number?,50,50,True,True
+CIFAR-10,gpt-4o,global_list,580,1,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,580,1,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,580,1,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,580,1,3,Is the vehicle larger in size and typically used for transporting goods?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,5,Is the object primarily designed to fly or be used in the air?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,6,Is the object spherical or round in shape?,no,no,True,True
+MSCOCO,gpt-4o,local_list,173,39,7,Is the object held in the hand during use?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,173,39,8,Does the object have a netted or strung area as part of its design?,no,no,True,True
+GTSRB,gpt-4o,local_list,621,2,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,621,2,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,621,2,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,621,2,3,What is the number?,50,50,True,True
+CIFAR-10,gpt-4o,global_list,628,5,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,628,5,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,628,5,2,Is the animal typically shown with prominent hooves?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,628,5,3,Does the animal have a noticeably longer snout or muzzle?,yes,,False,False
+GTSRB,gpt-4o,local_list,665,5,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,665,5,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,665,5,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,665,5,3,What is the number?,80,80,True,True
+CIFAR-10,gpt-4o,global_list,633,9,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,633,9,1,Is the object capable of floating on water?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,633,9,2,Does the object have wings?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,633,9,3,Is the vehicle larger in size and typically used for transporting goods?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,175,81,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,175,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,175,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,175,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,175,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,True
+GTSRB,gpt-4o,local_list,678,33,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,678,33,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,678,33,2,What arrow is shown?,right,circular,False,True
+GTSRB,gpt-4o,local_list,680,33,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,680,33,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,local_list,680,33,2,What arrow is shown?,right,right,True,True
+CIFAR-10,gpt-4o,global_list,634,3,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,634,3,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,634,3,2,Is the animal typically shown with prominent hooves?,no,,False,False
+MSCOCO,gpt-4o,local_list,190,37,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,190,37,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,190,37,2,Is the object primarily a vehicle used for transportation?,no,yes,False,True
+CIFAR-10,gpt-4o,global_list,636,2,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,636,2,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,636,2,2,Does the animal have feathers covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,641,4,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,641,4,1,Is the animal primarily depicted with fur or hair covering its body?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,641,4,2,Is the animal typically shown with prominent hooves?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,641,4,3,Does the animal have antlers visible in the image?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,657,8,0,Is the object in the image a living animal?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,657,8,1,Is the object capable of floating on water?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,709,29,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,709,29,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,709,29,12,Does it depict bicycle?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,830,6,0,Is the object in the image a living animal?,yes,yes,True,True
+CIFAR-10,gpt-4o,global_list,830,6,1,Is the animal primarily depicted with fur or hair covering its body?,no,no,True,True
+CIFAR-10,gpt-4o,global_list,830,6,2,Does the animal have feathers covering its body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,194,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,194,60,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,194,60,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,194,60,9,Does the food contain visible meat between bread?,no,no,True,True
+MSCOCO,gpt-4o,local_list,194,60,10,Is the food item typically ring-shaped with a central hole?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,734,11,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,734,11,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,12,Does it depict bicycle?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,13,Does it depict ice/snow?,no,no,True,True
+GTSRB,gpt-4o,local_list,734,11,14,Does it depict deer?,no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,195,74,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,6,Is the object an electronic device or related accessory?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,195,74,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,195,74,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,True
+MSCOCO,gpt-4o,local_list,195,74,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,735,11,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,735,11,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,local_list,735,11,9,Does it depict traffic light?,no,yes,False,True
+GTSRB,gpt-4o,local_list,757,18,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,757,18,1,Does the triangle have an exclamation mark?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,203,87,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,203,87,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,6,Is the object an electronic device or related accessory?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,7,Is the object a soft toy or plush item?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,8,Is the object primarily made of paper?,no,no,True,True
+MSCOCO,gpt-4o,local_list,203,87,9,Does the object have blades used for cutting?,yes,no,False,True
+GTSRB,gpt-4o,local_list,775,18,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,775,18,1,Does the triangle have an exclamation mark?,yes,yes,True,True
+GTSRB,gpt-4o,local_list,780,20,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,780,20,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,780,20,2,Does it depict a left curve?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,224,2,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,224,2,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,224,2,2,Is the object primarily a vehicle used for transportation?,yes,no,False,True
+GTSRB,gpt-4o,local_list,793,21,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,793,21,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,local_list,793,21,2,Does it depict a left curve?,no,yes,False,True
+GTSRB,gpt-4o,local_list,800,26,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,local_list,800,26,1,Does the triangle have an exclamation mark?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,241,60,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,241,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,241,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,241,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,241,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,241,60,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,True
+GTSRB,gpt-4o,local_list,856,10,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,856,10,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,856,10,2,Does it contain numbers?,no,,False,False
+GTSRB,gpt-4o,local_list,879,17,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,local_list,879,17,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,local_list,879,17,2,Does it contain numbers?,no,no,True,True
+GTSRB,gpt-4o,local_list,879,17,3,Does it have a diagonal strike bar?,no,no,True,True
+GTSRB,gpt-4o,local_list,879,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,True
+MSCOCO,gpt-4o,local_list,242,54,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,242,54,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,242,54,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,242,54,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,242,54,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,242,54,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,242,54,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,242,54,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,local_list,242,54,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,242,54,9,Does the food contain visible meat between bread?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,267,6,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,267,6,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,267,6,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,267,6,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,local_list,267,6,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,local_list,267,6,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,local_list,267,6,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,267,6,7,Does the vehicle travel on tracks?,no,no,True,True
+MSCOCO,gpt-4o,local_list,301,74,0,Is the object a living thing (animal or person)?,no,yes,False,True
+GTSRB,gpt-4o,global_list,3,31,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,3,31,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,12,Does it depict bicycle?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,13,Does it depict ice/snow?,no,no,True,True
+GTSRB,gpt-4o,global_list,3,31,14,Does it depict deer?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,27,9,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,27,9,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,27,9,2,Does it contain numbers?,no,,False,False
+MSCOCO,gpt-4o,local_list,307,20,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,307,20,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,307,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,307,20,3,Does the animal have horns that curve downward or outward from the head?,yes,no,False,True
+GTSRB,gpt-4o,global_list,41,9,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,41,9,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,41,9,2,Does it contain numbers?,no,,False,False
+GTSRB,gpt-4o,global_list,59,36,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,59,36,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,59,36,2,What arrow is shown?,forward-right,circular,False,True
+GTSRB,gpt-4o,global_list,76,38,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,76,38,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,76,38,2,What arrow is shown?,keep-right,right,False,True
+MSCOCO,gpt-4o,local_list,355,90,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,355,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,6,Is the object an electronic device or related accessory?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,7,Is the object a soft toy or plush item?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,8,Is the object primarily made of paper?,no,no,True,True
+MSCOCO,gpt-4o,local_list,355,90,9,Does the object have blades used for cutting?,no,no,True,True
+GTSRB,gpt-4o,global_list,81,38,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,81,38,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,81,38,2,What arrow is shown?,keep-right,keep-right,True,True
+GTSRB,gpt-4o,global_list,118,7,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,118,7,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,118,7,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,118,7,3,What is the number?,100,100,True,True
+GTSRB,gpt-4o,global_list,132,7,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,132,7,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,132,7,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,132,7,3,What is the number?,100,100,True,True
+MSCOCO,gpt-4o,local_list,399,56,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,399,56,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,399,56,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,399,56,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,399,56,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,399,56,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,399,56,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,399,56,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,True
+GTSRB,gpt-4o,global_list,143,39,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,143,39,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,143,39,2,What arrow is shown?,keep-left,forward-left,False,True
+GTSRB,gpt-4o,global_list,154,6,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,154,6,1,What's the circle color?,red-white,blue,False,True
+MSCOCO,gpt-4o,local_list,422,20,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,422,20,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,422,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,422,20,3,Does the animal have horns that curve downward or outward from the head?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,422,20,4,Does the animal have a white face with woolly fur covering most of its body?,yes,no,False,True
+GTSRB,gpt-4o,global_list,161,1,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,161,1,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,161,1,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,161,1,3,What is the number?,30,30,True,True
+GTSRB,gpt-4o,global_list,173,1,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,173,1,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,173,1,2,Does it contain numbers?,yes,,False,False
+GTSRB,gpt-4o,global_list,245,8,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,245,8,1,What's the circle color?,red-white,blue,False,True
+MSCOCO,gpt-4o,local_list,427,8,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,427,8,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,True
+MSCOCO,gpt-4o,local_list,427,8,7,Is the vehicle smaller in size and typically used for personal transport?,no,no,True,True
+GTSRB,gpt-4o,global_list,255,37,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,255,37,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,255,37,2,What arrow is shown?,forward-left,forward-left,True,True
+GTSRB,gpt-4o,global_list,256,37,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,256,37,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,256,37,2,What arrow is shown?,forward-left,forward,False,True
+GTSRB,gpt-4o,global_list,277,12,0,What's the sign's primary shape?,diamond,diamond,True,True
+GTSRB,gpt-4o,global_list,293,12,0,What's the sign's primary shape?,diamond,diamond,True,True
+MSCOCO,gpt-4o,local_list,458,80,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,458,80,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,458,80,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,458,80,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,458,80,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,458,80,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,458,80,6,Is the object primarily used for heating or cooking food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,458,80,7,Does the object have a door with a viewing window on the front?,no,no,True,True
+GTSRB,gpt-4o,global_list,326,15,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,326,15,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,326,15,2,Does it contain numbers?,no,no,True,True
+GTSRB,gpt-4o,global_list,326,15,3,Does it have a diagonal strike bar?,no,yes,False,True
+GTSRB,gpt-4o,global_list,336,15,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,336,15,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,336,15,2,Does it contain numbers?,no,,False,False
+GTSRB,gpt-4o,global_list,337,23,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,337,23,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,337,23,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,337,23,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,337,23,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,337,23,5,Does it depict rough/bumpy road?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,462,55,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,462,55,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,462,55,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,462,55,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,462,55,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,462,55,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,462,55,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,462,55,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,462,55,8,Is the object a fruit?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,462,55,9,Is the primary color of the object yellow?,no,no,True,True
+MSCOCO,gpt-4o,local_list,462,55,10,Is the object primarily red or green in color?,no,,False,False
+GTSRB,gpt-4o,global_list,355,40,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,355,40,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,355,40,2,What arrow is shown?,circular,circular,True,True
+GTSRB,gpt-4o,global_list,371,25,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,371,25,1,Does the triangle have an exclamation mark?,no,yes,False,True
+GTSRB,gpt-4o,global_list,410,14,0,What's the sign's primary shape?,octagon,octagon,True,True
+GTSRB,gpt-4o,global_list,422,14,0,What's the sign's primary shape?,octagon,octagon,True,True
+GTSRB,gpt-4o,global_list,451,13,0,What's the sign's primary shape?,inverted-triangle,inverted-triangle,True,True
+MSCOCO,gpt-4o,local_list,468,22,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,468,22,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,local_list,468,22,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,local_list,468,22,3,Is the animal covered with fur?,no,no,True,True
+MSCOCO,gpt-4o,local_list,468,22,4,Does the animal have a trunk?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,484,35,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,484,35,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,484,35,2,What arrow is shown?,forward,forward,True,True
+MSCOCO,gpt-4o,local_list,469,41,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,469,41,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,469,41,2,Is the object primarily a vehicle used for transportation?,no,yes,False,True
+GTSRB,gpt-4o,global_list,489,35,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,489,35,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,489,35,2,What arrow is shown?,forward,forward,True,True
+GTSRB,gpt-4o,global_list,499,32,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,499,32,1,What's the circle color?,white-gray,white-gray,True,True
+GTSRB,gpt-4o,global_list,499,32,2,What restriction ends?,speed limit,speed limit,True,True
+GTSRB,gpt-4o,global_list,501,32,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,501,32,1,What's the circle color?,white-gray,white-gray,True,True
+GTSRB,gpt-4o,global_list,501,32,2,What restriction ends?,speed limit,speed limit,True,True
+MSCOCO,gpt-4o,local_list,485,72,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,485,72,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,485,72,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,485,72,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,485,72,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,485,72,5,Is the object primarily made of glass or reflective surfaces?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,490,62,0,Is the object a living thing (animal or person)?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,536,52,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,536,52,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+GTSRB,gpt-4o,global_list,521,4,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,521,4,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,521,4,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,521,4,3,What is the number?,70,70,True,True
+MSCOCO,gpt-4o,local_list,540,15,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,540,15,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+GTSRB,gpt-4o,global_list,528,4,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,528,4,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,528,4,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,528,4,3,What is the number?,70,70,True,True
+GTSRB,gpt-4o,global_list,556,3,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,556,3,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,556,3,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,556,3,3,What is the number?,60,,False,False
+GTSRB,gpt-4o,global_list,571,3,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,571,3,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,571,3,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,571,3,3,What is the number?,60,60,True,True
+MSCOCO,gpt-4o,local_list,658,76,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,658,76,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,658,76,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,658,76,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,658,76,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,local_list,658,76,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,local_list,658,76,6,Is the object an electronic device or related accessory?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,658,76,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,658,76,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,597,2,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,597,2,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,597,2,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,597,2,3,What is the number?,50,50,True,True
+MSCOCO,gpt-4o,local_list,662,64,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,662,64,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+GTSRB,gpt-4o,global_list,621,2,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,621,2,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,621,2,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,621,2,3,What is the number?,50,50,True,True
+GTSRB,gpt-4o,global_list,665,5,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,665,5,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,665,5,2,Does it contain numbers?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,665,5,3,What is the number?,80,80,True,True
+MSCOCO,gpt-4o,local_list,716,3,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,716,3,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,True
+MSCOCO,gpt-4o,local_list,716,3,7,Is the vehicle smaller in size and typically used for personal transport?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,678,33,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,678,33,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,678,33,2,What arrow is shown?,right,circular,False,True
+GTSRB,gpt-4o,global_list,680,33,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,680,33,1,What's the circle color?,blue,blue,True,True
+GTSRB,gpt-4o,global_list,680,33,2,What arrow is shown?,right,right,True,True
+MSCOCO,gpt-4o,local_list,734,11,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,734,11,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,734,11,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,local_list,734,11,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,734,11,4,Is the object primarily a sign displaying text or symbols?,no,no,True,True
+MSCOCO,gpt-4o,local_list,734,11,5,Does the object have visible lights or bulbs on its structure?,no,no,True,True
+MSCOCO,gpt-4o,local_list,734,11,6,Does the object typically have a coin or digital payment slot?,no,no,True,True
+MSCOCO,gpt-4o,local_list,748,9,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,748,9,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,748,9,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,748,9,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,local_list,748,9,4,Does the vehicle primarily operate on water?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,709,29,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,709,29,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,709,29,12,Does it depict bicycle?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,786,58,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,786,58,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,786,58,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,786,58,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,786,58,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,786,58,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,786,58,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,786,58,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,local_list,786,58,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,786,58,9,Does the food contain visible meat between bread?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,734,11,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,734,11,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,global_list,734,11,7,Does it depict merging/narrow lanes?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,793,17,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,793,17,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,local_list,793,17,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,local_list,793,17,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,793,17,4,Does the animal tend to have rounded ears?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,813,67,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,813,67,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+MSCOCO,gpt-4o,local_list,816,19,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,816,19,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,816,19,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,local_list,816,19,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,True
+MSCOCO,gpt-4o,local_list,816,19,4,Does the animal have a long neck?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,735,11,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,4,Does it depict right curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,5,Does it depict rough/bumpy road?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,6,Does it depict slippery road?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,7,Does it depict merging/narrow lanes?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,8,Does it depict construction/road work?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,9,Does it depict traffic light?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,10,Does it depict both child and pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,11,Does it depict pedestrian?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,12,Does it depict bicycle?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,13,Does it depict ice/snow?,no,no,True,True
+GTSRB,gpt-4o,global_list,735,11,14,Does it depict deer?,no,no,True,True
+GTSRB,gpt-4o,global_list,757,18,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,757,18,1,Does the triangle have an exclamation mark?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,818,79,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,818,79,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,818,79,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,818,79,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,818,79,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,818,79,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,818,79,6,Is the object primarily used for heating or cooking food?,yes,no,False,True
+GTSRB,gpt-4o,global_list,775,18,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,775,18,1,Does the triangle have an exclamation mark?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,780,20,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,780,20,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,780,20,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,780,20,3,Does it depict double curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,780,20,4,Does it depict right curve?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,831,47,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,local_list,831,47,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,831,47,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,local_list,831,47,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,local_list,831,47,4,Is the object typically associated with food preparation or consumption?,yes,no,False,True
+GTSRB,gpt-4o,global_list,793,21,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,793,21,1,Does the triangle have an exclamation mark?,no,no,True,True
+GTSRB,gpt-4o,global_list,793,21,2,Does it depict a left curve?,no,no,True,True
+GTSRB,gpt-4o,global_list,793,21,3,Does it depict double curve?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,800,26,0,What's the sign's primary shape?,triangle,triangle,True,True
+GTSRB,gpt-4o,global_list,800,26,1,Does the triangle have an exclamation mark?,no,yes,False,True
+MSCOCO,gpt-4o,local_list,845,18,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,845,18,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,local_list,845,18,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,local_list,845,18,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,local_list,845,18,4,Does the animal tend to have rounded ears?,no,yes,False,True
+GTSRB,gpt-4o,global_list,856,10,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,856,10,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,856,10,2,Does it contain numbers?,no,,False,False
+MSCOCO,gpt-4o,global_list,27,25,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,27,25,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,27,25,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,global_list,27,25,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,True
+MSCOCO,gpt-4o,global_list,27,25,4,Does the animal have a long neck?,yes,yes,True,True
+GTSRB,gpt-4o,global_list,879,17,0,What's the sign's primary shape?,circle,circle,True,True
+GTSRB,gpt-4o,global_list,879,17,1,What's the circle color?,red-white,red-white,True,True
+GTSRB,gpt-4o,global_list,879,17,2,Does it contain numbers?,no,no,True,True
+GTSRB,gpt-4o,global_list,879,17,3,Does it have a diagonal strike bar?,no,no,True,True
+GTSRB,gpt-4o,global_list,879,17,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,True
+MSCOCO,gpt-4o,global_list,35,28,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,35,28,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,35,28,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,35,28,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,global_list,35,28,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,35,28,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,60,22,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,60,22,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,global_list,60,22,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,global_list,60,22,3,Is the animal covered with fur?,no,no,True,True
+MSCOCO,gpt-4o,global_list,60,22,4,Does the animal have a trunk?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,76,46,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,76,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,76,46,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,6,Is the object itself an item of food?,no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,7,Is the object primarily used for drinking liquids?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,76,46,8,Does the object have a handle?,no,no,True,True
+MSCOCO,gpt-4o,global_list,76,46,9,"Does the object have a long, stem-like structure supporting a bowl?",yes,yes,True,True
+MSCOCO,gpt-4o,global_list,81,32,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,81,32,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,81,32,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,81,32,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,True
+MSCOCO,gpt-4o,global_list,81,32,4,Is the object typically worn on the head or face?,no,no,True,True
+MSCOCO,gpt-4o,global_list,81,32,5,Is the object typically carried by hand rather than worn on the body?,no,no,True,True
+MSCOCO,gpt-4o,global_list,81,32,6,Is the object primarily worn on the foot?,no,no,True,True
+MSCOCO,gpt-4o,global_list,118,65,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,118,65,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,118,65,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,True
+MSCOCO,gpt-4o,global_list,118,65,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,118,65,4,Does the object have a backrest?,no,no,True,True
+MSCOCO,gpt-4o,global_list,121,90,0,Is the object a living thing (animal or person)?,no,,False,False
+MSCOCO,gpt-4o,global_list,124,46,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,124,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,124,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,124,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,124,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,124,46,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,True
+MSCOCO,gpt-4o,global_list,141,41,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,141,41,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,141,41,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,141,41,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,global_list,141,41,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,141,41,5,Is the object typically used on snow?,no,no,True,True
+MSCOCO,gpt-4o,global_list,141,41,6,Is the object primarily used on water?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,142,42,5,Is the object typically used on snow?,no,no,True,True
+MSCOCO,gpt-4o,global_list,142,42,6,Is the object primarily used on water?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,151,13,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,151,13,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,151,13,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,151,13,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,151,13,4,Is the object primarily a sign displaying text or symbols?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,151,13,5,Is the sign octagonal in shape?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,156,62,0,Is the object a living thing (animal or person)?,no,,False,False
+MSCOCO,gpt-4o,global_list,159,81,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,159,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,159,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,159,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,159,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,161,17,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,161,17,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,global_list,161,17,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,global_list,161,17,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,161,17,4,Does the animal tend to have rounded ears?,no,,False,False
+MSCOCO,gpt-4o,global_list,173,39,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,5,Is the object primarily designed to fly or be used in the air?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,6,Is the object spherical or round in shape?,no,no,True,True
+MSCOCO,gpt-4o,global_list,173,39,7,Is the object held in the hand during use?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,173,39,8,Does the object have a netted or strung area as part of its design?,no,no,True,True
+MSCOCO,gpt-4o,global_list,175,81,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,175,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,175,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,175,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,175,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,190,37,0,Is the object a living thing (animal or person)?,no,,False,False
+MSCOCO,gpt-4o,global_list,194,60,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,194,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,194,60,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,194,60,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,194,60,9,Does the food contain visible meat between bread?,no,no,True,True
+MSCOCO,gpt-4o,global_list,194,60,10,Is the food item typically ring-shaped with a central hole?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,195,74,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,195,74,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,6,Is the object an electronic device or related accessory?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,195,74,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,195,74,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,True
+MSCOCO,gpt-4o,global_list,195,74,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,203,87,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,203,87,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,203,87,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,203,87,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,,False,False
+MSCOCO,gpt-4o,global_list,224,2,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,224,2,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,224,2,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,224,2,3,Does the vehicle have two wheels?,yes,,False,False
+MSCOCO,gpt-4o,global_list,241,60,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,241,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,241,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,241,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,241,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,241,60,5,Is the object an appliance (a powered kitchen device)?,no,,False,False
+MSCOCO,gpt-4o,global_list,242,54,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,242,54,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,242,54,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,242,54,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,242,54,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,242,54,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,242,54,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,242,54,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,global_list,242,54,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,242,54,9,Does the food contain visible meat between bread?,no,yes,False,True
+MSCOCO,gpt-4o,global_list,267,6,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,267,6,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,267,6,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,267,6,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,global_list,267,6,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,global_list,267,6,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,global_list,267,6,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,267,6,7,Does the vehicle travel on tracks?,no,no,True,True
+MSCOCO,gpt-4o,global_list,301,74,0,Is the object a living thing (animal or person)?,no,,False,False
+MSCOCO,gpt-4o,global_list,307,20,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,307,20,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,307,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,global_list,307,20,3,Does the animal have horns that curve downward or outward from the head?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,355,90,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,355,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,6,Is the object an electronic device or related accessory?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,7,Is the object a soft toy or plush item?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,8,Is the object primarily made of paper?,no,no,True,True
+MSCOCO,gpt-4o,global_list,355,90,9,Does the object have blades used for cutting?,no,no,True,True
+MSCOCO,gpt-4o,global_list,399,56,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,399,56,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,399,56,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,399,56,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,399,56,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,399,56,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,399,56,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,399,56,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,422,20,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,422,20,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,422,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,global_list,422,20,3,Does the animal have horns that curve downward or outward from the head?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,422,20,4,Does the animal have a white face with woolly fur covering most of its body?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,427,8,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,427,8,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,True
+MSCOCO,gpt-4o,global_list,427,8,7,Is the vehicle smaller in size and typically used for personal transport?,no,no,True,True
+MSCOCO,gpt-4o,global_list,458,80,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,458,80,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,458,80,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,458,80,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,458,80,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,458,80,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,458,80,6,Is the object primarily used for heating or cooking food?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,458,80,7,Does the object have a door with a viewing window on the front?,no,no,True,True
+MSCOCO,gpt-4o,global_list,462,55,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,462,55,1,Is the object typically found indoors (in a home or building)?,yes,,False,False
+MSCOCO,gpt-4o,global_list,468,22,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,468,22,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,global_list,468,22,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,global_list,468,22,3,Is the animal covered with fur?,no,no,True,True
+MSCOCO,gpt-4o,global_list,468,22,4,Does the animal have a trunk?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,469,41,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,469,41,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,469,41,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,469,41,3,Is the object attached to or installed on a street or roadside?,no,no,True,True
+MSCOCO,gpt-4o,global_list,469,41,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,469,41,5,Is the object typically used on snow?,no,no,True,True
+MSCOCO,gpt-4o,global_list,469,41,6,Is the object primarily used on water?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,485,72,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,6,Is the object an electronic device or related accessory?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,485,72,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,8,Is the object mainly designed for handheld use?,no,no,True,True
+MSCOCO,gpt-4o,global_list,485,72,9,Does the object have a built-in display screen that is used for output only (not interactive)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,490,62,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,490,62,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,490,62,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,True
+MSCOCO,gpt-4o,global_list,536,52,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,536,52,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,540,15,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,540,15,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,658,76,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,658,76,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,658,76,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,658,76,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,658,76,4,Is the object typically associated with food preparation or consumption?,no,no,True,True
+MSCOCO,gpt-4o,global_list,658,76,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,True
+MSCOCO,gpt-4o,global_list,658,76,6,Is the object an electronic device or related accessory?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,658,76,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,658,76,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,662,64,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,662,64,1,Is the object typically found indoors (in a home or building)?,yes,,False,False
+MSCOCO,gpt-4o,global_list,716,3,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,716,3,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,4,Does the vehicle primarily operate on water?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,5,Does the vehicle have wings?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,True
+MSCOCO,gpt-4o,global_list,716,3,7,Is the vehicle smaller in size and typically used for personal transport?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,734,11,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,734,11,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,734,11,2,Is the object primarily a vehicle used for transportation?,no,no,True,True
+MSCOCO,gpt-4o,global_list,734,11,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,734,11,4,Is the object primarily a sign displaying text or symbols?,no,no,True,True
+MSCOCO,gpt-4o,global_list,734,11,5,Does the object have visible lights or bulbs on its structure?,no,no,True,True
+MSCOCO,gpt-4o,global_list,734,11,6,Does the object typically have a coin or digital payment slot?,no,no,True,True
+MSCOCO,gpt-4o,global_list,748,9,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,748,9,1,Is the object typically found indoors (in a home or building)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,748,9,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,748,9,3,Does the vehicle have two wheels?,no,no,True,True
+MSCOCO,gpt-4o,global_list,748,9,4,Does the vehicle primarily operate on water?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,786,58,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,786,58,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,786,58,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,786,58,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,786,58,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,786,58,5,Is the object an appliance (a powered kitchen device)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,786,58,6,Is the object itself an item of food?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,786,58,7,Is the food primarily a whole fruit or vegetable?,no,no,True,True
+MSCOCO,gpt-4o,global_list,786,58,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,786,58,9,Does the food contain visible meat between bread?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,793,17,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,793,17,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,global_list,793,17,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,global_list,793,17,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,793,17,4,Does the animal tend to have rounded ears?,no,yes,False,True
+MSCOCO,gpt-4o,global_list,813,67,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,813,67,1,Is the object typically found indoors (in a home or building)?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,816,19,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,816,19,1,Does the animal typically have hooves?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,816,19,2,Does the animal have visible black-and-white striping on its body?,no,no,True,True
+MSCOCO,gpt-4o,global_list,816,19,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,True
+MSCOCO,gpt-4o,global_list,816,19,4,Does the animal have a long neck?,no,no,True,True
+MSCOCO,gpt-4o,global_list,818,79,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,818,79,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,818,79,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,818,79,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,True
+MSCOCO,gpt-4o,global_list,818,79,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,818,79,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,818,79,6,Is the object primarily used for heating or cooking food?,yes,no,False,True
+MSCOCO,gpt-4o,global_list,831,47,0,Is the object a living thing (animal or person)?,no,no,True,True
+MSCOCO,gpt-4o,global_list,831,47,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,831,47,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,True
+MSCOCO,gpt-4o,global_list,831,47,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,,False,False
+MSCOCO,gpt-4o,global_list,845,18,0,Is the object a living thing (animal or person)?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,845,18,1,Does the animal typically have hooves?,no,no,True,True
+MSCOCO,gpt-4o,global_list,845,18,2,Is the subject a human or an animal?,Animal,Animal,True,True
+MSCOCO,gpt-4o,global_list,845,18,3,Is the animal covered with fur?,yes,yes,True,True
+MSCOCO,gpt-4o,global_list,845,18,4,Does the animal tend to have rounded ears?,no,yes,False,True
