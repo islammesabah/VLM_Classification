@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Mean and maximum API calls per tree-classified image and unresolved-path rates before and after oracle re-parsing, pooled across models.}
+\label{tab:inference_cost}
+\footnotesize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Dataset} & \textbf{Mean calls} & \textbf{Max calls} & \textbf{Unresolved} & \textbf{Oracle} \\
+\midrule
+GTSRB & 3.61 & 15 & 14.7\% & 11.0\% \\
+MNIST & 2.45 & 4 & 18.6\% & 11.1\% \\
+CIFAR-10 & 3.37 & 4 & 10.8\% & 3.7\% \\
+MSCOCO & 6.32 & 11 & 22.0\% & 16.2\% \\
+\bottomrule
+\end{tabular}
+\end{table}

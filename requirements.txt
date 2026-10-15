@@ -20,6 +20,11 @@ requests>=2.25.0
 # File handling
 pathlib2>=2.3.0; python_version < "3.4"
 
-# Optional: Visualization (if needed for analysis)
+# Plotting (figures)
 matplotlib>=3.5.0
 seaborn>=0.11.0
+
+# Analysis extras: CLIP baselines (evaluation/baselines.py) only
+# torch>=2.0.0
+# transformers>=4.40.0
+# Apple-Silicon-only local LLaMA scripts (evaluation/local_llama32_*.py): mlx_vlm

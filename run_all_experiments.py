@@ -9,8 +9,6 @@ import tempfile
 from typing import Optional
 import time
 
-# sys.stdout = open('run_all_experiments.log', 'w', buffering=1)
-
 def generate_slurm_script(command: str, slurm_config: dict) -> str:
     """
     Generate a SLURM batch script.
@@ -104,39 +102,43 @@ def run_command(command: str):
         return command, -1
 
 def return_all_variations():
-    """Generate all commands to be executed."""
-    # Run all the experiments by changing one argument and fixing all the others with the default, so for example when 
-    memory_var = [False]
-    
-    # if using description 2 then --disable_tree also (we only need the inference of the zeroshot)
-    description_var = [0, 1, 2]  # 0: no description, 1: short description, 2: description for zeroshot
-    
+    """Generate the full experiment grid of the paper.
+
+    Conditions per dataset-model pair: Tree (defaults), Tree+H (--include_memory),
+    Tree+D (--include_description 1), ZS+D (--include_description 2 --disable_tree),
+    at T=0 and T=0.7, plus the 10-prompt zero-shot sweep (RunId 0-9) at T=0.7.
+    ZS itself is stored alongside every tree run, so it needs no separate command.
+    The paper reports the completed subset of this grid; per-cell coverage is
+    handled downstream by evaluation/paper_table.py's --min-coverage rule.
+    """
     models = ['gpt-4o', 'qwen-vl-max', 'meta-llama/llama-3.2-11b-vision-instruct']
-    datasets = ['MNIST', 'MSCOCO']
-    temperature_var = [0.7]
+    datasets = ['GTSRB', 'CIFAR-10', 'MNIST', 'MSCOCO']
+    temperature_var = [0.0, 0.7]
+    memory_var = [False, True]
+    description_var = [0, 1, 2]  # 0: none, 1: tree+D, 2: ZS+D (zero-shot only)
 
     all_commands = []
-    # Generate memory option variations
     for model, dataset, temperature, memory in itertools.product(models, datasets, temperature_var, memory_var):
-        command =  f"python main.py --dataset_name \"{dataset}\" --model \"{model}\" --temperature {temperature}"
+        command = f"python main.py --dataset_name \"{dataset}\" --model \"{model}\" --temperature {temperature}"
         if memory:
             command += " --include_memory"
         all_commands.append(command)
 
-    # Generate description option variations
     for model, dataset, temperature, description in itertools.product(models, datasets, temperature_var, description_var):
+        if description == 0:
+            continue  # covered by the memory loop above
         command = f"python main.py --dataset_name \"{dataset}\" --model \"{model}\" --temperature {temperature}"
         if description == 1:
-            command += f" --include_description 1"
+            command += " --include_description 1"
         elif description == 2:
-            command += f" --include_description 2 --disable_tree"
-        
+            command += " --include_description 2 --disable_tree"
         all_commands.append(command)
-    # There are 10 prompts variations for the zeroshot inference, (run_id 1-9, as 0 is already covered above)
-    # for model, dataset, temperature, RunId in itertools.product(models, datasets, temperature_var, range(1,10)):
-    #     command = f"python main.py --dataset_name \"{dataset}\" --model \"{model}\" --temperature {temperature} --RunId {RunId} --disable_tree"
-    #     all_commands.append(command)
-    
+
+    # 10-prompt zero-shot sweep at T=0.7 (RunId 0 is covered above)
+    for model, dataset, RunId in itertools.product(models, datasets, range(1, 10)):
+        command = f"python main.py --dataset_name \"{dataset}\" --model \"{model}\" --temperature 0.7 --RunId {RunId} --disable_tree"
+        all_commands.append(command)
+
     return all_commands
 
 def run_all_variations_parallel(max_workers: int = None, use_slurm: bool = False, slurm_config: Optional[dict] = None):

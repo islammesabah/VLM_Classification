@@ -1,0 +1,27 @@
+\begin{table*}[ht]
+\centering
+\caption{Mean zero-shot (ZS), tree-based (Tree), and chain-of-thought (CoT) accuracy (\%) by dataset, model, and temperature, with the conversation-history (+H, \texttt{Include\_memory}) and description (+D, \texttt{Include\_description}) ablations. +D injects image and class descriptions into tree inference (Tree+D) or into zero-shot inference (ZS+D). A cell is reported only where the condition covers at least 90\% of a full dataset pass; "---" marks conditions that were not run to completion (all MNIST/MSCOCO $T{=}0$ conditions, and the history ablation on MNIST/MSCOCO, where $n \leq 33$). CoT was run at $T{=}0.7$ only ($n$=100/dataset$\times$model, full class coverage).}
+\footnotesize
+\begin{tabular}{llrrrrrrrrrrr}
+\hline
+& & \multicolumn{5}{c}{\textbf{T=0}} & \multicolumn{6}{c}{\textbf{T=0.7}} \\
+\textbf{Dataset} & \textbf{Model} & \textbf{ZS} & \textbf{ZS+D} & \textbf{Tree} & \textbf{Tree+H} & \textbf{Tree+D} & \textbf{ZS} & \textbf{ZS+D} & \textbf{Tree} & \textbf{Tree+H} & \textbf{Tree+D} & \textbf{CoT} \\ \hline
+GTSRB     & GPT-4o   &  70.92 &  63.82 &  58.05 &  55.83 &  66.81 &  71.14 &  63.60 &  57.71 &  56.71 &  65.04 &  63.00 \\
+          & LLaMA    &  23.86 &  18.42 &   6.33 &  16.09 &  15.65 &  37.07 &  23.53 &  33.19 &  12.43 &  14.87 &  12.00 \\
+          & Qwen-VL  &  47.95 &  49.72 &  40.51 &  36.96 &  51.83 &  47.06 &  48.95 &  24.64 &  36.96 &  52.28 &  36.00 \\
+\hline
+MNIST     & GPT-4o   &    --- &    --- &    --- &    --- &    --- &  91.50 &  86.40 &  34.60 &    --- &  28.60 &  94.00 \\
+          & LLaMA    &    --- &    --- &    --- &    --- &    --- &  59.30 &  40.20 &   7.70 &    --- &   2.60 &  71.00 \\
+          & Qwen-VL  &    --- &    --- &    --- &    --- &    --- &  94.40 &  89.20 &  29.30 &    --- &  27.10 &  86.00 \\
+\hline
+CIFAR-10  & GPT-4o   &  89.60 &  90.00 &  75.40 &  73.10 &  82.70 &  87.90 &  88.90 &  76.00 &  72.80 &  80.60 &  87.00 \\
+          & LLaMA    &  43.70 &  62.80 &  17.10 &  12.30 &   4.80 &  36.70 &  54.00 &  16.40 &  14.10 &   6.00 &  38.00 \\
+          & Qwen-VL  &  77.60 &  71.20 &  56.60 &  33.00 &  66.50 &  77.60 &  70.90 &  56.60 &  33.00 &  66.30 &  63.00 \\
+\hline
+MSCOCO    & GPT-4o   &    --- &    --- &    --- &    --- &    --- &  72.82 &  80.82 &  46.71 &    --- &  44.00 &  71.00 \\
+          & LLaMA    &    --- &    --- &    --- &    --- &    --- &  23.76 &  21.06 &   3.65 &    --- &   0.35 &  18.00 \\
+          & Qwen-VL  &    --- &    --- &    --- &    --- &    --- &  74.82 &  78.35 &  39.65 &    --- &  44.47 &  59.00 \\
+\hline
+\end{tabular}
+\label{tab:zs_vs_tree}
+\end{table*}

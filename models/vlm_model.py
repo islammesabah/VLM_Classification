@@ -13,21 +13,16 @@ class ModelClient:
             'api_key_env': 'OPENROUTER_API_KEY',
             'base_url': 'https://openrouter.ai/api/v1'
         },
-        'meta-llama/llama-4-scout': {
-            'api_key_env': 'OPENROUTER_API_KEY',
-            'base_url': 'https://openrouter.ai/api/v1'
-        },
         'qwen-vl-max': {
             'api_key_env': 'ALIBABA_API_KEY',
             'base_url': 'https://dashscope-intl.aliyuncs.com/compatible-mode/v1'
         },
-        # Self-hosted Ollama server, run by us -- serves the same official
-        # Meta weights as the (now-dead) OpenRouter LLaMA-3.2-11B-Vision
-        # endpoint, at full fp16 precision rather than the 8-bit local
-        # fallback used for the GTSRB cross-model check. Server address is
-        # env-only (OLLAMA_BASE_URL), never hardcoded here, since it's an
-        # internal DFKI host, not something to publish in the repo. Ollama
-        # doesn't check the API key, so any non-empty placeholder works.
+        # Self-hosted Ollama server -- serves the same official Meta weights
+        # as the (now-dead) OpenRouter LLaMA-3.2-11B-Vision endpoint, at full
+        # fp16 precision rather than the 8-bit local fallback used for the
+        # GTSRB cross-model check. Server address is env-only
+        # (OLLAMA_BASE_URL) and never hardcoded, since it is a private host.
+        # Ollama doesn't check the API key, so any non-empty placeholder works.
         'llama3.2-vision:11b-instruct-fp16': {
             'base_url_env': 'OLLAMA_BASE_URL',
         },

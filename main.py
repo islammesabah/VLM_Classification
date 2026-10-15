@@ -46,7 +46,8 @@ def create_argument_parser() -> argparse.ArgumentParser:
         '--model',
         type=str,
         required=True,
-        choices=['gpt-4o', 'qwen-vl-max', 'llama3.2-vision:11b-instruct-fp16'],
+        choices=['gpt-4o', 'qwen-vl-max', 'meta-llama/llama-3.2-11b-vision-instruct',
+                 'llama3.2-vision:11b-instruct-fp16'],
         help='Model to use for inference'
     )
     parser.add_argument(
@@ -77,12 +78,6 @@ def create_argument_parser() -> argparse.ArgumentParser:
         help='Include description of the Class and Image in the LLM input'
     )
     
-    parser.add_argument(
-        '--include_zero_shot_label',
-        action='store_true',
-        help='Include zero-shot label in the LLM input for the tree inference'
-    )
-
     parser.add_argument(
         '--RunId',
         type=int,
@@ -316,7 +311,6 @@ class VLMInference:
             try:
                 with open(cache_path, 'r', encoding='utf-8') as f:
                     cache_data = json.load(f)
-                    print(f"Using cached description for image (hash: {image_hash[:8]}...)")
                     return cache_data.get('description')
             except (json.JSONDecodeError, IOError) as e:
                 print(f"Warning: Could not load cache file {cache_path}: {e}")
@@ -336,7 +330,6 @@ class VLMInference:
             }
             with open(cache_path, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, ensure_ascii=False, indent=2)
-            print(f"Cached description for image (hash: {image_hash[:8]}...)")
         except IOError as e:
             print(f"Warning: Could not save cache file {cache_path}: {e}")
     
@@ -370,7 +363,6 @@ class VLMInference:
     
     def zero_shot_inference(self, base64_image: str, class_names: Dict[str, str], config: dict[str, Any], include_description: int, short_description: str="", RunId: int=0) -> InferenceResult:
         """Perform zero-shot inference."""
-        # Handle both 0-indexed and 1-indexed class IDs
         class_ids = sorted([int(k) for k in class_names.keys()])
         class_names_str = ", ".join([f"{i}: {class_names[str(i)]}" for i in class_ids])
         messages = [
@@ -441,22 +433,15 @@ class VLMInference:
             })
 
         prompt = self.dataset_loader.get_zero_shot_prompt(config, RunId).replace("{class_names_str}", class_names_str)
-        print(f"\n >> Zero-shot inference prompt:")
-        print('-'*50)
-        print(prompt)
-        print('-'*50)
-
         messages[0]["content"].append({
             "type": "text",
             "text": prompt
         })
-        # print(f"Zero-shot inference message: {messages[0]['content']}")
         messages[0]["content"].append({
             "type": "image_url",
             "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
         })
 
-        # print(f"Messages for zero-shot inference: {messages}")
         payload = {
             "model": self.model_client.model_name,
             "messages": messages,
@@ -474,14 +459,10 @@ class VLMInference:
             **payload
         )
         self._track_api_call(completion)
-        # print(f"completion: {completion}")
         response = completion.choices[0].message.content
         predicted_class = self._extract_class_from_response(response, class_names)
-        
-        print(f"Zero-shot inference response: {response}, Class: {predicted_class}")
         if not response:
             response = ""
-        # time.sleep(random.uniform(2, 4))
         return InferenceResult(response=response, predicted_class=predicted_class)
 
     def tree_inference(self, base64_image: str, include_memory: bool, include_description: int, class_names: Dict[str, str], long_description: str="", short_description: str="") -> InferenceResult:
@@ -536,7 +517,6 @@ class VLMInference:
                 
                 # Cache the description for future use
                 self._save_cached_description(base64_image, self.model_client.model_name, image_description)
-            # print(f"Image description: {image_description}")
         
         # Build system prompt with fixed content (optimized for chat mode)
         if include_memory:
@@ -584,9 +564,7 @@ class VLMInference:
                 ]
             })
         while tree.question:
-            print(f"Message: {tree.message}")
             prompt = f"{tree.question} Choose one of these answers: {tree.answers}."
-            print(f"Prompt: {prompt}")
             
             if include_memory:
                 # CONVERSATION MODE: Build on existing conversation history
@@ -639,12 +617,10 @@ class VLMInference:
                         "text": f"Description of the classes: {filtered_description}"
                     })
                 
-                # Then add the current question
                 messages[0]["content"].append({
                     "type": "text", "text": prompt
                 })
                 
-                # Add the image (always last for one-time mode)
                 messages[0]["content"].append({
                     "type": "image_url",
                     "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
@@ -657,7 +633,8 @@ class VLMInference:
             payload = {
                 "model": self.model_client.model_name,
                 "messages": messages,
-                "max_tokens": self.config.max_tokens
+                "max_tokens": self.config.max_tokens,
+                "temperature": self.config.temperature
             }
             if self.model_client.model_name.startswith('meta-llama/'):
                 payload['extra_body'] = {
@@ -670,7 +647,6 @@ class VLMInference:
                 **payload
             )
             self._track_api_call(completion)
-            # print(f"Messages sent to the model: {messages}")
             response = completion.choices[0].message.content
             
             # Add assistant response to conversation history (for memory mode)
@@ -683,9 +659,6 @@ class VLMInference:
                     ]
                 })
             
-            print("=" * 50)
-            print(f"Response: {response}")
-            
             if not response:
                 print("Empty response received from model.")
                 tree_path.append({
@@ -694,8 +667,6 @@ class VLMInference:
                 })
                 return InferenceResult(response=json.dumps(tree_path), predicted_class=-1, tree_path=tree_path)
             
-            # case: when the response is upper case and the answers are lower case-> response.lower()
-            # case: when the answers are lower case and the response is upper case-> regex_pattern.lower() but we need the match to be upper case again
             match = re.search(regex_pattern.lower(), response.lower())
             if match:
                 answer = next((ans for ans in sorted_answers if ans.lower() == match.group(1).lower()), None)
@@ -703,7 +674,6 @@ class VLMInference:
                     "question": tree.question,
                     "answer": answer
                 })
-                print(f"{tree.question} : {answer}")
                 tree = tree.children[answer]
                 
             else:
@@ -714,11 +684,9 @@ class VLMInference:
                 })
                 break
             
-            print("=" * 50)
             time.sleep(1)
         
         if not tree.question:
-            print(f"Final: {tree.message} ({tree.possible_classes})")
             predicted_class = tree.possible_classes[0]
         else:
             print("Could not complete tree traversal")
@@ -860,7 +828,7 @@ def main():
         pprint(vars(args))
 
         # Run inference
-        inference_engine.run_inference(enable_tree=not args.disable_tree, include_memory=args.include_memory, include_description=args.include_description, include_zero_shot_label=args.include_zero_shot_label, run_id=args.RunId)
+        inference_engine.run_inference(enable_tree=not args.disable_tree, include_memory=args.include_memory, include_description=args.include_description, run_id=args.RunId)
 
     except Exception as e:
         print(f"Error during inference: {str(e)}")

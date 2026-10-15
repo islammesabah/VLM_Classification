@@ -54,21 +54,17 @@ pip install -r requirements.txt
 
 ### 2. Set Up API Keys
 
-Set your API keys as environment variables for the models you want to use:
+Copy `.env.example` to `.env` and fill in the variables for the models you
+want to run:
 
-```bash
-export OPENAI_API_KEY="your-openai-api-key"
-export ALIBABA_API_KEY="your-alibaba-api-key"
-export OPENROUTER_API_KEY="your-openrouter-api-key"
-```
+| Variable | Needed for |
+| --- | --- |
+| `OPENROUTER_API_KEY` | GPT-4o and LLaMA-3.2-11B-Vision (OpenRouter); automated tree generation with `--backend openrouter` |
+| `ALIBABA_API_KEY` | Qwen-VL-Max (DashScope) |
+| `OLLAMA_BASE_URL` | the self-hosted `llama3.2-vision:11b-instruct-fp16` endpoint, e.g. `http://localhost:11434/v1` |
+| `OPENAI_API_KEY` | automated tree generation with `--backend openai` only |
 
-Alternatively, use a `.env` file containing the API keys in the following format:
-
-```plaintext
-OPENAI_API_KEY="your-openai-api-key"
-ALIBABA_API_KEY="your-alibaba-api-key"
-OPENROUTER_API_KEY="your-openrouter-api-key"
-```
+The main harness never reads `OPENAI_API_KEY`.
 
 ### 3. Download Datasets
 
@@ -131,13 +127,16 @@ datasets/MSCOCO
 
 ### 4. Run Inference
 
-Run all experiments at once:
+`run_all_experiments.py` enumerates the paper's full experiment grid (4
+datasets x 3 models x conditions x two temperatures, plus the 10-prompt
+zero-shot sweep) and launches the `main.py` commands locally or via SLURM:
 
 ```bash
 python run_all_experiments.py
 ```
 
-This will execute all combinations of models, datasets, and configurations included in the paper.
+The paper reports the completed subset of that grid; cells below 90% coverage
+are suppressed downstream by `evaluation/paper_table.py --min-coverage`.
 
 To run specialized experiments, specify the model, dataset, and other parameters directly. For example:
 
@@ -155,7 +154,7 @@ python main.py --model gpt-4o --dataset_name GTSRB --include_memory
 
 | Argument                  | Description                                                                                                                          | Type / Values                                                             | Default   |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------- |
-| `--model`               | Model to use for inference.                                                                                                          | `gpt-4o`, `qwen-vl-max`, `meta-llama/llama-3.2-11b-vision-instruct` | —        |
+| `--model`               | Model to use for inference.                                                                                                          | `gpt-4o`, `qwen-vl-max`, `meta-llama/llama-3.2-11b-vision-instruct` (OpenRouter), `llama3.2-vision:11b-instruct-fp16` (self-hosted Ollama) | —        |
 | `--dataset_name`        | Dataset to run inference on.                                                                                                         | `GTSRB`, `CIFAR-10`, `MNIST`, `MSCOCO`                            | `GTSRB` |
 | `--include_description` | Include image and class descriptions in inference.`1` to include in tree-based, `2` for zero-shot (requires `--disable_tree`). | `0` (disabled), `1` (tree-based), `2` (zero-shot)                   | `0`     |
 | `--disable_tree`        | Run only zero-shot inference.                                                                                                        | Flag                                                                      | False     |
@@ -174,6 +173,42 @@ All results from model runs are stored in SQLite databases:
 
 These databases contain the outputs for all models and configurations.
 
+**GTSRB merged database.** GPT-4o's primary GTSRB condition was re-run with
+tree-path logging after 667 early rows stored free-text traversals; the two
+sources are combined by:
+
+```bash
+python results/build_gtsrb_merged.py   # gtsrb.db + gtsrb_gpt4o_paths.db -> gtsrb_merged.db
+```
+
+Run this once before any analysis script — `bootstrap_ci.py`,
+`tree_error_analysis.py`, `oracle_extraction_analysis.py`,
+`tree_quality_audit.py`, `agreement_table.py`, and `cost_frontier.py` read
+`results/gtsrb_merged.db`. All analysis queries additionally go through
+`evaluation/db_utils.py`'s `ANSWERS` view, which de-duplicates GTSRB legacy
+rows; skipping it inflates GTSRB denominators from 901 to up to 915.
+
+**Reproducing the paper's tables and figures** (offline, from the databases —
+no API key):
+
+| Paper artifact | Command |
+| --- | --- |
+| Table 1 (+ supplement S2) | `python evaluation/paper_table.py -o results/tab_zs_vs_tree_extended.tex` / `python evaluation/supp_table.py` |
+| Table 2 + class-level counts | `python evaluation/agreement_table.py` |
+| Table 3 | `python evaluation/baselines.py` (local CLIP; needs torch) |
+| Tables 4-5 | `python evaluation/grounding_tables.py` |
+| Table 6 + Figure 2 | `python evaluation/oracle_extraction_analysis.py && python evaluation/cost_frontier.py` |
+| Path-selection depth profile | `python evaluation/tree_error_analysis.py` |
+| Bootstrap + Holm (S3) | `python evaluation/bootstrap_ci.py` |
+| Tree-quality audit (S8-S9, regressions) | `python evaluation/tree_quality_audit.py` |
+| Supplement document | `python evaluation/supplementary.py` then `pdflatex` twice on `results/paper/supplementary.tex` |
+
+The CoT baseline (`evaluation/cot_baseline.py`) and the probe scripts
+(`global_list_probe.py`, `constrained_choice_probe.py`, `variance_probe.py`,
+`*_knowledge_verification.py`) collect new data via paid API calls; their
+stored outputs under `results/` are what the offline table scripts read. The
+paper's CoT rows used `--n_images 100 --max_calls 100` per dataset-model pair.
+
 ### 6. Additional Notes
 
 - **Image Descriptions**: The `image_descriptions` directory contains the response of each model for each image to the image description prompt. This allows reusing the responses without re-querying the model.
@@ -184,4 +219,4 @@ These databases contain the outputs for all models and configurations.
 
 ## Maintenance
 
-This is a research-project repository maintained on a best-effort basis by the authors. To report an issue (a bug, a data or licensing concern, or a question about reproducing a result), please open a GitHub issue on this repository, or contact the corresponding author listed in the paper.
+This is a research-project repository maintained on a best-effort basis. Issue reporting and contact details (for bugs, data or licensing concerns, or questions about reproducing a result) are omitted from this anonymous review copy and will be added to the public release.

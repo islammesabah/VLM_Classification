@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Label-conditioned accuracy (L) and image-conditioned accuracy (I), with all classes represented.}
+\label{tab:grounding}
+\footnotesize
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{\textbf{GPT-4o}} & \multicolumn{2}{c}{\textbf{LLaMA}} & \multicolumn{2}{c}{\textbf{Qwen-VL}} \\
+\textbf{Dataset} & L & I & L & I & L & I \\
+\midrule
+GTSRB & 79.59 & 72.81 & 50.46 & 49.26 & 69.99 & 75.18 \\
+MNIST & 80.00 & 63.23 & 35.83 & 40.65 & 56.67 & 24.00 \\
+CIFAR-10 & 97.50 & 89.71 & 100.00 & 57.71 & 100.00 & 82.29 \\
+MSCOCO & 95.79 & 89.33 & 87.74 & 76.09 & 94.91 & 87.14 \\
+\midrule
+\textbf{Mean} & \textbf{88.22} & \textbf{78.77} & \textbf{68.51} & \textbf{55.93} & \textbf{80.39} & \textbf{67.15} \\
+\bottomrule
+\end{tabular}
+\end{table}

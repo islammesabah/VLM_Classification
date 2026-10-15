@@ -446,7 +446,7 @@ def clustered_and_mixed_regression(df, predictors, target, group_col="dataset"):
     """
     import statsmodels.formula.api as smf
 
-    sub = df[predictors + [target, group_col]].dropna().copy()
+    sub = df[predictors + [target, group_col, "n_resolved_allcfg"]].dropna().copy()
     n = len(sub)
     n_clusters = sub[group_col].nunique()
 
@@ -462,6 +462,9 @@ def clustered_and_mixed_regression(df, predictors, target, group_col="dataset"):
         cov_type="cluster", cov_kwds={"groups": sub[group_col]}
     )
     mixed = smf.mixedlm(formula, data=sub, groups=sub[group_col]).fit(reml=False)
+    # Sensitivity: weight nodes by their numbers of scored decisions, so a
+    # node measured on 60 traversals counts more than one measured on 3.
+    wls = smf.wls(formula, data=sub, weights=sub["n_resolved_allcfg"]).fit()
 
     print(f"\nCluster-robust OLS (clustered by {group_col}, n={n}, n_clusters={n_clusters}): {formula}")
     print(ols_cluster.summary())
@@ -490,7 +493,20 @@ def clustered_and_mixed_regression(df, predictors, target, group_col="dataset"):
         "n": n,
         "n_clusters": n_clusters,
     })
-    return pd.concat([cluster_out, mixed_out], ignore_index=True)
+    wls_out = pd.DataFrame({
+        "predictor": names,
+        "beta": wls.params[fe_names].values,
+        "se": wls.bse[fe_names].values,
+        "t": wls.tvalues[fe_names].values,
+        "p": wls.pvalues[fe_names].values,
+        "method": "WLS_by_n_decisions",
+        "n": n,
+        "n_clusters": n_clusters,
+    })
+    print(f"\nWLS weighted by n_resolved_allcfg (n={n}): {formula}")
+    for term in fe_names:
+        print(f"  {term:28s} beta={wls.params[term]:+.4f}  se={wls.bse[term]:.4f}  p={wls.pvalues[term]:.4g}")
+    return pd.concat([cluster_out, mixed_out, wls_out], ignore_index=True)
 
 
 def model_matched_regression(df, predictors, target):
@@ -510,7 +526,8 @@ def model_matched_regression(df, predictors, target):
     """
     import statsmodels.formula.api as smf
 
-    sub = df[predictors + [target, "dataset", "model", "node_path"]].dropna().copy()
+    sub = df[predictors + [target, "dataset", "model", "node_path",
+                           "n_resolved_model"]].dropna().copy()
     n = len(sub)
     sub["node_id"] = sub["dataset"] + "::" + sub["node_path"]
     n_nodes = sub["node_id"].nunique()
@@ -533,6 +550,12 @@ def model_matched_regression(df, predictors, target):
             cov_type="cluster", cov_kwds={"groups": sub["node_id"]}),
         "OLS_cluster_by_dataset": smf.ols(formula, data=sub).fit(
             cov_type="cluster", cov_kwds={"groups": sub["dataset"]}),
+        # Sensitivity: weight observations by their numbers of scored decisions.
+        "WLS_by_n_resolved": smf.wls(
+            formula, data=sub, weights=sub["n_resolved_model"]).fit(),
+        "WLS_by_n_resolved_cluster_node": smf.wls(
+            formula, data=sub, weights=sub["n_resolved_model"]).fit(
+            cov_type="cluster", cov_kwds={"groups": sub["node_id"]}),
     }
 
     rows = []
