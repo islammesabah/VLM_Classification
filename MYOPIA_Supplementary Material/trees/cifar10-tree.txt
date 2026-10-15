@@ -1,0 +1,40 @@
+############################################
+Full CIFAR-10 Classification Tree:
+############################################
+[L0] Q: Is the object in the image a living animal?
+  -> Yes:
+  [L1] Q: Is the animal primarily depicted with fur or hair covering its body?
+    -> Yes:
+    [L2] Q: Is the animal typically shown with prominent hooves?
+      -> Yes (hooves):
+      [L3] Q: Does the animal have antlers visible in the image?
+        -> Yes (antlers):
+        [L4] Leaf Node: deer (ID: 4)
+        -> No (no antlers):
+        [L4] Leaf Node: horse (ID: 7)
+      -> No (paws):
+      [L3] Q: Does the animal have a noticeably longer snout or muzzle?
+        -> Yes (longer muzzle):
+        [L4] Leaf Node: dog (ID: 5)
+        -> No (shorter, rounded snout):
+        [L4] Leaf Node: cat (ID: 3)
+    -> No:
+    [L2] Q: Does the animal have feathers covering its body?
+      -> Yes:
+      [L3] Leaf Node: bird (ID: 2)
+      -> No:
+      [L3] Leaf Node: frog (ID: 6)
+  -> No:
+  [L1] Q: Is the object capable of floating on water?
+    -> Yes:
+    [L2] Leaf Node: ship (ID: 8)
+    -> No:
+    [L2] Q: Does the object have wings?
+      -> Yes:
+      [L3] Leaf Node: airplane (ID: 0)
+      -> No:
+      [L3] Q: Is the vehicle larger in size and typically used for transporting goods?
+        -> Yes (Truck):
+        [L4] Leaf Node: truck (ID: 9)
+        -> No (Automobile):
+        [L4] Leaf Node: automobile (ID: 1)

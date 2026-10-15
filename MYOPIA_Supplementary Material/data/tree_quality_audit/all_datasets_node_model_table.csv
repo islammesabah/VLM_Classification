@@ -1,0 +1,349 @@
+dataset,node_path,depth,question,branching_factor,reachable_classes,split_entropy_bits,max_child_share,duplicate_question,model,n_resolved_model,in_traversal_accuracy_model,label_conditioned_accuracy,image_grounded_accuracy,grounding_gap
+GTSRB,,0,What's the sign's primary shape?,5,43,1.363479552876612,0.5813953488372093,False,gpt-4o,5399,0.9785145397295796,0.5581395348837209,0.9767441860465116,-0.41860465116279066
+GTSRB,,0,What's the sign's primary shape?,5,43,1.363479552876612,0.5813953488372093,False,llama3.2-vision:11b-instruct-fp16,4383,0.8261464750171116,0.16279069767441862,0.5534883720930233,-0.39069767441860465
+GTSRB,,0,What's the sign's primary shape?,5,43,1.363479552876612,0.5813953488372093,False,qwen-vl-max,5397,0.8625162127107653,0.4186046511627907,0.9302325581395349,-0.5116279069767442
+GTSRB,triangle,1,Does the triangle have an exclamation mark?,2,15,0.35335933502142136,0.9333333333333333,False,gpt-4o,1105,0.8361990950226245,0.8666666666666667,0.7333333333333333,0.13333333333333341
+GTSRB,triangle,1,Does the triangle have an exclamation mark?,2,15,0.35335933502142136,0.9333333333333333,False,llama3.2-vision:11b-instruct-fp16,676,0.886094674556213,0.5333333333333333,0.8,-0.2666666666666667
+GTSRB,triangle,1,Does the triangle have an exclamation mark?,2,15,0.35335933502142136,0.9333333333333333,False,qwen-vl-max,1091,0.6278643446379468,0.6666666666666666,0.8666666666666667,-0.20000000000000007
+GTSRB,triangle/no,2,Does it depict a left curve?,2,14,0.37123232664087563,0.9285714285714286,False,gpt-4o,704,0.9318181818181818,0.9285714285714286,0.44285714285714284,0.48571428571428577
+GTSRB,triangle/no,2,Does it depict a left curve?,2,14,0.37123232664087563,0.9285714285714286,False,llama3.2-vision:11b-instruct-fp16,447,0.7651006711409396,0.7142857142857143,0.6,0.11428571428571432
+GTSRB,triangle/no,2,Does it depict a left curve?,2,14,0.37123232664087563,0.9285714285714286,False,qwen-vl-max,550,0.8490909090909091,0.9285714285714286,0.8095238095238095,0.11904761904761907
+GTSRB,triangle/no/no,3,Does it depict double curve?,2,13,0.39124356362925566,0.9230769230769231,False,gpt-4o,597,0.948073701842546,1.0,0.5230769230769231,0.4769230769230769
+GTSRB,triangle/no/no,3,Does it depict double curve?,2,13,0.39124356362925566,0.9230769230769231,False,llama3.2-vision:11b-instruct-fp16,130,0.7461538461538462,0.7692307692307693,0.49230769230769234,0.27692307692307694
+GTSRB,triangle/no/no,3,Does it depict double curve?,2,13,0.39124356362925566,0.9230769230769231,False,qwen-vl-max,409,0.9853300733496333,1.0,0.9487179487179487,0.05128205128205132
+GTSRB,triangle/no/no/no,4,Does it depict right curve?,2,12,0.41381685030363374,0.9166666666666666,False,gpt-4o,513,0.9922027290448343,1.0,0.65,0.35
+GTSRB,triangle/no/no/no,4,Does it depict right curve?,2,12,0.41381685030363374,0.9166666666666666,False,llama3.2-vision:11b-instruct-fp16,72,0.5833333333333334,0.16666666666666666,0.43333333333333335,-0.2666666666666667
+GTSRB,triangle/no/no/no,4,Does it depict right curve?,2,12,0.41381685030363374,0.9166666666666666,False,qwen-vl-max,392,0.8239795918367347,1.0,0.9722222222222222,0.02777777777777779
+GTSRB,triangle/no/no/no/no,5,Does it depict rough/bumpy road?,2,11,0.4394969869215134,0.9090909090909091,False,gpt-4o,467,0.9678800856531049,0.9090909090909091,0.45454545454545453,0.45454545454545453
+GTSRB,triangle/no/no/no/no,5,Does it depict rough/bumpy road?,2,11,0.4394969869215134,0.9090909090909091,False,llama3.2-vision:11b-instruct-fp16,30,0.5666666666666667,0.9090909090909091,0.2727272727272727,0.6363636363636364
+GTSRB,triangle/no/no/no/no,5,Does it depict rough/bumpy road?,2,11,0.4394969869215134,0.9090909090909091,False,qwen-vl-max,321,0.8255451713395638,1.0,0.3939393939393939,0.6060606060606061
+GTSRB,triangle/no/no/no/no/no,6,Does it depict slippery road?,2,10,0.4689955935892812,0.9,False,gpt-4o,400,0.97,0.9,0.64,0.26
+GTSRB,triangle/no/no/no/no/no,6,Does it depict slippery road?,2,10,0.4689955935892812,0.9,False,llama3.2-vision:11b-instruct-fp16,13,0.6923076923076923,0.8,0.36,0.44000000000000006
+GTSRB,triangle/no/no/no/no/no,6,Does it depict slippery road?,2,10,0.4689955935892812,0.9,False,qwen-vl-max,252,0.8888888888888888,0.9,0.4666666666666667,0.43333333333333335
+GTSRB,triangle/no/no/no/no/no/no,7,Does it depict merging/narrow lanes?,2,9,0.5032583347756457,0.8888888888888888,False,gpt-4o,367,0.9754768392370572,1.0,0.6222222222222222,0.37777777777777777
+GTSRB,triangle/no/no/no/no/no/no,7,Does it depict merging/narrow lanes?,2,9,0.5032583347756457,0.8888888888888888,False,llama3.2-vision:11b-instruct-fp16,3,0.6666666666666666,0.8888888888888888,0.26666666666666666,0.6222222222222222
+GTSRB,triangle/no/no/no/no/no/no,7,Does it depict merging/narrow lanes?,2,9,0.5032583347756457,0.8888888888888888,False,qwen-vl-max,211,0.9478672985781991,1.0,0.5555555555555556,0.4444444444444444
+GTSRB,triangle/no/no/no/no/no/no/no,8,Does it depict construction/road work?,2,8,0.5435644431995964,0.875,False,gpt-4o,338,0.9644970414201184,1.0,0.6,0.4
+GTSRB,triangle/no/no/no/no/no/no/no,8,Does it depict construction/road work?,2,8,0.5435644431995964,0.875,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.625,0.4,0.22499999999999998
+GTSRB,triangle/no/no/no/no/no/no/no,8,Does it depict construction/road work?,2,8,0.5435644431995964,0.875,False,qwen-vl-max,200,0.84,1.0,0.5,0.5
+GTSRB,triangle/no/no/no/no/no/no/no/no,9,Does it depict traffic light?,2,7,0.5916727785823275,0.8571428571428571,False,gpt-4o,225,0.96,1.0,0.9142857142857143,0.08571428571428574
+GTSRB,triangle/no/no/no/no/no/no/no/no,9,Does it depict traffic light?,2,7,0.5916727785823275,0.8571428571428571,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.8285714285714286,0.17142857142857137
+GTSRB,triangle/no/no/no/no/no/no/no/no,9,Does it depict traffic light?,2,7,0.5916727785823275,0.8571428571428571,False,qwen-vl-max,124,0.967741935483871,1.0,0.9047619047619048,0.09523809523809523
+GTSRB,triangle/no/no/no/no/no/no/no/no/no,10,Does it depict both child and pedestrian?,2,6,0.6500224216483541,0.8333333333333334,False,gpt-4o,192,0.9739583333333334,1.0,0.7333333333333333,0.2666666666666667
+GTSRB,triangle/no/no/no/no/no/no/no/no/no,10,Does it depict both child and pedestrian?,2,6,0.6500224216483541,0.8333333333333334,False,qwen-vl-max,118,0.8813559322033898,0.8333333333333334,0.6111111111111112,0.2222222222222222
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no,11,Does it depict pedestrian?,2,5,0.7219280948873623,0.8,False,gpt-4o,138,1.0,1.0,0.68,0.31999999999999995
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no,11,Does it depict pedestrian?,2,5,0.7219280948873623,0.8,False,qwen-vl-max,95,0.8315789473684211,1.0,0.7333333333333333,0.2666666666666667
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no,12,Does it depict bicycle?,2,4,0.8112781244591328,0.75,False,gpt-4o,113,1.0,1.0,0.85,0.15000000000000002
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no,12,Does it depict bicycle?,2,4,0.8112781244591328,0.75,False,qwen-vl-max,69,1.0,1.0,0.9166666666666666,0.08333333333333337
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no/no,13,Does it depict ice/snow?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,94,1.0,1.0,0.7333333333333333,0.2666666666666667
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no/no,13,Does it depict ice/snow?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,55,0.9818181818181818,1.0,0.7777777777777778,0.2222222222222222
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no/no/no,14,Does it depict deer?,2,2,1.0,0.5,False,gpt-4o,79,0.9746835443037974,1.0,0.8,0.19999999999999996
+GTSRB,triangle/no/no/no/no/no/no/no/no/no/no/no/no/no,14,Does it depict deer?,2,2,1.0,0.5,False,qwen-vl-max,53,1.0,1.0,0.8333333333333334,0.16666666666666663
+GTSRB,circle,1,What's the circle color?,3,25,1.3615419333359275,0.56,False,gpt-4o,3410,0.9170087976539589,0.6,0.896,-0.29600000000000004
+GTSRB,circle,1,What's the circle color?,3,25,1.3615419333359275,0.56,False,llama3.2-vision:11b-instruct-fp16,1975,0.6870886075949367,0.12,0.28,-0.16000000000000003
+GTSRB,circle,1,What's the circle color?,3,25,1.3615419333359275,0.56,False,qwen-vl-max,3142,0.8290897517504774,0.44,0.6133333333333333,-0.17333333333333328
+GTSRB,circle/red-white,2,Does it contain numbers?,2,14,0.9852281360342515,0.5714285714285714,False,gpt-4o,2158,0.9096385542168675,1.0,0.7,0.30000000000000004
+GTSRB,circle/red-white,2,Does it contain numbers?,2,14,0.9852281360342515,0.5714285714285714,False,llama3.2-vision:11b-instruct-fp16,771,0.8223086900129701,0.9285714285714286,0.7285714285714285,0.20000000000000007
+GTSRB,circle/red-white,2,Does it contain numbers?,2,14,0.9852281360342515,0.5714285714285714,False,qwen-vl-max,2036,0.8747544204322201,1.0,0.9047619047619048,0.09523809523809523
+GTSRB,circle/red-white/yes,3,What is the number?,8,8,3.0,0.125,False,gpt-4o,1552,0.8324742268041238,1.0,0.75,0.25
+GTSRB,circle/red-white/yes,3,What is the number?,8,8,3.0,0.125,False,llama3.2-vision:11b-instruct-fp16,484,0.8429752066115702,1.0,0.575,0.42500000000000004
+GTSRB,circle/red-white/yes,3,What is the number?,8,8,3.0,0.125,False,qwen-vl-max,1325,0.879245283018868,1.0,0.8333333333333334,0.16666666666666663
+GTSRB,circle/red-white/no,3,Does it have a diagonal strike bar?,2,6,0.6500224216483541,0.8333333333333334,False,gpt-4o,383,0.783289817232376,0.5,0.5333333333333333,-0.033333333333333326
+GTSRB,circle/red-white/no,3,Does it have a diagonal strike bar?,2,6,0.6500224216483541,0.8333333333333334,False,llama3.2-vision:11b-instruct-fp16,111,0.7567567567567568,0.6666666666666666,0.5666666666666667,0.09999999999999998
+GTSRB,circle/red-white/no,3,Does it have a diagonal strike bar?,2,6,0.6500224216483541,0.8333333333333334,False,qwen-vl-max,454,0.30176211453744495,0.5,0.8333333333333334,-0.33333333333333337
+GTSRB,circle/red-white/no/no,4,What is inside the circle?,5,5,2.321928094887362,0.2,False,gpt-4o,273,0.8461538461538461,0.6,0.68,-0.08000000000000007
+GTSRB,circle/red-white/no/no,4,What is inside the circle?,5,5,2.321928094887362,0.2,False,llama3.2-vision:11b-instruct-fp16,65,0.5230769230769231,0.4,0.4,0.0
+GTSRB,circle/red-white/no/no,4,What is inside the circle?,5,5,2.321928094887362,0.2,False,qwen-vl-max,121,0.5041322314049587,0.6,0.3333333333333333,0.26666666666666666
+GTSRB,circle/blue,2,What arrow is shown?,8,8,3.0,0.125,False,gpt-4o,742,0.5768194070080862,1.0,0.55,0.44999999999999996
+GTSRB,circle/blue,2,What arrow is shown?,8,8,3.0,0.125,False,llama3.2-vision:11b-instruct-fp16,311,0.2315112540192926,0.875,0.125,0.75
+GTSRB,circle/blue,2,What arrow is shown?,8,8,3.0,0.125,False,qwen-vl-max,542,0.33210332103321033,1.0,0.5,0.5
+GTSRB,circle/white-gray,2,What restriction ends?,3,3,1.584962500721156,0.3333333333333333,False,gpt-4o,81,0.5308641975308642,1.0,0.6666666666666666,0.33333333333333337
+GTSRB,circle/white-gray,2,What restriction ends?,3,3,1.584962500721156,0.3333333333333333,False,llama3.2-vision:11b-instruct-fp16,31,0.22580645161290322,1.0,0.2,0.8
+GTSRB,circle/white-gray,2,What restriction ends?,3,3,1.584962500721156,0.3333333333333333,False,qwen-vl-max,25,0.6,1.0,0.2222222222222222,0.7777777777777778
+MNIST,,0,How many closed loops does the digit have?,3,10,1.295461844238322,0.6,False,gpt-4o,2169,0.8294144767173813,0.9,0.86,0.040000000000000036
+MNIST,,0,How many closed loops does the digit have?,3,10,1.295461844238322,0.6,False,llama3.2-vision:11b-instruct-fp16,1073,0.3084808946877912,0.3,0.2,0.09999999999999998
+MNIST,,0,How many closed loops does the digit have?,3,10,1.295461844238322,0.6,False,qwen-vl-max,2259,0.601593625498008,0.6,0.1,0.5
+MNIST,0,1,Does the digit have a curved segment?,2,6,1.0,0.5,False,gpt-4o,1008,0.251984126984127,0.16666666666666666,0.06666666666666667,0.09999999999999999
+MNIST,0,1,Does the digit have a curved segment?,2,6,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,76,0.5921052631578947,0.16666666666666666,0.4666666666666667,-0.30000000000000004
+MNIST,0,1,Does the digit have a curved segment?,2,6,1.0,0.5,False,qwen-vl-max,728,0.6703296703296703,0.16666666666666666,0.52,-0.3533333333333334
+MNIST,0/0,2,Does the digit contain a straight horizontal line segment?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,56,0.6964285714285714,1.0,0.7333333333333333,0.2666666666666667
+MNIST,0/0,2,Does the digit contain a straight horizontal line segment?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,10,0.3,0.3333333333333333,0.5333333333333333,-0.2
+MNIST,0/0,2,Does the digit contain a straight horizontal line segment?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,162,0.7283950617283951,0.6666666666666666,0.0,0.6666666666666666
+MNIST,0/0/1,3,Does the digit have a curved segment at the top?,2,2,1.0,0.5,False,gpt-4o,24,0.2916666666666667,1.0,0.3,0.7
+MNIST,0/0/1,3,Does the digit have a curved segment at the top?,2,2,1.0,0.5,False,qwen-vl-max,6,0.5,0.5,0.4,0.09999999999999998
+MNIST,0/1,2,Does the digit contain a closed or nearly closed triangular shape?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,177,0.4915254237288136,1.0,0.7333333333333333,0.2666666666666667
+MNIST,0/1,2,Does the digit contain a closed or nearly closed triangular shape?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,31,0.3870967741935484,0.3333333333333333,0.5333333333333333,-0.2
+MNIST,0/1,2,Does the digit contain a closed or nearly closed triangular shape?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,185,0.4918918918918919,0.0,0.0,0.0
+MNIST,0/1/0,3,Does the digit have a horizontal stroke at the top?,2,2,1.0,0.5,False,gpt-4o,77,0.8701298701298701,1.0,1.0,0.0
+MNIST,0/1/0,3,Does the digit have a horizontal stroke at the top?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,5,0.2,0.0,0.7,-0.7
+MNIST,0/1/0,3,Does the digit have a horizontal stroke at the top?,2,2,1.0,0.5,False,qwen-vl-max,77,0.7142857142857143,0.5,0.0,0.5
+MNIST,1,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,586,0.8754266211604096,1.0,0.9333333333333333,0.06666666666666665
+MNIST,1,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,169,0.5976331360946746,0.6666666666666666,0.4666666666666667,0.19999999999999996
+MNIST,1,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,319,0.9749216300940439,1.0,0.8,0.19999999999999996
+MNIST,1/A loop with a stem/tail,2,Where is the closed loop located?,2,2,1.0,0.5,False,gpt-4o,320,0.90625,0.5,0.4,0.09999999999999998
+MNIST,1/A loop with a stem/tail,2,Where is the closed loop located?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,50,0.54,0.5,0.5,0.0
+MNIST,1/A loop with a stem/tail,2,Where is the closed loop located?,2,2,1.0,0.5,False,qwen-vl-max,310,0.9225806451612903,,,
+CIFAR-10,,0,Is the object in the image a living animal?,2,10,0.9709505944546686,0.6,False,gpt-4o,5869,0.9797239734196627,1.0,0.92,0.07999999999999996
+CIFAR-10,,0,Is the object in the image a living animal?,2,10,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,4564,0.6993865030674846,1.0,0.68,0.31999999999999995
+CIFAR-10,,0,Is the object in the image a living animal?,2,10,0.9709505944546686,0.6,False,qwen-vl-max,6000,0.896,1.0,0.8,0.19999999999999996
+CIFAR-10,yes,1,Is the animal primarily depicted with fur or hair covering its body?,2,6,0.9182958340544896,0.6666666666666666,False,gpt-4o,3416,0.9452576112412178,1.0,0.9,0.09999999999999998
+CIFAR-10,yes,1,Is the animal primarily depicted with fur or hair covering its body?,2,6,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,992,0.6068548387096774,1.0,0.4,0.6
+CIFAR-10,yes,1,Is the animal primarily depicted with fur or hair covering its body?,2,6,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,3087,0.7904114026563006,1.0,0.8,0.19999999999999996
+CIFAR-10,yes/yes,2,Is the animal typically shown with prominent hooves?,2,4,1.0,0.5,False,gpt-4o,2198,0.945859872611465,1.0,0.9,0.09999999999999998
+CIFAR-10,yes/yes,2,Is the animal typically shown with prominent hooves?,2,4,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,370,0.6648648648648648,1.0,0.5,0.5
+CIFAR-10,yes/yes,2,Is the animal typically shown with prominent hooves?,2,4,1.0,0.5,False,qwen-vl-max,1693,0.8718251624335499,1.0,0.8,0.19999999999999996
+CIFAR-10,yes/yes/yes,3,Does the animal have antlers visible in the image?,2,2,1.0,0.5,False,gpt-4o,1007,0.9384309831181727,1.0,0.8,0.19999999999999996
+CIFAR-10,yes/yes/yes,3,Does the animal have antlers visible in the image?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,86,0.7906976744186046,1.0,0.5,0.5
+CIFAR-10,yes/yes/yes,3,Does the animal have antlers visible in the image?,2,2,1.0,0.5,False,qwen-vl-max,585,0.8,1.0,0.8,0.19999999999999996
+CIFAR-10,yes/yes/no,3,Does the animal have a noticeably longer snout or muzzle?,2,2,1.0,0.5,False,gpt-4o,913,0.6681270536692223,1.0,0.6,0.4
+CIFAR-10,yes/yes/no,3,Does the animal have a noticeably longer snout or muzzle?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,104,0.4807692307692308,1.0,0.2,0.8
+CIFAR-10,yes/yes/no,3,Does the animal have a noticeably longer snout or muzzle?,2,2,1.0,0.5,False,qwen-vl-max,891,0.531986531986532,1.0,0.4,0.6
+CIFAR-10,yes/no,2,Does the animal have feathers covering its body?,2,2,1.0,0.5,False,gpt-4o,998,0.9408817635270541,1.0,0.9,0.09999999999999998
+CIFAR-10,yes/no,2,Does the animal have feathers covering its body?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,97,0.44329896907216493,1.0,0.4,0.6
+CIFAR-10,yes/no,2,Does the animal have feathers covering its body?,2,2,1.0,0.5,False,qwen-vl-max,747,0.7536813922356091,1.0,1.0,0.0
+CIFAR-10,no,1,Is the object capable of floating on water?,2,4,0.8112781244591328,0.75,False,gpt-4o,2255,0.9849223946784922,1.0,0.95,0.050000000000000044
+CIFAR-10,no,1,Is the object capable of floating on water?,2,4,0.8112781244591328,0.75,False,llama3.2-vision:11b-instruct-fp16,1408,0.8061079545454546,1.0,0.65,0.35
+CIFAR-10,no,1,Is the object capable of floating on water?,2,4,0.8112781244591328,0.75,False,qwen-vl-max,2288,0.8959790209790209,1.0,0.9,0.09999999999999998
+CIFAR-10,no/no,2,Does the object have wings?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,1659,0.9933694996986137,1.0,0.9333333333333333,0.06666666666666665
+CIFAR-10,no/no,2,Does the object have wings?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,868,0.8018433179723502,1.0,0.8,0.19999999999999996
+CIFAR-10,no/no,2,Does the object have wings?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,1696,0.8490566037735849,1.0,0.9333333333333333,0.06666666666666665
+CIFAR-10,no/no/no,3,Is the vehicle larger in size and typically used for transporting goods?,2,2,1.0,0.5,False,gpt-4o,1167,0.9237360754070265,0.5,1.0,-0.5
+CIFAR-10,no/no/no,3,Is the vehicle larger in size and typically used for transporting goods?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,524,0.6507633587786259,1.0,0.9,0.09999999999999998
+CIFAR-10,no/no/no,3,Is the vehicle larger in size and typically used for transporting goods?,2,2,1.0,0.5,False,qwen-vl-max,1190,0.8495798319327731,1.0,1.0,0.0
+MSCOCO,,0,Is the object a living thing (animal or person)?,2,90,0.5357150195407703,0.8777777777777778,False,gpt-4o,1812,0.9713024282560706,1.0,0.9746835443037974,0.025316455696202556
+MSCOCO,,0,Is the object a living thing (animal or person)?,2,90,0.5357150195407703,0.8777777777777778,False,llama3.2-vision:11b-instruct-fp16,860,0.9104651162790698,0.9888888888888889,0.9620253164556962,0.026863572433192706
+MSCOCO,,0,Is the object a living thing (animal or person)?,2,90,0.5357150195407703,0.8777777777777778,False,qwen-vl-max,1921,0.9786569495054659,0.9888888888888889,0.9746835443037974,0.014205344585091484
+MSCOCO,yes,1,Does the animal typically have hooves?,2,11,0.9940302114769565,0.5454545454545454,False,gpt-4o,266,0.9887218045112782,1.0,0.9696969696969697,0.030303030303030276
+MSCOCO,yes,1,Does the animal typically have hooves?,2,11,0.9940302114769565,0.5454545454545454,False,llama3.2-vision:11b-instruct-fp16,59,0.6779661016949152,0.9090909090909091,0.7272727272727273,0.18181818181818177
+MSCOCO,yes,1,Does the animal typically have hooves?,2,11,0.9940302114769565,0.5454545454545454,False,qwen-vl-max,298,0.9228187919463087,1.0,0.8787878787878788,0.12121212121212122
+MSCOCO,yes/yes,2,Does the animal have visible black-and-white striping on its body?,2,5,0.7219280948873623,0.8,False,gpt-4o,131,0.9847328244274809,1.0,1.0,0.0
+MSCOCO,yes/yes,2,Does the animal have visible black-and-white striping on its body?,2,5,0.7219280948873623,0.8,False,llama3.2-vision:11b-instruct-fp16,13,0.6923076923076923,0.8,0.8,0.0
+MSCOCO,yes/yes,2,Does the animal have visible black-and-white striping on its body?,2,5,0.7219280948873623,0.8,False,qwen-vl-max,120,0.975,1.0,0.9333333333333333,0.06666666666666665
+MSCOCO,yes/yes/no,3,Does the animal have horns that curve downward or outward from the head?,2,4,1.0,0.5,False,gpt-4o,94,0.6702127659574468,1.0,0.75,0.25
+MSCOCO,yes/yes/no,3,Does the animal have horns that curve downward or outward from the head?,2,4,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,5,0.6,0.5,0.6666666666666666,-0.16666666666666663
+MSCOCO,yes/yes/no,3,Does the animal have horns that curve downward or outward from the head?,2,4,1.0,0.5,False,qwen-vl-max,89,0.5955056179775281,0.75,0.6666666666666666,0.08333333333333337
+MSCOCO,yes/yes/no/yes,4,Does the animal have a white face with woolly fur covering most of its body?,2,2,1.0,0.5,False,gpt-4o,14,0.42857142857142855,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,yes/yes/no/yes,4,Does the animal have a white face with woolly fur covering most of its body?,2,2,1.0,0.5,False,qwen-vl-max,12,0.3333333333333333,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,yes/yes/no/no,4,Does the animal have a long neck?,2,2,1.0,0.5,False,gpt-4o,49,0.8979591836734694,1.0,1.0,0.0
+MSCOCO,yes/yes/no/no,4,Does the animal have a long neck?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,2,1.0,0.5,1.0,-0.5
+MSCOCO,yes/yes/no/no,4,Does the animal have a long neck?,2,2,1.0,0.5,False,qwen-vl-max,41,0.9512195121951219,0.5,1.0,-0.5
+MSCOCO,yes/no,2,Is the subject a human or an animal?,2,6,0.6500224216483541,0.8333333333333334,False,gpt-4o,132,1.0,1.0,1.0,0.0
+MSCOCO,yes/no,2,Is the subject a human or an animal?,2,6,0.6500224216483541,0.8333333333333334,False,llama3.2-vision:11b-instruct-fp16,18,0.9444444444444444,1.0,1.0,0.0
+MSCOCO,yes/no,2,Is the subject a human or an animal?,2,6,0.6500224216483541,0.8333333333333334,False,qwen-vl-max,155,1.0,1.0,1.0,0.0
+MSCOCO,yes/no/Animal,3,Is the animal covered with fur?,2,5,0.9709505944546686,0.6,False,gpt-4o,122,1.0,1.0,1.0,0.0
+MSCOCO,yes/no/Animal,3,Is the animal covered with fur?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,14,0.8571428571428571,0.8,0.8,0.0
+MSCOCO,yes/no/Animal,3,Is the animal covered with fur?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,133,1.0,1.0,1.0,0.0
+MSCOCO,yes/no/Animal/yes,4,Does the animal tend to have rounded ears?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,71,0.6619718309859155,0.3333333333333333,0.5555555555555556,-0.22222222222222227
+MSCOCO,yes/no/Animal/yes,4,Does the animal tend to have rounded ears?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,10,0.3,0.3333333333333333,0.2222222222222222,0.1111111111111111
+MSCOCO,yes/no/Animal/yes,4,Does the animal tend to have rounded ears?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,82,0.4878048780487805,0.3333333333333333,0.3333333333333333,0.0
+MSCOCO,yes/no/Animal/yes/no,5,Does the animal have a long snout?,2,2,1.0,0.5,False,gpt-4o,18,0.9444444444444444,1.0,0.5,0.5
+MSCOCO,yes/no/Animal/yes/no,5,Does the animal have a long snout?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,0.0,0.5,0.8333333333333334,-0.33333333333333337
+MSCOCO,yes/no/Animal/yes/no,5,Does the animal have a long snout?,2,2,1.0,0.5,False,qwen-vl-max,15,0.7333333333333333,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,yes/no/Animal/no,4,Does the animal have a trunk?,2,2,1.0,0.5,False,gpt-4o,45,1.0,1.0,1.0,0.0
+MSCOCO,yes/no/Animal/no,4,Does the animal have a trunk?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,1.0,0.0
+MSCOCO,yes/no/Animal/no,4,Does the animal have a trunk?,2,2,1.0,0.5,False,qwen-vl-max,51,1.0,1.0,1.0,0.0
+MSCOCO,no,1,Is the object typically found indoors (in a home or building)?,2,79,0.8858834790484444,0.6962025316455697,False,gpt-4o,1454,0.8858321870701513,0.8734177215189873,0.8872549019607843,-0.013837180441796937
+MSCOCO,no,1,Is the object typically found indoors (in a home or building)?,2,79,0.8858834790484444,0.6962025316455697,False,llama3.2-vision:11b-instruct-fp16,483,0.7308488612836439,0.8734177215189873,0.7843137254901961,0.08910399602879127
+MSCOCO,no,1,Is the object typically found indoors (in a home or building)?,2,79,0.8858834790484444,0.6962025316455697,False,qwen-vl-max,1581,0.83617963314358,0.9113924050632911,0.8284313725490197,0.08296103251427145
+MSCOCO,no/yes,2,"Is the object primarily used for sitting, resting, or as furniture?",2,55,0.6840384356390417,0.8181818181818182,False,gpt-4o,825,0.9296969696969697,0.9454545454545454,0.9485294117647058,-0.003074866310160407
+MSCOCO,no/yes,2,"Is the object primarily used for sitting, resting, or as furniture?",2,55,0.6840384356390417,0.8181818181818182,False,llama3.2-vision:11b-instruct-fp16,202,0.8267326732673267,0.9272727272727272,0.8235294117647058,0.1037433155080214
+MSCOCO,no/yes,2,"Is the object primarily used for sitting, resting, or as furniture?",2,55,0.6840384356390417,0.8181818181818182,False,qwen-vl-max,834,0.9136690647482014,0.9454545454545454,0.9044117647058824,0.04104278074866308
+MSCOCO,no/yes/yes,3,Is the object primarily used for sitting or resting the body?,2,10,1.0,0.5,False,gpt-4o,57,0.8947368421052632,1.0,0.9047619047619048,0.09523809523809523
+MSCOCO,no/yes/yes,3,Is the object primarily used for sitting or resting the body?,2,10,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,8,0.625,0.7,0.8095238095238095,-0.10952380952380958
+MSCOCO,no/yes/yes,3,Is the object primarily used for sitting or resting the body?,2,10,1.0,0.5,False,qwen-vl-max,50,0.96,1.0,0.7619047619047619,0.23809523809523814
+MSCOCO,no/yes/yes/yes,4,Does the object have a backrest?,2,5,0.7219280948873623,0.8,False,gpt-4o,51,0.5686274509803921,0.8,0.6666666666666666,0.13333333333333341
+MSCOCO,no/yes/yes/yes,4,Does the object have a backrest?,2,5,0.7219280948873623,0.8,False,llama3.2-vision:11b-instruct-fp16,3,0.6666666666666666,0.6,0.4,0.19999999999999996
+MSCOCO,no/yes/yes/yes,4,Does the object have a backrest?,2,5,0.7219280948873623,0.8,False,qwen-vl-max,48,0.4791666666666667,0.6,0.26666666666666666,0.3333333333333333
+MSCOCO,no/yes/yes/yes/yes,5,Does the object have armrests on both sides?,2,4,1.0,0.5,False,gpt-4o,17,0.8235294117647058,1.0,0.5833333333333334,0.41666666666666663
+MSCOCO,no/yes/yes/yes/yes,5,Does the object have armrests on both sides?,2,4,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,2,1.0,0.5,0.5833333333333334,-0.08333333333333337
+MSCOCO,no/yes/yes/yes/yes,5,Does the object have armrests on both sides?,2,4,1.0,0.5,False,qwen-vl-max,16,0.4375,0.75,0.5,0.25
+MSCOCO,no/yes/yes/yes/yes/yes,6,Is the object large enough for more than one person to sit on comfortably?,2,2,1.0,0.5,False,gpt-4o,9,0.5555555555555556,1.0,0.5,0.5
+MSCOCO,no/yes/yes/yes/yes/yes,6,Is the object large enough for more than one person to sit on comfortably?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,0.0,0.5,0.0,0.5
+MSCOCO,no/yes/yes/yes/yes/yes,6,Is the object large enough for more than one person to sit on comfortably?,2,2,1.0,0.5,False,qwen-vl-max,7,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/yes/yes/yes/no,6,Does the object feature a water tank as part of its structure?,2,2,1.0,0.5,False,gpt-4o,5,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/yes/yes/yes/no,6,Does the object feature a water tank as part of its structure?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",2,45,0.6235702082127974,0.8444444444444444,False,gpt-4o,700,0.9714285714285714,0.9777777777777777,0.9739130434782609,0.0038647342995168366
+MSCOCO,no/yes/no,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",2,45,0.6235702082127974,0.8444444444444444,False,llama3.2-vision:11b-instruct-fp16,125,0.848,0.9777777777777777,0.7391304347826086,0.2386473429951691
+MSCOCO,no/yes/no,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",2,45,0.6235702082127974,0.8444444444444444,False,qwen-vl-max,712,0.9634831460674157,0.9777777777777777,0.9391304347826087,0.03864734299516903
+MSCOCO,no/yes/no/yes,4,Is the object typically worn on the head or face?,2,7,0.863120568566631,0.7142857142857143,False,gpt-4o,41,0.8048780487804879,1.0,0.9,0.09999999999999998
+MSCOCO,no/yes/no/yes,4,Is the object typically worn on the head or face?,2,7,0.863120568566631,0.7142857142857143,False,llama3.2-vision:11b-instruct-fp16,7,0.42857142857142855,1.0,0.2,0.8
+MSCOCO,no/yes/no/yes,4,Is the object typically worn on the head or face?,2,7,0.863120568566631,0.7142857142857143,False,qwen-vl-max,33,0.8787878787878788,1.0,1.0,0.0
+MSCOCO,no/yes/no/yes/no,5,Is the object typically carried by hand rather than worn on the body?,2,5,0.9709505944546686,0.6,False,gpt-4o,33,0.8787878787878788,0.8,0.8,0.0
+MSCOCO,no/yes/no/yes/no,5,Is the object typically carried by hand rather than worn on the body?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,2,0.5,0.6,0.5,0.09999999999999998
+MSCOCO,no/yes/no/yes/no,5,Is the object typically carried by hand rather than worn on the body?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,29,0.9310344827586207,0.8,0.8,0.0
+MSCOCO,no/yes/no/yes/no/yes,6,Does the object usually have two straps and is worn on the back?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,10,1.0,1.0,0.7142857142857143,0.2857142857142857
+MSCOCO,no/yes/no/yes/no/yes,6,Does the object usually have two straps and is worn on the back?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.2857142857142857,0.7142857142857143
+MSCOCO,no/yes/no/yes/no/yes,6,Does the object usually have two straps and is worn on the back?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,8,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/yes/no/yes/no,7,Does the object commonly have wheels for easier transportation?,2,2,1.0,0.5,False,gpt-4o,10,0.9,1.0,1.0,0.0
+MSCOCO,no/yes/no/yes/no/yes/no,7,Does the object commonly have wheels for easier transportation?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.3333333333333333,0.6666666666666667
+MSCOCO,no/yes/no/yes/no/yes/no,7,Does the object commonly have wheels for easier transportation?,2,2,1.0,0.5,False,qwen-vl-max,7,0.7142857142857143,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/yes/no/no,6,Is the object primarily worn on the foot?,2,2,1.0,0.5,False,gpt-4o,19,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/yes/no/no,6,Is the object primarily worn on the foot?,2,2,1.0,0.5,False,qwen-vl-max,19,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no,4,Is the object typically associated with food preparation or consumption?,2,38,0.9494520153879484,0.631578947368421,False,gpt-4o,633,0.9115323854660348,1.0,0.9238095238095239,0.07619047619047614
+MSCOCO,no/yes/no/no,4,Is the object typically associated with food preparation or consumption?,2,38,0.9494520153879484,0.631578947368421,False,llama3.2-vision:11b-instruct-fp16,73,0.8493150684931506,1.0,0.7333333333333333,0.2666666666666667
+MSCOCO,no/yes/no/no,4,Is the object typically associated with food preparation or consumption?,2,38,0.9494520153879484,0.631578947368421,False,qwen-vl-max,653,0.900459418070444,1.0,0.9238095238095239,0.07619047619047614
+MSCOCO,no/yes/no/no/yes,5,Is the object an appliance (a powered kitchen device)?,2,24,0.8112781244591328,0.75,False,gpt-4o,377,0.8726790450928382,0.9583333333333334,0.8484848484848485,0.10984848484848486
+MSCOCO,no/yes/no/no/yes,5,Is the object an appliance (a powered kitchen device)?,2,24,0.8112781244591328,0.75,False,llama3.2-vision:11b-instruct-fp16,39,0.8717948717948718,1.0,0.8181818181818182,0.18181818181818177
+MSCOCO,no/yes/no/no/yes,5,Is the object an appliance (a powered kitchen device)?,2,24,0.8112781244591328,0.75,False,qwen-vl-max,376,0.848404255319149,0.9583333333333334,0.8181818181818182,0.14015151515151514
+MSCOCO,no/yes/no/no/yes/yes,6,Is the object primarily used for heating or cooking food?,2,6,1.0,0.5,False,gpt-4o,75,0.96,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/yes,6,Is the object primarily used for heating or cooking food?,2,6,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,5,0.8,0.6666666666666666,0.6666666666666666,0.0
+MSCOCO,no/yes/no/no/yes/yes,6,Is the object primarily used for heating or cooking food?,2,6,1.0,0.5,False,qwen-vl-max,72,0.9583333333333334,1.0,0.9333333333333333,0.06666666666666665
+MSCOCO,no/yes/no/no/yes/yes/yes,7,Does the object have a door with a viewing window on the front?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,49,0.8979591836734694,1.0,0.7777777777777778,0.2222222222222222
+MSCOCO,no/yes/no/no/yes/yes/yes,7,Does the object have a door with a viewing window on the front?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,2,0.5,0.6666666666666666,0.4444444444444444,0.2222222222222222
+MSCOCO,no/yes/no/no/yes/yes/yes,7,Does the object have a door with a viewing window on the front?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,42,0.8571428571428571,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/yes/no/no/yes/yes/yes/yes,8,Does the object usually feature a compact design suitable for countertop placement?,2,2,1.0,0.5,False,gpt-4o,32,0.84375,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/yes/yes/yes,8,Does the object usually feature a compact design suitable for countertop placement?,2,2,1.0,0.5,False,qwen-vl-max,30,0.8,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/yes/no,7,Is the object typically used to clean or dispose of water?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,22,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/yes/no,7,Is the object typically used to clean or dispose of water?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,2,0.5,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/yes/no,7,Is the object typically used to clean or dispose of water?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,27,0.9629629629629629,1.0,0.5,0.5
+MSCOCO,no/yes/no/no/yes/yes/no/no,8,Is the object usually a large stationary appliance?,2,2,1.0,0.5,False,gpt-4o,21,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/yes/no/no,8,Is the object usually a large stationary appliance?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.5,1.0,-0.5
+MSCOCO,no/yes/no/no/yes/yes/no/no,8,Is the object usually a large stationary appliance?,2,2,1.0,0.5,False,qwen-vl-max,25,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no,6,Is the object itself an item of food?,2,18,0.9910760598382222,0.5555555555555556,False,gpt-4o,253,0.849802371541502,1.0,0.8431372549019608,0.1568627450980392
+MSCOCO,no/yes/no/no/yes/no,6,Is the object itself an item of food?,2,18,0.9910760598382222,0.5555555555555556,False,llama3.2-vision:11b-instruct-fp16,19,0.8421052631578947,1.0,0.7058823529411765,0.2941176470588235
+MSCOCO,no/yes/no/no/yes/no,6,Is the object itself an item of food?,2,18,0.9910760598382222,0.5555555555555556,False,qwen-vl-max,247,0.8502024291497976,1.0,0.8431372549019608,0.1568627450980392
+MSCOCO,no/yes/no/no/yes/no/yes,7,Is the food primarily a whole fruit or vegetable?,2,10,1.0,0.5,False,gpt-4o,180,0.8555555555555555,1.0,0.8666666666666667,0.1333333333333333
+MSCOCO,no/yes/no/no/yes/no/yes,7,Is the food primarily a whole fruit or vegetable?,2,10,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,7,0.8571428571428571,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/no/yes,7,Is the food primarily a whole fruit or vegetable?,2,10,1.0,0.5,False,qwen-vl-max,171,0.8421052631578947,1.0,0.9333333333333333,0.06666666666666665
+MSCOCO,no/yes/no/no/yes/no/yes/yes,8,Is the object a fruit?,2,5,0.9709505944546686,0.6,False,gpt-4o,35,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/yes,8,Is the object a fruit?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/yes,8,Is the object a fruit?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,32,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/yes/yes,9,Is the primary color of the object yellow?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,28,1.0,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/yes/no/no/yes/no/yes/yes/yes,9,Is the primary color of the object yellow?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,0.0,0.3333333333333333,0.7777777777777778,-0.4444444444444445
+MSCOCO,no/yes/no/no/yes/no/yes/yes/yes,9,Is the primary color of the object yellow?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,21,0.9047619047619048,1.0,0.7777777777777778,0.2222222222222222
+MSCOCO,no/yes/no/no/yes/no/yes/yes/yes/no,10,Is the object primarily red or green in color?,2,2,1.0,0.5,False,gpt-4o,14,0.6428571428571429,1.0,0.5,0.5
+MSCOCO,no/yes/no/no/yes/no/yes/yes/yes/no,10,Is the object primarily red or green in color?,2,2,1.0,0.5,False,qwen-vl-max,9,0.7777777777777778,1.0,0.5,0.5
+MSCOCO,no/yes/no/no/yes/no/yes/yes/no,9,Is the object green in color?,2,2,1.0,0.5,False,gpt-4o,7,0.5714285714285714,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/no/yes/yes/no,9,Is the object green in color?,2,2,1.0,0.5,False,qwen-vl-max,11,0.8181818181818182,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/yes/no,8,Does the food typically contain a visible bread or dough component?,2,5,0.9709505944546686,0.6,False,gpt-4o,119,0.5798319327731093,0.6,0.7333333333333333,-0.1333333333333333
+MSCOCO,no/yes/no/no/yes/no/yes/no,8,Does the food typically contain a visible bread or dough component?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,5,0.4,0.6,0.4666666666666667,0.1333333333333333
+MSCOCO,no/yes/no/no/yes/no/yes/no,8,Does the food typically contain a visible bread or dough component?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,112,0.6160714285714286,0.8,0.6,0.20000000000000007
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes,9,Does the food contain visible meat between bread?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,62,0.6935483870967742,0.6666666666666666,0.7777777777777778,-0.11111111111111116
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes,9,Does the food contain visible meat between bread?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.6666666666666666,0.7777777777777778,-0.11111111111111116
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes,9,Does the food contain visible meat between bread?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,57,0.5614035087719298,0.6666666666666666,0.6666666666666666,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes/no,10,Is the food item typically ring-shaped with a central hole?,2,2,1.0,0.5,False,gpt-4o,27,0.9259259259259259,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes/no,10,Is the food item typically ring-shaped with a central hole?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/yes/no/yes/no,10,Is the food item typically ring-shaped with a central hole?,2,2,1.0,0.5,False,qwen-vl-max,26,0.9615384615384616,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/no/no,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,2,2,1.0,0.5,False,gpt-4o,6,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/yes/no/no,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/yes/no/no,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,2,2,1.0,0.5,False,qwen-vl-max,12,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/no,7,Is the object primarily used for drinking liquids?,2,8,0.954434002924965,0.625,False,gpt-4o,35,0.8857142857142857,1.0,0.7619047619047619,0.23809523809523814
+MSCOCO,no/yes/no/no/yes/no/no,7,Is the object primarily used for drinking liquids?,2,8,0.954434002924965,0.625,False,llama3.2-vision:11b-instruct-fp16,7,0.8571428571428571,0.75,0.7619047619047619,-0.011904761904761862
+MSCOCO,no/yes/no/no/yes/no/no,7,Is the object primarily used for drinking liquids?,2,8,0.954434002924965,0.625,False,qwen-vl-max,39,0.8205128205128205,1.0,0.7619047619047619,0.23809523809523814
+MSCOCO,no/yes/no/no/yes/no/no/yes,8,Does the object have a handle?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,16,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/no/no/yes,8,Does the object have a handle?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,2,1.0,0.3333333333333333,0.6666666666666666,-0.3333333333333333
+MSCOCO,no/yes/no/no/yes/no/no/yes,8,Does the object have a handle?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,13,0.8461538461538461,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/no/no/yes/no,9,"Does the object have a long, stem-like structure supporting a bowl?",2,2,1.0,0.5,False,gpt-4o,13,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/no/yes/no,9,"Does the object have a long, stem-like structure supporting a bowl?",2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.5,0.6666666666666666,-0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/no/yes/no,9,"Does the object have a long, stem-like structure supporting a bowl?",2,2,1.0,0.5,False,qwen-vl-max,9,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/yes/no/no/no,8,Is the object used to contain or hold food?,2,5,0.9709505944546686,0.6,False,gpt-4o,15,0.8,1.0,0.5,0.5
+MSCOCO,no/yes/no/no/yes/no/no/no,8,Is the object used to contain or hold food?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,4,0.25,0.6,0.4166666666666667,0.1833333333333333
+MSCOCO,no/yes/no/no/yes/no/no/no,8,Is the object used to contain or hold food?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,19,0.7368421052631579,1.0,0.4166666666666667,0.5833333333333333
+MSCOCO,no/yes/no/no/yes/no/no/no/yes,9,Is the container typically shallow and flat?,2,2,1.0,0.5,False,gpt-4o,3,0.0,1.0,0.0,1.0
+MSCOCO,no/yes/no/no/yes/no/no/no/yes,9,Is the container typically shallow and flat?,2,2,1.0,0.5,False,qwen-vl-max,2,0.0,0.5,1.0,-0.5
+MSCOCO,no/yes/no/no/yes/no/no/no/no,9,Does the object have prongs or tines at one end?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,9,1.0,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/yes/no/no/yes/no/no/no/no,9,Does the object have prongs or tines at one end?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/yes/no/no/yes/no/no/no/no,9,Does the object have prongs or tines at one end?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,12,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/yes/no/no/no/no/no,10,"Does the object have a flat, sharp edge intended for cutting?",2,2,1.0,0.5,False,gpt-4o,9,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/yes/no/no/no/no/no,10,"Does the object have a flat, sharp edge intended for cutting?",2,2,1.0,0.5,False,qwen-vl-max,12,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/no,5,Is the object primarily made of glass or reflective surfaces?,2,14,0.74959525725948,0.7857142857142857,False,gpt-4o,199,0.9045226130653267,0.8571428571428571,0.7692307692307693,0.08791208791208782
+MSCOCO,no/yes/no/no/no,5,Is the object primarily made of glass or reflective surfaces?,2,14,0.74959525725948,0.7857142857142857,False,llama3.2-vision:11b-instruct-fp16,13,0.7692307692307693,0.9285714285714286,0.7948717948717948,0.13369963369963378
+MSCOCO,no/yes/no/no/no,5,Is the object primarily made of glass or reflective surfaces?,2,14,0.74959525725948,0.7857142857142857,False,qwen-vl-max,212,0.8632075471698113,0.8571428571428571,0.7692307692307693,0.08791208791208782
+MSCOCO,no/yes/no/no/no/yes,6,Does the object display a reflective surface used to see one's own image?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,9,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/no/yes,6,Does the object display a reflective surface used to see one's own image?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,17,0.9411764705882353,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/no/yes/no,7,Does the object typically have a face with numbers or hands?,2,2,1.0,0.5,False,gpt-4o,9,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/no/yes/no,7,Does the object typically have a face with numbers or hands?,2,2,1.0,0.5,False,qwen-vl-max,16,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/no/no,6,Is the object an electronic device or related accessory?,2,11,0.9456603046006401,0.6363636363636364,False,gpt-4o,171,0.9590643274853801,1.0,0.9393939393939394,0.06060606060606055
+MSCOCO,no/yes/no/no/no/no,6,Is the object an electronic device or related accessory?,2,11,0.9456603046006401,0.6363636363636364,False,llama3.2-vision:11b-instruct-fp16,7,0.7142857142857143,1.0,0.8181818181818182,0.18181818181818177
+MSCOCO,no/yes/no/no/no/no,6,Is the object an electronic device or related accessory?,2,11,0.9456603046006401,0.6363636363636364,False,qwen-vl-max,166,0.9457831325301205,0.9090909090909091,0.9090909090909091,0.0
+MSCOCO,no/yes/no/no/no/no/yes,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,2,7,0.9852281360342515,0.5714285714285714,False,gpt-4o,110,0.9272727272727272,1.0,0.8095238095238095,0.19047619047619047
+MSCOCO,no/yes/no/no/no/no/yes,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,2,7,0.9852281360342515,0.5714285714285714,False,llama3.2-vision:11b-instruct-fp16,3,0.3333333333333333,0.7142857142857143,0.5714285714285714,0.1428571428571429
+MSCOCO,no/yes/no/no/no/no/yes,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,2,7,0.9852281360342515,0.5714285714285714,False,qwen-vl-max,107,0.8411214953271028,0.5714285714285714,0.8571428571428571,-0.2857142857142857
+MSCOCO,no/yes/no/no/no/no/yes/yes,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,53,0.7924528301886793,0.6666666666666666,0.8888888888888888,-0.2222222222222222
+MSCOCO,no/yes/no/no/no/no/yes/yes,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,0.0,0.3333333333333333,0.4444444444444444,-0.1111111111111111
+MSCOCO,no/yes/no/no/no/no/yes/yes,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,56,0.75,0.6666666666666666,0.8888888888888888,-0.2222222222222222
+MSCOCO,no/yes/no/no/no/no/yes/yes/no,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,2,2,1.0,0.5,False,gpt-4o,18,0.8888888888888888,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/no/no/yes/yes/no,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,2,2,1.0,0.5,False,qwen-vl-max,17,1.0,0.5,0.8333333333333334,-0.33333333333333337
+MSCOCO,no/yes/no/no/no/no/yes/no,8,Is the object mainly designed for handheld use?,2,4,1.0,0.5,False,gpt-4o,49,0.9795918367346939,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/no/no/yes/no,8,Is the object mainly designed for handheld use?,2,4,1.0,0.5,False,qwen-vl-max,34,0.7352941176470589,1.0,0.5,0.5
+MSCOCO,no/yes/no/no/no/no/yes/no/yes,9,Does the object have a screen or display surface?,2,2,1.0,0.5,False,gpt-4o,15,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/no/no/yes/no/yes,9,Does the object have a screen or display surface?,2,2,1.0,0.5,False,qwen-vl-max,4,1.0,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/no/no/yes/no/no,9,Does the object have a built-in display screen that is used for output only (not interactive)?,2,2,1.0,0.5,False,gpt-4o,33,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/yes/no/no/no/no/yes/no/no,9,Does the object have a built-in display screen that is used for output only (not interactive)?,2,2,1.0,0.5,False,qwen-vl-max,21,0.6190476190476191,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/yes/no/no/no/no/no,7,Is the object a soft toy or plush item?,2,4,0.8112781244591328,0.75,False,gpt-4o,54,0.9629629629629629,1.0,0.9166666666666666,0.08333333333333337
+MSCOCO,no/yes/no/no/no/no/no,7,Is the object a soft toy or plush item?,2,4,0.8112781244591328,0.75,False,llama3.2-vision:11b-instruct-fp16,2,1.0,1.0,0.9166666666666666,0.08333333333333337
+MSCOCO,no/yes/no/no/no/no/no,7,Is the object a soft toy or plush item?,2,4,0.8112781244591328,0.75,False,qwen-vl-max,50,1.0,1.0,0.9166666666666666,0.08333333333333337
+MSCOCO,no/yes/no/no/no/no/no/no,8,Is the object primarily made of paper?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,34,0.8823529411764706,1.0,0.5555555555555556,0.4444444444444444
+MSCOCO,no/yes/no/no/no/no/no/no,8,Is the object primarily made of paper?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.7777777777777778,0.2222222222222222
+MSCOCO,no/yes/no/no/no/no/no/no,8,Is the object primarily made of paper?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,30,0.9333333333333333,1.0,0.5555555555555556,0.4444444444444444
+MSCOCO,no/yes/no/no/no/no/no/no/no,9,Does the object have blades used for cutting?,2,2,1.0,0.5,False,gpt-4o,30,0.9,1.0,1.0,0.0
+MSCOCO,no/yes/no/no/no/no/no/no/no,9,Does the object have blades used for cutting?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.5,0.5,0.0
+MSCOCO,no/yes/no/no/no/no/no/no/no,9,Does the object have blades used for cutting?,2,2,1.0,0.5,False,qwen-vl-max,28,0.9285714285714286,1.0,1.0,0.0
+MSCOCO,no/no,2,Is the object primarily a vehicle used for transportation?,2,24,0.9182958340544896,0.6666666666666666,False,gpt-4o,458,0.9104803493449781,0.9583333333333334,0.9411764705882353,0.01715686274509809
+MSCOCO,no/no,2,Is the object primarily a vehicle used for transportation?,2,24,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,88,0.7613636363636364,0.75,0.8382352941176471,-0.08823529411764708
+MSCOCO,no/no,2,Is the object primarily a vehicle used for transportation?,2,24,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,488,0.8872950819672131,0.9583333333333334,0.9411764705882353,0.01715686274509809
+MSCOCO,no/no/yes,3,Does the vehicle have two wheels?,2,8,0.8112781244591328,0.75,False,gpt-4o,169,1.0,1.0,0.9583333333333334,0.04166666666666663
+MSCOCO,no/no/yes,3,Does the vehicle have two wheels?,2,8,0.8112781244591328,0.75,False,llama3.2-vision:11b-instruct-fp16,18,0.8333333333333334,1.0,0.75,0.25
+MSCOCO,no/no/yes,3,Does the vehicle have two wheels?,2,8,0.8112781244591328,0.75,False,qwen-vl-max,176,1.0,1.0,0.9583333333333334,0.04166666666666663
+MSCOCO,no/no/yes/yes,4,Does the vehicle have pedals for human propulsion?,2,2,1.0,0.5,False,gpt-4o,37,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/no/yes/yes,4,Does the vehicle have pedals for human propulsion?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,3,0.6666666666666666,0.5,0.6666666666666666,-0.16666666666666663
+MSCOCO,no/no/yes/yes,4,Does the vehicle have pedals for human propulsion?,2,2,1.0,0.5,False,qwen-vl-max,42,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/no/yes/no,4,Does the vehicle primarily operate on water?,2,6,0.6500224216483541,0.8333333333333334,False,gpt-4o,132,1.0,1.0,1.0,0.0
+MSCOCO,no/no/yes/no,4,Does the vehicle primarily operate on water?,2,6,0.6500224216483541,0.8333333333333334,False,llama3.2-vision:11b-instruct-fp16,10,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/yes/no,4,Does the vehicle primarily operate on water?,2,6,0.6500224216483541,0.8333333333333334,False,qwen-vl-max,134,1.0,1.0,1.0,0.0
+MSCOCO,no/no/yes/no/no,5,Does the vehicle have wings?,2,5,0.7219280948873623,0.8,False,gpt-4o,107,0.9813084112149533,1.0,0.9333333333333333,0.06666666666666665
+MSCOCO,no/no/yes/no/no,5,Does the vehicle have wings?,2,5,0.7219280948873623,0.8,False,llama3.2-vision:11b-instruct-fp16,10,1.0,1.0,0.8666666666666667,0.1333333333333333
+MSCOCO,no/no/yes/no/no,5,Does the vehicle have wings?,2,5,0.7219280948873623,0.8,False,qwen-vl-max,108,0.9722222222222222,1.0,0.9333333333333333,0.06666666666666665
+MSCOCO,no/no/yes/no/no/no,6,Is the vehicle designed primarily for transporting many passengers?,2,4,1.0,0.5,False,gpt-4o,84,0.8452380952380952,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/yes/no/no/no,6,Is the vehicle designed primarily for transporting many passengers?,2,4,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,7,0.7142857142857143,0.75,0.5,0.25
+MSCOCO,no/no/yes/no/no/no,6,Is the vehicle designed primarily for transporting many passengers?,2,4,1.0,0.5,False,qwen-vl-max,81,0.8395061728395061,1.0,0.9166666666666666,0.08333333333333337
+MSCOCO,no/no/yes/no/no/no/yes,7,Does the vehicle travel on tracks?,2,2,1.0,0.5,False,gpt-4o,38,1.0,1.0,1.0,0.0
+MSCOCO,no/no/yes/no/no/no/yes,7,Does the vehicle travel on tracks?,2,2,1.0,0.5,False,qwen-vl-max,40,1.0,1.0,1.0,0.0
+MSCOCO,no/no/yes/no/no/no/no,7,Is the vehicle smaller in size and typically used for personal transport?,2,2,1.0,0.5,False,gpt-4o,32,0.84375,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/yes/no/no/no/no,7,Is the vehicle smaller in size and typically used for personal transport?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,5,1.0,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/yes/no/no/no/no,7,Is the vehicle smaller in size and typically used for personal transport?,2,2,1.0,0.5,False,qwen-vl-max,28,0.9642857142857143,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/no,3,Is the object attached to or installed on a street or roadside?,2,16,0.8960382325345574,0.6875,False,gpt-4o,242,0.9545454545454546,1.0,0.9545454545454546,0.045454545454545414
+MSCOCO,no/no/no,3,Is the object attached to or installed on a street or roadside?,2,16,0.8960382325345574,0.6875,False,llama3.2-vision:11b-instruct-fp16,41,0.7804878048780488,0.9375,0.75,0.1875
+MSCOCO,no/no/no,3,Is the object attached to or installed on a street or roadside?,2,16,0.8960382325345574,0.6875,False,qwen-vl-max,257,0.8988326848249028,1.0,0.8863636363636364,0.11363636363636365
+MSCOCO,no/no/no/yes,4,Is the object primarily a sign displaying text or symbols?,2,5,0.9709505944546686,0.6,False,gpt-4o,95,0.8,1.0,0.75,0.25
+MSCOCO,no/no/no/yes,4,Is the object primarily a sign displaying text or symbols?,2,5,0.9709505944546686,0.6,False,llama3.2-vision:11b-instruct-fp16,7,0.7142857142857143,0.8,0.6666666666666666,0.13333333333333341
+MSCOCO,no/no/no/yes,4,Is the object primarily a sign displaying text or symbols?,2,5,0.9709505944546686,0.6,False,qwen-vl-max,90,0.8,1.0,0.9166666666666666,0.08333333333333337
+MSCOCO,no/no/no/yes/yes,5,Is the sign octagonal in shape?,2,2,1.0,0.5,False,gpt-4o,26,0.9230769230769231,0.5,1.0,-0.5
+MSCOCO,no/no/no/yes/yes,5,Is the sign octagonal in shape?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,3,0.6666666666666666,0.5,1.0,-0.5
+MSCOCO,no/no/no/yes/yes,5,Is the sign octagonal in shape?,2,2,1.0,0.5,False,qwen-vl-max,25,0.88,1.0,1.0,0.0
+MSCOCO,no/no/no/yes/no,5,Does the object have visible lights or bulbs on its structure?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,50,0.96,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/no/no/yes/no,5,Does the object have visible lights or bulbs on its structure?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,2,1.0,0.3333333333333333,0.8888888888888888,-0.5555555555555556
+MSCOCO,no/no/no/yes/no,5,Does the object have visible lights or bulbs on its structure?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,47,0.9574468085106383,0.6666666666666666,1.0,-0.33333333333333337
+MSCOCO,no/no/no/yes/no/no,6,Does the object typically have a coin or digital payment slot?,2,2,1.0,0.5,False,gpt-4o,37,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/yes/no/no,6,Does the object typically have a coin or digital payment slot?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,2,0.5,1.0,0.5,0.5
+MSCOCO,no/no/no/yes/no/no,6,Does the object typically have a coin or digital payment slot?,2,2,1.0,0.5,False,qwen-vl-max,33,0.9696969696969697,1.0,0.8333333333333334,0.16666666666666663
+MSCOCO,no/no/no/no,4,Is the primary object large and flat (used for riding or standing on)?,2,11,0.9456603046006401,0.6363636363636364,False,gpt-4o,135,0.8962962962962963,1.0,0.9375,0.0625
+MSCOCO,no/no/no/no,4,Is the primary object large and flat (used for riding or standing on)?,2,11,0.9456603046006401,0.6363636363636364,False,llama3.2-vision:11b-instruct-fp16,19,0.9473684210526315,1.0,0.78125,0.21875
+MSCOCO,no/no/no/no,4,Is the primary object large and flat (used for riding or standing on)?,2,11,0.9456603046006401,0.6363636363636364,False,qwen-vl-max,141,0.9858156028368794,1.0,0.96875,0.03125
+MSCOCO,no/no/no/no/yes,5,Is the object typically used on snow?,2,4,1.0,0.5,False,gpt-4o,51,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes,5,Is the object typically used on snow?,2,4,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,9,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes,5,Is the object typically used on snow?,2,4,1.0,0.5,False,qwen-vl-max,56,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes/yes,6,Does the object consist of two long narrow boards rather than a single wide board?,2,2,1.0,0.5,False,gpt-4o,22,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes/yes,6,Does the object consist of two long narrow boards rather than a single wide board?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,0.0,0.5,0.5,0.0
+MSCOCO,no/no/no/no/yes/yes,6,Does the object consist of two long narrow boards rather than a single wide board?,2,2,1.0,0.5,False,qwen-vl-max,27,0.9629629629629629,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes/no,6,Is the object primarily used on water?,2,2,1.0,0.5,False,gpt-4o,29,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/yes/no,6,Is the object primarily used on water?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,7,1.0,1.0,0.6666666666666666,0.33333333333333337
+MSCOCO,no/no/no/no/yes/no,6,Is the object primarily used on water?,2,2,1.0,0.5,False,qwen-vl-max,29,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/no,5,Is the object primarily designed to fly or be used in the air?,2,7,0.9852281360342515,0.5714285714285714,False,gpt-4o,70,0.7714285714285715,0.8571428571428571,0.8,0.05714285714285705
+MSCOCO,no/no/no/no/no,5,Is the object primarily designed to fly or be used in the air?,2,7,0.9852281360342515,0.5714285714285714,False,llama3.2-vision:11b-instruct-fp16,7,0.7142857142857143,0.7142857142857143,0.8,-0.08571428571428574
+MSCOCO,no/no/no/no/no,5,Is the object primarily designed to fly or be used in the air?,2,7,0.9852281360342515,0.5714285714285714,False,qwen-vl-max,83,0.7349397590361446,0.8571428571428571,0.8,0.05714285714285705
+MSCOCO,no/no/no/no/no/yes,6,Is the object typically thrown by hand during play?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,32,0.96875,1.0,0.8888888888888888,0.11111111111111116
+MSCOCO,no/no/no/no/no/yes,6,Is the object typically thrown by hand during play?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,4,1.0,0.6666666666666666,0.3333333333333333,0.3333333333333333
+MSCOCO,no/no/no/no/no/yes,6,Is the object typically thrown by hand during play?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,38,0.8421052631578947,1.0,1.0,0.0
+MSCOCO,no/no/no/no/no/yes/no,7,Does the object have a fabric or cloth surface stretched over its frame?,2,2,1.0,0.5,False,gpt-4o,16,0.0,0.5,0.3333333333333333,0.16666666666666669
+MSCOCO,no/no/no/no/no/yes/no,7,Does the object have a fabric or cloth surface stretched over its frame?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,3,0.3333333333333333,0.5,0.5,0.0
+MSCOCO,no/no/no/no/no/yes/no,7,Does the object have a fabric or cloth surface stretched over its frame?,2,2,1.0,0.5,False,qwen-vl-max,13,0.0,0.5,0.3333333333333333,0.16666666666666669
+MSCOCO,no/no/no/no/no/no,6,Is the object spherical or round in shape?,2,4,0.8112781244591328,0.75,False,gpt-4o,22,0.9090909090909091,1.0,0.9090909090909091,0.09090909090909094
+MSCOCO,no/no/no/no/no/no,6,Is the object spherical or round in shape?,2,4,0.8112781244591328,0.75,False,llama3.2-vision:11b-instruct-fp16,1,1.0,1.0,0.7272727272727273,0.2727272727272727
+MSCOCO,no/no/no/no/no/no,6,Is the object spherical or round in shape?,2,4,0.8112781244591328,0.75,False,qwen-vl-max,23,0.8260869565217391,1.0,0.9090909090909091,0.09090909090909094
+MSCOCO,no/no/no/no/no/no/no,7,Is the object held in the hand during use?,2,3,0.9182958340544896,0.6666666666666666,False,gpt-4o,14,1.0,0.6666666666666666,0.875,-0.20833333333333337
+MSCOCO,no/no/no/no/no/no/no,7,Is the object held in the hand during use?,2,3,0.9182958340544896,0.6666666666666666,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.6666666666666666,0.375,0.29166666666666663
+MSCOCO,no/no/no/no/no/no/no,7,Is the object held in the hand during use?,2,3,0.9182958340544896,0.6666666666666666,False,qwen-vl-max,13,0.8461538461538461,0.6666666666666666,0.875,-0.20833333333333337
+MSCOCO,no/no/no/no/no/no/no/yes,8,Does the object have a netted or strung area as part of its design?,2,2,1.0,0.5,False,gpt-4o,13,1.0,1.0,1.0,0.0
+MSCOCO,no/no/no/no/no/no/no/yes,8,Does the object have a netted or strung area as part of its design?,2,2,1.0,0.5,False,llama3.2-vision:11b-instruct-fp16,1,1.0,0.5,0.6666666666666666,-0.16666666666666663
+MSCOCO,no/no/no/no/no/no/no/yes,8,Does the object have a netted or strung area as part of its design?,2,2,1.0,0.5,False,qwen-vl-max,11,1.0,1.0,1.0,0.0

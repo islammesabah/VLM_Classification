@@ -1,0 +1,522 @@
+[
+  {
+    "question": "Is the size of the bird relatively small (songbird-sized), or large (gull/crow/tern-sized)?",
+    "answers": [
+      "Small (songbird-sized)",
+      "Large (gull/crow/tern-sized)"
+    ],
+    "current_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "children": {
+      "Small (songbird-sized)": [
+        {
+          "question": "Does the bird display bold eye markings, such as a prominent eye ring or supercilium?",
+          "answers": [
+            "Bold eye markings (eye ring or eyebrow stripe)",
+            "No bold eye markings"
+          ],
+          "current_classes": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            10,
+            11,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19
+          ],
+          "children": {
+            "Bold eye markings (eye ring or eyebrow stripe)": [
+              {
+                "question": "Is the bird primarily brown or olive above rather than bluish or gray?",
+                "answers": [
+                  "Primarily brown or olive above",
+                  "Bluish or gray above"
+                ],
+                "current_classes": [
+                  2,
+                  3,
+                  5,
+                  8,
+                  10,
+                  18,
+                  19
+                ],
+                "children": {
+                  "Primarily brown or olive above": [
+                    {
+                      "question": "Does the bird have extensive yellow coloring on the underparts?",
+                      "answers": [
+                        "Yes, extensive yellow on underparts",
+                        "No, mostly white or buff underparts"
+                      ],
+                      "current_classes": [
+                        2,
+                        5,
+                        8,
+                        10,
+                        19
+                      ],
+                      "children": {
+                        "Yes, extensive yellow on underparts": [
+                          {
+                            "question": "Does the bird have a yellow throat or prominent yellow patch on the throat?",
+                            "answers": [
+                              "Yes, yellow throat",
+                              "No, no yellow throat"
+                            ],
+                            "current_classes": [
+                              5,
+                              10,
+                              19
+                            ],
+                            "children": {
+                              "Yes, yellow throat": [
+                                {
+                                  "question": "",
+                                  "answers": [],
+                                  "current_classes": [
+                                    19
+                                  ],
+                                  "children": {}
+                                }
+                              ],
+                              "No, no yellow throat": [
+                                {
+                                  "question": "Does the bird have rusty or reddish streaks on its flanks and under its tail?",
+                                  "answers": [
+                                    "Yes, has rusty/reddish streaks",
+                                    "No, lacks rusty/reddish streaks"
+                                  ],
+                                  "current_classes": [
+                                    5,
+                                    10
+                                  ],
+                                  "children": {
+                                    "Yes, has rusty/reddish streaks": [
+                                      {
+                                        "question": "",
+                                        "answers": [],
+                                        "current_classes": [
+                                          10
+                                        ],
+                                        "children": {}
+                                      }
+                                    ],
+                                    "No, lacks rusty/reddish streaks": [
+                                      {
+                                        "question": "",
+                                        "answers": [],
+                                        "current_classes": [
+                                          5
+                                        ],
+                                        "children": {}
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "No, mostly white or buff underparts": [
+                          {
+                            "question": "Is the bird's bill short and wide, or long and slender?",
+                            "answers": [
+                              "Short and wide",
+                              "Long and slender"
+                            ],
+                            "current_classes": [
+                              2,
+                              8
+                            ],
+                            "children": {
+                              "Short and wide": [
+                                {
+                                  "question": "",
+                                  "answers": [],
+                                  "current_classes": [
+                                    2
+                                  ],
+                                  "children": {}
+                                }
+                              ],
+                              "Long and slender": [
+                                {
+                                  "question": "",
+                                  "answers": [],
+                                  "current_classes": [
+                                    8
+                                  ],
+                                  "children": {}
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "Bluish or gray above": [
+                    {
+                      "question": "Does the bird have distinctive white patches on the wings?",
+                      "answers": [
+                        "Yes, white wing patches present",
+                        "No, plain wings (no white patches)"
+                      ],
+                      "current_classes": [
+                        3,
+                        18
+                      ],
+                      "children": {
+                        "Yes, white wing patches present": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              18
+                            ],
+                            "children": {}
+                          }
+                        ],
+                        "No, plain wings (no white patches)": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              3
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "No bold eye markings": [
+              {
+                "question": "Does the bird have a long, slender bill adapted for nectar feeding or insect catch, or a thicker, conical bill suited for seed eating?",
+                "answers": [
+                  "Long, slender bill",
+                  "Thick, conical bill",
+                  "Other bill shapes"
+                ],
+                "current_classes": [
+                  1,
+                  7,
+                  11,
+                  13,
+                  14,
+                  15,
+                  17
+                ],
+                "children": {
+                  "Long, slender bill": [
+                    {
+                      "question": "Does the bird have iridescent green plumage and a vibrant red throat patch?",
+                      "answers": [
+                        "Yes",
+                        "No"
+                      ],
+                      "current_classes": [
+                        7,
+                        13
+                      ],
+                      "children": {
+                        "Yes": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              7
+                            ],
+                            "children": {}
+                          }
+                        ],
+                        "No": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              13
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "Thick, conical bill": [
+                    {
+                      "question": "Does the bird predominantly display bright blue plumage on its body?",
+                      "answers": [
+                        "Yes",
+                        "No"
+                      ],
+                      "current_classes": [
+                        15,
+                        17
+                      ],
+                      "children": {
+                        "Yes": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              15
+                            ],
+                            "children": {}
+                          }
+                        ],
+                        "No": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              17
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "Other bill shapes": [
+                    {
+                      "question": "Does the bird's plumage have prominent spots or streaks on the chest and belly?",
+                      "answers": [
+                        "Yes (spotted or streaked underparts)",
+                        "No (plain underparts)"
+                      ],
+                      "current_classes": [
+                        1,
+                        11,
+                        14
+                      ],
+                      "children": {
+                        "Yes (spotted or streaked underparts)": [
+                          {
+                            "question": "Is the bird primarily grayish-brown overall with fine streaks, rather than olive-green or brownish with bold spotting?",
+                            "answers": [
+                              "Grayish-brown with fine streaks",
+                              "Olive-brown/greenish with bold spots"
+                            ],
+                            "current_classes": [
+                              1,
+                              14
+                            ],
+                            "children": {
+                              "Grayish-brown with fine streaks": [
+                                {
+                                  "question": "",
+                                  "answers": [],
+                                  "current_classes": [
+                                    1
+                                  ],
+                                  "children": {}
+                                }
+                              ],
+                              "Olive-brown/greenish with bold spots": [
+                                {
+                                  "question": "",
+                                  "answers": [],
+                                  "current_classes": [
+                                    14
+                                  ],
+                                  "children": {}
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "No (plain underparts)": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              11
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Large (gull/crow/tern-sized)": [
+        {
+          "question": "Does the bird have a predominantly dark (black or dark grey) plumage overall?",
+          "answers": [
+            "Yes",
+            "No"
+          ],
+          "current_classes": [
+            0,
+            4,
+            6,
+            9,
+            12,
+            16
+          ],
+          "children": {
+            "Yes": [
+              {
+                "question": "Is the bird's bill large and thick with a pronounced curve, or is it more slender and straight?",
+                "answers": [
+                  "Large, thick, and curved bill",
+                  "Slender and straight bill"
+                ],
+                "current_classes": [
+                  9,
+                  12
+                ],
+                "children": {
+                  "Large, thick, and curved bill": [
+                    {
+                      "question": "",
+                      "answers": [],
+                      "current_classes": [
+                        9
+                      ],
+                      "children": {}
+                    }
+                  ],
+                  "Slender and straight bill": [
+                    {
+                      "question": "",
+                      "answers": [],
+                      "current_classes": [
+                        12
+                      ],
+                      "children": {}
+                    }
+                  ]
+                }
+              }
+            ],
+            "No": [
+              {
+                "question": "Is the bird's bill predominantly long and straight (not short or upturned)?",
+                "answers": [
+                  "Yes",
+                  "No"
+                ],
+                "current_classes": [
+                  0,
+                  4,
+                  6,
+                  16
+                ],
+                "children": {
+                  "Yes": [
+                    {
+                      "question": "Does the bird have a pale white head and heavy body?",
+                      "answers": [
+                        "Yes",
+                        "No"
+                      ],
+                      "current_classes": [
+                        0,
+                        6
+                      ],
+                      "children": {
+                        "Yes": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              0
+                            ],
+                            "children": {}
+                          }
+                        ],
+                        "No": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              6
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "No": [
+                    {
+                      "question": "Does the bird have a distinct crest or tuft on its head?",
+                      "answers": [
+                        "Yes, a prominent crest or tuft",
+                        "No, only small feather projections ('horns')"
+                      ],
+                      "current_classes": [
+                        4,
+                        16
+                      ],
+                      "children": {
+                        "Yes, a prominent crest or tuft": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              16
+                            ],
+                            "children": {}
+                          }
+                        ],
+                        "No, only small feather projections ('horns')": [
+                          {
+                            "question": "",
+                            "answers": [],
+                            "current_classes": [
+                              4
+                            ],
+                            "children": {}
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

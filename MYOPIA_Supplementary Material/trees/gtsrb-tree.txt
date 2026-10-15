@@ -1,0 +1,133 @@
+############################################
+Full Traffic Sign Classification Tree:
+############################################
+[L0] Q: What's the sign's primary shape?
+  -> triangle:
+  [L1] Q: Does the triangle have an exclamation mark?
+    -> yes:
+    [L2] Final: Exclamation mark warning ([18])
+    -> no:
+    [L2] Q: Does it depict a left curve?
+      -> yes:
+      [L3] Final: Left curve warning ([19])
+      -> no:
+      [L3] Q: Does it depict right curve?
+        -> yes:
+        [L4] Final: right curve warning ([20])
+        -> no:
+        [L4] Q: Does it depict double curve?
+          -> yes:
+          [L5] Final: double curve warning ([21])
+          -> no:
+          [L5] Q: Does it depict rough/bumpy road?
+            -> yes:
+            [L6] Final: rough/bumpy road warning ([22])
+            -> no:
+            [L6] Q: Does it depict slippery road?
+              -> yes:
+              [L7] Final: slippery road warning ([23])
+              -> no:
+              [L7] Q: Does it depict merging/narrow lanes?
+                -> yes:
+                [L8] Final: merging/narrow lanes warning ([24])
+                -> no:
+                [L8] Q: Does it depict construction/road work?
+                  -> yes:
+                  [L9] Final: construction/road work warning ([25])
+                  -> no:
+                  [L9] Q: Does it depict traffic light?
+                    -> yes:
+                    [L10] Final: traffic light warning ([26])
+                    -> no:
+                    [L10] Q: Does it depict both child and pedestrian?
+                      -> yes:
+                      [L11] Final: both child and pedestrian warning ([28])
+                      -> no:
+                      [L11] Q: Does it depict pedestrian?
+                        -> yes:
+                        [L12] Final: pedestrian warning ([27])
+                        -> no:
+                        [L12] Q: Does it depict bicycle?
+                          -> yes:
+                          [L13] Final: bicycle warning ([29])
+                          -> no:
+                          [L13] Q: Does it depict ice/snow?
+                            -> yes:
+                            [L14] Final: ice/snow warning ([30])
+                            -> no:
+                            [L14] Q: Does it depict deer?
+                              -> yes:
+                              [L15] Final: deer warning ([31])
+                              -> no:
+                              [L15] Final: Right-of-way at intersection ([11])
+  -> circle:
+  [L1] Q: What's the circle color?
+    -> red-white:
+    [L2] Q: Does it contain numbers?
+      -> yes:
+      [L3] Q: What is the number?
+        -> 20:
+        [L4] Final: 20 kph limit ([0])
+        -> 30:
+        [L4] Final: 30 kph limit ([1])
+        -> 50:
+        [L4] Final: 50 kph limit ([2])
+        -> 60:
+        [L4] Final: 60 kph limit ([3])
+        -> 70:
+        [L4] Final: 70 kph limit ([4])
+        -> 80:
+        [L4] Final: 80 kph limit ([5])
+        -> 100:
+        [L4] Final: 100 kph limit ([7])
+        -> 120:
+        [L4] Final: 120 kph limit ([8])
+      -> no:
+      [L3] Q: Does it have a diagonal strike bar?
+        -> yes:
+        [L4] Final: End of restriction ([6])
+        -> no:
+        [L4] Q: What is inside the circle?
+          -> red truck and black car:
+          [L5] Final: No trucks passing ([10])
+          -> red car and black car:
+          [L5] Final: No passing zone sign ([9])
+          -> empty circle:
+          [L5] Final: No vehicles sign ([15])
+          -> truck:
+          [L5] Final: No vehicles over 3.5 t ([16])
+          -> horizontal white bar:
+          [L5] Final: Do not enter road sign ([17])
+    -> blue:
+    [L2] Q: What arrow is shown?
+      -> right:
+      [L3] Final: right arrow ([33])
+      -> left:
+      [L3] Final: left arrow ([34])
+      -> forward:
+      [L3] Final: forward arrow ([35])
+      -> forward-right:
+      [L3] Final: forward-right arrow ([36])
+      -> forward-left:
+      [L3] Final: forward-left arrow ([37])
+      -> keep-right:
+      [L3] Final: keep-right arrow ([38])
+      -> keep-left:
+      [L3] Final: keep-left arrow ([39])
+      -> circular:
+      [L3] Final: circular arrow ([40])
+    -> white-gray:
+    [L2] Q: What restriction ends?
+      -> speed limit:
+      [L3] Final: No speed limit ([32])
+      -> car passing:
+      [L3] Final: End car passing ban ([41])
+      -> truck passing:
+      [L3] Final: End truck passing ban ([42])
+  -> diamond:
+  [L1] Final: Priority road ([12])
+  -> inverted-triangle:
+  [L1] Final: Yield ([13])
+  -> octagon:
+  [L1] Final: Stop ([14])
+############################################

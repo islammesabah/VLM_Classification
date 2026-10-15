@@ -1,0 +1,232 @@
+dataset,model,true_class,class_name,depth,question,expected_answer,predicted_answer,correct,call_cost
+GTSRB,llama3.2-vision:11b-instruct-fp16,0,20 Kph Limit,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,0,20 Kph Limit,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,0,20 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,0,20 Kph Limit,3,What is the number?,20,20,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,1,30 Kph Limit,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,1,30 Kph Limit,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,1,30 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,1,30 Kph Limit,3,What is the number?,30,30,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,2,50 Kph Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,2,50 Kph Limit,1,What's the circle color?,red-white,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,2,50 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,2,50 Kph Limit,3,What is the number?,50,50,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,3,60 Kph Limit,0,What's the sign's primary shape?,circle,inverted-triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,3,60 Kph Limit,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,3,60 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,3,60 Kph Limit,3,What is the number?,60,60,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,4,70 Kph Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,4,70 Kph Limit,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,4,70 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,4,70 Kph Limit,3,What is the number?,70,70,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,5,80 Kph Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,5,80 Kph Limit,1,What's the circle color?,red-white,red-white,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,5,80 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,5,80 Kph Limit,3,What is the number?,80,80,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,6,End Of Restriction,0,What's the sign's primary shape?,circle,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,6,End Of Restriction,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,6,End Of Restriction,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,6,End Of Restriction,3,Does it have a diagonal strike bar?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,7,100 Kph Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,7,100 Kph Limit,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,7,100 Kph Limit,2,Does it contain numbers?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,7,100 Kph Limit,3,What is the number?,100,100,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,8,120 Kph Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,8,120 Kph Limit,1,What's the circle color?,red-white,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,8,120 Kph Limit,2,Does it contain numbers?,yes,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,8,120 Kph Limit,3,What is the number?,120,120,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,9,No Cars Passing,0,What's the sign's primary shape?,circle,octagon,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,9,No Cars Passing,1,What's the circle color?,red-white,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,9,No Cars Passing,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,9,No Cars Passing,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,9,No Cars Passing,4,What is inside the circle?,red car and black car,empty circle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,10,No Trucks Passing,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,10,No Trucks Passing,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,10,No Trucks Passing,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,10,No Trucks Passing,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,10,No Trucks Passing,4,What is inside the circle?,red truck and black car,empty circle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,7,Does it depict merging/narrow lanes?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,10,Does it depict both child and pedestrian?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,12,Does it depict bicycle?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,13,Does it depict ice/snow?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,11,Right-Of-Way At Intersection,14,Does it depict deer?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,12,Priority Road,0,What's the sign's primary shape?,diamond,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,13,Yield,0,What's the sign's primary shape?,inverted-triangle,circle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,14,Stop,0,What's the sign's primary shape?,octagon,octagon,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,15,Empty Circle,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,15,Empty Circle,1,What's the circle color?,red-white,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,15,Empty Circle,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,15,Empty Circle,3,Does it have a diagonal strike bar?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,15,Empty Circle,4,What is inside the circle?,empty circle,empty circle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,16,No Truck Entry,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,16,No Truck Entry,1,What's the circle color?,red-white,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,16,No Truck Entry,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,16,No Truck Entry,3,Does it have a diagonal strike bar?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,16,No Truck Entry,4,What is inside the circle?,truck,empty circle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,17,No Entry,0,What's the sign's primary shape?,circle,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,17,No Entry,1,What's the circle color?,red-white,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,17,No Entry,2,Does it contain numbers?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,17,No Entry,3,Does it have a diagonal strike bar?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,17,No Entry,4,What is inside the circle?,horizontal white bar,horizontal white bar,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,18,Exclamation Mark Warning,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,18,Exclamation Mark Warning,1,Does the triangle have an exclamation mark?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,19,Left Curve Warning,0,What's the sign's primary shape?,triangle,inverted-triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,19,Left Curve Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,19,Left Curve Warning,2,Does it depict a left curve?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,20,Right Curve Warning,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,20,Right Curve Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,20,Right Curve Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,20,Right Curve Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,20,Right Curve Warning,4,Does it depict right curve?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,21,Double Curve Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,21,Double Curve Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,21,Double Curve Warning,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,21,Double Curve Warning,3,Does it depict double curve?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,22,Rough/Bumpy Road Warning,5,Does it depict rough/bumpy road?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,0,What's the sign's primary shape?,triangle,octagon,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,3,Does it depict double curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,5,Does it depict rough/bumpy road?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,23,Slippery Road Warning,6,Does it depict slippery road?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,24,Merging/Narrow Lanes Warning,7,Does it depict merging/narrow lanes?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,25,Construction/Road Work Warning,8,Does it depict construction/road work?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,0,What's the sign's primary shape?,triangle,octagon,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,26,Traffic Light Warning,9,Does it depict traffic light?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,27,Pedestrian Warning,11,Does it depict pedestrian?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,1,Does the triangle have an exclamation mark?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,3,Does it depict double curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,28,Child And Pedestrian Warning,10,Does it depict both child and pedestrian?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,0,What's the sign's primary shape?,triangle,octagon,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,2,Does it depict a left curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,4,Does it depict right curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,29,Bicycle Warning,12,Does it depict bicycle?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,0,What's the sign's primary shape?,triangle,triangle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,3,Does it depict double curve?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,6,Does it depict slippery road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,8,Does it depict construction/road work?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,11,Does it depict pedestrian?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,12,Does it depict bicycle?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,30,Ice/Snow Warning,13,Does it depict ice/snow?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,0,What's the sign's primary shape?,triangle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,1,Does the triangle have an exclamation mark?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,2,Does it depict a left curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,3,Does it depict double curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,4,Does it depict right curve?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,5,Does it depict rough/bumpy road?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,6,Does it depict slippery road?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,7,Does it depict merging/narrow lanes?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,8,Does it depict construction/road work?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,9,Does it depict traffic light?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,10,Does it depict both child and pedestrian?,no,no,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,11,Does it depict pedestrian?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,12,Does it depict bicycle?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,13,Does it depict ice/snow?,no,yes,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,31,Deer Warning,14,Does it depict deer?,yes,yes,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,32,No Speed Limit,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,32,No Speed Limit,1,What's the circle color?,white-gray,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,32,No Speed Limit,2,What restriction ends?,speed limit,speed limit,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,33,Right Arrow,0,What's the sign's primary shape?,circle,inverted-triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,33,Right Arrow,1,What's the circle color?,blue,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,33,Right Arrow,2,What arrow is shown?,right,right,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,34,Left Arrow,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,34,Left Arrow,1,What's the circle color?,blue,blue,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,34,Left Arrow,2,What arrow is shown?,left,left,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,35,Forward Arrow,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,35,Forward Arrow,1,What's the circle color?,blue,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,35,Forward Arrow,2,What arrow is shown?,forward,forward,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,36,Forward-Right Arrow,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,36,Forward-Right Arrow,1,What's the circle color?,blue,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,36,Forward-Right Arrow,2,What arrow is shown?,forward-right,forward-right,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,37,Forward-Left Arrow,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,37,Forward-Left Arrow,1,What's the circle color?,blue,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,37,Forward-Left Arrow,2,What arrow is shown?,forward-left,forward-left,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,38,Keep-Right Arrow,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,38,Keep-Right Arrow,1,What's the circle color?,blue,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,38,Keep-Right Arrow,2,What arrow is shown?,keep-right,keep-right,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,39,Keep-Left Arrow,0,What's the sign's primary shape?,circle,triangle,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,39,Keep-Left Arrow,1,What's the circle color?,blue,,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,39,Keep-Left Arrow,2,What arrow is shown?,keep-left,keep-left,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,40,Circle Arrow,0,What's the sign's primary shape?,circle,circle,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,40,Circle Arrow,1,What's the circle color?,blue,white-gray,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,40,Circle Arrow,2,What arrow is shown?,circular,right,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,41,End Car Passing Ban,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,41,End Car Passing Ban,1,What's the circle color?,white-gray,red-white,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,41,End Car Passing Ban,2,What restriction ends?,car passing,car passing,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,42,End Truck Passing Ban,0,What's the sign's primary shape?,circle,diamond,False,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,42,End Truck Passing Ban,1,What's the circle color?,white-gray,white-gray,True,0.0
+GTSRB,llama3.2-vision:11b-instruct-fp16,42,End Truck Passing Ban,2,What restriction ends?,truck passing,truck passing,True,0.0

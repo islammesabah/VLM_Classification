@@ -1,0 +1,101 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+MNIST,qwen-vl-max,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,qwen-vl-max,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,,False,0.0
+MNIST,qwen-vl-max,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,qwen-vl-max,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,qwen-vl-max,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,qwen-vl-max,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,qwen-vl-max,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,qwen-vl-max,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,qwen-vl-max,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,qwen-vl-max,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,qwen-vl-max,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,qwen-vl-max,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,qwen-vl-max,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,qwen-vl-max,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,qwen-vl-max,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,qwen-vl-max,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,qwen-vl-max,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,qwen-vl-max,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,qwen-vl-max,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,qwen-vl-max,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,qwen-vl-max,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,qwen-vl-max,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,qwen-vl-max,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,qwen-vl-max,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,qwen-vl-max,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,qwen-vl-max,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,qwen-vl-max,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,qwen-vl-max,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,qwen-vl-max,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,qwen-vl-max,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,qwen-vl-max,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,qwen-vl-max,2,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,2,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,2,3,Does the digit have a curved segment at the top?,1,0,False,0.0
+MNIST,qwen-vl-max,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,qwen-vl-max,2,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,2,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,2,3,Does the digit have a curved segment at the top?,1,,False,0.0
+MNIST,qwen-vl-max,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,qwen-vl-max,2,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,2,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,2,3,Does the digit have a curved segment at the top?,1,0,False,0.0
+MNIST,qwen-vl-max,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,qwen-vl-max,2,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,2,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,2,3,Does the digit have a curved segment at the top?,1,,False,0.0
+MNIST,qwen-vl-max,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,qwen-vl-max,2,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,2,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,2,3,Does the digit have a curved segment at the top?,1,,False,0.0
+MNIST,qwen-vl-max,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,3,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,2,Does the digit contain a straight horizontal line segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,3,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,2,Does the digit contain a straight horizontal line segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,3,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,3,2,Does the digit contain a straight horizontal line segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,3,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,3,2,Does the digit contain a straight horizontal line segment?,0,,False,0.0
+MNIST,qwen-vl-max,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,3,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,3,2,Does the digit contain a straight horizontal line segment?,0,,False,0.0
+MNIST,qwen-vl-max,4,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,qwen-vl-max,4,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,qwen-vl-max,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,,False,0.0
+MNIST,qwen-vl-max,4,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,4,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,qwen-vl-max,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,,False,0.0
+MNIST,qwen-vl-max,4,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,4,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,qwen-vl-max,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,,False,0.0
+MNIST,qwen-vl-max,4,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,4,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,qwen-vl-max,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,,False,0.0
+MNIST,qwen-vl-max,4,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,qwen-vl-max,4,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,qwen-vl-max,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.0
+MNIST,qwen-vl-max,5,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,5,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,qwen-vl-max,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,5,3,Does the digit have a curved segment at the top?,0,0,True,0.0
+MNIST,qwen-vl-max,5,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,5,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,5,3,Does the digit have a curved segment at the top?,0,0,True,0.0
+MNIST,qwen-vl-max,5,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,5,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,5,3,Does the digit have a curved segment at the top?,0,,False,0.0
+MNIST,qwen-vl-max,5,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,qwen-vl-max,5,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,5,3,Does the digit have a curved segment at the top?,0,0,True,0.0
+MNIST,qwen-vl-max,5,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,qwen-vl-max,5,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,qwen-vl-max,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,qwen-vl-max,5,3,Does the digit have a curved segment at the top?,0,0,True,0.0

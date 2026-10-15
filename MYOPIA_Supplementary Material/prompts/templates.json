@@ -1,0 +1,15 @@
+{
+  "_comment": "Every prompt the harness sends, in one place. Code never contains prompt wording: it names a template here and fills the {placeholders}. Editing a string in this file changes the experiment; keep it in sync with the paper's Sec 4.3.",
+  "tree_node": "{question} Choose one of these answers: {answers}.",
+  "tree_node_global_list": "The full set of possible final classes is: {class_names_str}. {question} Choose one of these answers: {answers}.",
+  "tree_node_numbered": "{question}\nOptions:\n{options}\nRespond with ONLY the option number, nothing else.",
+  "tree_system_instruction": "You will be asked a series of questions to classify this image. Answer each question based on the image and descriptions provided.",
+  "class_descriptions_prefix": "Description of the classes: {descriptions}",
+  "image_description_prefix": "Image description: {description}",
+  "full_class_descriptions_prefix": "Full class descriptions: {descriptions}",
+  "cot": "Classify the object in this image. Think step by step: first describe the visually distinguishing features you observe, then reason about which of the following classes best matches those features: {class_names_str}. End your response with a new line reading exactly: Final answer: <class ID number>",
+  "clip_class": "a photo of a {class_name}",
+  "clip_superclass_fallback": "An image where the answer to the question '{question}' is '{answer}'.",
+  "zero_shot_image_description_prefix": "Image description:{description}",
+  "label_conditioned_system": "You will be asked a series of questions to classify an object belonging to the class: '{class_name}'. Answer each question based on this class's typical characteristics."
+}

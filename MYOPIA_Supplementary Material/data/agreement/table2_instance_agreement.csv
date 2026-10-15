@@ -1,0 +1,17 @@
+dataset,model,n,both_plus,both_minus,tree_plus,zs_plus
+GTSRB,gpt-4o,901,484,224,36,157
+GTSRB,llama3.2-vision:11b-instruct-fp16,901,192,460,107,142
+GTSRB,pooled,2703,864,1127,177,535
+GTSRB,qwen-vl-max,901,188,443,34,236
+MNIST,gpt-4o,1000,333,72,13,582
+MNIST,llama3.2-vision:11b-instruct-fp16,1000,51,381,26,542
+MNIST,pooled,3000,673,505,43,1779
+MNIST,qwen-vl-max,1000,289,52,4,655
+CIFAR-10,gpt-4o,1000,726,87,34,153
+CIFAR-10,llama3.2-vision:11b-instruct-fp16,1000,85,554,79,282
+CIFAR-10,pooled,3000,1333,821,157,689
+CIFAR-10,qwen-vl-max,1000,522,180,44,254
+MSCOCO,gpt-4o,850,354,188,43,265
+MSCOCO,llama3.2-vision:11b-instruct-fp16,850,20,637,11,182
+MSCOCO,pooled,2550,677,1005,88,780
+MSCOCO,qwen-vl-max,850,303,180,34,333

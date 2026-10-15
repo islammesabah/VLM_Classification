@@ -1,0 +1,75 @@
+[L0] Q: Is the size of the bird relatively small (songbird-sized), or large (gull/crow/tern-sized)?
+  -> Small (songbird-sized):
+  [L1] Q: Does the bird display bold eye markings, such as a prominent eye ring or supercilium?
+    -> Bold eye markings (eye ring or eyebrow stripe):
+    [L2] Q: Is the bird primarily brown or olive above rather than bluish or gray?
+      -> Primarily brown or olive above:
+      [L3] Q: Does the bird have extensive yellow coloring on the underparts?
+        -> Yes, extensive yellow on underparts:
+        [L4] Q: Does the bird have a yellow throat or prominent yellow patch on the throat?
+          -> Yes, yellow throat:
+          [L5] Leaf Node: [19]
+          -> No, no yellow throat:
+          [L5] Q: Does the bird have rusty or reddish streaks on its flanks and under its tail?
+            -> Yes, has rusty/reddish streaks:
+            [L6] Leaf Node: [10]
+            -> No, lacks rusty/reddish streaks:
+            [L6] Leaf Node: [5]
+        -> No, mostly white or buff underparts:
+        [L4] Q: Is the bird's bill short and wide, or long and slender?
+          -> Short and wide:
+          [L5] Leaf Node: [2]
+          -> Long and slender:
+          [L5] Leaf Node: [8]
+      -> Bluish or gray above:
+      [L3] Q: Does the bird have distinctive white patches on the wings?
+        -> Yes, white wing patches present:
+        [L4] Leaf Node: [18]
+        -> No, plain wings (no white patches):
+        [L4] Leaf Node: [3]
+    -> No bold eye markings:
+    [L2] Q: Does the bird have a long, slender bill adapted for nectar feeding or insect catch, or a thicker, conical bill suited for seed eating?
+      -> Long, slender bill:
+      [L3] Q: Does the bird have iridescent green plumage and a vibrant red throat patch?
+        -> Yes:
+        [L4] Leaf Node: [7]
+        -> No:
+        [L4] Leaf Node: [13]
+      -> Thick, conical bill:
+      [L3] Q: Does the bird predominantly display bright blue plumage on its body?
+        -> Yes:
+        [L4] Leaf Node: [15]
+        -> No:
+        [L4] Leaf Node: [17]
+      -> Other bill shapes:
+      [L3] Q: Does the bird's plumage have prominent spots or streaks on the chest and belly?
+        -> Yes (spotted or streaked underparts):
+        [L4] Q: Is the bird primarily grayish-brown overall with fine streaks, rather than olive-green or brownish with bold spotting?
+          -> Grayish-brown with fine streaks:
+          [L5] Leaf Node: [1]
+          -> Olive-brown/greenish with bold spots:
+          [L5] Leaf Node: [14]
+        -> No (plain underparts):
+        [L4] Leaf Node: [11]
+  -> Large (gull/crow/tern-sized):
+  [L1] Q: Does the bird have a predominantly dark (black or dark grey) plumage overall?
+    -> Yes:
+    [L2] Q: Is the bird's bill large and thick with a pronounced curve, or is it more slender and straight?
+      -> Large, thick, and curved bill:
+      [L3] Leaf Node: [9]
+      -> Slender and straight bill:
+      [L3] Leaf Node: [12]
+    -> No:
+    [L2] Q: Is the bird's bill predominantly long and straight (not short or upturned)?
+      -> Yes:
+      [L3] Q: Does the bird have a pale white head and heavy body?
+        -> Yes:
+        [L4] Leaf Node: [0]
+        -> No:
+        [L4] Leaf Node: [6]
+      -> No:
+      [L3] Q: Does the bird have a distinct crest or tuft on its head?
+        -> Yes, a prominent crest or tuft:
+        [L4] Leaf Node: [16]
+        -> No, only small feather projections ('horns'):
+        [L4] Leaf Node: [4]

@@ -1,0 +1,23 @@
+{
+  "GTSRB": {
+    "triangle": "a triangle-shaped traffic sign",
+    "circle": "a circle-shaped traffic sign",
+    "diamond": "a diamond-shaped traffic sign",
+    "inverted-triangle": "an inverted-triangle-shaped traffic sign",
+    "octagon": "an octagon-shaped traffic sign"
+  },
+  "MNIST": {
+    "0": "a handwritten digit with no enclosed loop",
+    "1": "a handwritten digit with one enclosed loop",
+    "2": "a handwritten digit with two enclosed loops"
+  },
+  "CIFAR-10": {
+    "yes": "a photo of an animal",
+    "no": "a photo of a vehicle"
+  },
+  "MSCOCO": {
+    "yes": "a photo of a person or an animal",
+    "no": "a photo of an inanimate object"
+  },
+  "_comment": "CLIP-natural noun-phrase prompts for each dataset's root split, keyed by the root branch answer. CLIP is trained on short captions, not sentences quoting a question and answer, so the clip_superclass_fallback template in templates.json handicaps CHiLS relative to CLIP's pretraining. Datasets or branch keys absent here fall back to that template, so run_chils stays general-purpose."
+}

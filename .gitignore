@@ -6,3 +6,61 @@ __pycache__
 paper.pdf
 GT-*.csv
 SLURM_OUTPUT/
+
+# ---- Secrets ----
+.env
+**/src/.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Downloaded datasets ----
+# Created by datasets/download*.py. Only the sample-id lists and class names
+# are tracked; the images themselves are fetched, never committed.
+**/src/datasets/GTSRB/
+**/src/datasets/CIFAR-10/
+**/src/datasets/MNIST/
+**/src/datasets/MSCOCO/
+*.part
+
+# ---- Staged run artifacts ----
+# README stages the databases and derived CSVs into **/src/results/, which also
+# holds tracked scripts -- so ignore the staged data, not the directory.
+**/src/results/*.db
+**/src/results/*.db-journal
+**/src/results/baselines/
+**/src/results/cot_baseline/
+**/src/results/constrained_choice_probe/
+**/src/results/global_list_probe/
+**/src/results/image_grounded_verification/
+**/src/results/label_conditioned_verification/
+**/src/results/tree_error_analysis/
+**/src/results/tree_quality_audit/
+**/src/results/agreement/
+**/src/results/grounding/
+**/src/results/inference_cost/
+**/src/results/paper/
+**/src/results/*.csv
+**/src/results/*.tex
+**/src/results/*.pdf
+
+# ---- LaTeX build products ----
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,156 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+MNIST,gpt-4o,0,0,How many closed loops does the digit have?,1,1,True,0.0006925
+MNIST,gpt-4o,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,A loop with a stem/tail,False,0.00073
+MNIST,gpt-4o,0,0,How many closed loops does the digit have?,1,1,True,0.000795
+MNIST,gpt-4o,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0008025
+MNIST,gpt-4o,0,0,How many closed loops does the digit have?,1,1,True,0.0007225
+MNIST,gpt-4o,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0008025
+MNIST,gpt-4o,0,0,How many closed loops does the digit have?,1,1,True,0.000795
+MNIST,gpt-4o,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0007925
+MNIST,gpt-4o,0,0,How many closed loops does the digit have?,1,1,True,0.0006925
+MNIST,gpt-4o,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.00068
+MNIST,gpt-4o,1,0,How many closed loops does the digit have?,0,1,False,0.0007525
+MNIST,gpt-4o,1,1,Does the digit have a curved segment?,1,1,True,0.0007525
+MNIST,gpt-4o,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0008025
+MNIST,gpt-4o,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0009025
+MNIST,gpt-4o,1,0,How many closed loops does the digit have?,0,0,True,0.000805
+MNIST,gpt-4o,1,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.000725
+MNIST,gpt-4o,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0007225
+MNIST,gpt-4o,1,0,How many closed loops does the digit have?,0,1,False,0.000855
+MNIST,gpt-4o,1,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.000725
+MNIST,gpt-4o,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0007225
+MNIST,gpt-4o,1,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,1,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.000725
+MNIST,gpt-4o,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.00062
+MNIST,gpt-4o,1,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,1,1,Does the digit have a curved segment?,1,1,True,0.000715
+MNIST,gpt-4o,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0006225
+MNIST,gpt-4o,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0008925
+MNIST,gpt-4o,2,0,How many closed loops does the digit have?,0,,False,0.000785
+MNIST,gpt-4o,2,1,Does the digit have a curved segment?,0,1,False,0.0006125
+MNIST,gpt-4o,2,2,Does the digit contain a straight horizontal line segment?,1,0,False,0.00072
+MNIST,gpt-4o,2,3,Does the digit have a curved segment at the top?,1,0,False,0.0007225
+MNIST,gpt-4o,2,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,2,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.00083
+MNIST,gpt-4o,2,3,Does the digit have a curved segment at the top?,1,0,False,0.00062
+MNIST,gpt-4o,2,0,How many closed loops does the digit have?,0,1,False,0.000795
+MNIST,gpt-4o,2,1,Does the digit have a curved segment?,0,1,False,0.0006125
+MNIST,gpt-4o,2,2,Does the digit contain a straight horizontal line segment?,1,0,False,0.0006175
+MNIST,gpt-4o,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0007225
+MNIST,gpt-4o,2,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,2,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.00072
+MNIST,gpt-4o,2,3,Does the digit have a curved segment at the top?,1,1,True,0.00062
+MNIST,gpt-4o,2,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,2,1,Does the digit have a curved segment?,0,1,False,0.000835
+MNIST,gpt-4o,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0006175
+MNIST,gpt-4o,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0007225
+MNIST,gpt-4o,3,0,How many closed loops does the digit have?,0,0,True,0.0007225
+MNIST,gpt-4o,3,1,Does the digit have a curved segment?,0,1,False,0.000855
+MNIST,gpt-4o,3,2,Does the digit contain a straight horizontal line segment?,0,1,False,0.0006175
+MNIST,gpt-4o,3,0,How many closed loops does the digit have?,0,0,True,0.0007825
+MNIST,gpt-4o,3,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,3,2,Does the digit contain a straight horizontal line segment?,0,0,True,0.0007775
+MNIST,gpt-4o,3,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,3,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,3,2,Does the digit contain a straight horizontal line segment?,0,0,True,0.00072
+MNIST,gpt-4o,3,0,How many closed loops does the digit have?,0,0,True,0.000805
+MNIST,gpt-4o,3,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,3,2,Does the digit contain a straight horizontal line segment?,0,0,True,0.00072
+MNIST,gpt-4o,3,0,How many closed loops does the digit have?,0,0,True,0.000935
+MNIST,gpt-4o,3,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,3,2,Does the digit contain a straight horizontal line segment?,0,0,True,0.00072
+MNIST,gpt-4o,4,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,4,1,Does the digit have a curved segment?,1,0,False,0.0006125
+MNIST,gpt-4o,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.000725
+MNIST,gpt-4o,4,0,How many closed loops does the digit have?,0,0,True,0.0006925
+MNIST,gpt-4o,4,1,Does the digit have a curved segment?,1,0,False,0.0006125
+MNIST,gpt-4o,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,1,True,0.0006225
+MNIST,gpt-4o,4,0,How many closed loops does the digit have?,0,0,True,0.0008525
+MNIST,gpt-4o,4,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.000725
+MNIST,gpt-4o,4,0,How many closed loops does the digit have?,0,0,True,0.000825
+MNIST,gpt-4o,4,1,Does the digit have a curved segment?,1,0,False,0.0006125
+MNIST,gpt-4o,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.000725
+MNIST,gpt-4o,4,0,How many closed loops does the digit have?,0,0,True,0.0007525
+MNIST,gpt-4o,4,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.000725
+MNIST,gpt-4o,5,0,How many closed loops does the digit have?,0,0,True,0.000805
+MNIST,gpt-4o,5,1,Does the digit have a curved segment?,0,1,False,0.0006125
+MNIST,gpt-4o,5,2,Does the digit contain a straight horizontal line segment?,1,0,False,0.00089
+MNIST,gpt-4o,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0007225
+MNIST,gpt-4o,5,0,How many closed loops does the digit have?,0,0,True,0.000795
+MNIST,gpt-4o,5,1,Does the digit have a curved segment?,0,1,False,0.0006125
+MNIST,gpt-4o,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.00072
+MNIST,gpt-4o,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0007225
+MNIST,gpt-4o,5,0,How many closed loops does the digit have?,0,0,True,0.000825
+MNIST,gpt-4o,5,1,Does the digit have a curved segment?,0,1,False,0.000875
+MNIST,gpt-4o,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.00072
+MNIST,gpt-4o,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0007225
+MNIST,gpt-4o,5,0,How many closed loops does the digit have?,0,0,True,0.000825
+MNIST,gpt-4o,5,1,Does the digit have a curved segment?,0,1,False,0.000715
+MNIST,gpt-4o,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.00072
+MNIST,gpt-4o,5,3,Does the digit have a curved segment at the top?,0,1,False,0.00079
+MNIST,gpt-4o,5,0,How many closed loops does the digit have?,0,0,True,0.0007225
+MNIST,gpt-4o,5,1,Does the digit have a curved segment?,0,1,False,0.000875
+MNIST,gpt-4o,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0006175
+MNIST,gpt-4o,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0007225
+MNIST,gpt-4o,6,0,How many closed loops does the digit have?,1,1,True,0.000825
+MNIST,gpt-4o,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,0.0007525
+MNIST,gpt-4o,6,0,How many closed loops does the digit have?,1,1,True,0.0007025
+MNIST,gpt-4o,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.0007525
+MNIST,gpt-4o,6,0,How many closed loops does the digit have?,1,1,True,0.0007225
+MNIST,gpt-4o,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.00065
+MNIST,gpt-4o,6,0,How many closed loops does the digit have?,1,1,True,0.000825
+MNIST,gpt-4o,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,0.0007525
+MNIST,gpt-4o,6,0,How many closed loops does the digit have?,1,1,True,0.000795
+MNIST,gpt-4o,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.00073
+MNIST,gpt-4o,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.0007525
+MNIST,gpt-4o,7,0,How many closed loops does the digit have?,0,0,True,0.000825
+MNIST,gpt-4o,7,1,Does the digit have a curved segment?,1,0,False,0.0006125
+MNIST,gpt-4o,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0006225
+MNIST,gpt-4o,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0007225
+MNIST,gpt-4o,7,0,How many closed loops does the digit have?,0,0,True,0.000935
+MNIST,gpt-4o,7,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.000725
+MNIST,gpt-4o,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0007225
+MNIST,gpt-4o,7,0,How many closed loops does the digit have?,0,0,True,0.000915
+MNIST,gpt-4o,7,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.000725
+MNIST,gpt-4o,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.00062
+MNIST,gpt-4o,7,0,How many closed loops does the digit have?,0,0,True,0.000925
+MNIST,gpt-4o,7,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0006225
+MNIST,gpt-4o,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0007225
+MNIST,gpt-4o,7,0,How many closed loops does the digit have?,0,0,True,0.000805
+MNIST,gpt-4o,7,1,Does the digit have a curved segment?,1,0,False,0.000715
+MNIST,gpt-4o,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0006225
+MNIST,gpt-4o,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.00062
+MNIST,gpt-4o,8,0,How many closed loops does the digit have?,2,2,True,0.000795
+MNIST,gpt-4o,8,0,How many closed loops does the digit have?,2,1,False,0.0007225
+MNIST,gpt-4o,8,0,How many closed loops does the digit have?,2,1,False,0.0007225
+MNIST,gpt-4o,8,0,How many closed loops does the digit have?,2,2,True,0.000795
+MNIST,gpt-4o,8,0,How many closed loops does the digit have?,2,2,True,0.000795
+MNIST,gpt-4o,9,0,How many closed loops does the digit have?,1,1,True,0.0006925
+MNIST,gpt-4o,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,9,2,Where is the closed loop located?,At the top,At the bottom,False,0.0007525
+MNIST,gpt-4o,9,0,How many closed loops does the digit have?,1,1,True,0.000835
+MNIST,gpt-4o,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,9,2,Where is the closed loop located?,At the top,At the bottom,False,0.0007525
+MNIST,gpt-4o,9,0,How many closed loops does the digit have?,1,0,False,0.000825
+MNIST,gpt-4o,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,9,2,Where is the closed loop located?,At the top,At the top,True,0.0007525
+MNIST,gpt-4o,9,0,How many closed loops does the digit have?,1,1,True,0.0006925
+MNIST,gpt-4o,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0008325
+MNIST,gpt-4o,9,2,Where is the closed loop located?,At the top,At the bottom,False,0.0007525
+MNIST,gpt-4o,9,0,How many closed loops does the digit have?,1,1,True,0.000795
+MNIST,gpt-4o,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.00073
+MNIST,gpt-4o,9,2,Where is the closed loop located?,At the top,At the top,True,0.0008025

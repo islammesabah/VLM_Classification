@@ -1,0 +1,156 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+MNIST,llama3.2-vision:11b-instruct-fp16,0,0,How many closed loops does the digit have?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,0,How many closed loops does the digit have?,1,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,Just a loop,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,0,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",Just a loop,A loop with a stem/tail,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,3,Does the digit have a horizontal stroke at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,1,3,Does the digit have a horizontal stroke at the top?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,3,Does the digit have a curved segment at the top?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,2,Does the digit contain a straight horizontal line segment?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,2,3,Does the digit have a curved segment at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,2,Does the digit contain a straight horizontal line segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,2,Does the digit contain a straight horizontal line segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,2,Does the digit contain a straight horizontal line segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,2,Does the digit contain a straight horizontal line segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,3,2,Does the digit contain a straight horizontal line segment?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,1,Does the digit have a curved segment?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,4,2,Does the digit contain a closed or nearly closed triangular shape?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,2,Does the digit contain a straight horizontal line segment?,1,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,1,Does the digit have a curved segment?,0,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,1,Does the digit have a curved segment?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,1,Does the digit have a curved segment?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,2,Does the digit contain a straight horizontal line segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,5,3,Does the digit have a curved segment at the top?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,0,How many closed loops does the digit have?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,Just a loop,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,Just a loop,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,0,How many closed loops does the digit have?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,0,How many closed loops does the digit have?,1,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,Just a loop,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,2,Where is the closed loop located?,At the bottom,At the bottom,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,0,How many closed loops does the digit have?,1,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,6,2,Where is the closed loop located?,At the bottom,At the top,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,0,How many closed loops does the digit have?,0,2,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,1,Does the digit have a curved segment?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,0,How many closed loops does the digit have?,0,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,1,Does the digit have a curved segment?,1,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,0,How many closed loops does the digit have?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,0,How many closed loops does the digit have?,0,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,1,Does the digit have a curved segment?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,2,Does the digit contain a closed or nearly closed triangular shape?,0,0,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,7,3,Does the digit have a horizontal stroke at the top?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,8,0,How many closed loops does the digit have?,2,2,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,8,0,How many closed loops does the digit have?,2,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,8,0,How many closed loops does the digit have?,2,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,8,0,How many closed loops does the digit have?,2,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,8,0,How many closed loops does the digit have?,2,1,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,Just a loop,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,2,Where is the closed loop located?,At the top,At the bottom,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,2,Where is the closed loop located?,At the top,At the bottom,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,0,How many closed loops does the digit have?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,Just a loop,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,2,Where is the closed loop located?,At the top,At the top,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,0,How many closed loops does the digit have?,1,0,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,A loop with a stem/tail,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,2,Where is the closed loop located?,At the top,At the top,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,0,How many closed loops does the digit have?,1,1,True,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,1,"Does the digit consist of just a loop, or a loop with an attached stem/tail?",A loop with a stem/tail,,False,0.0
+MNIST,llama3.2-vision:11b-instruct-fp16,9,2,Where is the closed loop located?,At the top,At the top,True,0.0

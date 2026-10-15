@@ -1,0 +1,1875 @@
+dataset,model,true_class,depth,question,expected_answer,predicted_answer,correct,call_cost
+MSCOCO,gpt-4o,20,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,20,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.000985
+MSCOCO,gpt-4o,20,3,Does the animal have horns that curve downward or outward from the head?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,20,4,Does the animal have a white face with woolly fur covering most of its body?,yes,yes,True,0.0009925
+MSCOCO,gpt-4o,20,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,20,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.000985
+MSCOCO,gpt-4o,20,3,Does the animal have horns that curve downward or outward from the head?,yes,no,False,0.001165
+MSCOCO,gpt-4o,20,4,Does the animal have a white face with woolly fur covering most of its body?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,20,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,20,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,20,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001155
+MSCOCO,gpt-4o,20,3,Does the animal have horns that curve downward or outward from the head?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,20,4,Does the animal have a white face with woolly fur covering most of its body?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,32,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,32,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,32,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00074
+MSCOCO,gpt-4o,32,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0007525
+MSCOCO,gpt-4o,32,4,Is the object typically worn on the head or face?,no,no,True,0.0007325
+MSCOCO,gpt-4o,32,5,Is the object typically carried by hand rather than worn on the body?,no,no,True,0.00074
+MSCOCO,gpt-4o,32,6,Is the object primarily worn on the foot?,no,no,True,0.0007275
+MSCOCO,gpt-4o,32,0,Is the object a living thing (animal or person)?,no,no,True,0.0016725
+MSCOCO,gpt-4o,32,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0016775
+MSCOCO,gpt-4o,32,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00168
+MSCOCO,gpt-4o,32,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0016925
+MSCOCO,gpt-4o,32,4,Is the object typically worn on the head or face?,no,yes,False,0.0016625
+MSCOCO,gpt-4o,32,5,Is the object typically carried by hand rather than worn on the body?,no,no,True,0.00168
+MSCOCO,gpt-4o,32,6,Is the object primarily worn on the foot?,no,no,True,0.0016775
+MSCOCO,gpt-4o,32,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,32,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,32,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,32,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0009975
+MSCOCO,gpt-4o,32,4,Is the object typically worn on the head or face?,no,no,True,0.0009775
+MSCOCO,gpt-4o,32,5,Is the object typically carried by hand rather than worn on the body?,no,no,True,0.001175
+MSCOCO,gpt-4o,32,6,Is the object primarily worn on the foot?,no,no,True,0.0011525
+MSCOCO,gpt-4o,8,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,8,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,8,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,8,3,Does the vehicle have two wheels?,no,no,True,0.0009675
+MSCOCO,gpt-4o,8,4,Does the vehicle primarily operate on water?,no,no,True,0.00097
+MSCOCO,gpt-4o,8,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,8,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,0.000975
+MSCOCO,gpt-4o,8,7,Is the vehicle smaller in size and typically used for personal transport?,no,no,True,0.0011625
+MSCOCO,gpt-4o,8,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,8,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011525
+MSCOCO,gpt-4o,8,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,8,3,Does the vehicle have two wheels?,no,no,True,0.0009575
+MSCOCO,gpt-4o,8,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,8,5,Does the vehicle have wings?,no,no,True,0.000965
+MSCOCO,gpt-4o,8,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,0.001155
+MSCOCO,gpt-4o,8,7,Is the vehicle smaller in size and typically used for personal transport?,no,no,True,0.0011725
+MSCOCO,gpt-4o,8,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,8,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,8,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,8,3,Does the vehicle have two wheels?,no,no,True,0.0011475
+MSCOCO,gpt-4o,8,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,8,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,8,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,0.000975
+MSCOCO,gpt-4o,8,7,Is the vehicle smaller in size and typically used for personal transport?,no,no,True,0.0011625
+MSCOCO,gpt-4o,33,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,33,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,33,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,33,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0011775
+MSCOCO,gpt-4o,33,4,Is the object typically worn on the head or face?,no,no,True,0.0009775
+MSCOCO,gpt-4o,33,5,Is the object typically carried by hand rather than worn on the body?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,33,6,Does the object usually have two straps and is worn on the back?,no,no,True,0.000995
+MSCOCO,gpt-4o,33,7,Does the object commonly have wheels for easier transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,33,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,33,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,33,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,33,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0011775
+MSCOCO,gpt-4o,33,4,Is the object typically worn on the head or face?,no,no,True,0.0011675
+MSCOCO,gpt-4o,33,5,Is the object typically carried by hand rather than worn on the body?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,33,6,Does the object usually have two straps and is worn on the back?,no,no,True,0.000985
+MSCOCO,gpt-4o,33,7,Does the object commonly have wheels for easier transportation?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,33,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,33,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,33,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,33,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0011775
+MSCOCO,gpt-4o,33,4,Is the object typically worn on the head or face?,no,no,True,0.0009775
+MSCOCO,gpt-4o,33,5,Is the object typically carried by hand rather than worn on the body?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,33,6,Does the object usually have two straps and is worn on the back?,no,no,True,0.001175
+MSCOCO,gpt-4o,33,7,Does the object commonly have wheels for easier transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,57,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,57,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,57,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,57,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,57,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,57,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,57,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,57,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,0.001155
+MSCOCO,gpt-4o,57,8,Is the object a fruit?,no,no,True,0.000955
+MSCOCO,gpt-4o,57,9,Is the object green in color?,no,no,True,0.0009675
+MSCOCO,gpt-4o,57,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,57,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,57,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,57,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,57,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,57,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,57,6,Is the object itself an item of food?,yes,yes,True,0.0011425
+MSCOCO,gpt-4o,57,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,57,8,Is the object a fruit?,no,no,True,0.000965
+MSCOCO,gpt-4o,57,9,Is the object green in color?,no,yes,False,0.0009675
+MSCOCO,gpt-4o,57,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,57,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,57,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,57,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,57,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,57,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,57,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,57,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,0.001155
+MSCOCO,gpt-4o,57,8,Is the object a fruit?,no,no,True,0.001135
+MSCOCO,gpt-4o,57,9,Is the object green in color?,no,yes,False,0.0009675
+MSCOCO,gpt-4o,36,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,36,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009725
+MSCOCO,gpt-4o,36,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,36,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,36,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,36,5,Is the object typically used on snow?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,36,6,Does the object consist of two long narrow boards rather than a single wide board?,no,no,True,0.00099
+MSCOCO,gpt-4o,36,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,36,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,36,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,36,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,36,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,36,5,Is the object typically used on snow?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,36,6,Does the object consist of two long narrow boards rather than a single wide board?,no,no,True,0.00099
+MSCOCO,gpt-4o,36,0,Is the object a living thing (animal or person)?,no,no,True,0.0016725
+MSCOCO,gpt-4o,36,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0016875
+MSCOCO,gpt-4o,36,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.00167
+MSCOCO,gpt-4o,36,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0020125
+MSCOCO,gpt-4o,36,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0016825
+MSCOCO,gpt-4o,36,5,Is the object typically used on snow?,yes,yes,True,0.001665
+MSCOCO,gpt-4o,36,6,Does the object consist of two long narrow boards rather than a single wide board?,no,no,True,0.00202
+MSCOCO,gpt-4o,60,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,60,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,60,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,60,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001155
+MSCOCO,gpt-4o,60,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,60,9,Does the food contain visible meat between bread?,no,no,True,0.0011525
+MSCOCO,gpt-4o,60,10,Is the food item typically ring-shaped with a central hole?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,60,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,60,4,Is the object typically associated with food preparation or consumption?,yes,no,False,0.0011475
+MSCOCO,gpt-4o,60,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,60,6,Is the object itself an item of food?,yes,no,False,0.0011625
+MSCOCO,gpt-4o,60,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001155
+MSCOCO,gpt-4o,60,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,60,9,Does the food contain visible meat between bread?,no,no,True,0.0011625
+MSCOCO,gpt-4o,60,10,Is the food item typically ring-shaped with a central hole?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,60,0,Is the object a living thing (animal or person)?,no,no,True,0.0020175
+MSCOCO,gpt-4o,60,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0016775
+MSCOCO,gpt-4o,60,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.002025
+MSCOCO,gpt-4o,60,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0020375
+MSCOCO,gpt-4o,60,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0019975
+MSCOCO,gpt-4o,60,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0020175
+MSCOCO,gpt-4o,60,6,Is the object itself an item of food?,yes,yes,True,0.0016675
+MSCOCO,gpt-4o,60,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.002005
+MSCOCO,gpt-4o,60,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00201
+MSCOCO,gpt-4o,60,9,Does the food contain visible meat between bread?,no,no,True,0.0016675
+MSCOCO,gpt-4o,60,10,Is the food item typically ring-shaped with a central hole?,yes,yes,True,0.00201
+MSCOCO,gpt-4o,61,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,61,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,61,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,61,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,61,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,61,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,61,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,61,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001145
+MSCOCO,gpt-4o,61,8,Does the food typically contain a visible bread or dough component?,no,yes,False,0.00116
+MSCOCO,gpt-4o,61,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,no,no,True,0.00117
+MSCOCO,gpt-4o,61,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,61,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,61,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,61,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011675
+MSCOCO,gpt-4o,61,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,61,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,61,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,61,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001155
+MSCOCO,gpt-4o,61,8,Does the food typically contain a visible bread or dough component?,no,no,True,0.00115
+MSCOCO,gpt-4o,61,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,no,no,True,0.00116
+MSCOCO,gpt-4o,61,0,Is the object a living thing (animal or person)?,no,no,True,0.0007425
+MSCOCO,gpt-4o,61,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,61,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,61,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,61,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007225
+MSCOCO,gpt-4o,61,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,61,6,Is the object itself an item of food?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,61,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.00073
+MSCOCO,gpt-4o,61,8,Does the food typically contain a visible bread or dough component?,no,no,True,0.000745
+MSCOCO,gpt-4o,61,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,no,no,True,0.0006425
+MSCOCO,gpt-4o,59,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,59,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,59,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,59,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,59,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,59,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,59,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,59,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.000975
+MSCOCO,gpt-4o,59,8,Does the food typically contain a visible bread or dough component?,no,yes,False,0.00098
+MSCOCO,gpt-4o,59,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,59,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,59,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,59,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,59,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,59,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,59,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,59,6,Is the object itself an item of food?,yes,yes,True,0.0009625
+MSCOCO,gpt-4o,59,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001155
+MSCOCO,gpt-4o,59,8,Does the food typically contain a visible bread or dough component?,no,yes,False,0.00116
+MSCOCO,gpt-4o,59,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,yes,yes,True,0.00099
+MSCOCO,gpt-4o,59,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,59,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,59,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,59,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,59,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,59,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,59,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,59,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001165
+MSCOCO,gpt-4o,59,8,Does the food typically contain a visible bread or dough component?,no,yes,False,0.00098
+MSCOCO,gpt-4o,59,9,Is the food typically round and covered with toppings such as cheese and tomato sauce?,yes,yes,True,0.00099
+MSCOCO,gpt-4o,47,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,47,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,47,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000995
+MSCOCO,gpt-4o,47,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,47,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,47,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,47,6,Is the object itself an item of food?,no,no,True,0.0011625
+MSCOCO,gpt-4o,47,7,Is the object primarily used for drinking liquids?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,47,8,Does the object have a handle?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,47,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,47,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,47,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,47,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,47,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,47,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,47,6,Is the object itself an item of food?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,47,7,Is the object primarily used for drinking liquids?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,47,8,Does the object have a handle?,yes,no,False,0.0009675
+MSCOCO,gpt-4o,47,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,47,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,47,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000995
+MSCOCO,gpt-4o,47,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009875
+MSCOCO,gpt-4o,47,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,47,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0011575
+MSCOCO,gpt-4o,47,6,Is the object itself an item of food?,no,no,True,0.0011625
+MSCOCO,gpt-4o,47,7,Is the object primarily used for drinking liquids?,yes,no,False,0.0011625
+MSCOCO,gpt-4o,47,8,Does the object have a handle?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,6,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,6,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,6,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,6,3,Does the vehicle have two wheels?,no,no,True,0.0009575
+MSCOCO,gpt-4o,6,4,Does the vehicle primarily operate on water?,no,no,True,0.00116
+MSCOCO,gpt-4o,6,5,Does the vehicle have wings?,no,no,True,0.001135
+MSCOCO,gpt-4o,6,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,6,7,Does the vehicle travel on tracks?,no,no,True,0.0011375
+MSCOCO,gpt-4o,6,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,6,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,6,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,6,3,Does the vehicle have two wheels?,no,no,True,0.0009675
+MSCOCO,gpt-4o,6,4,Does the vehicle primarily operate on water?,no,no,True,0.00097
+MSCOCO,gpt-4o,6,5,Does the vehicle have wings?,no,no,True,0.000965
+MSCOCO,gpt-4o,6,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,6,7,Does the vehicle travel on tracks?,no,no,True,0.0009675
+MSCOCO,gpt-4o,6,0,Is the object a living thing (animal or person)?,no,no,True,0.00062
+MSCOCO,gpt-4o,6,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.000635
+MSCOCO,gpt-4o,6,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.00073
+MSCOCO,gpt-4o,6,3,Does the vehicle have two wheels?,no,no,True,0.0007225
+MSCOCO,gpt-4o,6,4,Does the vehicle primarily operate on water?,no,no,True,0.000725
+MSCOCO,gpt-4o,6,5,Does the vehicle have wings?,no,no,True,0.0006175
+MSCOCO,gpt-4o,6,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,0.00073
+MSCOCO,gpt-4o,6,7,Does the vehicle travel on tracks?,no,no,True,0.0007225
+MSCOCO,gpt-4o,13,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,13,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,13,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001145
+MSCOCO,gpt-4o,13,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,13,4,Is the object primarily a sign displaying text or symbols?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,13,5,Is the sign octagonal in shape?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,13,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,13,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,13,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,13,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,13,4,Is the object primarily a sign displaying text or symbols?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,13,5,Is the sign octagonal in shape?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,13,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,13,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0007475
+MSCOCO,gpt-4o,13,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.00073
+MSCOCO,gpt-4o,13,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,13,4,Is the object primarily a sign displaying text or symbols?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,13,5,Is the sign octagonal in shape?,yes,yes,True,0.0006225
+MSCOCO,gpt-4o,62,0,Is the object a living thing (animal or person)?,no,yes,False,0.0007325
+MSCOCO,gpt-4o,62,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,62,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.00074
+MSCOCO,gpt-4o,62,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.000735
+MSCOCO,gpt-4o,62,4,Does the object have a backrest?,yes,yes,True,0.0006225
+MSCOCO,gpt-4o,62,5,Does the object have armrests on both sides?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,62,6,Is the object large enough for more than one person to sit on comfortably?,no,yes,False,0.00064
+MSCOCO,gpt-4o,62,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,62,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,62,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,62,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,62,4,Does the object have a backrest?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,62,5,Does the object have armrests on both sides?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,62,6,Is the object large enough for more than one person to sit on comfortably?,no,yes,False,0.0011675
+MSCOCO,gpt-4o,62,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,62,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009825
+MSCOCO,gpt-4o,62,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.000985
+MSCOCO,gpt-4o,62,3,Is the object primarily used for sitting or resting the body?,yes,no,False,0.00098
+MSCOCO,gpt-4o,62,4,Does the object have a backrest?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,62,5,Does the object have armrests on both sides?,yes,,False,0.001245
+MSCOCO,gpt-4o,62,6,Is the object large enough for more than one person to sit on comfortably?,no,yes,False,0.0011675
+MSCOCO,gpt-4o,14,0,Is the object a living thing (animal or person)?,no,no,True,0.0019975
+MSCOCO,gpt-4o,14,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0016775
+MSCOCO,gpt-4o,14,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.002005
+MSCOCO,gpt-4o,14,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,14,4,Is the object primarily a sign displaying text or symbols?,no,yes,False,0.0020075
+MSCOCO,gpt-4o,14,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.002
+MSCOCO,gpt-4o,14,6,Does the object typically have a coin or digital payment slot?,yes,yes,True,0.00202
+MSCOCO,gpt-4o,14,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,14,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,14,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,14,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,14,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.0011675
+MSCOCO,gpt-4o,14,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.00116
+MSCOCO,gpt-4o,14,6,Does the object typically have a coin or digital payment slot?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,14,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,14,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.000635
+MSCOCO,gpt-4o,14,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006375
+MSCOCO,gpt-4o,14,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,14,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.0007225
+MSCOCO,gpt-4o,14,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.000735
+MSCOCO,gpt-4o,14,6,Does the object typically have a coin or digital payment slot?,yes,yes,True,0.0006325
+MSCOCO,gpt-4o,55,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,55,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,55,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,55,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,55,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,55,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,55,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,55,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,55,8,Is the object a fruit?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,55,9,Is the primary color of the object yellow?,no,no,True,0.0011525
+MSCOCO,gpt-4o,55,10,Is the object primarily red or green in color?,no,no,True,0.001155
+MSCOCO,gpt-4o,55,0,Is the object a living thing (animal or person)?,no,no,True,0.00064
+MSCOCO,gpt-4o,55,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,55,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,55,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007425
+MSCOCO,gpt-4o,55,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007225
+MSCOCO,gpt-4o,55,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,55,6,Is the object itself an item of food?,yes,yes,True,0.0007175
+MSCOCO,gpt-4o,55,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,55,8,Is the object a fruit?,yes,yes,True,0.00072
+MSCOCO,gpt-4o,55,9,Is the primary color of the object yellow?,no,no,True,0.0007275
+MSCOCO,gpt-4o,55,10,Is the object primarily red or green in color?,no,yes,False,0.00095
+MSCOCO,gpt-4o,55,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,55,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,55,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,55,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,55,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,55,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,55,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,55,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,55,8,Is the object a fruit?,yes,yes,True,0.001135
+MSCOCO,gpt-4o,55,9,Is the primary color of the object yellow?,no,no,True,0.0011425
+MSCOCO,gpt-4o,55,10,Is the object primarily red or green in color?,no,,False,0.001165
+MSCOCO,gpt-4o,73,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,73,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,73,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,73,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,73,4,Is the object typically associated with food preparation or consumption?,no,yes,False,0.0011475
+MSCOCO,gpt-4o,73,5,Is the object primarily made of glass or reflective surfaces?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,73,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,73,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,yes,False,0.0009925
+MSCOCO,gpt-4o,73,8,Is the object mainly designed for handheld use?,no,no,True,0.0011525
+MSCOCO,gpt-4o,73,9,Does the object have a built-in display screen that is used for output only (not interactive)?,no,no,True,0.0009975
+MSCOCO,gpt-4o,73,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,73,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,73,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,73,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,yes,False,0.0011775
+MSCOCO,gpt-4o,73,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011575
+MSCOCO,gpt-4o,73,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,73,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,73,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,73,8,Is the object mainly designed for handheld use?,no,no,True,0.0011525
+MSCOCO,gpt-4o,73,9,Does the object have a built-in display screen that is used for output only (not interactive)?,no,,False,0.0012475
+MSCOCO,gpt-4o,73,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,73,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,73,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,73,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,73,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,73,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,73,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,73,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,73,8,Is the object mainly designed for handheld use?,no,no,True,0.0011625
+MSCOCO,gpt-4o,73,9,Does the object have a built-in display screen that is used for output only (not interactive)?,no,no,True,0.0011775
+MSCOCO,gpt-4o,79,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,79,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,79,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,79,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,79,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,79,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,79,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,79,7,Does the object have a door with a viewing window on the front?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,79,8,Does the object usually feature a compact design suitable for countertop placement?,no,no,True,0.0011625
+MSCOCO,gpt-4o,79,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,79,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,79,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,79,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,79,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,79,5,Is the object an appliance (a powered kitchen device)?,yes,,False,0.0012275
+MSCOCO,gpt-4o,79,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,79,7,Does the object have a door with a viewing window on the front?,yes,no,False,0.000985
+MSCOCO,gpt-4o,79,8,Does the object usually feature a compact design suitable for countertop placement?,no,yes,False,0.0011625
+MSCOCO,gpt-4o,79,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,79,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,79,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,79,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,79,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,79,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,79,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,79,7,Does the object have a door with a viewing window on the front?,yes,no,False,0.001165
+MSCOCO,gpt-4o,79,8,Does the object usually feature a compact design suitable for countertop placement?,no,no,True,0.0009925
+MSCOCO,gpt-4o,44,0,Is the object a living thing (animal or person)?,no,no,True,0.0020075
+MSCOCO,gpt-4o,44,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0016775
+MSCOCO,gpt-4o,44,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00168
+MSCOCO,gpt-4o,44,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0016925
+MSCOCO,gpt-4o,44,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0020075
+MSCOCO,gpt-4o,44,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0020075
+MSCOCO,gpt-4o,44,6,Is the object itself an item of food?,no,no,True,0.0016675
+MSCOCO,gpt-4o,44,7,Is the object primarily used for drinking liquids?,yes,no,False,0.0016675
+MSCOCO,gpt-4o,44,8,Does the object have a handle?,no,yes,False,0.0019975
+MSCOCO,gpt-4o,44,9,"Does the object have a long, stem-like structure supporting a bowl?",no,no,True,0.00168
+MSCOCO,gpt-4o,44,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,44,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,44,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,44,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,44,4,Is the object typically associated with food preparation or consumption?,yes,no,False,0.0011675
+MSCOCO,gpt-4o,44,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,44,6,Is the object itself an item of food?,no,no,True,0.0009825
+MSCOCO,gpt-4o,44,7,Is the object primarily used for drinking liquids?,yes,no,False,0.0009825
+MSCOCO,gpt-4o,44,8,Does the object have a handle?,no,yes,False,0.0009675
+MSCOCO,gpt-4o,44,9,"Does the object have a long, stem-like structure supporting a bowl?",no,no,True,0.000985
+MSCOCO,gpt-4o,44,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,44,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,44,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001155
+MSCOCO,gpt-4o,44,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011675
+MSCOCO,gpt-4o,44,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,44,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,44,6,Is the object itself an item of food?,no,no,True,0.0011425
+MSCOCO,gpt-4o,44,7,Is the object primarily used for drinking liquids?,yes,no,False,0.0009725
+MSCOCO,gpt-4o,44,8,Does the object have a handle?,no,no,True,0.0011375
+MSCOCO,gpt-4o,44,9,"Does the object have a long, stem-like structure supporting a bowl?",no,no,True,0.000985
+MSCOCO,gpt-4o,46,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,46,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,46,6,Is the object itself an item of food?,no,no,True,0.0009725
+MSCOCO,gpt-4o,46,7,Is the object primarily used for drinking liquids?,yes,no,False,0.0009825
+MSCOCO,gpt-4o,46,8,Does the object have a handle?,no,no,True,0.0009675
+MSCOCO,gpt-4o,46,9,"Does the object have a long, stem-like structure supporting a bowl?",yes,no,False,0.000985
+MSCOCO,gpt-4o,46,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,46,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,46,6,Is the object itself an item of food?,no,no,True,0.0009625
+MSCOCO,gpt-4o,46,7,Is the object primarily used for drinking liquids?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,46,8,Does the object have a handle?,no,no,True,0.0011475
+MSCOCO,gpt-4o,46,9,"Does the object have a long, stem-like structure supporting a bowl?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,46,0,Is the object a living thing (animal or person)?,no,no,True,0.0007425
+MSCOCO,gpt-4o,46,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,46,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,46,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00066
+MSCOCO,gpt-4o,46,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,46,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,46,6,Is the object itself an item of food?,no,no,True,0.000635
+MSCOCO,gpt-4o,46,7,Is the object primarily used for drinking liquids?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,46,8,Does the object have a handle?,no,no,True,0.0007225
+MSCOCO,gpt-4o,46,9,"Does the object have a long, stem-like structure supporting a bowl?",yes,yes,True,0.0006375
+MSCOCO,gpt-4o,70,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,70,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,70,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.000985
+MSCOCO,gpt-4o,70,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,70,4,Does the object have a backrest?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,70,5,Does the object have armrests on both sides?,no,no,True,0.001155
+MSCOCO,gpt-4o,70,6,Does the object feature a water tank as part of its structure?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,70,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,70,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,70,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.0006375
+MSCOCO,gpt-4o,70,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.000745
+MSCOCO,gpt-4o,70,4,Does the object have a backrest?,yes,no,False,0.0006225
+MSCOCO,gpt-4o,70,5,Does the object have armrests on both sides?,no,no,True,0.0006275
+MSCOCO,gpt-4o,70,6,Does the object feature a water tank as part of its structure?,yes,no,False,0.0007375
+MSCOCO,gpt-4o,70,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,70,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,70,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,70,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,70,4,Does the object have a backrest?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,70,5,Does the object have armrests on both sides?,no,no,True,0.001145
+MSCOCO,gpt-4o,70,6,Does the object feature a water tank as part of its structure?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,15,0,Is the object a living thing (animal or person)?,no,no,True,0.00062
+MSCOCO,gpt-4o,15,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0007375
+MSCOCO,gpt-4o,15,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.0006375
+MSCOCO,gpt-4o,15,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.0006325
+MSCOCO,gpt-4o,15,4,Does the object have a backrest?,yes,no,False,0.0006225
+MSCOCO,gpt-4o,15,5,Does the object have armrests on both sides?,no,no,True,0.00073
+MSCOCO,gpt-4o,15,6,Does the object feature a water tank as part of its structure?,no,no,True,0.000635
+MSCOCO,gpt-4o,15,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,15,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,15,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.000985
+MSCOCO,gpt-4o,15,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,15,4,Does the object have a backrest?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,15,5,Does the object have armrests on both sides?,no,yes,False,0.001155
+MSCOCO,gpt-4o,15,6,Does the object feature a water tank as part of its structure?,no,no,True,0.0011725
+MSCOCO,gpt-4o,15,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,15,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,15,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,15,3,Is the object primarily used for sitting or resting the body?,yes,no,False,0.00117
+MSCOCO,gpt-4o,15,4,Does the object have a backrest?,yes,no,False,0.00097
+MSCOCO,gpt-4o,15,5,Does the object have armrests on both sides?,no,no,True,0.001155
+MSCOCO,gpt-4o,15,6,Does the object feature a water tank as part of its structure?,no,no,True,0.0009825
+MSCOCO,gpt-4o,10,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,10,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,10,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,10,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,10,4,Is the object primarily a sign displaying text or symbols?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,10,5,Does the object have visible lights or bulbs on its structure?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,10,0,Is the object a living thing (animal or person)?,no,no,True,0.0020075
+MSCOCO,gpt-4o,10,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0016875
+MSCOCO,gpt-4o,10,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.00168
+MSCOCO,gpt-4o,10,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,10,4,Is the object primarily a sign displaying text or symbols?,no,yes,False,0.0020075
+MSCOCO,gpt-4o,10,5,Does the object have visible lights or bulbs on its structure?,yes,yes,True,0.001675
+MSCOCO,gpt-4o,10,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,10,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.000625
+MSCOCO,gpt-4o,10,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006375
+MSCOCO,gpt-4o,10,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,10,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.0007325
+MSCOCO,gpt-4o,10,5,Does the object have visible lights or bulbs on its structure?,yes,no,False,0.0006325
+MSCOCO,gpt-4o,25,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,25,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,25,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001165
+MSCOCO,gpt-4o,25,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.001165
+MSCOCO,gpt-4o,25,4,Does the animal have a long neck?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,25,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,25,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,25,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001175
+MSCOCO,gpt-4o,25,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.001165
+MSCOCO,gpt-4o,25,4,Does the animal have a long neck?,yes,yes,True,0.00114
+MSCOCO,gpt-4o,25,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,25,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,25,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001165
+MSCOCO,gpt-4o,25,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.001175
+MSCOCO,gpt-4o,25,4,Does the animal have a long neck?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,7,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,7,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,7,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,7,3,Does the vehicle have two wheels?,no,no,True,0.0009775
+MSCOCO,gpt-4o,7,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,7,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,7,6,Is the vehicle designed primarily for transporting many passengers?,yes,no,False,0.001165
+MSCOCO,gpt-4o,7,7,Does the vehicle travel on tracks?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,7,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,7,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,7,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,7,3,Does the vehicle have two wheels?,no,no,True,0.0011575
+MSCOCO,gpt-4o,7,4,Does the vehicle primarily operate on water?,no,no,True,0.00098
+MSCOCO,gpt-4o,7,5,Does the vehicle have wings?,no,no,True,0.001135
+MSCOCO,gpt-4o,7,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,7,7,Does the vehicle travel on tracks?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,7,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,7,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,7,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,7,3,Does the vehicle have two wheels?,no,no,True,0.0009675
+MSCOCO,gpt-4o,7,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,7,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,7,6,Is the vehicle designed primarily for transporting many passengers?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,7,7,Does the vehicle travel on tracks?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,43,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,43,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0007375
+MSCOCO,gpt-4o,43,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006275
+MSCOCO,gpt-4o,43,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0007375
+MSCOCO,gpt-4o,43,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.00064
+MSCOCO,gpt-4o,43,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.00074
+MSCOCO,gpt-4o,43,6,Is the object spherical or round in shape?,no,yes,False,0.0007275
+MSCOCO,gpt-4o,43,7,Is the object held in the hand during use?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,43,8,Does the object have a netted or strung area as part of its design?,yes,yes,True,0.000645
+MSCOCO,gpt-4o,43,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,43,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,43,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,43,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,43,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,43,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.000985
+MSCOCO,gpt-4o,43,6,Is the object spherical or round in shape?,no,no,True,0.0011525
+MSCOCO,gpt-4o,43,7,Is the object held in the hand during use?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,43,8,Does the object have a netted or strung area as part of its design?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,43,0,Is the object a living thing (animal or person)?,no,no,True,0.0020175
+MSCOCO,gpt-4o,43,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0020125
+MSCOCO,gpt-4o,43,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001995
+MSCOCO,gpt-4o,43,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0020125
+MSCOCO,gpt-4o,43,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0016825
+MSCOCO,gpt-4o,43,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.00168
+MSCOCO,gpt-4o,43,6,Is the object spherical or round in shape?,no,no,True,0.0016675
+MSCOCO,gpt-4o,43,7,Is the object held in the hand during use?,yes,yes,True,0.00167
+MSCOCO,gpt-4o,43,8,Does the object have a netted or strung area as part of its design?,yes,yes,True,0.0016875
+MSCOCO,gpt-4o,81,0,Is the object a living thing (animal or person)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006475
+MSCOCO,gpt-4o,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00064
+MSCOCO,gpt-4o,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,0.00064
+MSCOCO,gpt-4o,81,5,Is the object an appliance (a powered kitchen device)?,yes,no,False,0.00063
+MSCOCO,gpt-4o,81,6,Is the object primarily used for heating or cooking food?,no,no,True,0.00064
+MSCOCO,gpt-4o,81,7,Is the object typically used to clean or dispose of water?,yes,yes,True,0.000735
+MSCOCO,gpt-4o,81,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,81,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,81,5,Is the object an appliance (a powered kitchen device)?,yes,no,False,0.0009775
+MSCOCO,gpt-4o,81,6,Is the object primarily used for heating or cooking food?,no,no,True,0.0009875
+MSCOCO,gpt-4o,81,7,Is the object typically used to clean or dispose of water?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,81,0,Is the object a living thing (animal or person)?,no,no,True,0.00064
+MSCOCO,gpt-4o,81,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,81,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,81,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,81,4,Is the object typically associated with food preparation or consumption?,yes,no,False,0.0007425
+MSCOCO,gpt-4o,81,5,Is the object an appliance (a powered kitchen device)?,yes,no,False,0.0007325
+MSCOCO,gpt-4o,81,6,Is the object primarily used for heating or cooking food?,no,no,True,0.0007325
+MSCOCO,gpt-4o,81,7,Is the object typically used to clean or dispose of water?,yes,yes,True,0.0006325
+MSCOCO,gpt-4o,3,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,3,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,3,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,3,3,Does the vehicle have two wheels?,no,no,True,0.0009775
+MSCOCO,gpt-4o,3,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,3,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,3,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,0.000975
+MSCOCO,gpt-4o,3,7,Is the vehicle smaller in size and typically used for personal transport?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,3,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,3,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,3,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,3,3,Does the vehicle have two wheels?,no,no,True,0.0011475
+MSCOCO,gpt-4o,3,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,3,5,Does the vehicle have wings?,no,no,True,0.001145
+MSCOCO,gpt-4o,3,6,Is the vehicle designed primarily for transporting many passengers?,no,no,True,0.001155
+MSCOCO,gpt-4o,3,7,Is the vehicle smaller in size and typically used for personal transport?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,3,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,3,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,3,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,3,3,Does the vehicle have two wheels?,no,no,True,0.0014275
+MSCOCO,gpt-4o,3,4,Does the vehicle primarily operate on water?,no,no,True,0.00116
+MSCOCO,gpt-4o,3,5,Does the vehicle have wings?,no,no,True,0.000965
+MSCOCO,gpt-4o,3,6,Is the vehicle designed primarily for transporting many passengers?,no,yes,False,0.001155
+MSCOCO,gpt-4o,3,7,Is the vehicle smaller in size and typically used for personal transport?,yes,no,False,0.0009825
+MSCOCO,gpt-4o,9,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,9,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,9,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,9,3,Does the vehicle have two wheels?,no,no,True,0.0009675
+MSCOCO,gpt-4o,9,4,Does the vehicle primarily operate on water?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,9,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,9,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,9,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,9,3,Does the vehicle have two wheels?,no,no,True,0.0011475
+MSCOCO,gpt-4o,9,4,Does the vehicle primarily operate on water?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,9,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,9,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,9,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,9,3,Does the vehicle have two wheels?,no,no,True,0.0011475
+MSCOCO,gpt-4o,9,4,Does the vehicle primarily operate on water?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,28,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,28,1,Is the object typically found indoors (in a home or building)?,no,yes,False,0.0009925
+MSCOCO,gpt-4o,28,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,28,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009725
+MSCOCO,gpt-4o,28,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,28,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,0.000985
+MSCOCO,gpt-4o,28,6,Is the object typically thrown by hand during play?,no,no,True,0.000975
+MSCOCO,gpt-4o,28,7,Does the object have a fabric or cloth surface stretched over its frame?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,28,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,28,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,28,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,28,3,Is the object attached to or installed on a street or roadside?,no,yes,False,0.0011625
+MSCOCO,gpt-4o,28,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,28,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,0.000985
+MSCOCO,gpt-4o,28,6,Is the object typically thrown by hand during play?,no,,False,0.001265
+MSCOCO,gpt-4o,28,7,Does the object have a fabric or cloth surface stretched over its frame?,yes,no,False,0.000985
+MSCOCO,gpt-4o,28,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,28,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,28,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,28,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,28,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,28,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,0.000985
+MSCOCO,gpt-4o,28,6,Is the object typically thrown by hand during play?,no,no,True,0.001155
+MSCOCO,gpt-4o,28,7,Does the object have a fabric or cloth surface stretched over its frame?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,75,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,75,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,75,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,75,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,75,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,75,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,75,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,75,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,75,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,0.0009975
+MSCOCO,gpt-4o,75,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,no,yes,False,0.00117
+MSCOCO,gpt-4o,75,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,75,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,75,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,75,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,75,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,75,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011575
+MSCOCO,gpt-4o,75,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,75,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,75,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,yes,False,0.0009975
+MSCOCO,gpt-4o,75,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,no,no,True,0.00117
+MSCOCO,gpt-4o,75,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,75,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,75,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,75,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,75,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,75,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011575
+MSCOCO,gpt-4o,75,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,75,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0009925
+MSCOCO,gpt-4o,75,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,0.0009975
+MSCOCO,gpt-4o,75,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,no,no,True,0.00099
+MSCOCO,gpt-4o,77,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,77,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,77,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,77,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,77,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,77,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011575
+MSCOCO,gpt-4o,77,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,77,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,yes,False,0.0009925
+MSCOCO,gpt-4o,77,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,77,9,Does the object have a screen or display surface?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,77,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,77,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011625
+MSCOCO,gpt-4o,77,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,77,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,77,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,77,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,77,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,77,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,77,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,77,9,Does the object have a screen or display surface?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,77,0,Is the object a living thing (animal or person)?,no,no,True,0.00062
+MSCOCO,gpt-4o,77,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,77,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,77,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,77,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0007325
+MSCOCO,gpt-4o,77,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.00063
+MSCOCO,gpt-4o,77,6,Is the object an electronic device or related accessory?,yes,yes,True,0.0006175
+MSCOCO,gpt-4o,77,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,yes,False,0.000645
+MSCOCO,gpt-4o,77,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,77,9,Does the object have a screen or display surface?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,85,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,85,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009925
+MSCOCO,gpt-4o,85,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,85,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,85,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,85,5,Is the object primarily made of glass or reflective surfaces?,yes,no,False,0.0011575
+MSCOCO,gpt-4o,85,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.001165
+MSCOCO,gpt-4o,85,7,Does the object typically have a face with numbers or hands?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,85,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,85,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,85,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,85,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,85,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,85,5,Is the object primarily made of glass or reflective surfaces?,yes,no,False,0.0011675
+MSCOCO,gpt-4o,85,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.000985
+MSCOCO,gpt-4o,85,7,Does the object typically have a face with numbers or hands?,yes,no,False,0.00116
+MSCOCO,gpt-4o,85,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,85,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,85,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,85,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,85,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,85,5,Is the object primarily made of glass or reflective surfaces?,yes,no,False,0.0011575
+MSCOCO,gpt-4o,85,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.000975
+MSCOCO,gpt-4o,85,7,Does the object typically have a face with numbers or hands?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,72,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,72,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0007375
+MSCOCO,gpt-4o,72,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,72,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007625
+MSCOCO,gpt-4o,72,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.00063
+MSCOCO,gpt-4o,72,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.00063
+MSCOCO,gpt-4o,72,6,Is the object an electronic device or related accessory?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,72,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0007475
+MSCOCO,gpt-4o,72,8,Is the object mainly designed for handheld use?,no,no,True,0.0007375
+MSCOCO,gpt-4o,72,9,Does the object have a built-in display screen that is used for output only (not interactive)?,yes,yes,True,0.0007525
+MSCOCO,gpt-4o,72,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,72,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,72,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,72,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,72,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,72,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011675
+MSCOCO,gpt-4o,72,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,72,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0011825
+MSCOCO,gpt-4o,72,8,Is the object mainly designed for handheld use?,no,no,True,0.0011525
+MSCOCO,gpt-4o,72,9,Does the object have a built-in display screen that is used for output only (not interactive)?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,72,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,72,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,72,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,72,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,72,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,72,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011575
+MSCOCO,gpt-4o,72,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,72,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,72,8,Is the object mainly designed for handheld use?,no,no,True,0.0009825
+MSCOCO,gpt-4o,72,9,Does the object have a built-in display screen that is used for output only (not interactive)?,yes,yes,True,0.0011775
+MSCOCO,gpt-4o,4,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,4,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,4,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,4,3,Does the vehicle have two wheels?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,4,4,Does the vehicle have pedals for human propulsion?,no,no,True,0.0011525
+MSCOCO,gpt-4o,4,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,4,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,4,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,4,3,Does the vehicle have two wheels?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,4,4,Does the vehicle have pedals for human propulsion?,no,no,True,0.0009725
+MSCOCO,gpt-4o,4,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,4,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,4,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,4,3,Does the vehicle have two wheels?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,4,4,Does the vehicle have pedals for human propulsion?,no,no,True,0.0009825
+MSCOCO,gpt-4o,21,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,21,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,21,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001165
+MSCOCO,gpt-4o,21,3,Does the animal have horns that curve downward or outward from the head?,yes,no,False,0.000985
+MSCOCO,gpt-4o,21,4,Does the animal have a white face with woolly fur covering most of its body?,no,no,True,0.0011825
+MSCOCO,gpt-4o,21,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,21,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,21,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.000995
+MSCOCO,gpt-4o,21,3,Does the animal have horns that curve downward or outward from the head?,yes,no,False,0.000985
+MSCOCO,gpt-4o,21,4,Does the animal have a white face with woolly fur covering most of its body?,no,no,True,0.0009925
+MSCOCO,gpt-4o,21,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,21,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,21,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.000985
+MSCOCO,gpt-4o,21,3,Does the animal have horns that curve downward or outward from the head?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,21,4,Does the animal have a white face with woolly fur covering most of its body?,no,no,True,0.0011725
+MSCOCO,gpt-4o,24,0,Is the object a living thing (animal or person)?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,24,1,Does the animal typically have hooves?,yes,yes,True,0.0006225
+MSCOCO,gpt-4o,24,2,Does the animal have visible black-and-white striping on its body?,yes,yes,True,0.00074
+MSCOCO,gpt-4o,24,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,24,1,Does the animal typically have hooves?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,24,2,Does the animal have visible black-and-white striping on its body?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,24,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,24,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,24,2,Does the animal have visible black-and-white striping on its body?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,52,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,52,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,52,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,52,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,52,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007225
+MSCOCO,gpt-4o,52,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,52,6,Is the object itself an item of food?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,52,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.00073
+MSCOCO,gpt-4o,52,8,Is the object a fruit?,yes,yes,True,0.0006175
+MSCOCO,gpt-4o,52,9,Is the primary color of the object yellow?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,52,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,52,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,52,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,52,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011675
+MSCOCO,gpt-4o,52,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,52,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,52,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,52,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,52,8,Is the object a fruit?,yes,yes,True,0.001135
+MSCOCO,gpt-4o,52,9,Is the primary color of the object yellow?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,52,0,Is the object a living thing (animal or person)?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,52,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009925
+MSCOCO,gpt-4o,52,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,52,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,52,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,52,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,52,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,52,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,52,8,Is the object a fruit?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,52,9,Is the primary color of the object yellow?,yes,no,False,0.0009725
+MSCOCO,gpt-4o,54,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,54,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,54,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,54,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,54,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,54,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,54,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,54,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.000975
+MSCOCO,gpt-4o,54,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,54,9,Does the food contain visible meat between bread?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,54,10,Is the food item typically ring-shaped with a central hole?,no,no,True,0.00116
+MSCOCO,gpt-4o,54,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,54,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,54,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,54,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,54,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,54,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,54,6,Is the object itself an item of food?,yes,yes,True,0.0009625
+MSCOCO,gpt-4o,54,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001155
+MSCOCO,gpt-4o,54,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,54,9,Does the food contain visible meat between bread?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,54,10,Is the food item typically ring-shaped with a central hole?,no,no,True,0.00098
+MSCOCO,gpt-4o,54,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,54,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,54,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,54,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,54,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,54,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,54,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,54,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.000975
+MSCOCO,gpt-4o,54,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,54,9,Does the food contain visible meat between bread?,no,no,True,0.0009725
+MSCOCO,gpt-4o,54,10,Is the food item typically ring-shaped with a central hole?,no,no,True,0.00116
+MSCOCO,gpt-4o,49,0,Is the object a living thing (animal or person)?,no,no,True,0.0020075
+MSCOCO,gpt-4o,49,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,49,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.002025
+MSCOCO,gpt-4o,49,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0017025
+MSCOCO,gpt-4o,49,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0020075
+MSCOCO,gpt-4o,49,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0016725
+MSCOCO,gpt-4o,49,6,Is the object itself an item of food?,no,no,True,0.0016675
+MSCOCO,gpt-4o,49,7,Is the object primarily used for drinking liquids?,no,no,True,0.0020025
+MSCOCO,gpt-4o,49,8,Is the object used to contain or hold food?,no,no,True,0.002015
+MSCOCO,gpt-4o,49,9,Does the object have prongs or tines at one end?,no,no,True,0.0016775
+MSCOCO,gpt-4o,49,10,"Does the object have a flat, sharp edge intended for cutting?",yes,yes,True,0.0016775
+MSCOCO,gpt-4o,49,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,49,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,49,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,49,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,49,4,Is the object typically associated with food preparation or consumption?,yes,no,False,0.0009775
+MSCOCO,gpt-4o,49,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,49,6,Is the object itself an item of food?,no,no,True,0.0011625
+MSCOCO,gpt-4o,49,7,Is the object primarily used for drinking liquids?,no,no,True,0.0011525
+MSCOCO,gpt-4o,49,8,Is the object used to contain or hold food?,no,no,True,0.000975
+MSCOCO,gpt-4o,49,9,Does the object have prongs or tines at one end?,no,no,True,0.0011625
+MSCOCO,gpt-4o,49,10,"Does the object have a flat, sharp edge intended for cutting?",yes,no,False,0.0011625
+MSCOCO,gpt-4o,49,0,Is the object a living thing (animal or person)?,no,no,True,0.0020175
+MSCOCO,gpt-4o,49,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,49,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00168
+MSCOCO,gpt-4o,49,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0016925
+MSCOCO,gpt-4o,49,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0020075
+MSCOCO,gpt-4o,49,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0019975
+MSCOCO,gpt-4o,49,6,Is the object itself an item of food?,no,no,True,0.0019925
+MSCOCO,gpt-4o,49,7,Is the object primarily used for drinking liquids?,no,no,True,0.0016775
+MSCOCO,gpt-4o,49,8,Is the object used to contain or hold food?,no,yes,False,0.00167
+MSCOCO,gpt-4o,49,9,Does the object have prongs or tines at one end?,no,no,True,0.0016775
+MSCOCO,gpt-4o,49,10,"Does the object have a flat, sharp edge intended for cutting?",yes,no,False,0.0020125
+MSCOCO,gpt-4o,74,0,Is the object a living thing (animal or person)?,no,yes,False,0.0011575
+MSCOCO,gpt-4o,74,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,74,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,74,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,74,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009675
+MSCOCO,gpt-4o,74,5,Is the object primarily made of glass or reflective surfaces?,no,yes,False,0.0011575
+MSCOCO,gpt-4o,74,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,74,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0009925
+MSCOCO,gpt-4o,74,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,0.0011675
+MSCOCO,gpt-4o,74,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,74,0,Is the object a living thing (animal or person)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,74,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,74,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,74,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,74,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.00064
+MSCOCO,gpt-4o,74,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0007325
+MSCOCO,gpt-4o,74,6,Is the object an electronic device or related accessory?,yes,yes,True,0.00073
+MSCOCO,gpt-4o,74,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.000645
+MSCOCO,gpt-4o,74,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,0.0007525
+MSCOCO,gpt-4o,74,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,yes,yes,True,0.000745
+MSCOCO,gpt-4o,74,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,74,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,74,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,74,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009875
+MSCOCO,gpt-4o,74,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,74,5,Is the object primarily made of glass or reflective surfaces?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,74,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,74,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,74,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,no,no,True,0.0011875
+MSCOCO,gpt-4o,74,9,Does the object have a prominent scroll wheel or curved shape designed for handheld use?,yes,yes,True,0.00099
+MSCOCO,gpt-4o,51,0,Is the object a living thing (animal or person)?,no,no,True,0.00064
+MSCOCO,gpt-4o,51,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,51,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,51,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,51,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,51,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0007325
+MSCOCO,gpt-4o,51,6,Is the object itself an item of food?,no,yes,False,0.0007275
+MSCOCO,gpt-4o,51,7,Is the object primarily used for drinking liquids?,no,no,True,0.000625
+MSCOCO,gpt-4o,51,8,Is the object used to contain or hold food?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,51,9,Is the container typically shallow and flat?,no,yes,False,0.000725
+MSCOCO,gpt-4o,51,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,51,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,51,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,51,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,51,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,51,5,Is the object an appliance (a powered kitchen device)?,no,yes,False,0.0011575
+MSCOCO,gpt-4o,51,6,Is the object itself an item of food?,no,no,True,0.0011425
+MSCOCO,gpt-4o,51,7,Is the object primarily used for drinking liquids?,no,no,True,0.0011625
+MSCOCO,gpt-4o,51,8,Is the object used to contain or hold food?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,51,9,Is the container typically shallow and flat?,no,yes,False,0.00115
+MSCOCO,gpt-4o,51,0,Is the object a living thing (animal or person)?,no,no,True,0.0020075
+MSCOCO,gpt-4o,51,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,51,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00168
+MSCOCO,gpt-4o,51,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0017025
+MSCOCO,gpt-4o,51,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0020175
+MSCOCO,gpt-4o,51,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0016825
+MSCOCO,gpt-4o,51,6,Is the object itself an item of food?,no,yes,False,0.0019925
+MSCOCO,gpt-4o,51,7,Is the object primarily used for drinking liquids?,no,no,True,0.0016775
+MSCOCO,gpt-4o,51,8,Is the object used to contain or hold food?,yes,yes,True,0.00167
+MSCOCO,gpt-4o,51,9,Is the container typically shallow and flat?,no,yes,False,0.001665
+MSCOCO,gpt-4o,84,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,84,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,84,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,84,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,84,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,84,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011475
+MSCOCO,gpt-4o,84,6,Is the object an electronic device or related accessory?,no,no,True,0.000965
+MSCOCO,gpt-4o,84,7,Is the object a soft toy or plush item?,no,yes,False,0.000965
+MSCOCO,gpt-4o,84,8,Is the object primarily made of paper?,yes,no,False,0.00097
+MSCOCO,gpt-4o,84,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,84,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,84,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,84,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,84,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,84,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011475
+MSCOCO,gpt-4o,84,6,Is the object an electronic device or related accessory?,no,no,True,0.001165
+MSCOCO,gpt-4o,84,7,Is the object a soft toy or plush item?,no,no,True,0.000965
+MSCOCO,gpt-4o,84,8,Is the object primarily made of paper?,yes,no,False,0.00115
+MSCOCO,gpt-4o,84,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,84,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009725
+MSCOCO,gpt-4o,84,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,84,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,84,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,84,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,84,6,Is the object an electronic device or related accessory?,no,no,True,0.000965
+MSCOCO,gpt-4o,84,7,Is the object a soft toy or plush item?,no,no,True,0.001145
+MSCOCO,gpt-4o,84,8,Is the object primarily made of paper?,yes,no,False,0.00115
+MSCOCO,gpt-4o,22,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,22,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,22,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,22,3,Is the animal covered with fur?,no,no,True,0.0011375
+MSCOCO,gpt-4o,22,4,Does the animal have a trunk?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,22,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,22,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,22,2,Is the subject a human or an animal?,Animal,Animal,True,0.0009625
+MSCOCO,gpt-4o,22,3,Is the animal covered with fur?,no,no,True,0.0011475
+MSCOCO,gpt-4o,22,4,Does the animal have a trunk?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,22,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,22,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,22,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,22,3,Is the animal covered with fur?,no,no,True,0.0009675
+MSCOCO,gpt-4o,22,4,Does the animal have a trunk?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,76,0,Is the object a living thing (animal or person)?,no,no,True,0.00064
+MSCOCO,gpt-4o,76,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,76,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,76,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,76,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0007425
+MSCOCO,gpt-4o,76,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0007325
+MSCOCO,gpt-4o,76,6,Is the object an electronic device or related accessory?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,76,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.000645
+MSCOCO,gpt-4o,76,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,yes,yes,True,0.00065
+MSCOCO,gpt-4o,76,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,76,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,76,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,76,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,76,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,76,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,76,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,76,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0011725
+MSCOCO,gpt-4o,76,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,yes,yes,True,0.0011775
+MSCOCO,gpt-4o,76,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,76,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,76,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,76,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,76,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,76,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,76,6,Is the object an electronic device or related accessory?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,76,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,yes,yes,True,0.0009925
+MSCOCO,gpt-4o,76,8,Does the object primarily consist of a flat rectangular surface with multiple buttons or keys arranged in rows?,yes,yes,True,0.0009975
+MSCOCO,gpt-4o,86,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,86,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,86,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,86,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,86,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,86,5,Is the object primarily made of glass or reflective surfaces?,yes,no,False,0.0011575
+MSCOCO,gpt-4o,86,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.000985
+MSCOCO,gpt-4o,86,7,Does the object typically have a face with numbers or hands?,no,no,True,0.00098
+MSCOCO,gpt-4o,86,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,86,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,86,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,86,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,86,4,Is the object typically associated with food preparation or consumption?,no,yes,False,0.0009875
+MSCOCO,gpt-4o,86,5,Is the object primarily made of glass or reflective surfaces?,yes,no,False,0.0011575
+MSCOCO,gpt-4o,86,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.000985
+MSCOCO,gpt-4o,86,7,Does the object typically have a face with numbers or hands?,no,no,True,0.00117
+MSCOCO,gpt-4o,86,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,86,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,86,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,86,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,86,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,86,5,Is the object primarily made of glass or reflective surfaces?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,86,6,Does the object display a reflective surface used to see one's own image?,no,no,True,0.000975
+MSCOCO,gpt-4o,86,7,Does the object typically have a face with numbers or hands?,no,no,True,0.00098
+MSCOCO,gpt-4o,50,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,50,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,50,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,50,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,50,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,50,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,50,6,Is the object itself an item of food?,no,yes,False,0.0009725
+MSCOCO,gpt-4o,50,7,Is the object primarily used for drinking liquids?,no,no,True,0.0009825
+MSCOCO,gpt-4o,50,8,Is the object used to contain or hold food?,no,yes,False,0.001155
+MSCOCO,gpt-4o,50,9,Does the object have prongs or tines at one end?,no,no,True,0.0009825
+MSCOCO,gpt-4o,50,10,"Does the object have a flat, sharp edge intended for cutting?",no,no,True,0.0009825
+MSCOCO,gpt-4o,50,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,50,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,50,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,50,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,50,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,50,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,50,6,Is the object itself an item of food?,no,yes,False,0.0011425
+MSCOCO,gpt-4o,50,7,Is the object primarily used for drinking liquids?,no,no,True,0.0011625
+MSCOCO,gpt-4o,50,8,Is the object used to contain or hold food?,no,no,True,0.000975
+MSCOCO,gpt-4o,50,9,Does the object have prongs or tines at one end?,no,yes,False,0.0009825
+MSCOCO,gpt-4o,50,10,"Does the object have a flat, sharp edge intended for cutting?",no,no,True,0.0011525
+MSCOCO,gpt-4o,50,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,50,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,50,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,50,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,50,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,50,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,50,6,Is the object itself an item of food?,no,no,True,0.0009825
+MSCOCO,gpt-4o,50,7,Is the object primarily used for drinking liquids?,no,no,True,0.0009725
+MSCOCO,gpt-4o,50,8,Is the object used to contain or hold food?,no,yes,False,0.001155
+MSCOCO,gpt-4o,50,9,Does the object have prongs or tines at one end?,no,no,True,0.0011725
+MSCOCO,gpt-4o,50,10,"Does the object have a flat, sharp edge intended for cutting?",no,no,True,0.0009825
+MSCOCO,gpt-4o,2,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,2,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011525
+MSCOCO,gpt-4o,2,2,Is the object primarily a vehicle used for transportation?,yes,no,False,0.000985
+MSCOCO,gpt-4o,2,3,Does the vehicle have two wheels?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,2,4,Does the vehicle have pedals for human propulsion?,yes,no,False,0.0011425
+MSCOCO,gpt-4o,2,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,2,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,2,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,2,3,Does the vehicle have two wheels?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,2,4,Does the vehicle have pedals for human propulsion?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,2,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,2,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,2,2,Is the object primarily a vehicle used for transportation?,yes,no,False,0.000975
+MSCOCO,gpt-4o,2,3,Does the vehicle have two wheels?,yes,,False,0.0012375
+MSCOCO,gpt-4o,2,4,Does the vehicle have pedals for human propulsion?,yes,,False,0.0011525
+MSCOCO,gpt-4o,82,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,82,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,82,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,82,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,82,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,82,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,82,6,Is the object primarily used for heating or cooking food?,no,no,True,0.0011675
+MSCOCO,gpt-4o,82,7,Is the object typically used to clean or dispose of water?,no,no,True,0.00117
+MSCOCO,gpt-4o,82,8,Is the object usually a large stationary appliance?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,82,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,82,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,82,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,82,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,82,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,82,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,82,6,Is the object primarily used for heating or cooking food?,no,no,True,0.0011675
+MSCOCO,gpt-4o,82,7,Is the object typically used to clean or dispose of water?,no,no,True,0.00099
+MSCOCO,gpt-4o,82,8,Is the object usually a large stationary appliance?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,82,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,82,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,82,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00074
+MSCOCO,gpt-4o,82,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,82,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,82,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,82,6,Is the object primarily used for heating or cooking food?,no,no,True,0.0007325
+MSCOCO,gpt-4o,82,7,Is the object typically used to clean or dispose of water?,no,no,True,0.0006325
+MSCOCO,gpt-4o,82,8,Is the object usually a large stationary appliance?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,11,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,11,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,11,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,11,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,11,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.0011675
+MSCOCO,gpt-4o,11,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.00098
+MSCOCO,gpt-4o,11,6,Does the object typically have a coin or digital payment slot?,no,no,True,0.00117
+MSCOCO,gpt-4o,11,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,11,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.000635
+MSCOCO,gpt-4o,11,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006175
+MSCOCO,gpt-4o,11,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,11,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.00063
+MSCOCO,gpt-4o,11,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.000745
+MSCOCO,gpt-4o,11,6,Does the object typically have a coin or digital payment slot?,no,no,True,0.0006325
+MSCOCO,gpt-4o,11,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,11,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,11,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001155
+MSCOCO,gpt-4o,11,3,Is the object attached to or installed on a street or roadside?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,11,4,Is the object primarily a sign displaying text or symbols?,no,no,True,0.0009775
+MSCOCO,gpt-4o,11,5,Does the object have visible lights or bulbs on its structure?,no,no,True,0.00115
+MSCOCO,gpt-4o,11,6,Does the object typically have a coin or digital payment slot?,no,no,True,0.00098
+MSCOCO,gpt-4o,17,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,17,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,17,2,Is the subject a human or an animal?,Animal,Animal,True,0.0009625
+MSCOCO,gpt-4o,17,3,Is the animal covered with fur?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,17,4,Does the animal tend to have rounded ears?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,17,5,Does the animal have a long snout?,no,,False,0.0011325
+MSCOCO,gpt-4o,17,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,17,1,Does the animal typically have hooves?,no,no,True,0.000725
+MSCOCO,gpt-4o,17,2,Is the subject a human or an animal?,Animal,Animal,True,0.000625
+MSCOCO,gpt-4o,17,3,Is the animal covered with fur?,yes,yes,True,0.0007225
+MSCOCO,gpt-4o,17,4,Does the animal tend to have rounded ears?,no,no,True,0.000625
+MSCOCO,gpt-4o,17,5,Does the animal have a long snout?,no,no,True,0.000625
+MSCOCO,gpt-4o,17,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,17,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,17,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,17,3,Is the animal covered with fur?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,17,4,Does the animal tend to have rounded ears?,no,no,True,0.0011525
+MSCOCO,gpt-4o,17,5,Does the animal have a long snout?,no,no,True,0.0011525
+MSCOCO,gpt-4o,23,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,23,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,23,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,23,3,Is the animal covered with fur?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,23,4,Does the animal tend to have rounded ears?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,23,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,23,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,23,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,23,3,Is the animal covered with fur?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,23,4,Does the animal tend to have rounded ears?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,23,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,23,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,23,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,23,3,Is the animal covered with fur?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,23,4,Does the animal tend to have rounded ears?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,18,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,18,1,Does the animal typically have hooves?,no,no,True,0.000725
+MSCOCO,gpt-4o,18,2,Is the subject a human or an animal?,Animal,Animal,True,0.000615
+MSCOCO,gpt-4o,18,3,Is the animal covered with fur?,yes,yes,True,0.0007225
+MSCOCO,gpt-4o,18,4,Does the animal tend to have rounded ears?,no,yes,False,0.0007275
+MSCOCO,gpt-4o,18,5,Does the animal have a long snout?,yes,no,False,0.000625
+MSCOCO,gpt-4o,18,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,18,1,Does the animal typically have hooves?,no,no,True,0.00114
+MSCOCO,gpt-4o,18,2,Is the subject a human or an animal?,Animal,Animal,True,0.0009625
+MSCOCO,gpt-4o,18,3,Is the animal covered with fur?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,18,4,Does the animal tend to have rounded ears?,no,,False,0.0012225
+MSCOCO,gpt-4o,18,5,Does the animal have a long snout?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,18,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,18,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,18,2,Is the subject a human or an animal?,Animal,Animal,True,0.0009625
+MSCOCO,gpt-4o,18,3,Is the animal covered with fur?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,18,4,Does the animal tend to have rounded ears?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,18,5,Does the animal have a long snout?,yes,no,False,0.0011525
+MSCOCO,gpt-4o,56,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,56,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,56,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,56,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,56,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,56,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,56,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,56,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,0.001155
+MSCOCO,gpt-4o,56,8,Is the object a fruit?,no,no,True,0.000965
+MSCOCO,gpt-4o,56,9,Is the object green in color?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,56,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,56,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009925
+MSCOCO,gpt-4o,56,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,56,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,56,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,56,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,56,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,56,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,56,8,Is the object a fruit?,no,no,True,0.000965
+MSCOCO,gpt-4o,56,9,Is the object green in color?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,56,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,56,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,56,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,56,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,56,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,56,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,56,6,Is the object itself an item of food?,yes,yes,True,0.0011425
+MSCOCO,gpt-4o,56,7,Is the food primarily a whole fruit or vegetable?,yes,no,False,0.001155
+MSCOCO,gpt-4o,56,8,Is the object a fruit?,no,no,True,0.001145
+MSCOCO,gpt-4o,56,9,Is the object green in color?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,38,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,38,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,38,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,38,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,38,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011775
+MSCOCO,gpt-4o,38,5,Is the object primarily designed to fly or be used in the air?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,38,6,Is the object typically thrown by hand during play?,no,no,True,0.001155
+MSCOCO,gpt-4o,38,7,Does the object have a fabric or cloth surface stretched over its frame?,no,yes,False,0.001165
+MSCOCO,gpt-4o,38,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,38,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,38,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,38,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,38,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011775
+MSCOCO,gpt-4o,38,5,Is the object primarily designed to fly or be used in the air?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,38,6,Is the object typically thrown by hand during play?,no,no,True,0.001165
+MSCOCO,gpt-4o,38,7,Does the object have a fabric or cloth surface stretched over its frame?,no,yes,False,0.001165
+MSCOCO,gpt-4o,38,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,38,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,38,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,38,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,38,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011775
+MSCOCO,gpt-4o,38,5,Is the object primarily designed to fly or be used in the air?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,38,6,Is the object typically thrown by hand during play?,no,no,True,0.001155
+MSCOCO,gpt-4o,38,7,Does the object have a fabric or cloth surface stretched over its frame?,no,yes,False,0.001165
+MSCOCO,gpt-4o,31,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,31,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,31,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,31,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0009975
+MSCOCO,gpt-4o,31,4,Is the object typically worn on the head or face?,no,no,True,0.0011675
+MSCOCO,gpt-4o,31,5,Is the object typically carried by hand rather than worn on the body?,yes,no,False,0.001175
+MSCOCO,gpt-4o,31,6,Does the object usually have two straps and is worn on the back?,no,,False,0.001045
+MSCOCO,gpt-4o,31,7,Does the object commonly have wheels for easier transportation?,no,no,True,0.001145
+MSCOCO,gpt-4o,31,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,31,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,31,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,31,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,no,False,0.0009975
+MSCOCO,gpt-4o,31,4,Is the object typically worn on the head or face?,no,no,True,0.0011575
+MSCOCO,gpt-4o,31,5,Is the object typically carried by hand rather than worn on the body?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,31,6,Does the object usually have two straps and is worn on the back?,no,yes,False,0.001165
+MSCOCO,gpt-4o,31,7,Does the object commonly have wheels for easier transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,31,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,31,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,31,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,31,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0009975
+MSCOCO,gpt-4o,31,4,Is the object typically worn on the head or face?,no,no,True,0.0011675
+MSCOCO,gpt-4o,31,5,Is the object typically carried by hand rather than worn on the body?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,31,6,Does the object usually have two straps and is worn on the back?,no,no,True,0.001165
+MSCOCO,gpt-4o,31,7,Does the object commonly have wheels for easier transportation?,no,no,True,0.001145
+MSCOCO,gpt-4o,64,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,64,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.000635
+MSCOCO,gpt-4o,64,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.0006375
+MSCOCO,gpt-4o,64,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.0006425
+MSCOCO,gpt-4o,64,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,no,no,True,0.00065
+MSCOCO,gpt-4o,64,5,Is the object typically made of transparent or glass materials?,no,no,True,0.00063
+MSCOCO,gpt-4o,64,6,"Is the object a type of plant, either in a pot or standalone?",yes,no,False,0.00064
+MSCOCO,gpt-4o,64,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,64,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009725
+MSCOCO,gpt-4o,64,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.000995
+MSCOCO,gpt-4o,64,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.00117
+MSCOCO,gpt-4o,64,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,no,no,True,0.0009975
+MSCOCO,gpt-4o,64,5,Is the object typically made of transparent or glass materials?,no,no,True,0.0011675
+MSCOCO,gpt-4o,64,6,"Is the object a type of plant, either in a pot or standalone?",yes,no,False,0.0011575
+MSCOCO,gpt-4o,64,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,64,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,64,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.000985
+MSCOCO,gpt-4o,64,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.00117
+MSCOCO,gpt-4o,64,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,no,no,True,0.0011875
+MSCOCO,gpt-4o,64,5,Is the object typically made of transparent or glass materials?,no,no,True,0.0009875
+MSCOCO,gpt-4o,64,6,"Is the object a type of plant, either in a pot or standalone?",yes,yes,True,0.0009875
+MSCOCO,gpt-4o,34,0,Is the object a living thing (animal or person)?,no,no,True,0.0020075
+MSCOCO,gpt-4o,34,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0016875
+MSCOCO,gpt-4o,34,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.002015
+MSCOCO,gpt-4o,34,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0020125
+MSCOCO,gpt-4o,34,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0016825
+MSCOCO,gpt-4o,34,5,Is the object primarily designed to fly or be used in the air?,yes,no,False,0.00168
+MSCOCO,gpt-4o,34,6,Is the object typically thrown by hand during play?,yes,yes,True,0.00167
+MSCOCO,gpt-4o,34,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,34,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,34,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,34,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,34,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011775
+MSCOCO,gpt-4o,34,5,Is the object primarily designed to fly or be used in the air?,yes,yes,True,0.001165
+MSCOCO,gpt-4o,34,6,Is the object typically thrown by hand during play?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,34,0,Is the object a living thing (animal or person)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,34,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.000645
+MSCOCO,gpt-4o,34,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006375
+MSCOCO,gpt-4o,34,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.000635
+MSCOCO,gpt-4o,34,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0007425
+MSCOCO,gpt-4o,34,5,Is the object primarily designed to fly or be used in the air?,yes,yes,True,0.0006375
+MSCOCO,gpt-4o,34,6,Is the object typically thrown by hand during play?,yes,yes,True,0.0006275
+MSCOCO,gpt-4o,41,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,41,1,Is the object typically found indoors (in a home or building)?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,41,2,Is the object primarily a vehicle used for transportation?,no,yes,False,0.000975
+MSCOCO,gpt-4o,41,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,41,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,41,5,Is the object typically used on snow?,no,no,True,0.00098
+MSCOCO,gpt-4o,41,6,Is the object primarily used on water?,no,no,True,0.00116
+MSCOCO,gpt-4o,41,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,41,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,41,2,Is the object primarily a vehicle used for transportation?,no,yes,False,0.000975
+MSCOCO,gpt-4o,41,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,41,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,41,5,Is the object typically used on snow?,no,no,True,0.00097
+MSCOCO,gpt-4o,41,6,Is the object primarily used on water?,no,no,True,0.00116
+MSCOCO,gpt-4o,41,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,41,1,Is the object typically found indoors (in a home or building)?,no,yes,False,0.0009825
+MSCOCO,gpt-4o,41,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,41,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,41,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,41,5,Is the object typically used on snow?,no,no,True,0.00115
+MSCOCO,gpt-4o,41,6,Is the object primarily used on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,42,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,42,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009725
+MSCOCO,gpt-4o,42,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,42,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,42,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,42,5,Is the object typically used on snow?,no,no,True,0.00116
+MSCOCO,gpt-4o,42,6,Is the object primarily used on water?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,42,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,42,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,42,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,42,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,42,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,42,5,Is the object typically used on snow?,no,no,True,0.00116
+MSCOCO,gpt-4o,42,6,Is the object primarily used on water?,yes,yes,True,0.00114
+MSCOCO,gpt-4o,42,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,42,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,42,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,42,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,42,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,42,5,Is the object typically used on snow?,no,no,True,0.00115
+MSCOCO,gpt-4o,42,6,Is the object primarily used on water?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,88,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,88,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,88,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000995
+MSCOCO,gpt-4o,88,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,88,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,88,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,88,6,Is the object an electronic device or related accessory?,no,no,True,0.000985
+MSCOCO,gpt-4o,88,7,Is the object a soft toy or plush item?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,88,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,88,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,88,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,88,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,88,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,88,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,88,6,Is the object an electronic device or related accessory?,no,no,True,0.000975
+MSCOCO,gpt-4o,88,7,Is the object a soft toy or plush item?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,88,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,88,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,88,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,88,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,88,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011575
+MSCOCO,gpt-4o,88,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011575
+MSCOCO,gpt-4o,88,6,Is the object an electronic device or related accessory?,no,no,True,0.001165
+MSCOCO,gpt-4o,88,7,Is the object a soft toy or plush item?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,90,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.00064
+MSCOCO,gpt-4o,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.00063
+MSCOCO,gpt-4o,90,6,Is the object an electronic device or related accessory?,no,no,True,0.0006275
+MSCOCO,gpt-4o,90,7,Is the object a soft toy or plush item?,no,no,True,0.0006275
+MSCOCO,gpt-4o,90,8,Is the object primarily made of paper?,no,no,True,0.0006225
+MSCOCO,gpt-4o,90,9,Does the object have blades used for cutting?,no,no,True,0.000625
+MSCOCO,gpt-4o,90,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.0006375
+MSCOCO,gpt-4o,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.00063
+MSCOCO,gpt-4o,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0007225
+MSCOCO,gpt-4o,90,6,Is the object an electronic device or related accessory?,no,no,True,0.0006275
+MSCOCO,gpt-4o,90,7,Is the object a soft toy or plush item?,no,no,True,0.00073
+MSCOCO,gpt-4o,90,8,Is the object primarily made of paper?,no,no,True,0.000725
+MSCOCO,gpt-4o,90,9,Does the object have blades used for cutting?,no,no,True,0.000625
+MSCOCO,gpt-4o,90,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,90,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,90,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,90,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,90,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0009875
+MSCOCO,gpt-4o,90,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011675
+MSCOCO,gpt-4o,90,6,Is the object an electronic device or related accessory?,no,no,True,0.000985
+MSCOCO,gpt-4o,90,7,Is the object a soft toy or plush item?,no,no,True,0.000965
+MSCOCO,gpt-4o,90,8,Is the object primarily made of paper?,no,no,True,0.00097
+MSCOCO,gpt-4o,90,9,Does the object have blades used for cutting?,no,no,True,0.0011525
+MSCOCO,gpt-4o,65,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,65,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,65,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,65,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,65,4,Does the object have a backrest?,no,no,True,0.00097
+MSCOCO,gpt-4o,65,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,65,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,65,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.001165
+MSCOCO,gpt-4o,65,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,65,4,Does the object have a backrest?,no,no,True,0.00097
+MSCOCO,gpt-4o,65,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,65,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,65,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.0006375
+MSCOCO,gpt-4o,65,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.0006325
+MSCOCO,gpt-4o,65,4,Does the object have a backrest?,no,yes,False,0.0006225
+MSCOCO,gpt-4o,67,0,Is the object a living thing (animal or person)?,no,yes,False,0.0011575
+MSCOCO,gpt-4o,67,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,67,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.000985
+MSCOCO,gpt-4o,67,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.00117
+MSCOCO,gpt-4o,67,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,yes,no,False,0.0011875
+MSCOCO,gpt-4o,67,5,"Does the object typically have a setup meant for dining, often surrounded by chairs?",yes,yes,True,0.00099
+MSCOCO,gpt-4o,67,0,Is the object a living thing (animal or person)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,67,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,67,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.00074
+MSCOCO,gpt-4o,67,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.000735
+MSCOCO,gpt-4o,67,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,yes,yes,True,0.00065
+MSCOCO,gpt-4o,67,5,"Does the object typically have a setup meant for dining, often surrounded by chairs?",yes,no,False,0.000745
+MSCOCO,gpt-4o,67,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,67,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,67,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.000985
+MSCOCO,gpt-4o,67,3,Is the object primarily used for sitting or resting the body?,no,no,True,0.00117
+MSCOCO,gpt-4o,67,4,Does the object primarily serve as a surface for placing items (such as a table or desk)?,yes,no,False,0.0009975
+MSCOCO,gpt-4o,67,5,"Does the object typically have a setup meant for dining, often surrounded by chairs?",yes,no,False,0.00116
+MSCOCO,gpt-4o,19,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,19,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,19,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001165
+MSCOCO,gpt-4o,19,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.000985
+MSCOCO,gpt-4o,19,4,Does the animal have a long neck?,no,no,True,0.00097
+MSCOCO,gpt-4o,19,0,Is the object a living thing (animal or person)?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,19,1,Does the animal typically have hooves?,yes,yes,True,0.000725
+MSCOCO,gpt-4o,19,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.00074
+MSCOCO,gpt-4o,19,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.0006375
+MSCOCO,gpt-4o,19,4,Does the animal have a long neck?,no,no,True,0.0006225
+MSCOCO,gpt-4o,19,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,19,1,Does the animal typically have hooves?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,19,2,Does the animal have visible black-and-white striping on its body?,no,no,True,0.001165
+MSCOCO,gpt-4o,19,3,Does the animal have horns that curve downward or outward from the head?,no,no,True,0.001165
+MSCOCO,gpt-4o,19,4,Does the animal have a long neck?,no,no,True,0.00097
+MSCOCO,gpt-4o,16,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,16,1,Does the animal typically have hooves?,no,no,True,0.000725
+MSCOCO,gpt-4o,16,2,Is the subject a human or an animal?,Animal,Animal,True,0.0007175
+MSCOCO,gpt-4o,16,3,Is the animal covered with fur?,no,no,True,0.00062
+MSCOCO,gpt-4o,16,4,Does the animal have a trunk?,no,no,True,0.00062
+MSCOCO,gpt-4o,16,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,16,1,Does the animal typically have hooves?,no,no,True,0.00097
+MSCOCO,gpt-4o,16,2,Is the subject a human or an animal?,Animal,Animal,True,0.0011425
+MSCOCO,gpt-4o,16,3,Is the animal covered with fur?,no,no,True,0.0009675
+MSCOCO,gpt-4o,16,4,Does the animal have a trunk?,no,no,True,0.0009675
+MSCOCO,gpt-4o,16,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,16,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,16,2,Is the subject a human or an animal?,Animal,Animal,True,0.0009725
+MSCOCO,gpt-4o,16,3,Is the animal covered with fur?,no,no,True,0.0011475
+MSCOCO,gpt-4o,16,4,Does the animal have a trunk?,no,no,True,0.0011475
+MSCOCO,gpt-4o,58,0,Is the object a living thing (animal or person)?,no,no,True,0.0016825
+MSCOCO,gpt-4o,58,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0020125
+MSCOCO,gpt-4o,58,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.002025
+MSCOCO,gpt-4o,58,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0017025
+MSCOCO,gpt-4o,58,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0019975
+MSCOCO,gpt-4o,58,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0020175
+MSCOCO,gpt-4o,58,6,Is the object itself an item of food?,yes,yes,True,0.0019925
+MSCOCO,gpt-4o,58,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001995
+MSCOCO,gpt-4o,58,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00201
+MSCOCO,gpt-4o,58,9,Does the food contain visible meat between bread?,yes,yes,True,0.0016675
+MSCOCO,gpt-4o,58,0,Is the object a living thing (animal or person)?,no,no,True,0.00062
+MSCOCO,gpt-4o,58,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,58,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,58,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,58,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,58,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.00063
+MSCOCO,gpt-4o,58,6,Is the object itself an item of food?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,58,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.0006275
+MSCOCO,gpt-4o,58,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.000735
+MSCOCO,gpt-4o,58,9,Does the food contain visible meat between bread?,yes,yes,True,0.000625
+MSCOCO,gpt-4o,58,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,58,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,58,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001165
+MSCOCO,gpt-4o,58,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,58,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,58,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,58,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,58,7,Is the food primarily a whole fruit or vegetable?,no,no,True,0.001145
+MSCOCO,gpt-4o,58,8,Does the food typically contain a visible bread or dough component?,yes,yes,True,0.00098
+MSCOCO,gpt-4o,58,9,Does the food contain visible meat between bread?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,5,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,5,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,5,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,5,3,Does the vehicle have two wheels?,no,no,True,0.0011375
+MSCOCO,gpt-4o,5,4,Does the vehicle primarily operate on water?,no,no,True,0.00114
+MSCOCO,gpt-4o,5,5,Does the vehicle have wings?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,5,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,5,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,5,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,5,3,Does the vehicle have two wheels?,no,no,True,0.0011475
+MSCOCO,gpt-4o,5,4,Does the vehicle primarily operate on water?,no,no,True,0.00115
+MSCOCO,gpt-4o,5,5,Does the vehicle have wings?,yes,no,False,0.000965
+MSCOCO,gpt-4o,5,0,Is the object a living thing (animal or person)?,no,no,True,0.0016725
+MSCOCO,gpt-4o,5,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0016775
+MSCOCO,gpt-4o,5,2,Is the object primarily a vehicle used for transportation?,yes,yes,True,0.002005
+MSCOCO,gpt-4o,5,3,Does the vehicle have two wheels?,no,no,True,0.0016625
+MSCOCO,gpt-4o,5,4,Does the vehicle primarily operate on water?,no,no,True,0.002
+MSCOCO,gpt-4o,5,5,Does the vehicle have wings?,yes,yes,True,0.00166
+MSCOCO,gpt-4o,63,0,Is the object a living thing (animal or person)?,no,yes,False,0.0009675
+MSCOCO,gpt-4o,63,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,63,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.000985
+MSCOCO,gpt-4o,63,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00116
+MSCOCO,gpt-4o,63,4,Does the object have a backrest?,yes,no,False,0.00097
+MSCOCO,gpt-4o,63,5,Does the object have armrests on both sides?,yes,no,False,0.000975
+MSCOCO,gpt-4o,63,6,Is the object large enough for more than one person to sit on comfortably?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,63,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,63,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,63,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,yes,True,0.000985
+MSCOCO,gpt-4o,63,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,63,4,Does the object have a backrest?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,63,5,Does the object have armrests on both sides?,yes,no,False,0.001155
+MSCOCO,gpt-4o,63,6,Is the object large enough for more than one person to sit on comfortably?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,63,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,63,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,63,2,"Is the object primarily used for sitting, resting, or as furniture?",yes,no,False,0.000985
+MSCOCO,gpt-4o,63,3,Is the object primarily used for sitting or resting the body?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,63,4,Does the object have a backrest?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,63,5,Does the object have armrests on both sides?,yes,,False,0.001275
+MSCOCO,gpt-4o,63,6,Is the object large enough for more than one person to sit on comfortably?,yes,yes,True,0.0011675
+MSCOCO,gpt-4o,39,0,Is the object a living thing (animal or person)?,no,no,True,0.0011575
+MSCOCO,gpt-4o,39,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011525
+MSCOCO,gpt-4o,39,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,39,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,39,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,39,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.001175
+MSCOCO,gpt-4o,39,6,Is the object spherical or round in shape?,no,no,True,0.0011625
+MSCOCO,gpt-4o,39,7,Is the object held in the hand during use?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,39,8,Does the object have a netted or strung area as part of its design?,no,no,True,0.0009925
+MSCOCO,gpt-4o,39,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,39,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011625
+MSCOCO,gpt-4o,39,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,39,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,39,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,39,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.000985
+MSCOCO,gpt-4o,39,6,Is the object spherical or round in shape?,no,no,True,0.0011525
+MSCOCO,gpt-4o,39,7,Is the object held in the hand during use?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,39,8,Does the object have a netted or strung area as part of its design?,no,no,True,0.0011725
+MSCOCO,gpt-4o,39,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,39,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,39,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,39,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,39,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,39,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.001155
+MSCOCO,gpt-4o,39,6,Is the object spherical or round in shape?,no,no,True,0.0009725
+MSCOCO,gpt-4o,39,7,Is the object held in the hand during use?,yes,yes,True,0.001155
+MSCOCO,gpt-4o,39,8,Does the object have a netted or strung area as part of its design?,no,no,True,0.0011625
+MSCOCO,gpt-4o,37,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,37,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,37,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,37,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,37,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,37,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.000995
+MSCOCO,gpt-4o,37,6,Is the object spherical or round in shape?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,37,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,37,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,37,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,37,3,Is the object attached to or installed on a street or roadside?,no,yes,False,0.0009825
+MSCOCO,gpt-4o,37,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,37,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.000985
+MSCOCO,gpt-4o,37,6,Is the object spherical or round in shape?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,37,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,37,1,Is the object typically found indoors (in a home or building)?,no,yes,False,0.000635
+MSCOCO,gpt-4o,37,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.0006275
+MSCOCO,gpt-4o,37,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0007375
+MSCOCO,gpt-4o,37,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.00064
+MSCOCO,gpt-4o,37,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.00075
+MSCOCO,gpt-4o,37,6,Is the object spherical or round in shape?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,1,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,1,1,Does the animal typically have hooves?,no,no,True,0.0006225
+MSCOCO,gpt-4o,1,2,Is the subject a human or an animal?,Human,Human,True,0.000615
+MSCOCO,gpt-4o,1,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,1,1,Does the animal typically have hooves?,no,no,True,0.00115
+MSCOCO,gpt-4o,1,2,Is the subject a human or an animal?,Human,Human,True,0.0009625
+MSCOCO,gpt-4o,1,0,Is the object a living thing (animal or person)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,1,1,Does the animal typically have hooves?,no,,False,0.00143
+MSCOCO,gpt-4o,1,2,Is the subject a human or an animal?,Human,Human,True,0.0009625
+MSCOCO,gpt-4o,87,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,87,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,87,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,87,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,87,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,87,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,87,6,Is the object an electronic device or related accessory?,no,yes,False,0.001155
+MSCOCO,gpt-4o,87,7,Is the object a soft toy or plush item?,no,no,True,0.001165
+MSCOCO,gpt-4o,87,8,Is the object primarily made of paper?,no,no,True,0.00115
+MSCOCO,gpt-4o,87,9,Does the object have blades used for cutting?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,87,0,Is the object a living thing (animal or person)?,no,no,True,0.0007225
+MSCOCO,gpt-4o,87,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,87,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00074
+MSCOCO,gpt-4o,87,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,87,4,Is the object typically associated with food preparation or consumption?,no,yes,False,0.0007325
+MSCOCO,gpt-4o,87,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.00063
+MSCOCO,gpt-4o,87,6,Is the object an electronic device or related accessory?,no,no,True,0.00073
+MSCOCO,gpt-4o,87,7,Is the object a soft toy or plush item?,no,no,True,0.00072
+MSCOCO,gpt-4o,87,8,Is the object primarily made of paper?,no,no,True,0.0006225
+MSCOCO,gpt-4o,87,9,Does the object have blades used for cutting?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,87,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,87,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,87,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,87,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009875
+MSCOCO,gpt-4o,87,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,87,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0009775
+MSCOCO,gpt-4o,87,6,Is the object an electronic device or related accessory?,no,no,True,0.001145
+MSCOCO,gpt-4o,87,7,Is the object a soft toy or plush item?,no,no,True,0.000965
+MSCOCO,gpt-4o,87,8,Is the object primarily made of paper?,no,yes,False,0.00115
+MSCOCO,gpt-4o,87,9,Does the object have blades used for cutting?,yes,yes,True,0.0011425
+MSCOCO,gpt-4o,48,0,Is the object a living thing (animal or person)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,48,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,48,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,48,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,48,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,48,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,48,6,Is the object itself an item of food?,no,yes,False,0.0011525
+MSCOCO,gpt-4o,48,7,Is the object primarily used for drinking liquids?,no,no,True,0.0009725
+MSCOCO,gpt-4o,48,8,Is the object used to contain or hold food?,no,yes,False,0.000975
+MSCOCO,gpt-4o,48,9,Does the object have prongs or tines at one end?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,48,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,48,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,48,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,48,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,48,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009675
+MSCOCO,gpt-4o,48,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,48,6,Is the object itself an item of food?,no,yes,False,0.0009625
+MSCOCO,gpt-4o,48,7,Is the object primarily used for drinking liquids?,no,no,True,0.0011625
+MSCOCO,gpt-4o,48,8,Is the object used to contain or hold food?,no,yes,False,0.001155
+MSCOCO,gpt-4o,48,9,Does the object have prongs or tines at one end?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,48,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,48,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,48,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,48,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,48,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,48,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,48,6,Is the object itself an item of food?,no,no,True,0.0009725
+MSCOCO,gpt-4o,48,7,Is the object primarily used for drinking liquids?,no,no,True,0.0011625
+MSCOCO,gpt-4o,48,8,Is the object used to contain or hold food?,no,yes,False,0.001155
+MSCOCO,gpt-4o,48,9,Does the object have prongs or tines at one end?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,35,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,35,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011725
+MSCOCO,gpt-4o,35,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.001165
+MSCOCO,gpt-4o,35,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009825
+MSCOCO,gpt-4o,35,4,Is the primary object large and flat (used for riding or standing on)?,yes,no,False,0.0011575
+MSCOCO,gpt-4o,35,5,Is the object typically used on snow?,yes,yes,True,0.00115
+MSCOCO,gpt-4o,35,6,Does the object consist of two long narrow boards rather than a single wide board?,yes,yes,True,0.00099
+MSCOCO,gpt-4o,35,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,35,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009825
+MSCOCO,gpt-4o,35,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,35,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,35,4,Is the primary object large and flat (used for riding or standing on)?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,35,5,Is the object typically used on snow?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,35,6,Does the object consist of two long narrow boards rather than a single wide board?,yes,yes,True,0.00117
+MSCOCO,gpt-4o,35,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,35,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0009725
+MSCOCO,gpt-4o,35,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,35,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0011625
+MSCOCO,gpt-4o,35,4,Is the primary object large and flat (used for riding or standing on)?,yes,no,False,0.0011675
+MSCOCO,gpt-4o,35,5,Is the object typically used on snow?,yes,yes,True,0.00097
+MSCOCO,gpt-4o,35,6,Does the object consist of two long narrow boards rather than a single wide board?,yes,yes,True,0.00099
+MSCOCO,gpt-4o,80,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,80,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,80,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,80,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,80,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,80,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,80,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,80,7,Does the object have a door with a viewing window on the front?,no,no,True,0.001155
+MSCOCO,gpt-4o,80,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,80,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,80,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,80,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,80,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,80,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,80,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,80,7,Does the object have a door with a viewing window on the front?,no,no,True,0.000975
+MSCOCO,gpt-4o,80,0,Is the object a living thing (animal or person)?,no,no,True,0.00063
+MSCOCO,gpt-4o,80,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,80,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00074
+MSCOCO,gpt-4o,80,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007525
+MSCOCO,gpt-4o,80,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,80,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,80,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,80,7,Does the object have a door with a viewing window on the front?,no,no,True,0.00074
+MSCOCO,gpt-4o,53,0,Is the object a living thing (animal or person)?,no,no,True,0.0009775
+MSCOCO,gpt-4o,53,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009725
+MSCOCO,gpt-4o,53,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,53,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011875
+MSCOCO,gpt-4o,53,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011475
+MSCOCO,gpt-4o,53,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,53,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,53,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,53,8,Is the object a fruit?,yes,yes,True,0.001135
+MSCOCO,gpt-4o,53,9,Is the primary color of the object yellow?,no,no,True,0.0009725
+MSCOCO,gpt-4o,53,10,Is the object primarily red or green in color?,yes,yes,True,0.001135
+MSCOCO,gpt-4o,53,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,53,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0011725
+MSCOCO,gpt-4o,53,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,53,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,53,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,53,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0011475
+MSCOCO,gpt-4o,53,6,Is the object itself an item of food?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,53,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.001145
+MSCOCO,gpt-4o,53,8,Is the object a fruit?,yes,yes,True,0.001135
+MSCOCO,gpt-4o,53,9,Is the primary color of the object yellow?,no,no,True,0.0011425
+MSCOCO,gpt-4o,53,10,Is the object primarily red or green in color?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,53,0,Is the object a living thing (animal or person)?,no,yes,False,0.0009875
+MSCOCO,gpt-4o,53,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.0009925
+MSCOCO,gpt-4o,53,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,53,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0011775
+MSCOCO,gpt-4o,53,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0011575
+MSCOCO,gpt-4o,53,5,Is the object an appliance (a powered kitchen device)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,53,6,Is the object itself an item of food?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,53,7,Is the food primarily a whole fruit or vegetable?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,53,8,Is the object a fruit?,yes,yes,True,0.000965
+MSCOCO,gpt-4o,53,9,Is the primary color of the object yellow?,no,no,True,0.0009725
+MSCOCO,gpt-4o,53,10,Is the object primarily red or green in color?,yes,,False,0.001085
+MSCOCO,gpt-4o,89,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,89,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,89,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,89,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,yes,False,0.0009975
+MSCOCO,gpt-4o,89,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011675
+MSCOCO,gpt-4o,89,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0011675
+MSCOCO,gpt-4o,89,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,89,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,yes,False,0.0011725
+MSCOCO,gpt-4o,89,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0011525
+MSCOCO,gpt-4o,89,9,Does the object have a screen or display surface?,no,no,True,0.000965
+MSCOCO,gpt-4o,89,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,89,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0011625
+MSCOCO,gpt-4o,89,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000995
+MSCOCO,gpt-4o,89,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0009975
+MSCOCO,gpt-4o,89,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0011475
+MSCOCO,gpt-4o,89,5,Is the object primarily made of glass or reflective surfaces?,no,yes,False,0.0009775
+MSCOCO,gpt-4o,89,6,Is the object an electronic device or related accessory?,yes,yes,True,0.000975
+MSCOCO,gpt-4o,89,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.0009925
+MSCOCO,gpt-4o,89,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0009725
+MSCOCO,gpt-4o,89,9,Does the object have a screen or display surface?,no,yes,False,0.001155
+MSCOCO,gpt-4o,89,0,Is the object a living thing (animal or person)?,no,no,True,0.0007425
+MSCOCO,gpt-4o,89,1,Is the object typically found indoors (in a home or building)?,yes,no,False,0.000635
+MSCOCO,gpt-4o,89,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,89,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007425
+MSCOCO,gpt-4o,89,4,Is the object typically associated with food preparation or consumption?,no,no,True,0.0007425
+MSCOCO,gpt-4o,89,5,Is the object primarily made of glass or reflective surfaces?,no,no,True,0.0007325
+MSCOCO,gpt-4o,89,6,Is the object an electronic device or related accessory?,yes,no,False,0.00072
+MSCOCO,gpt-4o,89,7,Is the object used primarily for input (controlling or interacting with other electronic devices)?,no,no,True,0.000645
+MSCOCO,gpt-4o,89,8,Is the object mainly designed for handheld use?,yes,yes,True,0.0007275
+MSCOCO,gpt-4o,89,9,Does the object have a screen or display surface?,no,no,True,0.0006275
+MSCOCO,gpt-4o,78,0,Is the object a living thing (animal or person)?,no,no,True,0.0007425
+MSCOCO,gpt-4o,78,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,78,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,78,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0007425
+MSCOCO,gpt-4o,78,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,78,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,78,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.00063
+MSCOCO,gpt-4o,78,7,Does the object have a door with a viewing window on the front?,yes,yes,True,0.0006375
+MSCOCO,gpt-4o,78,8,Does the object usually feature a compact design suitable for countertop placement?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,78,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,78,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,78,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.000985
+MSCOCO,gpt-4o,78,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.0010075
+MSCOCO,gpt-4o,78,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,78,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0009775
+MSCOCO,gpt-4o,78,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.0009875
+MSCOCO,gpt-4o,78,7,Does the object have a door with a viewing window on the front?,yes,yes,True,0.000985
+MSCOCO,gpt-4o,78,8,Does the object usually feature a compact design suitable for countertop placement?,yes,no,False,0.0009825
+MSCOCO,gpt-4o,78,0,Is the object a living thing (animal or person)?,no,no,True,0.0007325
+MSCOCO,gpt-4o,78,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.000635
+MSCOCO,gpt-4o,78,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.00075
+MSCOCO,gpt-4o,78,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",no,no,True,0.00065
+MSCOCO,gpt-4o,78,4,Is the object typically associated with food preparation or consumption?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,78,5,Is the object an appliance (a powered kitchen device)?,yes,yes,True,0.0007325
+MSCOCO,gpt-4o,78,6,Is the object primarily used for heating or cooking food?,yes,yes,True,0.00062
+MSCOCO,gpt-4o,78,7,Does the object have a door with a viewing window on the front?,yes,yes,True,0.0006375
+MSCOCO,gpt-4o,78,8,Does the object usually feature a compact design suitable for countertop placement?,yes,yes,True,0.0007375
+MSCOCO,gpt-4o,40,0,Is the object a living thing (animal or person)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,40,1,Is the object typically found indoors (in a home or building)?,no,no,True,0.0011525
+MSCOCO,gpt-4o,40,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000975
+MSCOCO,gpt-4o,40,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009725
+MSCOCO,gpt-4o,40,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0011675
+MSCOCO,gpt-4o,40,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.001175
+MSCOCO,gpt-4o,40,6,Is the object spherical or round in shape?,no,no,True,0.0011525
+MSCOCO,gpt-4o,40,7,Is the object held in the hand during use?,no,yes,False,0.001155
+MSCOCO,gpt-4o,40,0,Is the object a living thing (animal or person)?,no,no,True,0.0009675
+MSCOCO,gpt-4o,40,1,Is the object typically found indoors (in a home or building)?,no,yes,False,0.0009725
+MSCOCO,gpt-4o,40,2,Is the object primarily a vehicle used for transportation?,no,no,True,0.000985
+MSCOCO,gpt-4o,40,3,Is the object attached to or installed on a street or roadside?,no,no,True,0.0009725
+MSCOCO,gpt-4o,40,4,Is the primary object large and flat (used for riding or standing on)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,40,5,Is the object primarily designed to fly or be used in the air?,no,no,True,0.000985
+MSCOCO,gpt-4o,40,6,Is the object spherical or round in shape?,no,no,True,0.0011425
+MSCOCO,gpt-4o,40,7,Is the object held in the hand during use?,no,no,True,0.001145
+MSCOCO,gpt-4o,27,0,Is the object a living thing (animal or person)?,no,no,True,0.0009875
+MSCOCO,gpt-4o,27,1,Is the object typically found indoors (in a home or building)?,yes,yes,True,0.0009825
+MSCOCO,gpt-4o,27,2,"Is the object primarily used for sitting, resting, or as furniture?",no,no,True,0.001175
+MSCOCO,gpt-4o,27,3,"Is the object primarily worn or carried by a person (clothing, accessories, or bags)?",yes,yes,True,0.0009975
+MSCOCO,gpt-4o,27,4,Is the object typically worn on the head or face?,no,no,True,0.0009775
+MSCOCO,gpt-4o,27,5,Is the object typically carried by hand rather than worn on the body?,yes,no,False,0.000985
+MSCOCO,gpt-4o,27,6,Does the object usually have two straps and is worn on the back?,yes,yes,True,0.001165
