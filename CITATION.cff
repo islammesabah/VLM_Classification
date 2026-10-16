@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or the MYOPIA benchmark, please cite the paper below."
+title: "MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models"
+type: software
+license: MIT
+repository-code: "https://github.com/islammesabah/VLM_Classification"
+url: "https://huggingface.co/datasets/IslamMesabah/myopia-benchmark"
+authors:
+  - given-names: Islam
+    family-names: Mesabah
+  - given-names: Sary
+    family-names: Elmansoury
+  - given-names: Gerrit
+    family-names: Großmann
+  - given-names: Peter
+    family-names: Neigel
+  - given-names: Sebastian J.
+    family-names: Vollmer
+keywords:
+  - vision-language models
+  - decision trees
+  - hierarchical reasoning
+  - benchmark
+preferred-citation:
+  type: article
+  title: "MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models"
+  authors:
+    - given-names: Islam
+      family-names: Mesabah
+    - given-names: Sary
+      family-names: Elmansoury
+    - given-names: Gerrit
+      family-names: Großmann
+    - given-names: Peter
+      family-names: Neigel
+    - given-names: Sebastian J.
+      family-names: Vollmer
+  journal: "arXiv preprint arXiv:2610.21573"
+  doi: 10.48550/arXiv.2610.21573
+  url: "https://arxiv.org/abs/2610.21573"
+  year: 2026
+  month: 10

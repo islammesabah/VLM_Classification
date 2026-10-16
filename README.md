@@ -1,6 +1,14 @@
-# MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Model
+# MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models
+
+[![arXiv](https://img.shields.io/badge/arXiv-2610.21573-b31b1b.svg)](https://arxiv.org/abs/2610.21573)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-myopia--benchmark-yellow)](https://huggingface.co/datasets/IslamMesabah/myopia-benchmark)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository investigates whether hierarchical, tree-based reasoning can improve image classification performance in Vision Language Models (VLMs). It provides a framework to compare standard zero-shot classification with a structured, decision-tree-based approach across multiple datasets and VLMs.
+
+**Paper:** [arXiv:2610.21573](https://arxiv.org/abs/2610.21573) · **Benchmark:** [IslamMesabah/myopia-benchmark](https://huggingface.co/datasets/IslamMesabah/myopia-benchmark) on the Hugging Face Hub
+
+> **Reproducing the paper.** [`MYOPIA/`](MYOPIA/) is the frozen archive behind the paper's numbers: its own copy of the harness (`MYOPIA/src/`), the four result databases, derived CSVs, and the generated tables. Follow [`MYOPIA/README.md`](MYOPIA/README.md) to regenerate every table. The code at the repository root is the development copy; its databases record the LLaMA model under its OpenRouter name instead of the self-hosted FP16 name used in the archive.
 
 ## What This Repo Does
 
@@ -201,7 +209,7 @@ no API key):
 | Path-selection depth profile | `python evaluation/tree_error_analysis.py` |
 | Bootstrap + Holm (S3) | `python evaluation/bootstrap_ci.py` |
 | Tree-quality audit (S8-S9, regressions) | `python evaluation/tree_quality_audit.py` |
-| Supplement document | `python evaluation/supplementary.py` then `pdflatex` twice on `results/paper/supplementary.tex` |
+| Supplement Table S1 (all conditions, with n) | `python evaluation/supp_table.py -o results/tab_supp_full.tex` |
 
 The CoT baseline (`evaluation/cot_baseline.py`) and the probe scripts
 (`global_list_probe.py`, `constrained_choice_probe.py`, `variance_probe.py`,
@@ -219,4 +227,21 @@ paper's CoT rows used `--n_images 100 --max_calls 100` per dataset-model pair.
 
 ## Maintenance
 
-This is a research-project repository maintained on a best-effort basis. Issue reporting and contact details (for bugs, data or licensing concerns, or questions about reproducing a result) are omitted from this anonymous review copy and will be added to the public release.
+This is a research-project repository maintained on a best-effort basis. Please report bugs, data or licensing concerns, and questions about reproducing a result via [GitHub Issues](https://github.com/islammesabah/VLM_Classification/issues).
+
+## Citation
+
+If you use this code or the MYOPIA benchmark, please cite:
+
+```bibtex
+@misc{mesabah2026myopia,
+  title         = {MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models},
+  author        = {Mesabah, Islam and Elmansoury, Sary and Gro{\ss}mann, Gerrit and Neigel, Peter and Vollmer, Sebastian J.},
+  year          = {2026},
+  eprint        = {2610.21573},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2610.21573},
+  url           = {https://arxiv.org/abs/2610.21573}
+}
+```

@@ -1,24 +1,27 @@
-# MYOPIA — Supplementary Material
+# MYOPIA — Reproducibility Archive
 
-**WACV 2027, Datasets Track — Paper ID 1226 — Anonymous submission.**
+[![arXiv](https://img.shields.io/badge/arXiv-2610.21573-b31b1b.svg)](https://arxiv.org/abs/2610.21573)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-myopia--benchmark-yellow)](https://huggingface.co/datasets/IslamMesabah/myopia-benchmark)
 
 This archive accompanies *MYOPIA: Understanding the Limits of Tree-Based
-Reasoning in Vision-Language Models*. Every number in the main paper is
-reproducible from this archive: the analysis layer runs entirely offline from
-the shipped databases and CSVs (no API key), and the collection layer (paid
-API calls) is included for full-pipeline replication. The supplement's
-underlying data ships too, and its Tables S1, S2 and S8-S9 regenerate the
-same way; the remaining supplement tables are read from the shipped PDF
-rather than rebuilt (see "Reproduction matrix" below).
+Reasoning in Vision-Language Models*
+([arXiv:2610.21573](https://arxiv.org/abs/2610.21573)). Every number in the
+main paper is reproducible from it: the analysis layer runs entirely offline
+from the shipped databases and CSVs (no API key), and the collection layer
+(paid API calls) is included for full-pipeline replication. The data behind
+the supplementary material ships too, and its Tables S1, S2 and S8-S9
+regenerate the same way (see "Reproduction matrix" below).
 
-Contact details, repository URLs, acknowledgements, and funding statements
-are deliberately omitted from this review copy and will be added to the
-public release.
+It is the frozen snapshot behind the paper's numbers. The repository root
+holds the development copy of the same harness, which records the LLaMA
+model under its OpenRouter name rather than the self-hosted FP16 name used
+here; use this directory to reproduce the paper. The benchmark itself (trees,
+prompts, sample ids, reference predictions) is also on the
+[Hugging Face Hub](https://huggingface.co/datasets/IslamMesabah/myopia-benchmark).
 
 ## Archive layout
 
 ```
-MYOPIA_supplementary.pdf     the supplementary document (6 pages, S1-S10)
 src/                         harness, tree pipeline, and analysis scripts
 data/dbs/                    the four result databases (SQLite, uncompressed)
 data/                        derived CSVs (probes, CoT, baselines, audit, ...)
@@ -26,14 +29,12 @@ trees/                       the four evaluated decision trees + CUB-200 demo
 prompts/                     all prompt templates and class descriptions
 sample_ids/                  fixed evaluation subsets (901/1000/1000/850 ids)
 tables/                      LaTeX of the reported tables
-figures/                     the figures reproduced in the paper/supplement
+figures/                     script-generated figures (cost frontier)
 SUPPLEMENT_MANIFEST.json     contents, artifact-to-script map, licensing
 ```
 
-The supplement ships as the rendered PDF only; its LaTeX source and the
-script that assembled it are not included. The underlying numbers remain
-reproducible — see the reproduction matrix below for the per-section
-sources — but the S1-S10 document itself is not rebuilt from this archive.
+Only the tables and figures that scripts generate ship here. The paper and
+supplement text, and their hand-made figures, are not part of the repository.
 
 ## Setup
 
@@ -96,9 +97,8 @@ One ordering constraint: run `oracle_extraction_analysis.py` before
 Everything in `tables/`, and every CSV under `data/`, is byte-for-byte the
 output of these commands on the shipped databases.
 
-The supplement's own document is not rebuilt here — it ships as the rendered
-`MYOPIA_supplementary.pdf`. Where each section's numbers come from, and what
-this archive can regenerate offline:
+For the supplementary material, where each section's numbers come from, and
+what this archive can regenerate offline:
 
 | Supplement section | Source | Regenerates offline? |
 | --- | --- | --- |
@@ -215,3 +215,8 @@ and evaluation harness are released under the **MIT License**
 governed by their original licenses and terms (see Section 9 of the paper
 and `src/README.md`); the archive ships no dataset images — only
 identifier lists and derived metadata.
+
+## Citation
+
+See [`CITATION.cff`](../CITATION.cff) or the BibTeX entry in the
+[top-level README](../README.md#citation).

@@ -1,4 +1,8 @@
-# MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Model
+# MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models
+
+[![arXiv](https://img.shields.io/badge/arXiv-2610.21573-b31b1b.svg)](https://arxiv.org/abs/2610.21573)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-myopia--benchmark-yellow)](https://huggingface.co/datasets/IslamMesabah/myopia-benchmark)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository investigates whether hierarchical, tree-based reasoning can improve image classification performance in Vision Language Models (VLMs). It provides a framework to compare standard zero-shot classification with a structured, decision-tree-based approach across multiple datasets and VLMs.
 
@@ -221,12 +225,11 @@ One ordering constraint: `oracle_extraction_analysis.py` must run before
 Run every command from this directory (`src/`) — all paths above are relative
 to it.
 
-The supplement document itself is not rebuilt from this repository; it ships
-as the rendered `MYOPIA_supplementary.pdf`. The scripts above still regenerate
-the numbers behind each of its sections — see the top-level `README.md` for
-the section-to-script mapping.
+The scripts above regenerate the numbers behind each section of the paper's
+supplementary material — see the archive's top-level `README.md` for the
+section-to-script mapping.
 
-The `tables/` LaTeX and the CSVs under `data/` in the supplementary archive
+The `tables/` LaTeX and the CSVs under `data/` in the archive
 are byte-for-byte the outputs of these commands on the shipped databases.
 
 The CoT baseline (`evaluation/cot_baseline.py`) and the probe scripts
@@ -259,4 +262,21 @@ paper's CoT rows used `--n_images 100 --max_calls 100` per dataset-model pair.
 
 ## Maintenance
 
-This is a research-project repository maintained on a best-effort basis. Issue reporting and contact details (for bugs, data or licensing concerns, or questions about reproducing a result) are omitted from this anonymous review copy and will be added to the public release.
+This is a research-project repository maintained on a best-effort basis. Please report bugs, data or licensing concerns, and questions about reproducing a result via [GitHub Issues](https://github.com/islammesabah/VLM_Classification/issues).
+
+## Citation
+
+If you use this code or the MYOPIA benchmark, please cite:
+
+```bibtex
+@misc{mesabah2026myopia,
+  title         = {MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models},
+  author        = {Mesabah, Islam and Elmansoury, Sary and Gro{\ss}mann, Gerrit and Neigel, Peter and Vollmer, Sebastian J.},
+  year          = {2026},
+  eprint        = {2610.21573},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2610.21573},
+  url           = {https://arxiv.org/abs/2610.21573}
+}
+```
